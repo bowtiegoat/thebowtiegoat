@@ -1,0 +1,46 @@
+name: Update Blog Feed
+
+# Pulls the latest posts from the BowtieGOAT Substack RSS feed and commits
+# any changes to js/blog-posts.json, which the blog page renders from.
+#
+# TO CHANGE HOW OFTEN THIS RUNS: edit the cron schedule below.
+#   Cron format is: minute hour day month day-of-week (all times UTC).
+#   Current schedule: every day at 13:00 UTC (9:00am ET / 6:00am PT).
+#   Examples:
+#     '0 13 * * *'     every day at 13:00 UTC
+#     '0 13 * * 1'     every Monday at 13:00 UTC
+#     '0 */6 * * *'    every 6 hours
+#
+# You can also run it manually anytime: go to the "Actions" tab on GitHub,
+# click "Update Blog Feed" in the left sidebar, then "Run workflow".
+
+on:
+  schedule:
+    - cron: '0 13 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-blog:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Fetch latest Substack posts
+        run: python3 scripts/fetch_blog_posts.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add js/blog-posts.json
+          git diff --cached --quiet && echo "No changes to commit" || git commit -m "Update blog feed from Substack"
+          git push

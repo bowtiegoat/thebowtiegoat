@@ -125,104 +125,20 @@
     </div>
   </section>
 
-  <!-- ============ SUBSTACK ANNOUNCEMENT BANNER ============ -->
-  <section class="max-w-7xl mx-auto px-6 lg:px-8 -mt-8 relative z-10">
-    <div class="rounded-2xl bg-gradient-to-r from-blue-200 to-blue-100 px-8 py-6 flex flex-col sm:flex-row items-center justify-between gap-4 shadow-lg">
-      <div class="flex items-center gap-4">
-        <div class="w-11 h-11 rounded-full bg-ink-950 flex items-center justify-center flex-shrink-0">
-          <svg class="w-5 h-5 text-blue-300" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M22 5.5H2v2.2h20V5.5zM2 10.7v2.2h20v-2.2H2zM2 15.9v2.2h13.5v-2.2H2z" />
-          </svg>
-        </div>
-        <div class="text-left">
-          <p class="font-serif text-lg font-semibold text-ink-950">Read my latest deep-dives on Substack!</p>
-          <p class="text-sm text-ink-900/80">Weekly-ish advisor newsletters, role play breakdowns, and paid-subscriber bonus resources.</p>
-        </div>
-      </div>
-      <a
-        href="https://bowtiegoat.substack.com"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="flex-shrink-0 rounded-md bg-ink-950 text-cream-50 font-semibold px-6 py-3 hover:bg-ink-800 transition-colors whitespace-nowrap"
-      >
-        Visit the Substack &rarr;
-      </a>
-    </div>
-  </section>
+  <!-- ============ BLOG FEED ============ -->
+  <section class="max-w-3xl mx-auto px-6 lg:px-8 py-16">
+    <p data-blog-loading class="text-center text-ink-400 py-16">Loading posts&hellip;</p>
+    <p data-blog-error class="hidden text-center text-ink-500 py-16">
+      Couldn't load posts right now — <a href="https://bowtiegoat.substack.com" target="_blank" rel="noopener noreferrer" class="text-blue-600 font-semibold hover:text-blue-500 transition-colors">visit the Substack directly</a>.
+    </p>
 
-  <!-- ============ BLOG GRID ============ -->
-  <section class="max-w-7xl mx-auto px-6 lg:px-8 py-20">
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+    <div data-blog-list></div>
+    <div data-blog-sentinel class="h-4"></div>
 
-      <!-- Article 1 -->
-      <article class="rounded-xl border border-ink-200 bg-white overflow-hidden hover:shadow-lg transition-shadow duration-200">
-        <div class="aspect-[16/10] bg-ink-900 placeholder-media flex items-center justify-center">
-          <svg class="w-10 h-10 text-ink-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-          </svg>
-        </div>
-        <div class="p-6">
-          <div class="flex items-center gap-3 text-xs text-ink-400 mb-3">
-            <span class="uppercase tracking-wide font-semibold text-blue-600">Cluster Exams</span>
-            <span>&middot;</span>
-            <time>Nov 2, 2025</time>
-          </div>
-          <h2 class="font-serif text-lg font-semibold text-ink-900 mb-2">
-            <a href="https://bowtiegoat.substack.com/p/ditch-the-pdfs-this-new-tool-is-the" target="_blank" rel="noopener noreferrer">Ditch the PDFs. This New Tool is the Secret to DECA Cluster Exams.</a>
-          </h2>
-          <p class="text-sm text-ink-500 leading-relaxed">
-            Introducing ClusterMaxx: thousands of unique, ICDC-quality questions that adapt to you.
-          </p>
-          <a href="https://bowtiegoat.substack.com/p/ditch-the-pdfs-this-new-tool-is-the" target="_blank" rel="noopener noreferrer" class="inline-block mt-4 text-sm font-semibold text-ink-900 hover:text-blue-600 transition-colors">Read More &rarr;</a>
-        </div>
-      </article>
-
-      <!-- Article 2 -->
-      <article class="rounded-xl border border-ink-200 bg-white overflow-hidden hover:shadow-lg transition-shadow duration-200">
-        <div class="aspect-[16/10] bg-ink-900 placeholder-media flex items-center justify-center">
-          <svg class="w-10 h-10 text-ink-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M12 18.75a6 6 0 006-6v-1.5m-6 7.5a6 6 0 01-6-6v-1.5m6 7.5v3.75m-3.75 0h7.5M12 15.75a3 3 0 01-3-3V4.5a3 3 0 116 0v8.25a3 3 0 01-3 3z" />
-          </svg>
-        </div>
-        <div class="p-6">
-          <div class="flex items-center gap-3 text-xs text-ink-400 mb-3">
-            <span class="uppercase tracking-wide font-semibold text-tan-600">Role Plays</span>
-            <span>&middot;</span>
-            <time>Jan 31, 2026</time>
-          </div>
-          <h2 class="font-serif text-lg font-semibold text-ink-900 mb-2">
-            <a href="https://bowtiegoat.substack.com/p/preparing-for-states-and-provincials" target="_blank" rel="noopener noreferrer">Preparing for States &amp; Provincials Role Plays</a>
-          </h2>
-          <p class="text-sm text-ink-500 leading-relaxed">
-            Here's a trick to limiting the study of performance indicators.
-          </p>
-          <a href="https://bowtiegoat.substack.com/p/preparing-for-states-and-provincials" target="_blank" rel="noopener noreferrer" class="inline-block mt-4 text-sm font-semibold text-ink-900 hover:text-tan-600 transition-colors">Read More &rarr;</a>
-        </div>
-      </article>
-
-      <!-- Article 3 -->
-      <article class="rounded-xl border border-ink-200 bg-white overflow-hidden hover:shadow-lg transition-shadow duration-200">
-        <div class="aspect-[16/10] bg-ink-900 placeholder-media flex items-center justify-center">
-          <svg class="w-10 h-10 text-ink-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z" />
-          </svg>
-        </div>
-        <div class="p-6">
-          <div class="flex items-center gap-3 text-xs text-ink-400 mb-3">
-            <span class="uppercase tracking-wide font-semibold text-rose-600">Advisor Life</span>
-            <span>&middot;</span>
-            <time>Feb 19, 2026</time>
-          </div>
-          <h2 class="font-serif text-lg font-semibold text-ink-900 mb-2">
-            <a href="https://bowtiegoat.substack.com/p/conquering-the-chaos-7-sanity-savers" target="_blank" rel="noopener noreferrer">Conquering the Chaos: 7 Sanity-Savers for the State Conference Season</a>
-          </h2>
-          <p class="text-sm text-ink-500 leading-relaxed">
-            The tired ramblings of an advisor on hall duty — and 7 tips to actually survive conference season.
-          </p>
-          <a href="https://bowtiegoat.substack.com/p/conquering-the-chaos-7-sanity-savers" target="_blank" rel="noopener noreferrer" class="inline-block mt-4 text-sm font-semibold text-ink-900 hover:text-rose-600 transition-colors">Read More &rarr;</a>
-        </div>
-      </article>
-    </div>
+    <p data-blog-end class="hidden text-center text-sm text-ink-400 py-10">
+      You've reached the end — for the full archive, visit
+      <a href="https://bowtiegoat.substack.com" target="_blank" rel="noopener noreferrer" class="text-blue-600 font-semibold hover:text-blue-500 transition-colors">the Substack</a>.
+    </p>
   </section>
 
   <!-- ============ FOOTER ============ -->
@@ -272,5 +188,6 @@
   </footer>
 
   <script src="js/main.js"></script>
+  <script src="js/blog.js"></script>
 </body>
 </html>
