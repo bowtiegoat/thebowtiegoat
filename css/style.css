@@ -1,0 +1,52 @@
+/* Fonts: Playfair Display for headings (editorial, trustworthy), Inter for body copy */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;
+}
+
+.font-serif-display {
+  font-family: 'Playfair Display', ui-serif, Georgia, serif;
+}
+
+/* Dropdown + mobile menu: hidden by default, toggled via [data-open] on the panel */
+[data-menu-panel],
+[data-mobile-panel] {
+  display: none;
+}
+
+[data-menu-panel][data-open="true"],
+[data-mobile-panel][data-open="true"] {
+  display: block;
+}
+
+/* Testimonial slider: slides are stacked; only the active one is shown */
+[data-slide] {
+  display: none;
+}
+
+[data-slide][data-active="true"] {
+  display: block;
+  animation: fade-in 0.4s ease;
+}
+
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Placeholder "photo" and image blocks: soft diagonal texture so they read
+   intentionally as placeholders rather than broken images */
+.placeholder-media {
+  background-image: repeating-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.06) 0px,
+    rgba(255, 255, 255, 0.06) 2px,
+    transparent 2px,
+    transparent 12px
+  );
+}

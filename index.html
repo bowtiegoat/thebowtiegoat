@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BowtieGOAT | Your DECA Success Journey</title>
+  <meta name="description" content="DECA role play coaching, cluster exam prep, and chapter strategy from Justin Staub — DECA advisor, ICDC judge, and creator of BowtieGOAT." />
+  <link rel="icon" type="image/jpeg" href="images/logo.jpg" />
+
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+            serif: ['Playfair Display', 'ui-serif', 'Georgia', 'serif'],
+          },
+          colors: {
+            ink: {
+              50: '#f4f6f9', 100: '#e4e9f0', 200: '#c7d1e0', 300: '#a1afc7',
+              400: '#7889a8', 500: '#586a8c', 600: '#425071', 700: '#2f3b56',
+              800: '#1f2740', 900: '#141a2e', 950: '#0a0e1c',
+            },
+            blue: {
+              50: '#eaf3fa', 100: '#c7e2f2', 200: '#93c7e6', 300: '#5aa8d6',
+              400: '#2f8cc2', 500: '#1f72a3', 600: '#175a80', 700: '#124563',
+            },
+            tan: {
+              50: '#faf3e8', 100: '#f0ddb8', 200: '#e0c08a', 300: '#cda366',
+              400: '#b98d52', 500: '#9c7440', 600: '#7d5c33', 700: '#5f4526',
+            },
+            rose: {
+              50: '#fbf0f3', 100: '#f0d3dc', 200: '#e0abbb', 300: '#cf8299',
+              400: '#c06682', 500: '#a44f69', 600: '#833f54', 700: '#642f40',
+            },
+            cream: { 50: '#fdfaf0', 100: '#f8eeb8', 200: '#f0e090' },
+          },
+        },
+      },
+    };
+  </script>
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="bg-cream-50 text-ink-900 antialiased">
+
+  <!-- ============ NAVIGATION ============ -->
+  <header class="sticky top-0 z-50 bg-cream-50/90 backdrop-blur border-b border-ink-200">
+    <nav class="max-w-7xl mx-auto px-6 lg:px-8 h-20 flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-3">
+        <img src="images/logo.jpg" alt="BowtieGOAT logo" class="w-11 h-11 rounded-lg object-cover" />
+        <span class="flex flex-col leading-tight">
+          <span class="font-serif text-xl font-bold text-ink-900">BowtieGOAT</span>
+          <span class="text-[10px] font-medium uppercase tracking-[0.15em] text-blue-600">Competition Support</span>
+        </span>
+      </a>
+
+      <!-- Desktop links -->
+      <div class="hidden md:flex items-center gap-10">
+        <a href="index.html" class="text-sm font-medium text-ink-900 border-b-2 border-blue-500 pb-1">Home</a>
+        <a href="blog.html" class="text-sm font-medium text-ink-600 hover:text-ink-900 transition-colors">Blog</a>
+
+        <div class="relative" data-dropdown>
+          <button
+            type="button"
+            data-dropdown-trigger
+            aria-expanded="false"
+            aria-haspopup="true"
+            class="flex items-center gap-1.5 text-sm font-medium text-ink-500 hover:text-ink-700 transition-colors"
+          >
+            Event Preparation
+            <svg class="w-3.5 h-3.5 mt-px" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+
+          <div
+            data-menu-panel
+            data-open="false"
+            class="absolute right-0 mt-3 w-56 rounded-lg border border-ink-200 bg-white shadow-lg py-2"
+          >
+            <a href="event-selection.html" class="flex items-center justify-between px-4 py-2 text-sm text-ink-700 hover:bg-ink-50 transition-colors">
+              Event Selection
+            </a>
+          </div>
+        </div>
+
+        <a href="shop.html" class="text-sm font-medium text-ink-600 hover:text-ink-900 transition-colors">Shop</a>
+
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfp36yGLmxDgoImBoIxsEk1XoM_RyVOXtNcCDsBkf-_9lIBPQ/viewform?usp=dialog" target="_blank" rel="noopener noreferrer" class="rounded-md bg-ink-900 text-cream-50 text-sm font-medium px-5 py-2.5 hover:bg-ink-800 transition-colors">
+          Book a Consultation
+        </a>
+      </div>
+
+      <!-- Mobile toggle -->
+      <button type="button" data-mobile-toggle aria-expanded="false" aria-label="Toggle navigation menu" class="md:hidden p-2 text-ink-700">
+        <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </nav>
+
+    <!-- Mobile panel -->
+    <div data-mobile-panel data-open="false" class="md:hidden border-t border-ink-200 bg-cream-50">
+      <div class="max-w-7xl mx-auto px-6 py-4 flex flex-col gap-4">
+        <a href="index.html" class="text-sm font-medium text-ink-900">Home</a>
+        <a href="blog.html" class="text-sm font-medium text-ink-600">Blog</a>
+        <div>
+          <p class="text-sm font-medium text-ink-500 mb-2">Event Preparation</p>
+          <div class="pl-3 flex flex-col gap-2">
+            <a href="event-selection.html" class="text-sm text-ink-700">Event Selection</a>
+          </div>
+        </div>
+        <a href="shop.html" class="text-sm font-medium text-ink-600">Shop</a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfp36yGLmxDgoImBoIxsEk1XoM_RyVOXtNcCDsBkf-_9lIBPQ/viewform?usp=dialog" target="_blank" rel="noopener noreferrer" class="rounded-md bg-ink-900 text-cream-50 text-sm font-medium px-5 py-2.5 text-center">
+          Book a Consultation
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="relative overflow-hidden bg-ink-950">
+    <div class="absolute inset-0 placeholder-media opacity-40"></div>
+    <div class="relative max-w-7xl mx-auto px-6 lg:px-8 py-28 lg:py-36 text-center">
+      <p class="inline-block text-xs font-semibold uppercase tracking-[0.2em] text-blue-300 mb-6">
+        DECA Coaching &middot; Role Plays &middot; Cluster Exams &middot; Chapter Strategy
+      </p>
+      <h1 class="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-cream-50 leading-tight max-w-4xl mx-auto">
+        Helping you become the next DECA GOAT.
+      </h1>
+      <p class="mt-6 text-lg text-ink-200 max-w-2xl mx-auto">
+        I'm Justin Staub — a DECA chapter advisor, ICDC judge, and the coach behind BowtieGOAT. I help
+        students and advisors turn role plays, cluster exams, and chapter strategy into ICDC-caliber results.
+      </p>
+      <div class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfp36yGLmxDgoImBoIxsEk1XoM_RyVOXtNcCDsBkf-_9lIBPQ/viewform?usp=dialog" target="_blank" rel="noopener noreferrer" class="rounded-md bg-blue-600 text-cream-50 font-semibold px-8 py-3.5 hover:bg-blue-500 transition-colors">
+          Book a Free Consultation
+        </a>
+        <a href="#services" class="text-cream-50 font-medium px-8 py-3.5 border border-ink-600 rounded-md hover:border-ink-400 transition-colors">
+          Explore Coaching
+        </a>
+      </div>
+
+      <!-- Real stats -->
+      <div class="mt-16 grid grid-cols-3 gap-8 max-w-lg mx-auto">
+        <div>
+          <p class="font-serif text-2xl sm:text-3xl font-bold text-cream-50">5K+</p>
+          <p class="mt-1 text-xs uppercase tracking-wide text-ink-400">YouTube Subscribers</p>
+        </div>
+        <div>
+          <p class="font-serif text-2xl sm:text-3xl font-bold text-cream-50">130+</p>
+          <p class="mt-1 text-xs uppercase tracking-wide text-ink-400">DECA Videos</p>
+        </div>
+        <div>
+          <p class="font-serif text-2xl sm:text-3xl font-bold text-cream-50">2023</p>
+          <p class="mt-1 text-xs uppercase tracking-wide text-ink-400">BowtieGOAT Founded</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICES ============ -->
+  <section id="services" class="max-w-7xl mx-auto px-6 lg:px-8 py-24">
+    <div class="max-w-2xl mx-auto text-center mb-16">
+      <p class="text-xs font-semibold uppercase tracking-[0.2em] text-blue-600 mb-3">Coaching &amp; Resources</p>
+      <h2 class="font-serif text-3xl sm:text-4xl font-bold text-ink-900">Individual competitor coaching and chapter advisor support</h2>
+      <p class="mt-4 text-ink-500">
+        Whether you're chasing an ICDC bid or trying to build a stronger chapter, here's where I can help.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- Card 1: Role Play & Presentation Coaching -->
+      <div class="rounded-xl border border-ink-200 bg-white p-8 hover:shadow-lg hover:-translate-y-1 transition-all duration-200">
+        <div class="w-12 h-12 rounded-lg bg-ink-900 flex items-center justify-center mb-6">
+          <svg class="w-6 h-6 text-blue-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 18.75a6 6 0 006-6v-1.5m-6 7.5a6 6 0 01-6-6v-1.5m6 7.5v3.75m-3.75 0h7.5M12 15.75a3 3 0 01-3-3V4.5a3 3 0 116 0v8.25a3 3 0 01-3 3z" />
+          </svg>
+        </div>
+        <h3 class="font-serif text-xl font-semibold text-ink-900 mb-3">Role Play &amp; Presentation Coaching</h3>
+        <p class="text-ink-500 leading-relaxed">
+          One-on-one coaching on role plays, presentations, and prepared events — from performance
+          indicators to stage presence, built from years of ICDC judging experience.
+        </p>
+      </div>
+
+      <!-- Card 2: Cluster Exam Prep -->
+      <div class="rounded-xl border border-ink-200 bg-white p-8 hover:shadow-lg hover:-translate-y-1 transition-all duration-200">
+        <div class="w-12 h-12 rounded-lg bg-ink-900 flex items-center justify-center mb-6">
+          <svg class="w-6 h-6 text-tan-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+        </div>
+        <h3 class="font-serif text-xl font-semibold text-ink-900 mb-3">Cluster Exam Prep</h3>
+        <p class="text-ink-500 leading-relaxed">
+          Ditch the outdated PDFs. Get a personalized study strategy and ICDC-quality practice with
+          ClusterMaxx, so you walk into test day ready.
+        </p>
+      </div>
+
+      <!-- Card 3: Chapter & Advisor Strategy -->
+      <div class="rounded-xl border border-ink-200 bg-white p-8 hover:shadow-lg hover:-translate-y-1 transition-all duration-200">
+        <div class="w-12 h-12 rounded-lg bg-ink-900 flex items-center justify-center mb-6">
+          <svg class="w-6 h-6 text-rose-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z" />
+          </svg>
+        </div>
+        <h3 class="font-serif text-xl font-semibold text-ink-900 mb-3">Chapter &amp; Advisor Strategy</h3>
+        <p class="text-ink-500 leading-relaxed">
+          Mentorship for chapter advisors on competition strategy, program building, and keeping a
+          chapter running — and winning — all season long.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOLLOW THE JOURNEY ============ -->
+  <section class="bg-cream-100/60 py-24">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+      <div class="max-w-2xl mx-auto text-center mb-16">
+        <p class="text-xs font-semibold uppercase tracking-[0.2em] text-blue-600 mb-3">Follow Along</p>
+        <h2 class="font-serif text-3xl sm:text-4xl font-bold text-ink-900">Free DECA competition support, wherever you scroll</h2>
+        <p class="mt-4 text-ink-500">
+          Free support for the 300,000+ DECA competitors and 4,500+ chapter advisors.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <a href="https://www.youtube.com/bowtiegoat" target="_blank" rel="noopener noreferrer" class="rounded-xl border border-ink-200 bg-white p-6 hover:shadow-lg hover:-translate-y-1 transition-all duration-200">
+          <div class="w-10 h-10 rounded-lg bg-ink-900 flex items-center justify-center mb-4">
+            <svg class="w-5 h-5 text-blue-300" viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2s-.2-1.6-.9-2.3c-.8-.9-1.7-.9-2.2-1C17 2.6 12 2.6 12 2.6h0s-5 0-8.4.3c-.5.1-1.4.1-2.2 1-.7.7-.9 2.3-.9 2.3S0 8.1 0 10v1.6c0 1.9.2 3.8.2 3.8s.2 1.6.9 2.3c.8.9 1.9.9 2.4 1 1.7.2 7.5.3 7.5.3s5 0 8.4-.3c.5-.1 1.4-.1 2.2-1 .7-.7.9-2.3.9-2.3s.2-1.9.2-3.8V10c0-1.9-.2-3.8-.2-3.8zM9.5 14.5v-7l6 3.5-6 3.5z"/></svg>
+          </div>
+          <p class="font-serif text-lg font-semibold text-ink-900">YouTube</p>
+          <p class="mt-1 text-xs text-ink-400">5K+ subscribers &middot; 130+ videos</p>
+          <p class="mt-3 text-sm text-ink-500 leading-relaxed">Role play breakdowns, ICDC Q&amp;As, and a judge's-eye view of what wins.</p>
+        </a>
+
+        <a href="https://bowtiegoat.substack.com" target="_blank" rel="noopener noreferrer" class="rounded-xl border border-ink-200 bg-white p-6 hover:shadow-lg hover:-translate-y-1 transition-all duration-200">
+          <div class="w-10 h-10 rounded-lg bg-ink-900 flex items-center justify-center mb-4">
+            <svg class="w-5 h-5 text-tan-300" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M22 5.5H2v2.2h20V5.5zM2 10.7v2.2h20v-2.2H2zM2 15.9v2.2h13.5v-2.2H2z" />
+            </svg>
+          </div>
+          <p class="font-serif text-lg font-semibold text-ink-900">Substack</p>
+          <p class="mt-1 text-xs text-ink-400">Advisor newsletter</p>
+          <p class="mt-3 text-sm text-ink-500 leading-relaxed">Season survival guides, role play prep, and paid-subscriber bonus resources.</p>
+        </a>
+
+        <a href="https://www.instagram.com/bowtiegoat" target="_blank" rel="noopener noreferrer" class="rounded-xl border border-ink-200 bg-white p-6 hover:shadow-lg hover:-translate-y-1 transition-all duration-200">
+          <div class="w-10 h-10 rounded-lg bg-ink-900 flex items-center justify-center mb-4">
+            <svg class="w-5 h-5 text-rose-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+              <rect x="3" y="3" width="18" height="18" rx="5" ry="5" />
+              <path d="M16 11.37a4 4 0 11-7.914 1.174A4 4 0 0116 11.37z" />
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+            </svg>
+          </div>
+          <p class="font-serif text-lg font-semibold text-ink-900">Instagram</p>
+          <p class="mt-1 text-xs text-ink-400">Behind the bowtie</p>
+          <p class="mt-3 text-sm text-ink-500 leading-relaxed">Quick tips, chapter life, and a few surprises along the way.</p>
+        </a>
+
+        <a href="https://www.linkedin.com/company/bowtiegoat/" target="_blank" rel="noopener noreferrer" class="rounded-xl border border-ink-200 bg-white p-6 hover:shadow-lg hover:-translate-y-1 transition-all duration-200">
+          <div class="w-10 h-10 rounded-lg bg-ink-900 flex items-center justify-center mb-4">
+            <svg class="w-5 h-5 text-blue-300" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 11.001-4.124 2.062 2.062 0 010 4.124zM7.114 20.452H3.558V9h3.556v11.452z" />
+            </svg>
+          </div>
+          <p class="font-serif text-lg font-semibold text-ink-900">LinkedIn</p>
+          <p class="mt-1 text-xs text-ink-400">Company updates</p>
+          <p class="mt-3 text-sm text-ink-500 leading-relaxed">Coaching openings, chapter strategy notes, and DECA community shoutouts.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA / CONTACT ============ -->
+  <section id="contact" class="max-w-5xl mx-auto px-6 lg:px-8 py-24 text-center">
+    <h2 class="font-serif text-3xl sm:text-4xl font-bold text-ink-900">Ready to start your DECA success journey?</h2>
+    <p class="mt-4 text-ink-500 max-w-xl mx-auto">
+      Only a few coaching spots open up each season, so it's worth reaching out early. Let's talk about
+      where you (or your chapter) are, and where you want to go.
+    </p>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfp36yGLmxDgoImBoIxsEk1XoM_RyVOXtNcCDsBkf-_9lIBPQ/viewform?usp=dialog" target="_blank" rel="noopener noreferrer" class="mt-8 inline-block rounded-md bg-blue-600 text-cream-50 font-semibold px-8 py-3.5 hover:bg-blue-500 transition-colors">
+      Book a Free Consultation
+    </a>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="bg-ink-950 text-ink-300">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8 py-14 grid grid-cols-1 md:grid-cols-3 gap-10">
+      <div>
+        <div class="flex items-center gap-3">
+          <img src="images/logo.jpg" alt="BowtieGOAT logo" class="w-10 h-10 rounded-lg object-cover" />
+          <p class="font-serif text-lg font-semibold text-cream-50">BowtieGOAT</p>
+        </div>
+        <p class="mt-3 text-sm text-ink-400 max-w-xs">
+          Helping students and advisors on their DECA success journey.
+        </p>
+      </div>
+      <div>
+        <p class="text-sm font-semibold text-cream-50 mb-3">Navigate</p>
+        <ul class="space-y-2 text-sm">
+          <li><a href="index.html" class="hover:text-cream-50 transition-colors">Home</a></li>
+          <li><a href="blog.html" class="hover:text-cream-50 transition-colors">Blog</a></li>
+          <li><a href="shop.html" class="hover:text-cream-50 transition-colors">Shop</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="text-sm font-semibold text-cream-50 mb-3">Contact</p>
+        <ul class="space-y-2 text-sm">
+          <li><a href="mailto:bowtiegoat@gmail.com" class="hover:text-cream-50 transition-colors">bowtiegoat@gmail.com</a></li>
+        </ul>
+        <div class="flex items-center gap-4 mt-4">
+          <a href="https://www.youtube.com/bowtiegoat" target="_blank" rel="noopener noreferrer" aria-label="YouTube" class="hover:text-cream-50 transition-colors">
+            <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2s-.2-1.6-.9-2.3c-.8-.9-1.7-.9-2.2-1C17 2.6 12 2.6 12 2.6h0s-5 0-8.4.3c-.5.1-1.4.1-2.2 1-.7.7-.9 2.3-.9 2.3S0 8.1 0 10v1.6c0 1.9.2 3.8.2 3.8s.2 1.6.9 2.3c.8.9 1.9.9 2.4 1 1.7.2 7.5.3 7.5.3s5 0 8.4-.3c.5-.1 1.4-.1 2.2-1 .7-.7.9-2.3.9-2.3s.2-1.9.2-3.8V10c0-1.9-.2-3.8-.2-3.8zM9.5 14.5v-7l6 3.5-6 3.5z"/></svg>
+          </a>
+          <a href="https://bowtiegoat.substack.com" target="_blank" rel="noopener noreferrer" aria-label="Substack" class="hover:text-cream-50 transition-colors">
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M22 5.5H2v2.2h20V5.5zM2 10.7v2.2h20v-2.2H2zM2 15.9v2.2h13.5v-2.2H2z" /></svg>
+          </a>
+          <a href="https://www.instagram.com/bowtiegoat" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="hover:text-cream-50 transition-colors">
+            <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5" ry="5" /><path d="M16 11.37a4 4 0 11-7.914 1.174A4 4 0 0116 11.37z" /><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" /></svg>
+          </a>
+          <a href="https://www.linkedin.com/company/bowtiegoat/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="hover:text-cream-50 transition-colors">
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 11.001-4.124 2.062 2.062 0 010 4.124zM7.114 20.452H3.558V9h3.556v11.452z" /></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="border-t border-ink-800 py-6 text-center text-xs text-ink-500">
+      &copy; 2026 BowtieGOAT. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
