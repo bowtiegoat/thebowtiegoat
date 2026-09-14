@@ -7,6 +7,7 @@ Run manually with `python3 scripts/fetch_blog_posts.py`, or automatically
 on a schedule via .github/workflows/update-blog.yml.
 """
 import json
+import re
 import urllib.request
 import xml.etree.ElementTree as ET
 from email.utils import parsedate_to_datetime
@@ -14,11 +15,23 @@ from pathlib import Path
 
 FEED_URL = "https://bowtiegoat.substack.com/feed"
 OUTPUT_PATH = Path(__file__).resolve().parent.parent / "js" / "blog-posts.json"
+CONTENT_NS = {"content": "http://purl.org/rss/1.0/modules/content/"}
+
+# Substack auto-inserts one of these mid-post ("Subscribe now") — strip them
+# since the site isn't wiring up a subscribe flow from post content yet.
+SUBSCRIBE_BUTTON_RE = re.compile(
+    r'<p class="button-wrapper"[^>]*data-component-name="ButtonCreateButton"[^>]*>.*?</p>',
+    re.DOTALL,
+)
 
 
 def format_date(pub_date: str) -> str:
     dt = parsedate_to_datetime(pub_date)
     return f"{dt.strftime('%B')} {dt.day}, {dt.year}"
+
+
+def clean_content(html: str) -> str:
+    return SUBSCRIBE_BUTTON_RE.sub("", html).strip()
 
 
 def fetch_posts():
@@ -32,7 +45,7 @@ def fetch_posts():
     root = ET.fromstring(xml_bytes)
     channel = root.find("channel")
     posts = []
-    for item in channel.findall("item"):
+    for index, item in enumerate(channel.findall("item")):
         title = (item.findtext("title") or "").strip()
         link = (item.findtext("link") or "").strip()
         pub_date = item.findtext("pubDate")
@@ -41,12 +54,21 @@ def fetch_posts():
         if not (title and link and pub_date):
             continue
 
-        posts.append({
+        post = {
             "title": title,
             "url": link,
             "date": format_date(pub_date),
             "excerpt": excerpt,
-        })
+        }
+
+        # Only the most recent post needs full content -- it's the one
+        # shown in full on the blog page; the rest stay excerpt-only.
+        if index == 0:
+            full_html = item.findtext("content:encoded", namespaces=CONTENT_NS)
+            if full_html:
+                post["content"] = clean_content(full_html)
+
+        posts.append(post)
 
     return posts
 

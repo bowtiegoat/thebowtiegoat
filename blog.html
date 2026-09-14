@@ -7,7 +7,7 @@
   <meta name="description" content="Advisor newsletters, role play prep, and DECA season survival guides from BowtieGOAT's Substack." />
   <link rel="icon" type="image/jpeg" href="images/logo.jpg" />
 
-  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
   <script>
     tailwind.config = {
       theme: {
@@ -132,6 +132,11 @@
       Couldn't load posts right now — <a href="https://bowtiegoat.substack.com" target="_blank" rel="noopener noreferrer" class="text-blue-600 font-semibold hover:text-blue-500 transition-colors">visit the Substack directly</a>.
     </p>
 
+    <!-- Most recent post, shown in full -->
+    <div data-featured-post></div>
+
+    <!-- Earlier posts, condensed -->
+    <p data-more-posts-heading class="hidden text-xs font-semibold uppercase tracking-wide text-ink-400 mb-6 pt-4">More From the Bowtie</p>
     <div data-blog-list></div>
     <div data-blog-sentinel class="h-4"></div>
 
