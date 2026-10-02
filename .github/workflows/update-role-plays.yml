@@ -1,0 +1,58 @@
+name: Update Role Plays
+
+# Rebuilds js/roleplays.json (the data behind role-plays.html) whenever a
+# PDF in roleplays/ is added, replaced, or removed, then commits the result.
+#
+# If a PDF has a problem (unknown event code, a space in the filename, a
+# missing "INSTRUCTIONAL AREA" or "EVENT SITUATION"), that one file is
+# skipped, every other role play is still published, and this run is marked
+# as failed so GitHub emails you. Open the failed run on the "Actions" tab and
+# expand "Build role play data" to see which file and why.
+#
+# You can also run it manually anytime: go to the "Actions" tab on GitHub,
+# click "Update Role Plays" in the left sidebar, then "Run workflow".
+
+on:
+  push:
+    paths:
+      - 'roleplays/**'
+      - 'scripts/build_roleplays.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-role-plays:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install PDF reader
+        run: pip install pypdf
+
+      - name: Build role play data
+        id: build
+        continue-on-error: true
+        run: python3 scripts/build_roleplays.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add js/roleplays.json
+          git diff --cached --quiet && echo "No changes to commit" || git commit -m "Update role play data"
+          git pull --rebase
+          git push
+
+      - name: Report skipped files
+        if: steps.build.outcome == 'failure'
+        run: |
+          echo "::error::Some role play PDFs were skipped. Expand the 'Build role play data' step above to see which ones and why."
+          exit 1

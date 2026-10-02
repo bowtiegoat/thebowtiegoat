@@ -1,0 +1,770 @@
+[
+ {
+  "file": "GOAT_AAM_2627_EXTRA.pdf",
+  "code": "AAM",
+  "event": "Apparel and Accessories Marketing Series",
+  "cluster": "marketing",
+  "ia": "Operations",
+  "sentence": "You are to assume the role of the Operations Director for VANGUARD DENIM, an established women’s apparel company specializing in high-end denim, outerwear, and accessories.",
+  "situation": "You are to assume the role of the Operations Director for VANGUARD DENIM, an established women’s apparel company specializing in high-end denim, outerwear, and accessories. You are meeting with the Vice President of Distribution (judge) to present the operational infrastructure for shifting to a \"Showroom Hub\" model. VANGUARD DENIM operates 100 physical locations but is currently facing declining sales and increasing amounts of inventory that are not moving quickly enough from store shelves. To address these challenges, executives have approved the creation of \"Showroom Hubs\" (guideshops). These locations will feature only sample merchandise for trying on, eliminating the need to stock apparel for sale in the physical stores. Customers will work with a stylist (\"Guide\") and place their final orders at an onsite kiosk or online, with the merchandise being shipped directly to their homes. This shift significantly impacts VANGUARD DENIM’s distribution and inventory storage practices. While the company aims to cut costs with smaller stores and focus on customer service rather than inventory management, the Vice President of Distribution (judge) is concerned that without proper planning, the new centralized fulfillment system could lead to substantial distribution issues. The Vice President of Distribution (judge) wants you to present an operational strategy focusing on the transition to the Showroom Hub model, specifically addressing the following: ● Explain the nature of warehousing required for this centralized distribution model, describing how inventory management changes when all sales are processed centrally rather than locally. ● Discuss current distribution issues and trends, particularly addressing the challenge of minimizing delivery time delays now that all orders must be shipped from a warehouse. ● Explain how information systems must be adapted to ensure immediate and reliable order fulfillment from the centralized warehouse, linking the in-store kiosk orders to warehouse operations effectively. ● Analyze how implementing the Showroom Hub model will significantly reduce overhead and operating costs and provide VANGUARD DENIM with a distinct competitive advantage. You will present your operational plan to the Vice President of Distribution (judge) in a meeting to take place in their office. The Vice President will begin the meeting by greeting you and asking to hear your ideas. After you have presented the analysis and have answered their questions, the Vice President will conclude the meeting by thanking you for your work.",
+  "pis": [
+   "Explain the nature of operations.",
+   "Explain the nature of overhead/operating costs.",
+   "Explain company selling policies.",
+   "Explain the relationship between customer service and distribution.",
+   "Discuss actions employees can take to achieve the company’s desired results."
+  ]
+ },
+ {
+  "file": "GOAT_ENT_2627_EXTRA.pdf",
+  "code": "ENT",
+  "event": "Entrepreneurship Series",
+  "cluster": "entrepreneurship",
+  "ia": "Product/Service Management",
+  "sentence": "You are to assume the role of the owner of MORNING GLORY, a popular breakfast and brunch café located in a college town.",
+  "situation": "You are to assume the role of the owner of MORNING GLORY, a popular breakfast and brunch café located in a college town. Your business partner (judge) wants you to determine the feasibility of launching a \"ghost kitchen\" concept to utilize the facility during evening hours. MORNING GLORY has been open for three years and is famous for organic coffees, avocado toast, and gourmet pancakes. The business is extremely profitable between the hours of 7:00 AM and 2:00 PM. However, the kitchen sits empty and unused from 3:00 PM until opening the next morning. Despite the success of the brunch service, the rent for the commercial space is high, and your business partner (judge) believes the business is losing money by not utilizing the kitchen in the evenings. Your business partner (judge) wants to launch a ghost kitchen—a delivery-only food brand that operates out of the MORNING GLORY kitchen but is listed under a completely different name on delivery apps like DoorDash and UberEats. Customers would never know the food is coming from the breakfast café. Your business partner (judge) has proposed two potential concepts for the ghost kitchen and wants you to select the best option: 1. THE WING KING: A concept focusing on deep-fried chicken wings and heavy appetizers. This is a high-demand food for college students late at night. However, MORNING GLORY currently does not own deep fryers, and you are concerned that the smell of grease might linger and impact the café’s \"fresh and organic\" morning atmosphere. 2. MIDNIGHT MUNCHIES: A concept focusing on loaded cookies, brownies, and premium dessert waffles. This would utilize the existing baking equipment and ingredients already in stock for the morning pancakes. However, the profit margin on desserts is generally lower than savory food. Your business partner (judge) wants you to analyze the feasibility of a ghost kitchen, select one of the concepts (or propose a modification), and explain how it will fit into the current operations without damaging the MORNING GLORY brand. You will present your ideas to your business partner (judge) in a role-play to take place in the business partner’s (judge’s) office. The business partner (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and have answered the business partner’s (judge’s) questions, the business partner (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Build corporate brand.",
+   "Explain the concept of product mix.",
+   "Determine factors affecting business risk.",
+   "Identify product’s/service’s competitive advantage.",
+   "Develop positioning concept for a new product idea."
+  ]
+ },
+ {
+  "file": "GOAT_HRM_2627_EXTRA2.pdf",
+  "code": "HRM",
+  "event": "Human Resources Management Series",
+  "cluster": "business",
+  "ia": "Emotional Intelligence",
+  "sentence": "You are assuming the roles of the Director of Human Resources and the Employee Engagement Manager for SPARK, a tech startup specializing in developing innovative educational software solutions for K-12 institutions.",
+  "situation": "You are assuming the roles of the Director of Human Resources and the Employee Engagement Manager for SPARK, a tech startup specializing in developing innovative educational software solutions for K-12 institutions. The CEO (judge) has expressed concern about SPARK's organizational culture and tasked your team with addressing the issue. SPARK has experienced rapid growth over the past two years, expanding from a team of 15 to a workforce of over 100 employees. This rapid expansion has resulted in a diverse workforce representing various age groups, cultural backgrounds, and skill sets. While this diversity is seen as a strength, it has also led to challenges in establishing a unified and positive organizational culture. Several recent employee surveys have indicated that: ● There is a perceived lack of communication and transparency from leadership. ● Employees feel siloed within their departments and lack opportunities for cross-functional collaboration. ● There is a sense of disconnect between senior management and newer employees, leading to misunderstandings and frustrations. The CEO (judge) has requested that your team develop a comprehensive plan to improve SPARK's organizational culture. This plan should include: ● An analysis of the current organizational culture, identifying strengths and weaknesses.. ● Initiatives to bridge the generational gap and promote inclusivity. ● Metrics for evaluating the effectiveness of the proposed solutions. You will present your analysis and recommendations to the CEO (judge) in a formal meeting. The CEO will start the meeting by expressing their concerns and expectations for the plan. After your presentation, the CEO will ask questions to assess your understanding of the situation and the feasibility of your recommendations. Finally, the CEO will conclude the meeting by providing feedback and thanking you for your work.",
+  "pis": [
+   "Explain the role of ethics in human resources management.",
+   "Explain the nature of effective communications.",
+   "Treat others with dignity and respect.",
+   "Explain ethical considerations in providing information.",
+   "Foster positive working relationships."
+  ]
+ },
+ {
+  "file": "GOAT_HRM_2627_EXTRA.pdf",
+  "code": "HRM",
+  "event": "Human Resources Management Series",
+  "cluster": "business",
+  "ia": "Communication Skills",
+  "sentence": "You are to assume the role of Human Resources Manager for BRIGHT LIGHTS MARKETING, a mid-sized marketing firm.",
+  "situation": "You are to assume the role of Human Resources Manager for BRIGHT LIGHTS MARKETING, a mid-sized marketing firm. The CEO (judge) has asked you to create a social media policy for employees to mitigate risk and maintain a positive online presence for the firm. BRIGHT LIGHTS MARKETING is experiencing significant growth and has hired many new employees in the last six months. The company's social media presence is minimal, but the CEO (judge) wants to focus on growing online engagement. The firm utilizes several social media platforms, including Facebook, Instagram, Twitter, and LinkedIn. The company does not have any current policies regarding social media use by employees. The CEO (judge) is concerned about the potential risks associated with employees posting on social media. These risks could include: ● Reputational Damage: Negative comments or inappropriate content posted by employees can harm the firm's reputation and deter potential clients. ● Legal Issues: Employees disclosing confidential information or making discriminatory remarks could result in lawsuits. ● Security Breaches: Employees inadvertently revealing sensitive company information could create vulnerabilities for hackers. The CEO (judge) has asked you to develop a comprehensive social media policy that addresses these concerns and outlines clear guidelines for employee conduct on social media. The policy should: ● Define acceptable and unacceptable online behavior. ● Establish clear consequences for violations. ● Provide examples of appropriate and inappropriate social media posts. You will present your proposed social media policy to the CEO (judge) in a meeting to take place in the CEO’s office. The CEO (judge) will begin the meeting by greeting you and asking to hear your ideas. After you have presented your policy and answered the CEO's (judge's) questions, the CEO (judge) will conclude the meeting by thanking you for your work.",
+  "pis": [
+   "Explain the nature of effective written communications.",
+   "Explain how digital communications exposes business to risk.",
+   "Explain the nature of staff communication.",
+   "Choose and use appropriate channels for workplace communication.",
+   "Distinguish between using social media for business and personal purposes."
+  ]
+ },
+ {
+  "file": "GOAT_MCS_2627_EXTRA.pdf",
+  "code": "MCS",
+  "event": "Marketing Communications Series",
+  "cluster": "marketing",
+  "ia": "Promotion",
+  "sentence": "You are to assume the role of the marketing communications manager for THE SPOTLIGHT CAFE, a trendy coffee shop that has become popular with young professionals in the local area.",
+  "situation": "You are to assume the role of the marketing communications manager for THE SPOTLIGHT CAFE, a trendy coffee shop that has become popular with young professionals in the local area. The owner (judge) wants you to develop a promotional plan to increase foot traffic during weekday mornings. THE SPOTLIGHT CAFE is known for its cozy atmosphere, locally sourced coffee beans, and weekly open mic nights. The majority of the current customer base visits during afternoons and weekends, but weekday mornings have been slow. The cafe offers a variety of coffee drinks, breakfast pastries, and specialty teas, and the owner wants to encourage more customers to stop in before heading to work. The primary target market for THE SPOTLIGHT CAFE’S weekday morning promotion is young professionals between the ages of 22 and 35. These individuals typically work in nearby office buildings or are on their way to their first job of the day. They value convenience, quality, and a sense of community, often preferring local businesses that offer unique, personalized experiences over large chains. This group is tech-savvy, heavily engaged on social media platforms such as Instagram and LinkedIn, and likely to respond to promotions that emphasize time-saving options. The owner (judge) believes that a well-thought-out promotional plan focused on weekday mornings can significantly boost sales. The owner (judge) has asked you to: ● Propose specific promotional tactics to increase traffic during weekday mornings. ● Recommend a combination of social media platforms and email marketing to communicate the promotions effectively. ● Suggest creative ideas for in-store promotions or limited-time offers that align with the cafe’s brand. You will present your promotional plan to the owner (judge) in a role-play to take place in the owner’s (judge’s) office. The owner (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the owner’s (judge’s) questions, the owner (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Explain the role of promotion as a marketing function.",
+   "Identify communications channels used in sales promotion.",
+   "Explain the types of promotion.",
+   "Explain types of advertising media.",
+   "Explain the use of social media for digital marketing."
+  ]
+ },
+ {
+  "file": "GOAT_RFSM_2627_EXTRA2.pdf",
+  "code": "RFSM",
+  "event": "Restaurant and Food Service Management Series",
+  "cluster": "hospitality",
+  "ia": "Pricing",
+  "sentence": "You are to assume the role of the assistant general manager at HARBOR HAVEN BISTRO, a waterfront restaurant located in a popular coastal tourist town.",
+  "situation": "You are to assume the role of the assistant general manager at HARBOR HAVEN BISTRO, a waterfront restaurant located in a popular coastal tourist town. The restaurant is known for its locally sourced seafood, seasonal dishes, and outdoor patio dining with a view of the marina. The menu prices range from $18 to $45, depending on the entrée. The bistro also offers Sunday brunch, takeout service, and a small selection of grab-and-go lunch options at a walk-up window. During peak tourist months (late spring through early fall), HARBOR HAVEN BISTRO is packed every day, especially during dinner and weekend brunch hours. Wait times can exceed 90 minutes, and reservations are booked out days in advance. However, during the off-season (late fall and winter), business drops significantly—even on weekends—and the restaurant struggles to fill half the dining room. The restaurant’s owner (judge) wants to explore a seasonal pricing strategy to help smooth out sales throughout the year. They are considering raising prices slightly during the busy season and offering special pricing or bundled deals during the slower months to attract more locals and off-season travelers. The owner (judge) has asked you to put together a pricing strategy that addresses the following: ● Clear price objectives for both peak and off-peak seasons ● Tactical adjustments to menu prices, including ideas for value-based specials, prix fixe menus, or bundled offers during slow times ● Considerations for regular customers and loyalty program members ● Marketing and communication strategies to explain seasonal pricing changes without creating customer frustration ● Potential benefits and risks of adopting this pricing model in a restaurant setting You will present your ideas to the owner (judge) during a strategy meeting at the owner’s office. The owner (judge) will begin the role-play by greeting you and asking to hear your proposal. After you present and answer any follow-up questions, the owner (judge) will conclude the role-play by thanking you for your suggestions.",
+  "pis": [
+   "Explain the nature and scope of the pricing function.",
+   "Explain the concept of price in the hospitality and tourism industry.",
+   "Explain considerations in meal pricing.",
+   "Identify company's brand promise.",
+   "Determine factors affecting business risk."
+  ]
+ },
+ {
+  "file": "GOAT_RFSM_2627_EXTRA1.pdf",
+  "code": "RFSM",
+  "event": "Restaurant and Food Service Management Series",
+  "cluster": "hospitality",
+  "ia": "Customer Relations",
+  "sentence": "You are to assume the role of the customer relations manager at FARM TO FORK BISTRO, an upscale farm-to-table restaurant that emphasizes locally sourced, organic ingredients.",
+  "situation": "You are to assume the role of the customer relations manager at FARM TO FORK BISTRO, an upscale farm-to-table restaurant that emphasizes locally sourced, organic ingredients. The restaurant manager (judge) wants you to create a plan for handling an increasing number of customer complaints regarding meal customization. FARM TO FORK BISTRO has gained a strong following for its focus on fresh, seasonal dishes, and the restaurant prides itself on accommodating dietary preferences and restrictions. However, as the restaurant becomes more popular, there has been a noticeable rise in complaints from guests regarding the difficulty of customizing their meals. Some guests feel that the options for substitutions and modifications are limited, while others express frustration that certain dietary requests are not easily met. The restaurant manager (judge) wants you to develop a solution that makes the meal customization process smoother while still maintaining the restaurant’s high standards for quality and service. Your plan should address: ● How to streamline the customization process without slowing down kitchen operations or compromising the quality of dishes. ● How the new meal customization process will be communicated to guests. ● How to handle specific dietary restrictions (e.g., gluten-free, vegan, nut allergies) while ensuring that all modifications are safe and feasible. ● Additional guest services you could offer to enhance the dining experience, such as personalized menu suggestions or increased menu transparency. You will present your ideas to the restaurant manager (judge) in a role-play to take place in the restaurant manager’s (judge’s) office. The restaurant manager (judge) will begin the role-play by greeting you and asking for your ideas. After you’ve presented your ideas and answered the restaurant manager’s (judge’s) questions, the restaurant manager (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Demonstrate a customer-service mindset.",
+   "Interpret business policies to customers/clients.",
+   "Explain the importance of meeting and exceeding customer/guest expectations.",
+   "Anticipate unspoken customer needs.",
+   "Explain the role of customer service as a component of selling relationships."
+  ]
+ },
+ {
+  "file": "GOAT_RFSM_2627_EXTRA.pdf",
+  "code": "RFSM",
+  "event": "Restaurant and Food Service Management Series",
+  "cluster": "hospitality",
+  "ia": "Promotion",
+  "sentence": "You are to assume the role of the Marketing Manager for THE GILDED OAK, a traditional four-star fine dining restaurant known for its white-tablecloth service and 10-course tasting menus.",
+  "situation": "You are to assume the role of the Marketing Manager for THE GILDED OAK, a traditional four-star fine dining restaurant known for its white-tablecloth service and 10-course tasting menus. The Owner (judge) wants you to develop a promotional plan to attract a new target market: Millennials. THE GILDED OAK has been a staple in the city for 25 years. The current clientele is loyal but aging, primarily consisting of customers aged 60+. The Owner (judge) is concerned about the long-term sustainability of the business and wants to capture the Millennial market (ages 28–43). However, market research indicates that local Millennials view THE GILDED OAK as \"stuffy,\" \"too formal,\" and \"outdated.\" They prefer \"experiences,\" authenticity, and locally sourced food, often documenting their meals on social media. The Owner (judge) wants you to create a promotional plan that re-positions the four-star dining experience to appeal to Millennials without lowering the price point or quality. The owner does not want to turn the restaurant into a casual eatery but wants to make the luxury experience relevant to this generation. The Owner (judge) has asked you to include the following in your plan: ● A specific \"experience\" or event concept that would appeal to Millennials (e.g., a Chef's Table, a farm-to-table showcase, or a mixology class). ● A social media strategy, specifically focusing on Instagram or visual platforms, to change the \"stuffy\" perception. ● How to highlight \"locally sourced\" or \"healthy\" ingredients to appeal to Millennial values. ● Use of technology for reservations or engagement. You will present your ideas to the Owner (judge) in a role-play to take place in the owner’s office. The owner will begin the role-play by greeting you and asking to hear your ideas. After you have presented ideas and have answered the owner’s questions, the owner will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Explain the concept of market and market identification.",
+   "Explain the role of promotion as a marketing function.",
+   "Describe the impact of mobile technology on the hospitality and tourism industry.",
+   "Explain promotional methods used by the hospitality and tourism industry.",
+   "Describe factors used by marketers to position products/services."
+  ]
+ },
+ {
+  "file": "GOAT_AAM_2526_DISTRICT_EVENT2.pdf",
+  "code": "AAM",
+  "event": "Apparel and Accessories Marketing Series",
+  "cluster": "marketing",
+  "ia": "Marketing-Information Management",
+  "sentence": "You are to assume the role of the Marketing Manager for URBAN EDGE, a fast-fashion retail chain with 50 locations and a strong online presence.",
+  "situation": "You are to assume the role of the Marketing Manager for URBAN EDGE, a fast-fashion retail chain with 50 locations and a strong online presence. The Director of Merchandising (judge) wants you to design a research study to gauge customer interest in a new \"Buy-Back & Resale\" program. URBAN EDGE is known for selling trendy, affordable clothing to teens and young adults. However, the company has faced recent criticism on social media regarding textile waste. To improve the brand's image and drive foot traffic, executives are considering a pilot program where customers can return used URBAN EDGE clothing in exchange for store credit. These items would then be cleaned and sold in a \"Vintage Vault\" section of the store at a discount. The Director of Merchandising (judge) is hesitant. They are worried that selling used clothes might \"cheapen\" the brand image or cannibalize sales of new arrivals (meaning customers might buy the cheaper used items instead of the new full-price items). Before launching this pilot in stores, the Director (judge) wants data. They have asked you to create a marketing research plan to determine if the target market actually wants to buy used clothes from URBAN EDGE, and how much credit they would expect for trading in items. You will present your plan to the Director (judge) in a role-play taking place in their office. Your plan must include: ● A sampling plan: Will you survey current loyal customers, or people who have stopped shopping with us? How will you reach them? ● Data-collection methods: Will you use digital surveys, in-store interviews, or social media polling? ● Specific questions: What will you ask to determine if a \"Vintage Vault\" will hurt the brand's image? ● Incentives: How will you get young, busy customers to actually provide this feedback? The Director (judge) will begin the role-play by greeting you and asking to hear your proposal. After you have presented, the Director will ask questions and then conclude the meeting.",
+  "pis": [
+   "Describe the need for marketing data.",
+   "Determine customer/client needs.",
+   "Discuss the nature of sampling plans (i.e., who, how many, how chosen).",
+   "Describe data-collection methods (e.g., observations, mail, diaries, telephone, Internet, discussion groups, interviews, scanners, tracking tools).",
+   "Identify ways to track marketing-communications activities."
+  ]
+ },
+ {
+  "file": "GOAT_AAM_2526_DISTRICT_EVENT1.pdf",
+  "code": "AAM",
+  "event": "Apparel and Accessories Marketing Series",
+  "cluster": "marketing",
+  "ia": "Operations",
+  "sentence": "You are to assume the role of the ASSISTANT STORE MANAGER at VELVET & VINE, a fast-fashion retail chain that sells trendy apparel and accessories to young adults.",
+  "situation": "You are to assume the role of the ASSISTANT STORE MANAGER at VELVET & VINE, a fast-fashion retail chain that sells trendy apparel and accessories to young adults. The STORE MANAGER (judge) wants you to develop an operational plan to reduce the store's rising inventory shrinkage rate. VELVET & VINE offers a wide product mix including denim, graphic tees, jewelry, and handbags. While sales revenue has increased by 10% over the last year, the store’s profit margin has decreased. A recent audit revealed that the store’s \"shrinkage\"—the difference between the inventory the store should have and what is physically in the store—has hit an all-time high of 4.5%. This loss is attributed to a combination of shoplifting, employee theft, and administrative paperwork errors. The STORE MANAGER (judge) is concerned because the district office has stated that if shrinkage does not drop below 2% by the next quarter, payroll hours for the staff will be cut to cover the losses. This would result in fewer employees on the sales floor, which could negatively impact customer service. The STORE MANAGER (judge) wants you to present a \"Loss Prevention Action Plan\" that addresses three specific areas: 1. Physical Security: How to deter external theft (shoplifting) in high-risk areas like fitting rooms and accessory displays. 2. Internal Procedures: How to reduce employee error at the point of sale and the receiving dock. 3. Culture: How to train employees to recognize their role in expense control and preventing loss without creating a hostile work environment. You will present your ideas to the STORE MANAGER (judge) in a role-play to take place in the manager's office. The manager will begin the role-play by greeting you and asking to hear your plan to protect the store's assets.",
+  "pis": [
+   "Explain routine security precautions.",
+   "Explain employee’s role in expense control.",
+   "Explain the nature of overhead/operating costs.",
+   "Process returns/exchanges.",
+   "Interpret business policies to customers/clients."
+  ]
+ },
+ {
+  "file": "GOAT_ASM_2526_DISTRICT_EVENT1.pdf",
+  "code": "ASM",
+  "event": "Automotive Services Marketing Series",
+  "cluster": "marketing",
+  "ia": "Promotion",
+  "sentence": "You are to assume the role of the MARKETING MANAGER at METRO AUTO CLEAN, a full-service car wash and detailing center located in a busy suburban area.",
+  "situation": "You are to assume the role of the MARKETING MANAGER at METRO AUTO CLEAN, a full-service car wash and detailing center located in a busy suburban area. The OWNER (judge) wants you to create a promotional plan to introduce a new, eco-friendly \"Waterless Detail\" service. METRO AUTO CLEAN has been in business for 15 years and is known for its traditional conveyor belt wash and high-quality hand waxing services. However, the local community has recently become very environmentally conscious, and the city has imposed stricter water usage regulations during the summer months. To adapt to these changes and attract new customers, the OWNER (judge) has invested in a new line of biodegradable, waterless cleaning products that clean and polish vehicles without using hoses or high-pressure sprayers. This new \"Waterless Detail\" service saves 50 gallons of water per car but costs 20% more than a standard wash due to the specialized products and manual labor required. The OWNER (judge) has asked you to develop a promotional plan to launch this new service. The plan must: ● Identify the specific target market most likely to pay a premium for an eco-friendly service. ● Determine which elements of the promotional mix (advertising, personal selling, sales promotion, public relations) will best communicate the environmental benefits. ● Create a catchy slogan or tagline for the \"Waterless Detail\" service. ● Explain how to use social media or mobile apps to reach customers. You will present your ideas to the OWNER (judge) in a role-play to take place in the Owner’s office. The OWNER (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and have answered the Owner’s (judge’s) questions, the OWNER (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Explain the role of promotion as a marketing function.",
+   "Identify the elements of the promotional mix.",
+   "Describe the use of technology in the promotion function.",
+   "Explain the concept of market and market identification.",
+   "Discuss motivational theories that impact buying behavior."
+  ]
+ },
+ {
+  "file": "GOAT_BSM_2526_DISTRICT_EVENT1.pdf",
+  "code": "BSM",
+  "event": "Business Services Marketing Series",
+  "cluster": "marketing",
+  "ia": "Product/Service Management",
+  "sentence": "You are to assume the role of the Director of Client Strategy for VIRTUAL PATHWAYS, a business-to-business (B2B) firm that provides customized online training and professional development services to medium-sized corporations,.",
+  "situation": "You are to assume the role of the Director of Client Strategy for VIRTUAL PATHWAYS, a business-to-business (B2B) firm that provides customized online training and professional development services to medium-sized corporations,. The Vice President of Sales (judge) wants you to analyze a proposed new service offering designed to capture a higher-value market segment. VIRTUAL PATHWAYS has been operating successfully for ten years, specializing in compliance training (HR/safety) and basic software onboarding modules. The company’s core brand promise is high reliability, deep customization for client needs, and dedicated support. VIRTUAL PATHWAYS currently services over 300 corporate clients, charging based on the number of modules utilized per employee. Recently, market data suggests a high demand among corporate executives for remote, flexible soft-skills development, particularly in leadership, advanced communication, and team dynamics. This market often uses expensive, highly exclusive third-party consultants or physical retreats. The Vice President (judge) believes VIRTUAL PATHWAYS can leverage its technology and customization expertise to offer a premium suite of Executive Leadership Modules through its existing digital platform. The Vice President (judge) is eager to launch this new service to increase recurring revenue and enhance the corporate brand, but is concerned about positioning the \"luxury\" training alongside the existing, more fundamental compliance services. The Vice President (judge) wants you to analyze the new service and determine: ● The unique selling proposition of the new Executive Leadership Modules. ● How adding this premium service will affect the overall VIRTUAL PATHWAYS product mix. ● Specific factors used to position the Executive Leadership Modules to attract high-value clientele. ● Key factors in building this new segment of clientele, focusing on customer service delivery. You will present your analysis to the Vice President of Sales (judge) in a meeting to take place in the Vice President’s (judge’s) office. The Vice President (judge) will begin the meeting by greeting you and asking to hear your ideas. After you have presented your analysis and have answered the Vice President’s (judge’s) questions, the Vice President (judge) will conclude the meeting by thanking you for your work.",
+  "pis": [
+   "Explain the concept of product mix.",
+   "Describe factors used by marketers to position products/services.",
+   "Develop positioning concepts for a new product idea.",
+   "Identify company’s unique selling proposition.",
+   "Identify product’s/service’s competitive advantage."
+  ]
+ },
+ {
+  "file": "GOAT_FMS_2526_DISTRICT_EVENT1.pdf",
+  "code": "FMS",
+  "event": "Food Marketing Series",
+  "cluster": "marketing",
+  "ia": "Market Planning",
+  "sentence": "You are to assume the role of the Marketing Manager for FRESH FIELDS MARKET, a regional grocery store chain known for high-quality organic produce.",
+  "situation": "You are to assume the role of the Marketing Manager for FRESH FIELDS MARKET, a regional grocery store chain known for high-quality organic produce. The Director of Merchandising (judge) wants you to develop a marketing plan for a new private-label product line created to combat food waste. FRESH FIELDS MARKET prides itself on visual perfection in its produce department. However, this strict standard results in a significant amount of \"imperfect\" fruits and vegetables (items that are bruised, misshapen, or the wrong size) being discarded, despite being perfectly safe and nutritious to eat. To reduce waste and increase revenue, the company is launching a new private-label line of shelf-stable products called \"The Imperfect Batch.\" This product line will include jarred salsas, fruit jams, and vegetable soups made entirely from the \"ugly\" produce that would otherwise be thrown away. The Director of Merchandising (judge) is concerned that customers might view these products as low-quality because they are made from \"discarded\" ingredients. The Director (judge) wants you to create a marketing plan that positions \"The Imperfect Batch\" as a premium, eco-friendly choice rather than a discount \"leftover\" product. The Director (judge) wants you to present a plan that includes: ● Primary Target Market: Who is most likely to buy upcycled food products? ● Product Positioning: How to communicate the quality and safety of the ingredients. ● Marketing Strategies: Specific ways to promote the line inside the store and online. ● Competitive Advantage: Why this line is better than national brands of salsa or jam. You will present your ideas to the Director of Merchandising (judge) in a role-play to take place in the Director’s office. The Director (judge) will begin the role-play by greeting you and asking to hear your ideas.",
+  "pis": [
+   "Explain the nature of marketing plans.",
+   "Explain the concept of market and market identification.",
+   "Explain the concept of marketing strategies.",
+   "Explain the concept of product mix.",
+   "Identify product’s/service’s competitive advantage."
+  ]
+ },
+ {
+  "file": "GOAT_HRM_2526_DISTRICT_EVENT1.pdf",
+  "code": "HRM",
+  "event": "Human Resources Management Series",
+  "cluster": "business",
+  "ia": "Emotional Intelligence",
+  "sentence": "You are to assume the role of the Human Resources Manager at STRATOSPHERE SOLUTIONS, a rapidly growing software development firm.",
+  "situation": "You are to assume the role of the Human Resources Manager at STRATOSPHERE SOLUTIONS, a rapidly growing software development firm. The Vice President of Operations (judge) has asked you to intervene in a \"turf war\" between two departments that is threatening a major product launch. STRATOSPHERE SOLUTIONS employs 120 people. Recently, the company has experienced friction between the Sales Department and the Product Development Team. The Vice President (judge) has informed you that the Product Development Team feels the Sales Department is making \"impossible promises\" to clients to close deals, forcing developers to work overtime to build features that don't exist yet. Conversely, the Sales Department claims the Product Developers are \"gatekeeping\" information and refusing to prioritize client needs, which affects commissions and company revenue. This conflict has evolved into toxic office politics. The two departments have stopped speaking to one another directly, relying on passive-aggressive emails. They have also begun keeping \"score\" of each other's mistakes to report to upper management. The Vice President (judge) wants you to develop a conflict resolution strategy to end this turf war. Your presentation must include: ● An analysis of why this \"turf war\" is happening and the risks it poses to the company culture. ● A strategy to facilitate a mediation meeting between the two department heads to resolve their differences. ● A plan to foster positive working relationships between the opposing teams (e.g., joint training or team building). ● A method for establishing a \"shared vision\" so both teams understand they are working toward the same goal. You will present your recommendations to the Vice President (judge) in a role-play to take place in the Vice President’s (judge’s) office. The Vice President (judge) will begin the role-play by greeting you and asking to hear your strategy. After you have presented your ideas and have answered the Vice President’s (judge’s) questions, the Vice President (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Explain the nature of effective communications.",
+   "Foster positive working relationships.",
+   "Build trust in relationships.",
+   "Consider conflicting viewpoints.",
+   "Enlist others in working toward a shared vision."
+  ]
+ },
+ {
+  "file": "GOAT_MCS_2526_DISTRICT_EVENT1.pdf",
+  "code": "MCS",
+  "event": "Marketing Communications Series",
+  "cluster": "marketing",
+  "ia": "Promotion",
+  "sentence": "You are to assume the role of the MARKETING COMMUNICATIONS MANAGER for URBAN WHEELZ, a micromobility company that rents electric scooters and bicycles in mid-sized cities.",
+  "situation": "You are to assume the role of the MARKETING COMMUNICATIONS MANAGER for URBAN WHEELZ, a micromobility company that rents electric scooters and bicycles in mid-sized cities. The DIRECTOR OF MARKETING (judge) wants you to develop a communications campaign to educate users on proper parking etiquette to secure a contract renewal with the city. URBAN WHEELZ operates a fleet of 2,000 electric scooters and 500 e-bikes that users can rent via a mobile app. The service is highly popular with college students and young professionals for \"last mile\" transportation. However, the company has faced criticism from city officials and local business owners regarding \"sidewalk clutter.\" Users frequently leave scooters blocking wheelchair ramps, store entrances, and the middle of sidewalks. The city council is voting on the renewal of URBAN WHEELZ's operating permit next month. To ensure the permit is renewed, the company must demonstrate a commitment to solving the parking issue. The DIRECTOR OF MARKETING (judge) wants you to create a \"Park It Right\" promotional campaign. The goal is to change user behavior through positive reinforcement and clear communication, rather than just imposing fines. The Director (judge) wants your plan to include: ● Key Messaging: How to communicate the \"Park It Right\" rules without sounding negative or authoritative. ● Communication Channels: Specific digital and physical channels to reach the active user base. ● Incentives: A marketing strategy to reward compliant behavior. ● Public Relations: A method to show the city council and general public (non-riders) that URBAN WHEELZ is listening and acting responsibly. You will present your ideas to the DIRECTOR OF MARKETING (judge) in a role-play to take place in the Director’s (judge’s) office. The Director (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented ideas and have answered the Director’s (judge’s) questions, the Director (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Explain the nature of effective communications.",
+   "Explain the use of social media for digital marketing.",
+   "Identify types of public-relations activities.",
+   "Explain the components of advertisements.",
+   "Describe factors used by businesses to position corporate brands."
+  ]
+ },
+ {
+  "file": "GOAT_QSRM_2526_DISTRICT_EVENT1.pdf",
+  "code": "QSRM",
+  "event": "Quick Serve Restaurant Management Series",
+  "cluster": "hospitality",
+  "ia": "Promotion",
+  "sentence": "You are to assume the role of the MARKETING MANAGER for CRISP CHICKEN, a regional quick-serve restaurant chain specializing in fried chicken tenders and sandwiches.",
+  "situation": "You are to assume the role of the MARKETING MANAGER for CRISP CHICKEN, a regional quick-serve restaurant chain specializing in fried chicken tenders and sandwiches. The FRANCHISE OWNER (judge) wants you to develop a promotional plan to launch a new \"Late Night Cravings\" window. CRISP CHICKEN has traditionally closed its doors at 10:00 PM. However, the restaurant is located near a large university campus and several entertainment venues. Competitors in the area who stay open late have reported significant profits during the post-10:00 PM hours. To capture this market share, the FRANCHISE OWNER (judge) has decided to keep the drive-thru open until 3:00 AM on Thursdays, Fridays, and Saturdays, starting next month. To ensure operational efficiency during these late hours, the kitchen will utilize a limited menu featuring only the three most popular items: the Classic Chicken Sandwich, Spicy Tenders, and Waffle Fries. The FRANCHISE OWNER (judge) wants you to develop a promotional plan to announce the new \"Late Night Cravings\" hours. The goal is to specifically target the university demographic and event-goers without alienating the daytime family crowd. The owner wants the plan to rely heavily on digital engagement and cost-effective strategies. You will present your ideas to the FRANCHISE OWNER (judge) in a role-play to take place in the owner’s office. The owner will begin the role-play by greeting you and asking to hear your ideas. After you have presented ideas and have answered the owner’s questions, the owner will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Explain the role of promotion as a marketing function.",
+   "Identify the elements of the promotional mix.",
+   "Describe the use of technology in the promotion function.",
+   "Explain the nature of a promotional plan.",
+   "Explain factors that influence customer/client/business buying behavior."
+  ]
+ },
+ {
+  "file": "GOAT_RFSM_2526_DISTRICT_EVENT2.pdf",
+  "code": "RFSM",
+  "event": "Restaurant and Food Service Management Series",
+  "cluster": "hospitality",
+  "ia": "Information Management",
+  "sentence": "You are to assume the role of the Marketing Manager for THE HARVEST HUB, a casual-dining restaurant that prides itself on \"classic comfort food.\"",
+  "situation": "You are to assume the role of the Marketing Manager for THE HARVEST HUB, a casual-dining restaurant that prides itself on \"classic comfort food.\" The owner (judge) is considering a major marketing shift toward \"sustainability\" and \"plant-forward\" dining but needs data to justify the change. THE HARVEST HUB is located in a college town with a population of 50,000. While the restaurant is currently successful, the owner (judge) has noticed that the younger demographic (Generation Z and Millennials) is increasingly frequenting a competitor that markets \"ethical sourcing\" and \"carbon-neutral\" ingredients. Recent industry reports suggest that a large percentage of consumers are trying to add more plant-based or \"flexitarian\" options to their diets. However, your current menu is heavily focused on steaks, burgers, and traditional dairy-heavy sides. The owner (judge) wants to know if your current customer base actually cares about these sustainability trends or if a marketing pivot would alienate your loyal \"comfort food\" regulars. The owner (judge) has asked you to design a marketing research plan to determine: ● What specific food habits and preferences your customers currently have regarding sustainable or plant-based options. ● The method you will use to collect this feedback efficiently (e.g., kiosks, mobile apps, or surveys). ● Specific questions to ask that will help decide if the menu should be expanded. ● An incentive to encourage customers to participate in the research. You will present your plan to the owner (judge) in a role-play to take place in the owner’s office. The owner (judge) will begin the role-play by asking to hear your ideas. After you have presented and answered questions, the owner (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Explain the need for hospitality and tourism business information",
+   "Assess information needs",
+   "Analyze trends in food habits/preferences",
+   "Apply information to accomplish a task",
+   "Obtain needed information efficiently"
+  ]
+ },
+ {
+  "file": "GOAT_RFSM_2526_DISTRICT_EVENT1.pdf",
+  "code": "RFSM",
+  "event": "Restaurant and Food Service Management Series",
+  "cluster": "hospitality",
+  "ia": "Customer Relations",
+  "sentence": "You are to assume the role of GENERAL MANAGER at THE RUSTIC SPOON, a popular casual-dining restaurant known for farm-to-table comfort food.",
+  "situation": "You are to assume the role of GENERAL MANAGER at THE RUSTIC SPOON, a popular casual-dining restaurant known for farm-to-table comfort food. The OWNER (judge) has asked you to solve a service crisis created by the restaurant’s recent expansion into third-party delivery apps. THE RUSTIC SPOON has always been a neighborhood favorite, with a dining room that seats 80 people. Three months ago, to increase revenue, the Owner decided to partner with three major third-party delivery services (e.g., DoorDash, UberEats). Financially, the launch has been a success; sales are up 20%. However, the in-house guest experience has suffered drastically. Because the kitchen prints tickets for delivery orders on the same line as dine-in orders, the kitchen is often overwhelmed. ● The Problem: On Friday and Saturday nights, dine-in customers are waiting 45 to 60 minutes for their entrees because the kitchen is backed up with delivery orders. ● The Fallout: In-house guests are complaining loudly. They see empty tables (because you have stopped seating people to give the kitchen a break), yet their food is taking an hour. Furthermore, the waitstaff is demoralized; their tips are dropping because customers are unhappy with the wait times, yet the servers have no control over the kitchen queue. The Owner (judge) refuses to turn off the delivery tablets because the revenue is too high. However, the Owner knows that ruining the in-house experience will destroy the brand’s reputation long-term. The Owner (judge) has asked you to present a strategy to balance the high volume of delivery orders without sacrificing the experience of the dine-in guests. Your presentation must address: ● How to prioritize in-house guests when the kitchen is overwhelmed. ● Communication strategies for servers to use with frustrated customers. ● Operational changes to manage the flow of orders. You will present your ideas to the Owner (judge) in a role-play to take place in the Owner’s office. The Owner will begin the role-play by greeting you and asking for your plan to fix the Friday night service failures.",
+  "pis": [
+   "Demonstrate a customer service mindset.",
+   "Reinforce service orientation through communication.",
+   "Build and maintain relationships with customers.",
+   "Identify company’s brand promise.",
+   "Communicate core values of product/service."
+  ]
+ },
+ {
+  "file": "GOAT_RMS_2526_DISTRICT_EVENT1.pdf",
+  "code": "RMS",
+  "event": "Retail Merchandising Series",
+  "cluster": "marketing",
+  "ia": "Promotion",
+  "sentence": "You are to assume the role of the MARKETING MANAGER for URBAN NEST, a home décor and furniture retailer.",
+  "situation": "You are to assume the role of the MARKETING MANAGER for URBAN NEST, a home décor and furniture retailer. The OWNER of the company (judge) wants you to create a promotional plan to launch a new line of eco-friendly products aimed at college students and young professionals. URBAN NEST has successfully operated for 15 years, catering primarily to established homeowners with higher price-point furniture. However, sales data indicates a significant gap in customers aged 18–25. To capture this market, the store is launching \"The Green Dorm,\" a collection of sustainable, affordable, and space-saving furniture and décor items designed for dorms and first apartments. The collection will hit the sales floor in four weeks, just in time for the \"Back to School\" shopping season. The OWNER (judge) is concerned that the store’s current image is too \"stuffy\" for this younger demographic and that the current customer base will not be interested in these lower-priced items. The OWNER (judge) has asked you to develop a promotional plan specifically for the \"The Green Dorm\" launch. The owner wants the plan to accomplish two goals: drive foot traffic from the new younger demographic and utilize digital engagement. Your plan must include: ● Identification of the specific target market behaviors. ● A social media strategy to build hype before the launch. ● A concept for an in-store kick-off event. ● One promotional partnership idea with a local business or campus organization. You will present your ideas to the OWNER (judge) in a role-play to take place in the OWNER’S office. The OWNER (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and have answered the OWNER’S questions, the OWNER (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Explain the nature of a promotional plan.",
+   "Explain the role of promotion as a marketing function.",
+   "Explain the concept of marketing strategies.",
+   "Build and maintain relationships with customers.",
+   "Explain factors that influence customer/client/business buying behavior."
+  ]
+ },
+ {
+  "file": "GOAT_SEM_2526_DISTRICT_EVENT1.pdf",
+  "code": "SEM",
+  "event": "Sports and Entertainment Marketing Series",
+  "cluster": "marketing",
+  "ia": "Selling",
+  "sentence": "You are to assume the role of the Director of Corporate Sales for the TITAN ARENA, a large multi-purpose facility that is home to a professional basketball team and a professional hockey team.",
+  "situation": "You are to assume the role of the Director of Corporate Sales for the TITAN ARENA, a large multi-purpose facility that is home to a professional basketball team and a professional hockey team. The General Manager (judge) wants you to develop a sales strategy to rent out the arena’s luxury suites for an upcoming non-traditional sporting event. Titan Arena is a staple in the city, known for hosting traditional sports, major concerts, and family ice shows. The arena has 50 luxury suites that are leased annually by large local corporations (banks, law firms, and manufacturing companies) for the basketball and hockey seasons. However, the arena has recently booked a massive three-day eSports tournament, the \"Global Cyber-Clash,\" to take place next month. The \"Global Cyber-Clash\" will feature the world's best video game players competing for a $2 million prize pool. The event is expected to sell out the general admission seating with a demographic of mostly 16-to-28-year-olds. However, the luxury suites remain empty. The traditional corporate clients who usually lease these suites have declined to renew their lease for this specific weekend. They do not understand eSports, believing it is \"just kids playing video games,\" and do not see the value in entertaining their clients at such an event. The General Manager (judge) wants you to develop a sales pitch specifically targeting these traditional corporate clients to convince them to rent a luxury suite for the eSports tournament. The General Manager (judge) wants you to explain: ● Why this event offers a unique competitive advantage for their business networking compared to a standard basketball game. ● The features and benefits of a luxury suite specifically during a high-energy eSports event (e.g., technology integration, atmosphere). ● How to overcome their objection that \"video games aren't a serious spectator sport.\" You will present your ideas to the General Manager (judge) in a role-play to take place in the General Manager’s (judge’s) office. The General Manager (judge) will begin the role-play by greeting you and asking to hear your ideas",
+  "pis": [
+   "Explain the nature and scope of the selling function.",
+   "Identify product’s/service’s competitive advantage.",
+   "Discuss motivational theories that impact buying behavior.",
+   "Analyze product information to identify product features and benefits.",
+   "Explain key factors in building a clientele."
+  ]
+ },
+ {
+  "file": "GOAT_ACT_2425_DISTRICT_EVENT2.pdf",
+  "code": "ACT",
+  "event": "Accounting Applications Series",
+  "cluster": "finance",
+  "ia": "Professional Development",
+  "sentence": "You are to assume the role of a staff accountant at MIDTOWN FINANCIAL SERVICES, a medium-sized accounting firm.",
+  "situation": "You are to assume the role of a staff accountant at MIDTOWN FINANCIAL SERVICES, a medium-sized accounting firm. The Human Resources Director (judge) has asked you to prepare for an internal presentation on career development for new hires at the firm. The Human Resources Director (judge) wants you to focus on how junior accountants can take ownership of their career paths and the types of professional development that can lead to growth within the company. They have asked you to address the following topics: ● Steps to obtain relevant certifications, such as CPA, CFA (Chartered Financial Analyst), and their relevance to the firm ● How attending accounting conferences and networking events can lead to career opportunities ● The role of mentorship within the firm and how building relationships with senior colleagues can enhance career development ● Key accounting technologies and software (e.g., QuickBooks, SAP) that employees should master to stay competitive in the industry You will present this information to the Human Resources Director (judge) in a role-play that takes place in their office. The director (judge) will begin the role-play by asking you to outline the professional development strategies you recommend for the new hires. After you have presented your ideas and answered any questions, the director (judge) will conclude the role-play by thanking you for your suggestions.",
+  "pis": [
+   "Explain the need for ongoing education as a worker.",
+   "Describe techniques for obtaining work experience.",
+   "Explain possible advancement patterns for jobs.",
+   "Identify sources of career information.",
+   "Analyze employer expectations in the business environment."
+  ]
+ },
+ {
+  "file": "GOAT_ACT_2425_DISTRICT_EVENT1.pdf",
+  "code": "ACT",
+  "event": "Accounting Applications Series",
+  "cluster": "finance",
+  "ia": "Financial Analysis",
+  "sentence": "You are to assume the role of a senior accountant at GLOBALTECH SOLUTIONS, a software development company.",
+  "situation": "You are to assume the role of a senior accountant at GLOBALTECH SOLUTIONS, a software development company. The company has been growing steadily, but now the CEO (judge) is exploring options to accelerate that growth by expanding operations, developing new products, or entering new markets. The CEO (judge) is considering seeking outside investment from venture capitalists or other investors to support this expansion. However, the CEO is unsure if the company's current financial position is strong enough to handle an influx of capital or if it is the right time for such an investment. The CEO (judge) has asked you to analyze key figures from the company's latest balance sheet and income statement. Your job is to calculate the current ratio and net profit margin, and use these figures to explain the company's liquidity and profitability. You have been provided with the following financial data for the last quarter: Balance Sheet ● Current Assets: $125,000 ● Current Liabilities: $62,500 Income Statement ● Net Sales: $400,000 ● Net Income: $50,000 Your task is to: 1. Calculate the current ratio using the balance sheet figures to assess the company's liquidity. 2. Calculate the net profit margin using the income statement figures to evaluate the company's profitability. 3. Make a recommendation on whether the company should proceed with seeking outside investment, based on your calculations. You will present your ideas to the CEO (judge) in a role-play to take place in their office. The CEO (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented and answered the CEO’s (judge’s) questions, theCEO (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Describe the need for financial information.",
+   "Discuss the analysis of a company’s financial situation using its financial situation.",
+   "Explain the nature of income statements.",
+   "Explain the nature of balance sheets.",
+   "Make responsible financial decisions."
+  ]
+ },
+ {
+  "file": "GOAT_AAM_2425_DISTRICT_EVENT2.pdf",
+  "code": "AAM",
+  "event": "Apparel and Accessories Marketing Series",
+  "cluster": "marketing",
+  "ia": "Product/Service Management",
+  "sentence": "You are to assume the role of the product development manager for URBAN GEAR, a brand that designs and sells outerwear and accessories for young adults who live in cities with unpredictable weather patterns.",
+  "situation": "You are to assume the role of the product development manager for URBAN GEAR, a brand that designs and sells outerwear and accessories for young adults who live in cities with unpredictable weather patterns. The head of product innovation (judge) has asked you to create a new product to add to the URBAN GEAR line and make decisions regarding its features, price, and target market. URBAN GEAR is known for producing high-quality jackets, coats, and weather-resistant accessories such as gloves, scarves, and hats. The company prides itself on functionality and style, with an emphasis on products that can adapt to sudden changes in weather. The products appeal to Gen Z and Millennial consumers who value durability, fashion, and sustainability. In recent surveys, customers have expressed interest in products that help them manage the rapid transitions between warm and cold weather. Some customers have even requested hybrid outerwear that can be easily transformed or adjusted to suit various weather conditions without sacrificing style. The company currently does not offer anything like this. The head of product innovation (judge) wants you to propose a new product that meets these needs. You should consider the following: ● What type of product will you develop? ● What unique features will this product offer? ● Who is the primary target market? ● What should the price range be to ensure competitiveness while maintaining the brand's upscale positioning? ● How will this product fit into the overall URBAN GEAR brand? You will present your product concept and strategy to the head of product innovation (judge) in a role-play to take place in their office. The head of product innovation (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your product concept and have answered the head of product innovation's (judge's) questions, the head of product innovation will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Explain the nature and scope of the product/service management function.",
+   "Explain the nature of product/service branding.",
+   "Describe factors used by marketers to position products/services.",
+   "Communicate core values of a product/service.",
+   "Identify components of a retail image."
+  ]
+ },
+ {
+  "file": "GOAT_AAM_2425_DISTRICT_EVENT1.pdf",
+  "code": "AAM",
+  "event": "Apparel and Accessories Marketing Series",
+  "cluster": "marketing",
+  "ia": "Market Planning",
+  "sentence": "You are to assume the role of the marketing manager for STREET STRIDE, an athleisure brand that specializes in stylish, functional clothing designed for Gen Z urban residents.",
+  "situation": "You are to assume the role of the marketing manager for STREET STRIDE, an athleisure brand that specializes in stylish, functional clothing designed for Gen Z urban residents. The company’s founder (judge) wants you to design a marketing plan for their new collection, STREET STRIDE X, which combines high-performance fabrics with cutting-edge streetwear designs. This collection is meant to bridge the gap between fitness and everyday fashion, allowing customers to transition seamlessly from the gym to social settings. STREET STRIDE has built a strong following among Gen Z consumers who value both comfort and style. The brand is known for its innovative designs, including moisture-wicking materials, sustainable fabric choices, and bold, trendy aesthetics. With the launch of Street Stride X, the founder (judge) is looking to expand the brand’s presence in major urban markets. The founder (judge) wants your marketing plan to include: ● Target market ● Key marketing strategies ● Promotions You will present your ideas to the founder (judge) in a role-play to take place in their office. The founder (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented and answered the founder’s (judge’s) questions, the founder (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Explain the concept of market and market identification.",
+   "Explain the nature of marketing plans.",
+   "Explain the role of situation analysis in the marketing planning process.",
+   "Describe the nature of target marketing in marketing communications.",
+   "Identify communications channels used in sales promotion."
+  ]
+ },
+ {
+  "file": "GOAT_ASM_2425_DISTRICT_EVENT2.pdf",
+  "code": "ASM",
+  "event": "Automotive Services Marketing Series",
+  "cluster": "marketing",
+  "ia": "Selling",
+  "sentence": "You are to assume the role of the sales manager at PRESTIGE MOTORS, a luxury car brand known for producing high-performance vehicles with cutting-edge technology and exceptional craftsmanship.",
+  "situation": "You are to assume the role of the sales manager at PRESTIGE MOTORS, a luxury car brand known for producing high-performance vehicles with cutting-edge technology and exceptional craftsmanship. The regional director (judge) has tasked you with improving the sales team's approach to increase the conversion rate of showroom visitors into buyers. PRESTIGE MOTORS offers a range of luxury vehicles, including sedans, SUVs, and electric models. The flagship model, a fully electric luxury sedan, is priced at $120,000. Customers can also choose from a variety of premium upgrades, such as custom interiors, advanced driver-assistance features, and extended warranties. The brand’s unique selling points include exclusive customization options, a superior after-sales service package, and a 5-year complimentary maintenance program. Although PRESTIGE MOTORS cars are highly desirable, many showroom visitors are hesitant to commit due to the price, often opting for competitors that offer slightly lower-priced vehicles. The regional director (judge) has observed that the sales team struggles to effectively communicate the long-term value and prestige associated with owning one of these vehicles. Additionally, the sales team has not been consistently promoting the premium upgrades that would increase the average sale value. The regional director (judge) wants you to design a sales training session that will equip the team with strategies to showcase the long-term benefits and luxury lifestyle associated with owning a PRESTIGE MOTORS vehicle. The training should also cover how to effectively upsell premium features and packages to enhance the customer’s experience. You will present your sales training plan to the regional director (judge) in a meeting to take place in the director’s (judge’s) office. The regional director (judge) will begin the meeting by greeting you and asking to hear your ideas. After you have presented your plan and answered the director’s (judge’s) questions, the director (judge) will conclude the meeting by thanking you for your work.",
+  "pis": [
+   "Explain the nature and scope of the selling function.",
+   "Explain key factors in building a clientele.",
+   "Explain the role of customer service as a component of selling relationships.",
+   "Discuss motivational theories that impact buying behavior.",
+   "Explain the concept of competition."
+  ]
+ },
+ {
+  "file": "GOAT_ASM_2425_DISTRICT_EVENT1.pdf",
+  "code": "ASM",
+  "event": "Automotive Services Marketing Series",
+  "cluster": "marketing",
+  "ia": "Customer Relations",
+  "sentence": "You are to assume the role of the customer relations manager at QUICK FIX AUTO CARE, a well-established automotive service center known for its affordable and timely services.",
+  "situation": "You are to assume the role of the customer relations manager at QUICK FIX AUTO CARE, a well-established automotive service center known for its affordable and timely services. A regular customer (judge) has come to the service center upset because of a recent price increase on oil change services. For the past two years, the customer (judge) has been paying $50 for a full synthetic oil change, but the price has now gone up to $75. The customer (judge) is considering taking their business to a nearby competitor that advertises cheaper prices. Your task is to explain the reasons behind the price increase and offer potential solutions to retain the customer’s loyalty. The price increase is due to rising costs of materials and labor, but you have the authority to offer several retention options: ● A one-time discount of $10 on the next oil change ● A loyalty program where the customer (judge) can earn points for future services, such as free tire rotations or discounted brake services ● A bundled service package (oil change, tire rotation, and brake inspection) for $100, saving the customer (judge) 20% on individual services The customer (judge) is concerned about rising costs and feels that as a loyal customer, they deserve a more competitive rate. Your role is to address the customer’s frustrations, explain the reasons for the price change, and offer a solution that ensures they continue using QUICK FIX AUTO CARE. You will present your response to the customer (judge) in a role-play to take place in the customer service area of the service center. The customer (judge) will begin the role-play by expressing their dissatisfaction with the price increase. After you have presented information and answered the customer’s (judge’s) questions, the customer (judge) will conclude the role-play by thanking you for your assistance.",
+  "pis": [
+   "Demonstrate a customer service mindset.",
+   "Reinforce service orientation through communication.",
+   "Interpret business policies to customers/clients.",
+   "Handle customer/client complaints.",
+   "Explain the nature of positive customer relations."
+  ]
+ },
+ {
+  "file": "GOAT_BFS_2425_DISTRICT_EVENT2.pdf",
+  "code": "BFS",
+  "event": "Business Finance Series",
+  "cluster": "finance",
+  "ia": "Financial Analysis",
+  "sentence": "You are the financial consultant hired by SPARKTECH, a startup that designs and sells smart home devices.",
+  "situation": "You are the financial consultant hired by SPARKTECH, a startup that designs and sells smart home devices. The company has been growing rapidly, but the CEO (judge) is concerned that cash flow shortages might arise due to high upfront costs for manufacturing and delayed payments from major retailers. The following data has been provided for the next 12 months: ● Beginning cash balance: $200,000 ● Monthly operating expenses: $60,000 ● Monthly sales revenue: $50,000 (but paid 2 months after the month of sale) ● One-time upfront costs (first month): $120,000 for manufacturing equipment ● Planned loan disbursement in month 4: $100,000 ● Expected sales growth: 10% per month starting in month 3 Your task is to: ● Analyze the cash flow for the next 12 months, identifying any potential shortfalls / deficits. ● Suggest strategies to manage cash flow during the months when the company might face a cash crunch. ● Recommend other financial adjustments to help the company maintain positive cash flow throughout the year. You will present your plan to the CEO (judge) in a meeting at SPARKTECH. The CEO (judge) will begin the role-play by greeting you and asking to hear your ideas. After your presentation, you will answer the CEO’s (judge’s) questions, and they will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Describe the nature of cash flow statements.",
+   "Set financial goals.",
+   "Describe the nature of budgets.",
+   "Discuss the analysis of a company’s financial situation using its financial statements.",
+   "Make responsible financial decisions."
+  ]
+ },
+ {
+  "file": "GOAT_BFS_2425_DISTRICT_EVENT1.pdf",
+  "code": "BFS",
+  "event": "Business Finance Series",
+  "cluster": "finance",
+  "ia": "Professional Development",
+  "sentence": "You are to assume the role of a senior financial analyst intern at SMITH & CO. FINANCIAL SERVICES, a financial advisory firm.",
+  "situation": "You are to assume the role of a senior financial analyst intern at SMITH & CO. FINANCIAL SERVICES, a financial advisory firm. The Vice President of the firm (judge) has asked you to meet with them to discuss your ideas on how students and early-career professionals can best prepare for a successful career in business finance. The VP (judge) wants your recommendations for a professional development plan that students can follow after high school. SMITH & CO. FINANCIAL SERVICES offers a range of tailored services for high school students designed to foster financial literacy and promote early professional development. The firm provides foundational knowledge on topics such as budgeting, investing, and understanding credit. Additionally, the firm emphasizes the importance of soft skills like networking and personal branding. These programs not only introduce students to essential financial concepts but also guide them in building a professional network and exploring career paths within the finance industry. By engaging with these resources, high school students can gain early exposure to the tools and knowledge necessary for success in business finance, laying the groundwork for future educational and career opportunities You will address the following topics in your presentation: ● The Importance of Financial Literacy ● Career Pathways in Business Finance ● Building a Professional Network ● Certifications and Education The Vice President (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your information and answered their questions, the Vice President (judge) will conclude the role-play by thanking you for your time.",
+  "pis": [
+   "Explain the need for ongoing education as a worker.",
+   "Identify sources of career information.",
+   "Identify skills needed to enhance career progression.",
+   "Describe techniques for obtaining work experience.",
+   "Explain professional designations in the field of business finance."
+  ]
+ },
+ {
+  "file": "GOAT_BSM_2425_DISTRICT_EVENT2.pdf",
+  "code": "BSM",
+  "event": "Business Services Marketing Series",
+  "cluster": "marketing",
+  "ia": "Selling",
+  "sentence": "You are to assume the role of a sales associate at PAGE TURNERS, a local independent bookstore in a city of 900,000 citizens that has recently seen a decline in sales due to increased competition from online retailers.",
+  "situation": "You are to assume the role of a sales associate at PAGE TURNERS, a local independent bookstore in a city of 900,000 citizens that has recently seen a decline in sales due to increased competition from online retailers. The store manager (judge) has asked you to develop a plan to boost book sales, particularly focusing on promoting new releases and local authors. PAGE TURNERS is a local independent bookstore that features a diverse selection of bestsellers and new releases across various genres, catering to all reading preferences. The store proudly showcases a special section dedicated to local authors, which includes opportunities for events and signings to connect the community with its literary talents. To enhance customer loyalty, PAGE TURNERS offers a loyalty program that provides discounts to frequent shoppers. Additionally, the bookstore features cozy reading areas designed to encourage customers to browse, relax, and immerse themselves in the joy of reading. The store manager (judge) is seeking innovative ideas to boost sales and attract more customers to PAGE TURNERS. They are particularly interested in creative marketing strategies that can effectively highlight new releases and local authors, fostering a sense of community engagement. Additionally, the manager wants to explore ways to enhance customer interaction during in-store events and signings, ensuring that these occasions are not only well-attended but also memorable for participants. Lastly, the store manager aims to leverage social media platforms to promote upcoming releases and local author events, increasing the store’s visibility and drawing in a wider audience. You will present your plan to the store manager (judge) in a meeting at PAGE TURNERS. The store manager (judge) will begin the role-play by greeting you and asking to hear your ideas. After your presentation, you will answer the store manager’s (judge’s) questions, and they will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Explain the nature and scope of the selling function.",
+   "Explain key factors in building a clientele.",
+   "Discuss motivational theories that impact buying behavior.",
+   "Explain types of advertising media.",
+   "Describe word-of-mouth channels used to communicate with targeted audiences."
+  ]
+ },
+ {
+  "file": "GOAT_BSM_2425_DISTRICT_EVENT1.pdf",
+  "code": "BSM",
+  "event": "Business Services Marketing Series",
+  "cluster": "marketing",
+  "ia": "Market Planning",
+  "sentence": "You are to assume the role of the marketing director for FESTIVE FINDS, a company that specializes in holiday decorations and seasonal home décor.",
+  "situation": "You are to assume the role of the marketing director for FESTIVE FINDS, a company that specializes in holiday decorations and seasonal home décor. The company has been struggling recently, with increased competition from online retailers and a decline in physical store sales. The CEO (judge) wants you to create a marketing plan to revitalize the business by focusing on a younger, more trend-driven customer base. FESTIVE FINDS has historically catered to older homeowners, but now the CEO (judge) believes that millennials and Gen Z—who are active on social media and love unique, personalized holiday décor—could be key to driving new sales. The challenge is repositioning the brand to appeal to this audience without alienating its existing customer base. FESTIVE FINDS specializes in a wide range of seasonal and holiday décor, offering products that help customers create festive atmospheres for celebrations throughout the year. Their product line includes Christmas tree ornaments, holiday wreaths, and garlands, as well as table centerpieces, outdoor inflatables, and decorative lighting. FESTIVE FINDS also provides customizable items like personalized stockings, engraved tree toppers, and seasonal home décor pieces that cater to various holidays, including Halloween, Thanksgiving, Easter, and more. Known for their high-quality craftsmanship, the company focuses on creating timeless, traditional pieces with a modern touch. The CEO (judge) has asked you to develop a marketing plan that includes strategies for social media marketing, influencer partnerships, and creating limited-edition, customizable holiday décor. The CEO wants to ensure that the brand remains focused on quality and tradition while embracing modern trends. You will present your marketing plan to the CEO (judge) in a role-play to take place in the CEO’s office. The CEO (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented the plan and answered the CEO’s (judge’s) questions, the CEO (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Explain the concept of market and market identification.",
+   "Explain the nature of marketing plans.",
+   "Explain the role of situation analysis in the marketing planning process.",
+   "Explain factors that influence customer/client/business buying behavior.",
+   "Identify communications channels used in sales promotion."
+  ]
+ },
+ {
+  "file": "GOAT_ENT_2425_DISTRICT_EVENT2.pdf",
+  "code": "ENT",
+  "event": "Entrepreneurship Series",
+  "cluster": "entrepreneurship",
+  "ia": "Channel Management",
+  "sentence": "You are to assume the role of the founder and owner of EDU-PRINT, a small business specializing in printing and distributing textbooks for high schools and colleges.",
+  "situation": "You are to assume the role of the founder and owner of EDU-PRINT, a small business specializing in printing and distributing textbooks for high schools and colleges. Your mentor (judge) has suggested that you explore a new distribution channel: partnering with online educational platforms to offer print-on-demand services. You must explain how adding this channel would benefit EDU-PRINT and expand your customer base. EDU-PRINT currently prints and distributes textbooks by working directly with educational institutions. Your company provides high-quality printing services, including custom textbook designs, durable binding, and eco-friendly paper options. EDU-PRINT has built strong relationships with several high schools and colleges, but business is limited to bulk orders and direct sales to institutions. Your mentor (judge) believes that partnering with online educational platforms (like digital course providers or e-learning companies) to offer print-on-demand services could significantly expand your reach. This would allow EDU-PRINT to cater to individual students and smaller organizations that prefer physical textbooks over digital versions. You must present your analysis of how EDU-PRINT could benefit from this partnership. You will need to explain how the print-on-demand model works, how to choose the right educational platforms to partner with, and how this new channel could increase both revenue and customer satisfaction. Additionally, you should consider any logistical challenges and how to measure the success of this channel. You will present your analysis and plan to your mentor (judge) in a role-play that takes place in their office. Your mentor (judge) will begin the meeting by greeting you and asking to hear your ideas. After you have presented your analysis and answered your mentor’s (judge’s) questions, your mentor (judge) will conclude the meeting by thanking you for your work.",
+  "pis": [
+   "Explain the nature of channels of distribution.",
+   "Explain the relationship between customer service and channel management.",
+   "Evaluate channel members.",
+   "Explain the role of promotion as a marketing function.",
+   "Coordinate channel management with other marketing activities."
+  ]
+ },
+ {
+  "file": "GOAT_ENT_2425_DISTRICT_EVENT1.pdf",
+  "code": "ENT",
+  "event": "Entrepreneurship Series",
+  "cluster": "entrepreneurship",
+  "ia": "Entrepreneurship",
+  "sentence": "You are to assume the role of a young entrepreneur looking to open a mobile app development company called APPINNOVATE.",
+  "situation": "You are to assume the role of a young entrepreneur looking to open a mobile app development company called APPINNOVATE. Your company will specialize in creating custom mobile apps for small businesses that are looking to enhance their online presence and connect with tech-savvy customers through mobile platforms. In your city of 500,000 residents, the business environment is thriving, and many small businesses are recognizing the need to go digital but lack the resources or knowledge to create a professional mobile app. You see this as a huge opportunity to offer a valuable service to local businesses while also building a scalable company that can grow beyond your city. You have a meeting with a potential investor (judge) who is interested in your business idea but wants more information before committing to funding. Specifically, the investor (judge) has asked you to explain: ● The market demand ● Your planned revenue model ● Growth potential ● Investment needed You will present this information to the investor (judge) in a meeting at their office. The investor (judge) will begin the role-play by greeting you and asking for more details about your venture. After you have presented the information and answered the investor’s (judge’s) questions, the meeting will conclude with the investor (judge) thanking you for your time.",
+  "pis": [
+   "Describe the nature of entrepreneurship.",
+   "Describe entrepreneurial planning considerations.",
+   "Use creative problem-solving in business activities/decisions.",
+   "Assess start-up requirements.",
+   "Assess risks associated with venture."
+  ]
+ },
+ {
+  "file": "GOAT_FMS_2425_DISTRICT_EVENT2.pdf",
+  "code": "FMS",
+  "event": "Food Marketing Series",
+  "cluster": "marketing",
+  "ia": "Economics",
+  "sentence": "You are the marketing director for SUNRISE MARKET, a regional grocery store chain that focuses on fresh, local, and natural foods.",
+  "situation": "You are the marketing director for SUNRISE MARKET, a regional grocery store chain that focuses on fresh, local, and natural foods. The CEO (judge) has asked you to develop a plan for introducing a new line of gourmet frozen breakfast items. SUNRISE MARKET has established itself as a leader in natural and organic products. However, they have seen a decline in breakfast food sales over the last year. Market research shows that consumers are seeking convenient and healthy breakfast options, and frozen breakfast items are trending, especially in urban areas where people need quick meal solutions. The proposed product line would include options like gluten-free waffles, vegan breakfast burritos, and organic smoothie bowls. While SUNRISE MARKET typically promotes fresh food, this new frozen line would provide customers with convenient, high-quality breakfast options. The CEO (judge) has asked you to: ● Outline the economic benefits of launching the gourmet frozen breakfast line ● Identify the target market and how the new line will appeal to existing customers ● Suggest promotional strategies that align with the company's brand image ● Evaluate potential challenges or risks, such as customer perception of frozen items versus fresh ● Provide a final recommendation on whether or not to move forward with the frozen breakfast line You will present your marketing plan to the CEO (judge) in a role-play that will take place in the CEO’s office. The CEO (judge) will begin the meeting by greeting you and asking to hear your ideas. After you have presented your plan and answered the CEO’s (judge’s) questions, the CEO (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Identify factors affecting a business's profit.",
+   "Determine factors affecting business risk.",
+   "Describe the functions of prices in markets.",
+   "Describe the nature of target marketing in marketing communications.",
+   "Develop positioning concepts for a new product idea."
+  ]
+ },
+ {
+  "file": "GOAT_FMS_2425_DISTRICT_EVENT1.pdf",
+  "code": "FMS",
+  "event": "Food Marketing Series",
+  "cluster": "marketing",
+  "ia": "Product/Service Management",
+  "sentence": "You are to assume the role of a marketing manager for FRESH BITE, a company that specializes in healthy meal kits and organic food products.",
+  "situation": "You are to assume the role of a marketing manager for FRESH BITE, a company that specializes in healthy meal kits and organic food products. The chief marketing officer (judge) has tasked you with developing a new product line aimed at busy professionals seeking convenient, healthy meal options. FRESH BITE has a strong reputation for its high-quality, organic ingredients and a variety of meal kits that cater to different dietary preferences, including vegan, gluten-free, and paleo. Currently, the company offers meal kits that require some preparation, but they want to launch a new line of ready-to-eat meals that can be heated in minutes, appealing to the growing market of health-conscious consumers who lack time to cook. The chief marketing officer (judge) wants you to: ● Identify the target market for the new ready-to-eat meal line. ● Determine the pricing strategy for these meals, considering the premium nature of the ingredients. ● Outline the key selling points that will differentiate these meals from both FRESH BITE’s existing products and competitors in the ready-to-eat market. You will present your ideas to the chief marketing officer (judge) in a role-play that takes place in the chief marketing officer’s (judge’s) office. The chief marketing officer (judge) will start the role-play by welcoming you and asking you to share your ideas. After your presentation and questions, the chief marketing officer (judge) will conclude the role-play by thanking you for your insights.",
+  "pis": [
+   "Explain the nature and scope of the product/service management function.",
+   "Explain the concept of product mix.",
+   "Describe factors used by marketers to position products/services.",
+   "Identify the company's brand promise.",
+   "Determine factors affecting business risk."
+  ]
+ },
+ {
+  "file": "GOAT_HLM_2425_DISTRICT_EVENT2.pdf",
+  "code": "HLM",
+  "event": "Hotel and Lodging Management Series",
+  "cluster": "hospitality",
+  "ia": "Operations",
+  "sentence": "You are to assume the role of the operations manager at LAKEVIEW RESORT, a 200-room lakeside hotel that offers various amenities, including a spa, restaurant, and water activities.",
+  "situation": "You are to assume the role of the operations manager at LAKEVIEW RESORT, a 200-room lakeside hotel that offers various amenities, including a spa, restaurant, and water activities. The resort has received several complaints from guests regarding slow service when requesting extra amenities (like towels, pillows, and toiletries) to their rooms. Currently, all guest requests are handled manually by housekeeping and front desk staff, often leading to delays, particularly during busy weekends. The owner of the resort (judge) has suggested implementing a new Guest Request Management System (GRMS) that allows guests to submit requests directly through the resort’s app or in-room tablets. The system would automatically send notifications to the appropriate staff and track the progress of each request. However, the owner (judge) is concerned about the cost of implementing the system, potential training needs for staff, and whether the investment would truly improve operations. The owner (judge) has asked you to weigh the pros and cons of implementing the GRMS and how it would impact service efficiency, customer satisfaction, and overall operations. You will also need to consider how you would communicate and train staff for the new system and address any potential challenges. You will present your ideas to the owner (judge) in a role-play to take place in the owner’s (judge’s) office. The owner (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the owner’s (judge’s) questions, the owner (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Explain the nature of operations.",
+   "Explain hotel security considerations.",
+   "Take responsibility for decisions and actions.",
+   "Interpret business policies to customers/clients.",
+   "Build trust in relationships."
+  ]
+ },
+ {
+  "file": "GOAT_HLM_2425_DISTRICT_EVENT1.pdf",
+  "code": "HLM",
+  "event": "Hotel and Lodging Management Series",
+  "cluster": "hospitality",
+  "ia": "Product/Service Management",
+  "sentence": "You are to assume the role of the product development manager for SUNSET RESORTS, a well-known chain of family-friendly beach resorts.",
+  "situation": "You are to assume the role of the product development manager for SUNSET RESORTS, a well-known chain of family-friendly beach resorts. The chief operating officer (judge) is considering the introduction of a new family-oriented service aimed at enhancing guest experiences during their stays. SUNSET RESORTS has successfully offered a variety of amenities, including kids' clubs, beach activities, and family meal options. However, to further differentiate itself from competitors and improve guest satisfaction, the COO is contemplating the launch of a \"Family Adventure Package.\" This package would include guided excursions, family photo sessions, and special themed events. Before moving forward, the COO (judge) wants you to analyze the potential benefits and drawbacks of introducing this package, particularly in relation to customer preferences, market trends, and the operational feasibility of implementing such a service. Your analysis should cover: ● Competitive advantages the Family Adventure Package could provide. ● Possible challenges in execution and customer adoption. ● Recommendations for pricing, marketing strategies, and promotional efforts. You will present your analysis to the COO (judge) in a meeting in their office. The COO (judge) will start the meeting by greeting you and asking to hear your analysis. After you’ve presented your ideas and answered the COO's (judge's) questions, the COO (judge) will conclude the meeting by thanking you for your insights.",
+  "pis": [
+   "Explain the nature and scope of the product/service management function.",
+   "Explain the concept of product mix.",
+   "Describe factors used by marketers to position products/services.",
+   "Identify the company's brand promise.",
+   "Determine factors affecting business risk."
+  ]
+ },
+ {
+  "file": "GOAT_HRM_2425_DISTRICT_EVENT2.pdf",
+  "code": "HRM",
+  "event": "Human Resources Management Series",
+  "cluster": "business",
+  "ia": "Emotional Intelligence",
+  "sentence": "You are to assume the role of a human resources consultant for SUNRISE TECH, a rapidly growing technology firm.",
+  "situation": "You are to assume the role of a human resources consultant for SUNRISE TECH, a rapidly growing technology firm. The CEO (judge) has asked you to provide recommendations on how to improve emotional intelligence among employees to foster a more cohesive workplace environment. SUNRISE TECH has experienced significant growth, which has led to increased stress and communication issues among teams. The CEO believes that enhancing emotional intelligence within the workforce could lead to better collaboration and reduced conflict. In your meeting with the CEO (judge), you will need to address the following points: ● Definition and importance: Start by defining emotional intelligence and explain its significance in the workplace, particularly in a tech environment where collaboration is key. ● Assessment of current emotional intelligence levels: Propose methods for assessing the current levels of emotional intelligence among employees, such as surveys or interviews. ● Training initiatives: Recommend specific training programs or workshops aimed at developing emotional intelligence skills, such as empathy, self-awareness, and conflict resolution. ● Implementation strategies: Outline a step-by-step plan for rolling out the training initiatives, including timelines and responsibilities. ● Evaluation metrics: Suggest how to measure the effectiveness of the emotional intelligence training and its impact on team dynamics and overall productivity. You will present your recommendations to the CEO (judge) in a formal meeting setting. The CEO (judge) will begin the meeting by welcoming you and asking for your insights on emotional intelligence. After you have presented your recommendations and addressed any questions, the CEO (judge) will conclude the meeting by thanking you for your valuable input.",
+  "pis": [
+   "Explain the nature of emotional intelligence.",
+   "Explain the nature of effective communications.",
+   "Choose and use appropriate channels for workplace communication.",
+   "Facilitate employee learning.",
+   "Foster positive working relationships."
+  ]
+ },
+ {
+  "file": "GOAT_HRM_2425_DISTRICT_EVENT1.pdf",
+  "code": "HRM",
+  "event": "Human Resources Management Series",
+  "cluster": "business",
+  "ia": "Communication Skills",
+  "sentence": "You are to assume the role of the Director of Communications for GROWTH COACHING SERVICES, a consulting firm that provides professional development and coaching services for small business owners.",
+  "situation": "You are to assume the role of the Director of Communications for GROWTH COACHING SERVICES, a consulting firm that provides professional development and coaching services for small business owners. The firm has a client base of over 500 businesses across various industries, including retail, technology, and healthcare. GROWTH COACHING SERVICES offers personalized coaching programs, workshops, and online webinars that help business owners develop leadership skills, enhance team productivity, and improve business operations. Recently, a coach working for GROWTH COACHING SERVICES was mentioned in a social media post by a client. The client posted a negative review on TikTok, criticizing the coach for providing “generic advice” and “failing to offer any real solutions.” The tweet gained significant attention, leading to multiple retweets and comments from other clients who expressed similar dissatisfaction. The CEO of GROWTH COACHING SERVICES (judge) is concerned about the potential damage to the company’s reputation and has asked you to develop a communication strategy in response to the situation. The CEO wants you to address the following: ● How to respond to the negative social media post in a way that mitigates reputational harm. ● How to engage with other clients who are expressing concerns on social media. ● What steps the company should take internally to prevent similar issues from happening in the future. ● How to balance transparency and professionalism in addressing the concerns publicly. You will present your recommendations to the CEO (judge) in a meeting to take place in the CEO’s office. The CEO (judge) will begin the meeting by greeting you and asking to hear your ideas. After you have presented your recommendations and answered the CEO’s (judge’s) questions, the CEO (judge) will conclude the meeting by thanking you for your work.",
+  "pis": [
+   "Explain the nature of staff communication.",
+   "Employ communication styles appropriate to the target audience.",
+   "Choose and use appropriate channels for workplace communication.",
+   "Explain how digital communications exposes business to risk.",
+   "Distinguish between using social media for business and personal purposes."
+  ]
+ },
+ {
+  "file": "GOAT_MCS_2425_DISTRICT_EVENT2.pdf",
+  "code": "MCS",
+  "event": "Marketing Communications Series",
+  "cluster": "marketing",
+  "ia": "Promotion",
+  "sentence": "You are to assume the role of the marketing manager at RUNNERS' HAVEN, a retail chain specializing in running shoes, apparel, and gear for all levels of runners, from beginners to competitive athletes.",
+  "situation": "You are to assume the role of the marketing manager at RUNNERS' HAVEN, a retail chain specializing in running shoes, apparel, and gear for all levels of runners, from beginners to competitive athletes. RUNNERS' HAVEN is known for its personalized fitting service and high-quality, performance-focused products. The store has built a strong following among Millennials and older fitness enthusiasts, but there’s a desire to attract more Gen Z customers. One of RUNNERS' HAVEN's primary competitors is ZAMAZON, a large online retailer that offers a wide range of running shoes, apparel, and gear at significantly lower prices. While ZAMAZON's pricing strategy attracts budget-conscious consumers, particularly within the Gen Z demographic, they lack the personalized customer service that RUNNERS' HAVEN is known for. This gap presents an opportunity for RUNNERS’ HAVEN to emphasize our unique selling points, such as our personalized fitting services, expert staff, and community-oriented events. By highlighting the value of these experiences, we can differentiate ourselves from ZAMAZON and appeal to Gen Z consumers who prioritize brand authenticity and connection over mere price. The CEO of RUNNERS' HAVEN (judge) has tasked you with creating a marketing plan to compete with ZAMAZON and attract more Gen Z consumers, who are known for their focus on health and wellness but also highly value online shopping, brand authenticity, and social media engagement. Your marketing plan should include: A specific target segment within Gen Z, strategies that leverage Gen Z's preferred shopping habits and platforms, and In-store or online incentives that would appeal to this generation. You will present your plan to the CEO (judge) in a role-play taking place in the CEO’s office. The CEO (judge) will begin by greeting you and asking to hear your ideas. After you have presented and answered questions, the CEO (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Explain the nature of marketing plans.",
+   "Explain the concept of market and market identification.",
+   "Identify components of a retail image.",
+   "Explain factors that influence customer/client/business buying behavior.",
+   "Describe word-of-mouth channels used to communicate with targeted audiences."
+  ]
+ },
+ {
+  "file": "GOAT_MCS_2425_DISTRICT_EVENT1.pdf",
+  "code": "MCS",
+  "event": "Marketing Communications Series",
+  "cluster": "marketing",
+  "ia": "Promotion",
+  "sentence": "You are to assume the role of the social media manager for GAME ON, an online gaming platform that hosts a variety of multiplayer games.",
+  "situation": "You are to assume the role of the social media manager for GAME ON, an online gaming platform that hosts a variety of multiplayer games. The chief marketing officer (judge) wants you to develop a strategy to expand GAME ON's presence on social media, particularly through platforms like Twitch and YouTube. GAME ON has been in operation for three years and has built a dedicated user base, but it is looking to increase its visibility and attract new gamers. With the rise of live-streaming and gaming content on platforms like Twitch and YouTube, the company wants to leverage these channels to engage with the gaming community, showcase its games, and promote upcoming tournaments. The chief marketing officer (judge) is eager to hear your ideas on how to enhance GAME ON's social media strategy to reach a wider audience. The chief marketing officer wants you to include: ● A description of the target audience for the social media expansion. ● Two specific tactics to increase engagement and followers on platforms like Twitch and YouTube. ● A creative slogan or hashtag that can be used to unify the campaign and encourage participation. You will present your ideas to the chief marketing officer (judge) in a role-play to take place in the marketing office. The chief marketing officer (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the chief marketing officer’s (judge’s) questions, the chief marketing officer (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Explain the role of promotion as a marketing function.",
+   "Identify the elements of the promotional mix.",
+   "Explain the use of social media for digital marketing.",
+   "Explain the use of video/images for digital marketing.",
+   "Describe word-of-mouth channels used to communicate with targeted audiences."
+  ]
+ },
+ {
+  "file": "GOAT_QSRM_2425_DISTRICT_EVENT2.pdf",
+  "code": "QSRM",
+  "event": "Quick Serve Restaurant Management Series",
+  "cluster": "hospitality",
+  "ia": "Customer Relations",
+  "sentence": "You are to assume the role of the assistant manager at SUNNY EATS, a fast-casual restaurant specializing in sandwiches, salads, and smoothies.",
+  "situation": "You are to assume the role of the assistant manager at SUNNY EATS, a fast-casual restaurant specializing in sandwiches, salads, and smoothies. The restaurant is located in a popular tourist area, so it experiences significant foot traffic, especially during the busy summer season. The general manager (judge) wants you to develop strategies to improve customer relations during peak times when service issues and long wait times become common. SUNNY EATS is popular with both locals and tourists due to its fresh, healthy menu and quick service. However, during peak lunch and dinner hours, the restaurant struggles with long lines, slow service, and frustrated customers. Complaints have increased about delays in food preparation, incorrect orders, and a lack of seating during busy hours. While the staff usually apologizes and corrects mistakes, customer satisfaction is still low, and negative reviews are starting to appear online. The general manager (judge) has asked you to create a plan to address these customer service issues. Your strategies should focus on reducing wait times, improving communication between staff and customers, and ensuring that even during the busiest hours, customers leave with a positive experience. You should also suggest ways for staff to handle customer complaints effectively and prevent future issues. You will present your strategies to the general manager (judge) in a role-play to take place in the general manager’s (judge’s) office. The general manager (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the general manager’s (judge’s) questions, the general manager (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Explain the nature of positive customer relations.",
+   "Demonstrate a customer service mindset.",
+   "Determine ways of reinforcing the company's image through employee performance.",
+   "Reinforce service orientation through communication.",
+   "Explain the nature of customer service in the hospitality and tourism industry."
+  ]
+ },
+ {
+  "file": "GOAT_QSRM_2425_DISTRICT_EVENT1.pdf",
+  "code": "QSRM",
+  "event": "Quick Serve Restaurant Management Series",
+  "cluster": "hospitality",
+  "ia": "Operations",
+  "sentence": "You are to assume the role of the marketing manager for WRAP IT UP, a quick-serve restaurant that specializes in customizable wraps and salads.",
+  "situation": "You are to assume the role of the marketing manager for WRAP IT UP, a quick-serve restaurant that specializes in customizable wraps and salads. WRAP IT UP has been in business for five years, allowing customers to choose from a variety of fresh ingredients, sauces, and toppings to create their own wraps or salads. The restaurant is popular for its made-to-order approach, offering nearly unlimited customization options. Recently, WRAP IT UP has experienced a noticeable increase in order preparation times, leading to longer wait times during peak hours and complaints from customers about slow service. The owner of WRAP IT UP (judge) is concerned that the long wait times are affecting customer satisfaction and repeat business. The owner (judge) has asked you to evaluate potential solutions to streamline operations and speed up service without sacrificing the restaurant’s unique selling point (USP) of offering highly customizable meals. One proposed solution is to reduce the number of customizable ingredients during peak hours, but this may affect customer satisfaction and the brand’s identity. You must weigh the pros and cons of limiting customization versus other operational changes, such as pre-preparing certain popular ingredients, optimizing the kitchen layout, or adjusting staff workflows. Consider how any changes might impact customer experience, brand perception, and overall sales. You will present your recommendations to the owner (judge) in a role-play to take place in the owner’s (judge’s) office. The owner (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and have answered the owner’s (judge’s) questions, the owner (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Explain the nature of operations.",
+   "Describe strategies to minimize the cost of maintaining inventory.",
+   "Explain the relationship between customer service and distribution.",
+   "Identify the company's brand promise.",
+   "Take responsibility for decisions and actions."
+  ]
+ },
+ {
+  "file": "GOAT_RFSM_2425_DISTRICT_EVENT2.pdf",
+  "code": "RFSM",
+  "event": "Restaurant and Food Service Management Series",
+  "cluster": "hospitality",
+  "ia": "Marketing",
+  "sentence": "You are to assume the role of the marketing coordinator for COASTAL BREEZE RESORT, a beachfront resort located in a small coastal town that attracts tourists, especially during the summer season.",
+  "situation": "You are to assume the role of the marketing coordinator for COASTAL BREEZE RESORT, a beachfront resort located in a small coastal town that attracts tourists, especially during the summer season. The director of sales and marketing (judge) has asked you to create a marketing campaign to increase off-season bookings and attract more tourists during the quieter fall and winter months. COASTAL BREEZE RESORT is known for its luxury accommodations, oceanfront views, and access to various water activities. However, during the off-season, the town becomes much quieter, and bookings drop significantly. While the resort offers amenities like an indoor pool, spa services, and local partnerships with nearby cultural attractions, many tourists associate it strictly with summer vacations. The director of sales and marketing (judge) believes that with the right marketing strategy, COASTAL BREEZE can attract more guests during the off-season, particularly couples seeking romantic getaways, families looking for a quiet retreat, and remote workers who prefer a serene work environment with ocean views. The director (judge) wants you to develop a comprehensive marketing campaign to boost off-season occupancy. In your campaign, the director (judge) would like you to address: ● Target markets: Who will you focus on attracting during the off-season? ● Marketing strategies: How will you communicate the appeal of COASTAL BREEZE during the off-season to these markets? ● Unique selling propositions: What makes COASTAL BREEZE a desirable off-season destination? ● Promotional ideas: What promotions or special offers can you create to incentivize bookings during the fall and winter months? You will present your marketing campaign to the director of sales and marketing (judge) in a role-play to take place in the director’s office. The director (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your campaign and have answered the director’s (judge’s) questions, the director (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Describe marketing functions and related activities.",
+   "Explain factors that influence customer/client/business buying behavior.",
+   "Demonstrate connections between company actions and results.",
+   "Explain the concept of marketing strategies.",
+   "Explain the concept of market and market identification."
+  ]
+ },
+ {
+  "file": "GOAT_RFSM_2425_DISTRICT_EVENT1.pdf",
+  "code": "RFSM",
+  "event": "Restaurant and Food Service Management Series",
+  "cluster": "hospitality",
+  "ia": "Product/Service Management",
+  "sentence": "You are to assume the role of the marketing director at SUNSHINE BAKERY, a local bakery in a town of 50,000 people.",
+  "situation": "You are to assume the role of the marketing director at SUNSHINE BAKERY, a local bakery in a town of 50,000 people. It is located in a busy downtown area, close to local shops, offices, and a community park. The bakery attracts foot traffic from nearby residents, workers, and visitors. Can The owner of the bakery (judge) wants you to develop a marketing strategy to promote a new line of health-conscious baked goods. SUNSHINE BAKERY is known for its artisanal breads, pastries, and cakes, but has recently seen a decline in foot traffic as more consumers are seeking healthier options. The bakery has been in business for five years and has a loyal customer base, but sales have dipped by 15% over the past year. A recent survey of customers indicated a strong interest in gluten-free, vegan, and low-sugar options. SUNSHINE BAKERY offers a variety of traditional baked goods at competitive prices. Their artisan sourdough bread is priced at $5.00 per loaf, while buttery croissants are $2.75 each. Seasonal pastries range from $3.50 to $4.50, depending on the type. Custom cakes start at $30 for a basic design, with additional costs based on size and decoration. Coffee and tea options are available, with prices ranging from $2.00 to $4.00. This pricing structure positions the bakery as an affordable yet quality option for both casual customers and special occasions. The owner (judge) has decided to launch a new product line that includes gluten-free muffins, vegan cookies, and low-sugar breads. However, they need your expertise to effectively market these new offerings and attract both new customers and those who have moved towards healthier eating habits. You will present your marketing strategy to the owner (judge) in a role-play to take place in the bakery’s back office. The owner (judge) will begin the role-play by welcoming you and asking for your ideas. After you have presented your marketing strategy, which should include promotional tactics, target audience identification, and potential partnerships with local fitness centers or health food stores, you will answer any questions from the owner (judge). The owner (judge) will conclude the role-play by thanking you for your recommendations.",
+  "pis": [
+   "Explain the nature and scope of the product/service management function.",
+   "Explain the concept of product mix.",
+   "Describe factors used by marketers to position products/services.",
+   "Identify the company's brand promise.",
+   "Determine factors affecting business risk."
+  ]
+ },
+ {
+  "file": "GOAT_RMS_2425_DISTRICT_EVENT2.pdf",
+  "code": "RMS",
+  "event": "Retail Merchandising Series",
+  "cluster": "marketing",
+  "ia": "Market Planning",
+  "sentence": "You are to assume the role of the marketing manager for STYLE CORNER, a regional boutique chain that specializes in women’s apparel, accessories, and home décor.",
+  "situation": "You are to assume the role of the marketing manager for STYLE CORNER, a regional boutique chain that specializes in women’s apparel, accessories, and home décor. STYLE CORNER has built a strong reputation for offering unique and curated items that appeal to fashion-forward women who enjoy a boutique shopping experience. However, the boutique chain has struggled to stay competitive in an increasingly crowded retail market. Online retailers and fast-fashion giants are taking market share, and the store’s current customer base—primarily women aged 35-55—has become more selective with their purchases. The owner of STYLE CORNER (judge) wants to expand the company’s market to attract younger shoppers, particularly those in their 20s and early 30s, while still maintaining the boutique’s unique image. The owner (judge) has asked you to develop a market plan that will: ● Attract a younger demographic. ● Maintain loyalty with the existing customer base. ● Differentiate STYLE CORNER from fast-fashion competitors. The owner (judge) asks that your plan includes: Target market, Marketing strategies, Digital presence, and In-store experience. You will present your marketing plan to the owner (judge) in a role-play to take place in the owner’s (judge’s) office. The owner (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your plan and answered the owner’s (judge’s) questions, the owner (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Explain the concept of market and market identification.",
+   "Explain the concept of marketing strategies.",
+   "Explain the nature of marketing plans.",
+   "Describe the nature of target marketing in marketing communications.",
+   "Identify ways that technology impacts business."
+  ]
+ },
+ {
+  "file": "GOAT_RMS_2425_DISTRICT_EVENT1.pdf",
+  "code": "RMS",
+  "event": "Retail Merchandising Series",
+  "cluster": "marketing",
+  "ia": "Marketing-Information Management",
+  "sentence": "You are to assume the role of the marketing analyst for TECHWORLD, a national electronics retailer that specializes in selling smart home devices, smartphones, computers, and gaming systems.",
+  "situation": "You are to assume the role of the marketing analyst for TECHWORLD, a national electronics retailer that specializes in selling smart home devices, smartphones, computers, and gaming systems. The chief marketing officer (CMO) (judge) wants to introduce a loyalty program to encourage repeat business and increase customer retention, but before moving forward, the CMO needs marketing data to justify the investment. TECHWORLD has a strong online presence and several hundred physical stores nationwide. While online sales are growing, in-store traffic has been declining. The CMO believes that a loyalty program offering perks such as discounts, early access to sales, and exclusive tech support could help drive both in-store and online purchases. However, there is concern that customers may not find enough value in the program, and the company needs data to understand customer interest, pricing sensitivity, and preferred perks. The CMO (judge) has tasked you with creating a marketing research plan to gather the necessary data before launching the loyalty program. You will need to: Propose a sampling plan (who to survey, how many to survey, and how they will be selected) ● Develop specific survey questions to assess interest in the loyalty program and determine which benefits customers value the most ● Recommend data-collection methods (e.g., online surveys, in-store feedback, etc.) ● Suggest strategies to increase response rates and collect meaningful feedback You will present your marketing research plan to the CMO (judge) in a role-play set in the CMO’s office. The CMO (judge) will begin the role-play by greeting you and asking to hear your ideas. After presenting your plan and answering the CMO’s (judge’s) questions, the CMO (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Describe the need for marketing data.",
+   "Discuss the nature of sampling plans.",
+   "Identify data monitored for marketing decision making.",
+   "Describe data-collection methods.",
+   "Identify ways to track marketing-communications activities."
+  ]
+ },
+ {
+  "file": "GOAT_SEM_2425_DISTRICT_EVENT2.pdf",
+  "code": "SEM",
+  "event": "Sports and Entertainment Marketing Series",
+  "cluster": "marketing",
+  "ia": "Product/Service Management",
+  "sentence": "You are to assume the role of the product manager for PEAK PERFORMANCE, a company that produces athletic training gear and accessories.",
+  "situation": "You are to assume the role of the product manager for PEAK PERFORMANCE, a company that produces athletic training gear and accessories. The company’s CEO (judge) has asked you to develop new product ideas to expand the company’s product line based on recent trends in youth sports participation. PEAK PERFORMANCE produces a range of premium athletic training gear aimed at high school and college athletes involved in team sports. Their products include resistance bands for strength training, speed training ladders for agility drills, balance boards for core stability exercises, and recovery tools such as foam rollers. All products are designed to enhance athletic performance during practices and workouts, both on the field and in the gym. The brand is known for its high-quality, durable equipment used by serious athletes to improve their speed, strength, and overall conditioning. However, a recent report on youth sports has highlighted several emerging trends: ● Increasing use of wearable fitness trackers, smartwatches, and mobile apps that monitor performance metrics like heart rate, steps, and calories burned. ● Increased interest in products that can be used for at-home training or outdoors. ● A shift toward virtual coaching and online workout programs, allowing young athletes to train from home with guided sessions from professional coaches and trainers. The CEO (judge) wants to capitalize on these trends by developing new products that appeal to young athletes across both team and individual sports. You must introduce a new product or line of products, explain how it will add to PEAK PERFORMANCE’s existing product mix, and provide a marketing strategy that positions the new product effectively to the target market. You will present your ideas to the CEO (judge) in a role-play to take place in the CEO’s (judge’s) office. The CEO (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the CEO’s (judge’s) questions, the CEO (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Explain the nature and scope of the product/service management function.",
+   "Explain the nature of product/service branding.",
+   "Describe factors used by marketers to position products/services.",
+   "Communicate core values of a product/service.",
+   "Identify components of a retail image."
+  ]
+ },
+ {
+  "file": "GOAT_SEM_2425_DISTRICT_EVENT1.pdf",
+  "code": "SEM",
+  "event": "Sports and Entertainment Marketing Series",
+  "cluster": "marketing",
+  "ia": "Promotion",
+  "sentence": "You are to assume the role of the marketing manager for the SILVER OAK COLLEGE ATHLETIC DEPARTMENT.",
+  "situation": "You are to assume the role of the marketing manager for the SILVER OAK COLLEGE ATHLETIC DEPARTMENT. Silver Oak College is a small NCAA Division III institution located in a suburban area with a student population of approximately 1,200. The athletic department oversees 15 sports programs, with an average attendance of 150-200 spectators per game, indicating a need to boost engagement and attendance. SILVER OAK COLLEGE is planning to launch a new mobile app designed to enhance the experience of students, parents, and fans by providing real-time updates on games, player stats, schedules, and ticket sales. The athletic director (judge) is seeking your expertise to develop a promotional strategy that not only generates excitement for the app launch but also encourages downloads among students, parents, and local community members. Additionally, the plan should incorporate ways to promote local businesses through the app, creating a mutually beneficial relationship between the college and the surrounding community. You have been asked to present a detailed marketing plan that generates buzz around the app launch, increases app downloads among students, parents, and community members, and promotes local businesses through the app. You will present your ideas to the athletic director (judge) in a meeting that will take place in their office. The athletic director (judge) will begin the role-play by asking you for your promotional strategy. After your presentation and Q&A session, the athletic director (judge) will conclude by thanking you for your insights.",
+  "pis": [
+   "Explain the role of promotion as a marketing function.",
+   "Explain the nature of a promotional plan.",
+   "Identify the elements of the promotional mix.",
+   "Discuss the relationship between promotion and marketing.",
+   "Explain types of advertising media."
+  ]
+ }
+]
