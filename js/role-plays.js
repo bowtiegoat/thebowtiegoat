@@ -32,7 +32,6 @@
     mobileBadge: document.querySelector('[data-rp-mobile-badge]'),
     chips: document.querySelector('[data-rp-chips]'),
     count: document.querySelector('[data-rp-count]'),
-    clearTop: document.querySelector('[data-rp-clear-top]'),
     empty: document.querySelector('[data-rp-empty]'),
     grid: document.querySelector('[data-rp-grid]'),
     more: document.querySelector('[data-rp-more]'),
@@ -129,12 +128,12 @@
           class="inline-flex items-center gap-1.5 rounded-full bg-ink-900 text-cream-50 text-xs font-medium pl-3 pr-2 py-1.5 hover:bg-ink-700 transition-colors">
           ${escapeHtml(c.text)}
           <svg class="w-3.5 h-3.5 opacity-80" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" d="M6 6l12 12M18 6L6 18"/></svg>
-        </button>`).join('');
+        </button>`).join('') +
+      `<button type="button" data-rp-clear class="ml-1 text-sm font-semibold text-blue-600 hover:text-blue-500 transition-colors">Clear all filters</button>`;
 
     const dropdownCount = FILTERS.reduce((n, f) => n + state[f.key].size, 0);
     els.mobileBadge.textContent = dropdownCount;
     els.mobileBadge.classList.toggle('hidden', !dropdownCount);
-    els.clearTop.classList.toggle('hidden', !chips.length);
   }
 
   function tileHtml(rp) {
