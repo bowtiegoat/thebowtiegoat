@@ -29,17 +29,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.x'
 
+      # Each feed runs on its own, so if one site refuses the request the
+      # other still updates. A failure is reported at the end of the run.
       - name: Fetch latest Substack posts
+        id: blog
+        continue-on-error: true
         run: python3 scripts/fetch_blog_posts.py
 
       - name: Fetch latest YouTube video
+        id: video
+        continue-on-error: true
         run: python3 scripts/fetch_latest_video.py
 
       - name: Commit and push if changed
@@ -48,4 +54,16 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add js/blog-posts.json js/latest-video.json
           git diff --cached --quiet && echo "No changes to commit" || git commit -m "Update content feeds from Substack and YouTube"
+          git pull --rebase
           git push
+
+      - name: Report feed problems
+        if: steps.blog.outcome == 'failure' || steps.video.outcome == 'failure'
+        run: |
+          if [ "${{ steps.blog.outcome }}" = "failure" ]; then
+            echo "::error::The Substack feed could not be loaded, so the blog was not updated. Expand 'Fetch latest Substack posts' above to see why."
+          fi
+          if [ "${{ steps.video.outcome }}" = "failure" ]; then
+            echo "::error::The YouTube feed could not be loaded, so the Latest Video card was not updated. Expand 'Fetch latest YouTube video' above to see why."
+          fi
+          exit 1
