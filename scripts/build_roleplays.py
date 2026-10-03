@@ -91,7 +91,11 @@ ABBREVIATIONS_RE = re.compile(r"\b(Co|Inc|Ltd|Corp|Mr|Mrs|Ms|Dr|St|Jr|Sr|Bros|vs
 
 
 def clean(text: str) -> str:
+    # Expand ligatures ("eﬀective" -> "effective") so search matches
+    text = text.translate({0xFB00: "ff", 0xFB01: "fi", 0xFB02: "fl", 0xFB03: "ffi", 0xFB04: "ffl"})
     text = re.sub(r"\s+", " ", text).strip()
+    text = re.sub(r"\s*\bBTG\d+$", "", text)  # stray footer code
+    text = re.sub(r"\be ?\.g ?\.", "e.g.", text)
     # Re-join words split by a line-break hyphen: "fast- fashion" -> "fast-fashion"
     return re.sub(r"(\w)- (\w)", r"\1-\2", text)
 
@@ -117,7 +121,11 @@ def parse_pdf(path: Path) -> dict:
         raise ValueError(f"unknown event code '{code}' -- add it to EVENTS in scripts/build_roleplays.py")
     event, cluster = EVENTS[code]
 
-    pages = [p.extract_text() or "" for p in PdfReader(path).pages]
+    reader = PdfReader(path)
+    pages = [p.extract_text() or "" for p in reader.pages]
+    # Some exports put every word on its own line; layout mode rebuilds real lines
+    if "INSTRUCTIONAL AREA" not in pages[0]:
+        pages = [p.extract_text(extraction_mode="layout") or "" for p in reader.pages]
     lines = [l.strip() for l in pages[0].splitlines()]
 
     ia = None

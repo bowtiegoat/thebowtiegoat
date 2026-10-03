@@ -805,6 +805,20 @@
   ]
  },
  {
+  "file": "GOAT_PFL_2425_DISTRICT_EVENT1.pdf",
+  "code": "PFL",
+  "event": "Personal Financial Literacy",
+  "cluster": "pfl",
+  "ia": "Saving",
+  "sentence": "You are to assume the role of a financial counselor that works with teenagers.",
+  "situation": "You are to assume the role of a financial counselor that works with teenagers. You will be meeting with a client (judge) to discuss a personal savings plan for a specific financial goal: buying a car. The client (judge) is a high school junior who has recently turned 16 and is excited about the prospect of buying their first car. They have a part-time job working 20 hours a week at a local grocery store, earning $15.00 per hour. Additionally, the client receives a monthly allowance of $100 from their parents. Overall, the client earns approximately $1,300 each month. The client has a few expenses: $100 per month for gas, $50 for their phone bill, and $150 for car insurance. They also want to set aside money for college savings and maintain some spending money for entertainment, clothing, and outings with friends. The client is motivated to save at least $7,000 for a reliable used car and hopes to achieve this goal within the next two years. They are unsure about how to balance their savings with their current spending habits, and they are eager to find a plan that allows them to save effectively while still enjoying their senior year. You will meet with the client (judge) in your office. The client (judge) will begin the meeting by greeting you and expressing their excitement about buying a car and seeking your guidance on how to save for it. After you have presented the information and have answered the clientʼs (judgeʼs) questions, the client (judge) will conclude the meeting by thanking you for your help.",
+  "pis": [
+   "Discuss the components of a personal spending plan, including income, planned saving and expenses.",
+   "Explain how external influences (e.g. peers, family, or social media) can impact personal savings decisions.",
+   "Explain how the saving strategy “pay yourself first” can help people achieve their saving goals."
+  ]
+ },
+ {
   "file": "GOAT_PBM_2425_DISTRICT_EVENT1.pdf",
   "code": "PBM",
   "event": "Principles of Business Management and Administration",
