@@ -14,8 +14,21 @@
     body {
       font-family: 'Press Start 2P', monospace;
       display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px;
-      -webkit-user-select: none; user-select: none;
+      -webkit-user-select: none; user-select: none; -webkit-touch-callout: none;
     }
+
+    /* Thumb controls, shown only on touch screens */
+    .pad { display: none; gap: 12px; box-sizing: border-box; padding: 0 4px; }
+    body.touch .pad { display: flex; }
+    .pad button {
+      flex: 1; height: 76px; font: inherit; font-size: 13px; color: #ffffff; cursor: pointer;
+      background: #1a78c2; border: 3px solid #141414; box-shadow: 0 5px 0 #124563;
+      touch-action: none; -webkit-tap-highlight-color: transparent;
+      -webkit-user-select: none; user-select: none; -webkit-touch-callout: none;
+    }
+    .pad #duckBtn { background: #833f54; box-shadow: 0 5px 0 #642f40; }
+    .pad button.down { transform: translateY(4px); box-shadow: 0 1px 0 #124563; filter: brightness(1.15); }
+    .pad #duckBtn.down { box-shadow: 0 1px 0 #642f40; }
     canvas {
       display: block; image-rendering: pixelated; image-rendering: crisp-edges;
       touch-action: none; border: 3px solid #000; box-shadow: 0 0 0 3px #1f72a3;
@@ -75,6 +88,10 @@
 </head>
 <body>
   <canvas id="game" aria-label="Road to Glass, an 8-bit game"></canvas>
+  <div class="pad" id="pad">
+    <button type="button" id="duckBtn" aria-label="Duck (hold)">&#9660; DUCK</button>
+    <button type="button" id="jumpBtn" aria-label="Jump">&#9650; JUMP</button>
+  </div>
   <div class="bar">
     <a href="../">&larr; BOWTIEGOAT</a>
     <button id="player" type="button">PLAYER: GUEST</button>
@@ -635,7 +652,7 @@
     if (title) {
       txt('ROAD TO GLASS', W / 2, 22, 16, '#ffffff');
       txt('3 LEVELS. ONE RUN.', W / 2, 46, 8, '#1f2740');
-      if (blink()) txt('TAP OR SPACE TO START', W / 2, 70, 8, '#f0e090');
+      if (blink()) txt(TOUCH ? 'TAP JUMP TO START' : 'TAP OR SPACE TO START', W / 2, 70, 8, '#f0e090');
       txt(CONTROLS, W / 2, 88, 8, '#1f2740');
       if (glassCount > 0) txt(`GLASS EARNED: ${glassCount}`, W / 2, GROUND + 9, 8, '#cdeffa');
     }
@@ -707,21 +724,34 @@
       case 'win': if (stateT > 120) setState('title'); break;
     }
   }
-  const TOUCH = window.matchMedia('(pointer: coarse)').matches;
-  const CONTROLS = TOUCH ? 'TAP: JUMP  HOLD LEFT: DUCK' : 'UP: JUMP  DOWN: DUCK';
-  let duckPointer = null;
-  cv.addEventListener('pointerdown', e => {
+  const TOUCH = window.matchMedia('(pointer: coarse)').matches || navigator.maxTouchPoints > 0;
+  const CONTROLS = TOUCH ? 'USE THE BUTTONS BELOW' : 'UP: JUMP  DOWN: DUCK';
+  document.body.classList.toggle('touch', TOUCH);
+  cv.addEventListener('pointerdown', e => { e.preventDefault(); press(); });
+
+  // On-screen buttons. Blocking touchstart stops phones from turning a long press into
+  // text selection or a menu, which would otherwise cancel a held duck.
+  const pad = document.getElementById('pad');
+  const jumpBtn = document.getElementById('jumpBtn');
+  const duckBtn = document.getElementById('duckBtn');
+  pad.addEventListener('touchstart', e => e.preventDefault(), { passive: false });
+  pad.addEventListener('contextmenu', e => e.preventDefault());
+  cv.addEventListener('contextmenu', e => e.preventDefault());
+  jumpBtn.addEventListener('pointerdown', e => {
     e.preventDefault();
-    const r = cv.getBoundingClientRect();
-    if (state === 'play' && !paused && e.clientX - r.left < r.width / 3) {
-      duckPointer = e.pointerId; duckHeld = true;
-      return;
-    }
+    jumpBtn.classList.add('down');
     press();
   });
-  const releaseDuck = e => { if (e.pointerId === duckPointer) { duckPointer = null; duckHeld = false; } };
-  window.addEventListener('pointerup', releaseDuck);
-  window.addEventListener('pointercancel', releaseDuck);
+  ['pointerup', 'pointercancel', 'pointerleave'].forEach(ev => jumpBtn.addEventListener(ev, () => jumpBtn.classList.remove('down')));
+  duckBtn.addEventListener('pointerdown', e => {
+    e.preventDefault();
+    audioInit();
+    try { duckBtn.setPointerCapture(e.pointerId); } catch (err) {} // keep the duck held if the thumb slides off the button
+    duckBtn.classList.add('down');
+    duckHeld = true;
+  });
+  const releaseDuck = () => { duckBtn.classList.remove('down'); duckHeld = false; };
+  ['pointerup', 'pointercancel', 'lostpointercapture'].forEach(ev => duckBtn.addEventListener(ev, releaseDuck));
   window.addEventListener('keydown', e => {
     if (overlayOpen()) {
       if (e.code === 'Escape') { if (nameOverlay.classList.contains('open')) skipName(); else closeBoard(); }
@@ -901,10 +931,12 @@
 
   // ---------- Scaling ----------
   function fit() {
-    const s = Math.min((window.innerWidth - 16) / W, (window.innerHeight - 60) / H);
+    const reserve = TOUCH ? 160 : 60; // room for the bar, plus the thumb buttons on touch screens
+    const s = Math.min((window.innerWidth - 16) / W, (window.innerHeight - reserve) / H);
     const scale = s >= 2 ? Math.floor(s) : Math.max(0.5, s);
     cv.style.width = W * scale + 'px';
     cv.style.height = H * scale + 'px';
+    pad.style.width = Math.max(W * scale, 280) + 'px';
   }
   window.addEventListener('resize', fit);
   fit();
