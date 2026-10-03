@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="robots" content="noindex" />
+  <title>Road to Glass | BowtieGOAT</title>
+  <link rel="icon" type="image/jpeg" href="../images/logo.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
+  <style>
+    html, body { margin: 0; height: 100%; background: #0a0e1c; color: #f8eeb8; overflow: hidden; }
+    body {
+      font-family: 'Press Start 2P', monospace;
+      display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px;
+      -webkit-user-select: none; user-select: none;
+    }
+    canvas {
+      display: block; image-rendering: pixelated; image-rendering: crisp-edges;
+      touch-action: none; border: 3px solid #000; box-shadow: 0 0 0 3px #1f72a3;
+    }
+    .bar { display: flex; gap: 18px; font-size: 9px; align-items: center; }
+    .bar a, .bar button {
+      color: #93c7e6; background: none; border: 0; font: inherit; cursor: pointer;
+      text-decoration: none; padding: 6px;
+    }
+    .bar a:hover, .bar button:hover { color: #f8eeb8; }
+    .bar { flex-wrap: wrap; justify-content: center; }
+
+    .overlay {
+      position: fixed; inset: 0; background: rgba(10, 14, 28, 0.88);
+      display: none; align-items: center; justify-content: center; padding: 16px; z-index: 10;
+    }
+    .overlay.open { display: flex; }
+    .box {
+      background: #1f2740; border: 3px solid #141414; box-shadow: 0 0 0 3px #1a78c2;
+      padding: 20px; width: 100%; max-width: 420px; text-align: center; line-height: 1.8;
+      max-height: calc(100vh - 32px); overflow-y: auto; box-sizing: border-box;
+    }
+    .box h2 { font-size: 14px; color: #f0e090; margin: 0 0 12px; font-weight: normal; }
+    .box p { font-size: 9px; color: #c7d1e0; margin: 0 0 14px; }
+    .box input {
+      font: inherit; font-size: 14px; width: 100%; box-sizing: border-box; padding: 10px;
+      background: #0a0e1c; color: #ffffff; border: 3px solid #1a78c2; text-transform: uppercase;
+      text-align: center; outline: none;
+    }
+    .box input:focus { border-color: #f0e090; }
+    .err { color: #c86a7a !important; min-height: 1.8em; margin: 8px 0 !important; }
+    .btns { display: flex; flex-direction: column; gap: 10px; margin-top: 6px; }
+    .btn {
+      font: inherit; font-size: 10px; padding: 12px; cursor: pointer; border: 3px solid #141414;
+      background: #1a78c2; color: #ffffff;
+    }
+    .btn:hover { background: #2f8cc2; }
+    .btn.ghost { background: transparent; color: #93c7e6; border-color: #2f3b56; }
+    .board { width: 100%; border-collapse: collapse; font-size: 9px; margin: 6px 0 14px; }
+    .board th { color: #93c7e6; font-weight: normal; padding: 6px 4px; border-bottom: 2px solid #2f3b56; }
+    .board td { padding: 7px 4px; color: #ffffff; }
+    .board tr:nth-child(odd) td { background: rgba(255, 255, 255, 0.03); }
+    .board td:first-child { color: #f0e090; }
+    .board .num { text-align: right; }
+    .board .name { text-align: left; }
+  </style>
+</head>
+<body>
+  <canvas id="game" aria-label="Road to Glass, an 8-bit game"></canvas>
+  <div class="bar">
+    <a href="../">&larr; BOWTIEGOAT</a>
+    <button id="player" type="button">PLAYER: GUEST</button>
+    <button id="boardBtn" type="button">LEADERBOARD</button>
+    <button id="mute" type="button">SOUND: ON</button>
+  </div>
+
+  <div class="overlay" id="nameOverlay" role="dialog" aria-modal="true" aria-labelledby="nameTitle">
+    <form class="box" id="nameForm" autocomplete="off">
+      <h2 id="nameTitle">WHO'S PLAYING?</h2>
+      <p>Earn glass and your name goes on the leaderboard for 30 days. Use your first name and last initial.</p>
+      <input id="nameInput" maxlength="12" placeholder="ALEX K" aria-label="Your name" />
+      <p class="err" id="nameErr"></p>
+      <div class="btns">
+        <button class="btn" type="submit">SAVE NAME</button>
+        <button class="btn ghost" type="button" id="skipName">PLAY WITHOUT A NAME</button>
+      </div>
+      <p style="margin:14px 0 0">Without a name you can still play, but a win won't be recorded.</p>
+    </form>
+  </div>
+
+  <div class="overlay" id="boardOverlay" role="dialog" aria-modal="true" aria-labelledby="boardTitle">
+    <div class="box">
+      <h2 id="boardTitle">HALL OF GLASS</h2>
+      <p id="boardNote">Everyone who earned glass in the last 30 days, fewest runs first.</p>
+      <div id="boardBody"></div>
+      <div class="btns"><button class="btn" type="button" id="closeBoard">CLOSE</button></div>
+    </div>
+  </div>
+
+<script>
+(() => {
+  // ---------- Setup ----------
+  const W = 320, H = 160, GROUND = 136, GX = 30;
+  const G = 0.3, JUMP = -5;
+  const cv = document.getElementById('game');
+  const ctx = cv.getContext('2d');
+  cv.width = W; cv.height = H;
+
+
+  // Paste the Google Apps Script web app URL here to turn on the shared leaderboard.
+  // While it's empty, the leaderboard is a local test copy that only this browser sees.
+  const LEADERBOARD_URL = '';
+  const BOARD_DAYS = 30;
+
+  // Pass-rate targets: Districts ~70% of players, States ~1 in 7 of those (10% overall),
+  // ICDC ~6% of those (0.6% overall). A crash anywhere sends you back to Districts.
+  // Gaps between obstacles are in frames (60 per second), so they stay fair as speed rises.
+  const LEVELS = [
+    { name: 'DISTRICTS', target: 10, speed: [2.6, 3.2], gapF: [70, 110], types: ['bale', 'bale', 'bale', 'bowMid'],
+      sky: ['#fdfaf0', '#c7e2f2'], ground: '#7d5c33', line: '#5f4526', hills: '#93c7e6',
+      tagline: "70% ADVANCE. DON'T BE THE 30%.", next: 'STATES' },
+    { name: 'STATES', target: 18, speed: [3.4, 4.2], gapF: [50, 90], types: ['bale', 'bale', 'stack', 'fence', 'bowLow', 'bowMid', 'bowStack'],
+      sky: ['#f8c88a', '#c06682'], ground: '#642f40', line: '#3f1d29', hills: '#833f54',
+      tagline: 'ONLY 1 IN 7 MAKES IT THROUGH.', next: 'ICDC' },
+    { name: 'ICDC', target: 25, speed: [4.4, 5.4], gapF: [42, 76], types: ['bale', 'stack', 'fence', 'double', 'bowLow', 'bowMid', 'bowStack', 'bowStack', 'bowHigh'],
+      sky: ['#0a0e1c', '#2f3b56'], ground: '#1f2740', line: '#5a6a8c', hills: '#141a2e',
+      tagline: '0.6% GET GLASS. GOOD LUCK.', next: null },
+  ];
+
+  // ---------- Storage (per-browser convenience only) ----------
+  const store = {
+    get(k, d) { try { const v = localStorage.getItem('rtg_' + k); return v === null ? d : JSON.parse(v); } catch (e) { return d; } },
+    set(k, v) { try { localStorage.setItem('rtg_' + k, JSON.stringify(v)); } catch (e) {} },
+  };
+  let runs = store.get('runs', 0);
+  let glassCount = store.get('glass', 0);
+  let muted = store.get('muted', false);
+  let playerName = store.get('name', '');
+  let runsSinceGlass = store.get('runsSinceGlass', 0);
+  let runStartT = 0, winRuns = 0, saveStatus = '';
+
+  // ---------- Sprites ----------
+  const GOAT_TOP = [
+    '...........KKKKK........',
+    '.........KKHHHHHK.......',
+    '........KHHhKKKHHK......',
+    '........KHhK..KKHHKK....',
+    '........KHK..KWWKKWWK...',
+    '........KHK.KWWWWWWWWK..',
+    '.....KPPPPKWWWWWWEWWWWK.',
+    '......KKKKWWWWWWWWWWWWWK',
+    '..........KWWWWWWWWWWWPK',
+    '..........KWWWWWWWKKKKK.',
+    '..KK......KWWWWWWWKWWK..',
+    '..KWK.KKKKWWWWKBWBKKWK..',
+    '...KWKWWWWWWWWKBbBK.KK..',
+    '...KWWWWWWWWWWKBWBK.....',
+    '...KWWWWWWWWWWWKKKK.....',
+    '...KGWWWWWWWWWWWWK......',
+    '....KGGWWWWWWWWWGK......',
+  ];
+  const LEGS_A = [
+    '....KWK.KWK..KWK.KWK....',
+    '....KWK.KWK..KWK.KWK....',
+    '....KWK.KWK..KWK.KWK....',
+    '....KKK.KKK..KKK.KKK....',
+  ];
+  const LEGS_B = [
+    '....KWK..KWKKWK..KWK....',
+    '...KWK....KWWK....KWK...',
+    '..KWK.....KWWK.....KWK..',
+    '..KK......KKKK......KK..',
+  ];
+  // Crouched goat: head down and forward, bowtie still showing.
+  const DUCK_TOP = [
+    '..............KKKK........',
+    '.............KHHHHK.......',
+    '............KHhKKHHKK.....',
+    '....KK.....KHK.KWWWWWK....',
+    '...KWWK..KPPKKWWWWEWWWK...',
+    '...KWWWKKKKKWWWWWWWWWWWWK.',
+    '...KWWWWWWWWWWWWWWWWWWWPK.',
+    '...KWWWWWWWWWKBWBKWWKKKK..',
+    '...KGWWWWWWWWKBbBKWWK.....',
+    '....KGGWWWWWWKBWBKKK......',
+    '....KKWKKWKKWKKKKK........',
+  ];
+  const DUCK_LEGS_A = ['....KWK.KWK.KWK.KWK.......', '....KKK.KKK.KKK.KKK.......'];
+  const DUCK_LEGS_B = ['...KWK...KWKKWK...KWK.....', '...KK....KKKKK.....KK.....'];
+  const LEGS_JUMP = [
+    '....KWWK.....KWWK.......',
+    '.....KKK......KKK.......',
+    '........................',
+    '........................',
+  ];
+  const BALE = [
+    'KKKKKKKKKKKKKK',
+    'KYYyYYYYyYYYYK',
+    'KYyYYYyYYYyYYK',
+    'KKKKKKKKKKKKKK',
+    'KYYYyYYYYyYYYK',
+    'KyYYYYyYYYYyYK',
+    'KYYyYYYYyYYYYK',
+    'KKKKKKKKKKKKKK',
+    'KYYYYyYYYYyYYK',
+    'KYyYYYYyYYYYyK',
+    'KYYYyYYYYYyYYK',
+    'KKKKKKKKKKKKKK',
+  ];
+  const FENCE = [
+    '.KKK..........KKK.........',
+    'KDdDK........KDdDK........',
+    'KDdDKKKKKKKKKKDdDKKKKKKKKK',
+    'KDdDdddddddddKDdDdddddddddK',
+    'KDdDKKKKKKKKKKDdDKKKKKKKKK',
+    'KDdDK........KDdDK........',
+    'KDdDK........KDdDK........',
+    'KDdDKKKKKKKKKKDdDKKKKKKKKK',
+    'KDdDdddddddddKDdDdddddddddK',
+    'KDdDKKKKKKKKKKDdDKKKKKKKKK',
+    'KDdDK........KDdDK........',
+    'KDdDK........KDdDK........',
+    'KDdDK........KDdDK........',
+    'KKKKK........KKKKK........',
+  ];
+  const BOW_UP = [
+    'KK..........KK',
+    'KRKK......KKRK',
+    'KRRRKK..KKRRRK',
+    'KRRRRRKKRRRRRK',
+    'KRRRRKrrKRRRRK',
+    'KRRRRKrrKRRRRK',
+    '.KKKKKKKKKKKK.',
+  ];
+  const BOW_DOWN = [
+    '..............',
+    '.KKKKKKKKKKKK.',
+    'KRRRRKrrKRRRRK',
+    'KRRRRKrrKRRRRK',
+    'KRRRRRKKRRRRRK',
+    'KRRRKK..KKRRRK',
+    'KKKK......KKKK',
+  ];
+  const TROPHY = [
+    '.KKKKKKKKKKKKKK.',
+    'KwCCCCCCCCCCCccK',
+    'KwCCCCCCCCCCCccK',
+    'KwwCCCCCCCCCcccK',
+    '.KwCCCCCCCCCccK.',
+    '.KwCCCCCCCCCccK.',
+    '..KwCCCCCCCccK..',
+    '..KwCCCCCCCccK..',
+    '...KwCCCCCccK...',
+    '....KKCCCcKK....',
+    '......KCcK......',
+    '......KCcK......',
+    '......KCcK......',
+    '.....KCCccK.....',
+    '....KwCCCccK....',
+    '...KKKKKKKKKK...',
+    '...KDDDDDDDDK...',
+    '..KDDYYYYYYDDK..',
+    '..KDDDDDDDDDDK..',
+    '.KKKKKKKKKKKKKK.',
+  ];
+  const PAL = {
+    K: '#141414', W: '#ffffff', G: '#d6d6d6', H: '#b5896a', h: '#8a6448', P: '#c86a7a',
+    B: '#1a78c2', b: '#0f4f86', E: '#141414',
+    Y: '#f0d27a', y: '#c9a24e', D: '#9c7440', d: '#cda366',
+    R: '#c06682', r: '#833f54',
+    C: '#cdeffa', c: '#86cde3', w: '#ffffff',
+  };
+  const TROPHY_PAL = { ...PAL, D: '#5f4526', Y: '#f0e090' };
+
+  function mkSprite(rows, pal = PAL) {
+    const w = Math.max(...rows.map(r => r.length)), h = rows.length;
+    const c = document.createElement('canvas'); c.width = w; c.height = h;
+    const g = c.getContext('2d');
+    rows.forEach((r, y) => [...r].forEach((ch, x) => {
+      if (pal[ch]) { g.fillStyle = pal[ch]; g.fillRect(x, y, 1, 1); }
+    }));
+    return c;
+  }
+  const goatA = mkSprite([...GOAT_TOP, ...LEGS_A]);
+  const goatB = mkSprite([...GOAT_TOP, ...LEGS_B]);
+  const goatJump = mkSprite([...GOAT_TOP, ...LEGS_JUMP]);
+  const duckA = mkSprite([...DUCK_TOP, ...DUCK_LEGS_A]);
+  const duckB = mkSprite([...DUCK_TOP, ...DUCK_LEGS_B]);
+  const DUCK_H = DUCK_TOP.length + 2;
+  const GOAT_H = GOAT_TOP.length + 4;
+  const bale = mkSprite(BALE);
+  const fence = mkSprite(FENCE);
+  const bowUp = mkSprite(BOW_UP);
+  const bowDown = mkSprite(BOW_DOWN);
+  const trophy = mkSprite(TROPHY, TROPHY_PAL);
+
+  const drawBow = (x, y, phase = 0) => ctx.drawImage(Math.floor((t + phase) / 10) % 2 ? bowUp : bowDown, x, y);
+
+  // Obstacle shapes. y is the top edge; hit boxes are a little smaller than the art.
+  const OBSTACLES = {
+    bale:    { w: 14, h: 12, draw: (x, y) => ctx.drawImage(bale, x, y) },
+    stack:   { w: 14, h: 23, draw: (x, y) => { ctx.drawImage(bale, x, y); ctx.drawImage(bale, x, y + 11); } },
+    double:  { w: 27, h: 12, draw: (x, y) => { ctx.drawImage(bale, x, y); ctx.drawImage(bale, x + 13, y); } },
+    fence:   { w: 27, h: 14, draw: (x, y) => ctx.drawImage(fence, x, y) },
+    // bowLow: jump only. bowMid: duck under or jump. bowStack: duck only. bowHigh: run under (jumping into it is the trap).
+    bowLow:   { w: 14, h: 7, fly: GROUND - 12, draw: (x, y) => drawBow(x, y) },
+    bowMid:   { w: 14, h: 7, fly: GROUND - 21, draw: (x, y) => drawBow(x, y) },
+    bowStack: { w: 14, h: 26, fly: GROUND - 40, draw: (x, y) => { drawBow(x, y); drawBow(x, y + 9, 5); drawBow(x, y + 18, 10); } },
+    bowHigh:  { w: 14, h: 7, fly: GROUND - 36, draw: (x, y) => drawBow(x, y) },
+  };
+
+  // ---------- Background scenery ----------
+  const rand = (a, b) => a + Math.random() * (b - a);
+  const clouds = Array.from({ length: 7 }, (_, i) => ({ x: i * 55 + rand(0, 30), y: rand(10, 70) | 0 }));
+  const stars = Array.from({ length: 60 }, () => ({ x: rand(0, W) | 0, y: rand(0, 100) | 0, p: rand(0, 6.28) }));
+  const pebbles = Array.from({ length: 40 }, () => ({ x: rand(0, 640) | 0, y: rand(3, 20) | 0, w: rand(1, 4) | 0 }));
+  const buildings = [];
+  for (let x = 0; x < 640;) {
+    const w = (rand(16, 34) | 0), h = (rand(24, 80) | 0);
+    const lit = [];
+    for (let wy = 6; wy < h - 4; wy += 7) for (let wx = 3; wx < w - 3; wx += 5) if (Math.random() < 0.35) lit.push([wx, wy]);
+    buildings.push({ x, w, h, lit });
+    x += w + (rand(0, 4) | 0);
+  }
+
+  // ---------- Audio ----------
+  let ac = null;
+  function audioInit() {
+    if (!ac) { try { ac = new (window.AudioContext || window.webkitAudioContext)(); } catch (e) {} }
+    if (ac && ac.state === 'suspended') ac.resume();
+  }
+  function tone(f1, f2, dur, type = 'square', vol = 0.06, delay = 0) {
+    if (!ac || muted) return;
+    const o = ac.createOscillator(), g = ac.createGain(), t0 = ac.currentTime + delay;
+    o.type = type;
+    o.frequency.setValueAtTime(f1, t0);
+    o.frequency.exponentialRampToValueAtTime(f2, t0 + dur);
+    g.gain.setValueAtTime(vol, t0);
+    g.gain.exponentialRampToValueAtTime(0.001, t0 + dur);
+    o.connect(g).connect(ac.destination);
+    o.start(t0); o.stop(t0 + dur + 0.02);
+  }
+  const sfx = {
+    jump: () => tone(260, 620, 0.1, 'square', 0.04),
+    point: () => tone(990, 990, 0.04, 'square', 0.03),
+    hit: () => tone(420, 50, 0.35, 'sawtooth', 0.1),
+    level: () => [523, 659, 784, 1047].forEach((f, i) => tone(f, f, 0.12, 'square', 0.06, i * 0.1)),
+    win: () => [523, 659, 784, 1047, 784, 1047, 1319, 1568].forEach((f, i) => tone(f, f, 0.16, 'square', 0.06, i * 0.12)),
+  };
+
+  // ---------- Game state ----------
+  let state = 'title', lvl = 0, obs = [], passed = 0, spawned = 0, nextSpawn = 0;
+  let goat = { y: GROUND - GOAT_H, v: 0 }, jumpBuffer = 0, duckHeld = false;
+  let t = 0, stateT = 0, scrollX = 0, speed = 0, flash = 0, shake = 0, paused = false;
+  let confetti = [];
+
+  const L = () => LEVELS[lvl];
+  const onGround = () => goat.y >= GROUND - GOAT_H;
+  const ducking = () => duckHeld && onGround() && (state === 'play' || state === 'cleared');
+  function setState(s) { state = s; stateT = 0; }
+
+  function resetLevel() {
+    obs = []; passed = 0; spawned = 0; nextSpawn = 50;
+    goat.y = GROUND - GOAT_H; goat.v = 0; jumpBuffer = 0;
+    speed = L().speed[0];
+  }
+  function startRun() {
+    runs++; store.set('runs', runs);
+    runsSinceGlass++; store.set('runsSinceGlass', runsSinceGlass);
+    runStartT = t;
+    lvl = 0; resetLevel(); setState('ready');
+  }
+
+  function jump() {
+    if (onGround()) { goat.v = JUMP; sfx.jump(); jumpBuffer = 0; }
+    else jumpBuffer = 8; // pressed just before landing: jump as soon as we touch down
+  }
+
+  function spawnObstacle() {
+    const lv = L();
+    // Never open a level with a fake-out bowtie; ease players in with a plain bale.
+    const type = spawned === 0 ? 'bale' : lv.types[(Math.random() * lv.types.length) | 0];
+    const o = OBSTACLES[type];
+    obs.push({ type, x: W + 4, y: o.fly !== undefined ? o.fly : GROUND - o.h, scored: false });
+    spawned++;
+    nextSpawn = rand(lv.gapF[0], lv.gapF[1]) | 0;
+  }
+
+  function hitTest() {
+    const duck = ducking();
+    const x0 = GX + 6, x1 = GX + (duck ? 23 : 19), y0 = duck ? GROUND - 11 : goat.y + 5, y1 = goat.y + GOAT_H - 1;
+    for (const o of obs) {
+      const s = OBSTACLES[o.type];
+      if (x1 > o.x + 2 && x0 < o.x + s.w - 2 && y1 > o.y + 2 && y0 < o.y + s.h - 1) return true;
+    }
+    return false;
+  }
+
+  function die() {
+    sfx.hit(); flash = 10; shake = 10;
+    setState('dying');
+  }
+
+  function levelCleared() {
+    if (lvl === LEVELS.length - 1) {
+      glassCount++; store.set('glass', glassCount);
+      winRuns = Math.max(1, runsSinceGlass);
+      runsSinceGlass = 0; store.set('runsSinceGlass', 0);
+      recordWin(Math.round((t - runStartT) / 60));
+      sfx.win(); flash = 14; obs = [];
+      confetti = Array.from({ length: 90 }, () => ({
+        x: rand(0, W), y: rand(-H, 0), v: rand(0.4, 1.2), c: ['#cdeffa', '#f0e090', '#1a78c2', '#ffffff', '#c86a7a'][(Math.random() * 5) | 0],
+      }));
+      setState('win');
+    } else {
+      sfx.level(); setState('cleared');
+    }
+  }
+
+  // ---------- Update ----------
+  function physics() {
+    goat.v += G;
+    if (duckHeld && !onGround()) goat.v += 0.5; // holding duck in the air drops you faster
+    goat.y += goat.v;
+    if (goat.y >= GROUND - GOAT_H) {
+      goat.y = GROUND - GOAT_H; goat.v = 0;
+      if (jumpBuffer > 0) jump();
+    }
+    if (jumpBuffer > 0) jumpBuffer--;
+  }
+
+  function step() {
+    t++; stateT++;
+    if (flash > 0) flash--;
+    if (shake > 0) shake--;
+    const lv = L();
+
+    if (state === 'title') { scrollX += 2; return; }
+    if (state === 'ready') return;
+    if (state === 'win') { confetti.forEach(c => { c.y += c.v; if (c.y > H) c.y -= H + 10; }); return; }
+    if (state === 'dying') { if (stateT > 30) setState('over'); return; }
+    if (state === 'over') return;
+
+    scrollX += speed;
+    physics();
+    obs.forEach(o => o.x -= speed);
+    obs = obs.filter(o => o.x > -40);
+    if (state === 'cleared') return;
+
+    // play
+    speed = lv.speed[0] + (lv.speed[1] - lv.speed[0]) * (passed / lv.target);
+    if (spawned < lv.target && --nextSpawn <= 0) spawnObstacle();
+    for (const o of obs) {
+      if (!o.scored && o.x + OBSTACLES[o.type].w < GX + 6) { o.scored = true; passed++; sfx.point(); }
+    }
+    if (hitTest()) { die(); return; }
+    if (passed >= lv.target) levelCleared();
+  }
+
+  // ---------- Drawing ----------
+  function mix(a, b, k) {
+    const pa = parseInt(a.slice(1), 16), pb = parseInt(b.slice(1), 16);
+    const ch = s => Math.round(((pa >> s) & 255) * (1 - k) + ((pb >> s) & 255) * k);
+    return `rgb(${ch(16)},${ch(8)},${ch(0)})`;
+  }
+  function txt(s, x, y, size = 8, color = '#ffffff', align = 'center') {
+    ctx.font = `${size}px "Press Start 2P"`;
+    ctx.textAlign = align; ctx.textBaseline = 'top';
+    ctx.fillStyle = '#141414';
+    for (const [dx, dy] of [[-1, 0], [1, 0], [0, -1], [0, 1], [1, 1]]) ctx.fillText(s, x + dx, y + dy);
+    ctx.fillStyle = color; ctx.fillText(s, x, y);
+  }
+  function panel(x, y, w, h) {
+    ctx.fillStyle = '#141414'; ctx.fillRect(x - 2, y - 2, w + 4, h + 4);
+    ctx.fillStyle = '#1f2740'; ctx.fillRect(x, y, w, h);
+    ctx.fillStyle = '#1a78c2'; ctx.fillRect(x, y, w, 2); ctx.fillRect(x, y + h - 2, w, 2);
+  }
+  const blink = () => Math.floor(t / 30) % 2 === 0;
+  const wrap = (v, m) => ((v % m) + m) % m;
+
+  function drawBackground(lv, themed) {
+    const bands = 8, bh = Math.ceil(GROUND / bands);
+    for (let i = 0; i < bands; i++) {
+      ctx.fillStyle = mix(lv.sky[0], lv.sky[1], i / (bands - 1));
+      ctx.fillRect(0, i * bh, W, bh);
+    }
+    if (themed === 2) {
+      for (const s of stars) {
+        if (Math.sin(t / 20 + s.p) > -0.3) { ctx.fillStyle = '#f8eeb8'; ctx.fillRect(s.x, s.y, 1, 1); }
+      }
+      const off = wrap(scrollX * 0.3, 640);
+      for (const b of buildings) {
+        for (const shift of [0, 640]) {
+          const bx = Math.round(b.x - off + shift);
+          if (bx > W || bx + b.w < 0) continue;
+          ctx.fillStyle = '#141a2e'; ctx.fillRect(bx, GROUND - b.h, b.w, b.h);
+          ctx.fillStyle = '#f0e090';
+          for (const [wx, wy] of b.lit) ctx.fillRect(bx + wx, GROUND - b.h + wy, 2, 3);
+        }
+      }
+      return;
+    }
+    if (themed === 1) {
+      ctx.fillStyle = '#f0e090';
+      for (let r = 0; r < 20; r += 2) {
+        const w = Math.round(Math.sqrt(20 * 20 - r * r)) * 2;
+        ctx.fillRect(230 - w / 2, 100 - r, w, 2);
+      }
+    }
+    ctx.fillStyle = themed === 1 ? '#f6d7c3' : '#ffffff';
+    for (const c of clouds) {
+      const x = Math.round(wrap(c.x - scrollX * 0.15, W + 60) - 40);
+      ctx.fillRect(x + 4, c.y, 12, 4);
+      ctx.fillRect(x, c.y + 4, 24, 4);
+      ctx.fillRect(x + 8, c.y - 3, 8, 3);
+    }
+    ctx.fillStyle = lv.hills;
+    for (let x = 0; x < W; x += 4) {
+      const wx = x + scrollX * 0.4;
+      const h = Math.round(18 + Math.sin(wx / 40) * 8 + Math.sin(wx / 15) * 3);
+      ctx.fillRect(x, GROUND - h, 4, h);
+    }
+  }
+
+  function drawGround(lv, showHud) {
+    ctx.fillStyle = lv.ground; ctx.fillRect(0, GROUND, W, H - GROUND);
+    ctx.fillStyle = '#141414'; ctx.fillRect(0, GROUND, W, 1);
+    ctx.fillStyle = lv.line;
+    const off = wrap(scrollX, 640);
+    for (const p of pebbles) {
+      const x = Math.round(wrap(p.x - off, 640));
+      if (x < W) ctx.fillRect(x, GROUND + p.y, p.w, 1);
+    }
+    if (showHud) {
+      txt(lv.name, 6, GROUND + 9, 8, '#f8eeb8', 'left');
+      const bw = 90, bx = W - bw - 8, by = GROUND + 11;
+      ctx.fillStyle = '#141414'; ctx.fillRect(bx - 1, by - 1, bw + 2, 6);
+      ctx.fillStyle = '#2f3b56'; ctx.fillRect(bx, by, bw, 4);
+      ctx.fillStyle = '#f0e090'; ctx.fillRect(bx, by, Math.round(bw * Math.min(1, passed / lv.target)), 4);
+    }
+  }
+
+  function drawGoat() {
+    if (ducking()) {
+      ctx.drawImage(Math.floor(scrollX / 12) % 2 ? duckA : duckB, GX, GROUND - DUCK_H);
+      return;
+    }
+    let spr = goatA;
+    if (!onGround()) spr = goatJump;
+    else if (state === 'play' || state === 'cleared' || state === 'title') spr = Math.floor(scrollX / 12) % 2 ? goatA : goatB;
+    ctx.drawImage(spr, GX, Math.round(goat.y));
+  }
+
+  function drawTrophy(cx, y, scale) {
+    ctx.drawImage(trophy, Math.round(cx - (trophy.width * scale) / 2), y, trophy.width * scale, trophy.height * scale);
+    for (let i = 0; i < 4; i++) {
+      const a = t / 25 + i * 1.57;
+      if (Math.sin(t / 8 + i * 2) > 0.2) {
+        const sx = Math.round(cx + Math.cos(a) * 46), sy = Math.round(y + 34 + Math.sin(a) * 38);
+        ctx.fillStyle = '#ffffff';
+        ctx.fillRect(sx - 2, sy, 5, 1); ctx.fillRect(sx, sy - 2, 1, 5);
+      }
+    }
+  }
+
+  function draw() {
+    ctx.save();
+    if (shake > 0) ctx.translate(((Math.random() * 4) | 0) - 2, ((Math.random() * 4) | 0) - 2);
+    const title = state === 'title';
+    const lv = title ? LEVELS[0] : L();
+    drawBackground(lv, title ? 0 : lvl);
+    for (const o of obs) OBSTACLES[o.type].draw(Math.round(o.x), o.y);
+    drawGround(lv, !title);
+    if (state !== 'win') drawGoat();
+
+    if (title) {
+      txt('ROAD TO GLASS', W / 2, 22, 16, '#ffffff');
+      txt('3 LEVELS. ONE RUN.', W / 2, 46, 8, '#1f2740');
+      if (blink()) txt('TAP OR SPACE TO START', W / 2, 70, 8, '#f0e090');
+      txt(CONTROLS, W / 2, 88, 8, '#1f2740');
+      if (glassCount > 0) txt(`GLASS EARNED: ${glassCount}`, W / 2, GROUND + 9, 8, '#cdeffa');
+    }
+
+    if (state === 'play' || state === 'dying' || state === 'cleared') {
+      txt(`${passed}/${lv.target}`, W - 8, 8, 8, '#ffffff', 'right');
+    }
+
+    if (state === 'ready') {
+      panel(24, 10, W - 48, 76);
+      txt(`LEVEL ${lvl + 1}`, W / 2, 18, 8, '#93c7e6');
+      txt(lv.name, W / 2, 32, 16, '#f0e090');
+      txt(lv.tagline, W / 2, 56, 8, '#ffffff');
+      txt(`CLEAR ${lv.target} OBSTACLES`, W / 2, 70, 8, '#93c7e6');
+      if (blink()) txt('TAP TO RUN', W / 2 + 20, 98, 8, '#ffffff');
+      txt(CONTROLS, W / 2 + 20, 114, 8, lvl === 2 ? '#c7d1e0' : '#1f2740');
+    }
+
+    if (state === 'cleared') {
+      panel(60, 14, W - 120, 62);
+      txt(`${lv.name} CLEARED`, W / 2, 24, 8, '#93c7e6');
+      txt('YOU ADVANCE TO', W / 2, 38, 8, '#ffffff');
+      txt(`${lv.next}!`, W / 2, 52, 16, '#f0e090');
+      if (stateT > 50 && blink()) txt('TAP TO CONTINUE', W / 2 + 20, 96, 8, '#ffffff');
+    }
+
+    if (state === 'over') {
+      panel(60, 10, W - 120, 92);
+      txt('ELIMINATED', W / 2, 20, 16, '#c86a7a');
+      txt(`AT ${lv.name}`, W / 2, 42, 8, '#ffffff');
+      txt(`OBSTACLE ${passed}/${lv.target}`, W / 2, 56, 8, '#93c7e6');
+      txt(`RUN #${runs}`, W / 2, 70, 8, '#7889a8');
+      if (stateT > 30 && blink()) txt('TAP TO RETRY', W / 2, 86, 8, '#f0e090');
+    }
+
+    if (state === 'win') {
+      ctx.fillStyle = 'rgba(10,14,28,0.6)'; ctx.fillRect(0, 0, W, H);
+      for (const c of confetti) { ctx.fillStyle = c.c; ctx.fillRect(Math.round(c.x), Math.round(c.y), 2, 2); }
+      drawTrophy(78, 30, 4);
+      txt('YOU GOT', 210, 22, 8, '#ffffff');
+      txt('GLASS!', 210, 36, 24, '#cdeffa');
+      txt('TOP 0.6%', 210, 72, 8, '#f0e090');
+      txt(winRuns === 1 ? 'ON YOUR FIRST RUN' : `IN ${winRuns} RUNS`, 210, 86, 8, '#93c7e6');
+      txt(saveStatus, 210, 104, 8, '#ffffff');
+      if (stateT > 120 && blink()) txt('TAP TO PLAY AGAIN', 210, 122, 8, '#f0e090');
+    }
+
+    if (paused) {
+      ctx.fillStyle = 'rgba(10,14,28,0.6)'; ctx.fillRect(0, 0, W, H);
+      txt('PAUSED', W / 2, 56, 16, '#ffffff');
+      txt('TAP TO RESUME', W / 2, 82, 8, '#f0e090');
+    }
+
+    if (flash > 0) { ctx.fillStyle = `rgba(255,255,255,${flash / 14})`; ctx.fillRect(-4, -4, W + 8, H + 8); }
+    ctx.restore();
+  }
+
+  // ---------- Input ----------
+  function press() {
+    audioInit();
+    if (paused) { paused = false; return; }
+    switch (state) {
+      case 'title': startRun(); break;
+      case 'ready': setState('play'); jump(); break;
+      case 'play': jump(); break;
+      case 'cleared': if (stateT > 50) { lvl++; resetLevel(); setState('ready'); } break;
+      case 'over': if (stateT > 30) startRun(); break;
+      case 'win': if (stateT > 120) setState('title'); break;
+    }
+  }
+  const TOUCH = window.matchMedia('(pointer: coarse)').matches;
+  const CONTROLS = TOUCH ? 'TAP: JUMP  HOLD LEFT: DUCK' : 'UP: JUMP  DOWN: DUCK';
+  let duckPointer = null;
+  cv.addEventListener('pointerdown', e => {
+    e.preventDefault();
+    const r = cv.getBoundingClientRect();
+    if (state === 'play' && !paused && e.clientX - r.left < r.width / 3) {
+      duckPointer = e.pointerId; duckHeld = true;
+      return;
+    }
+    press();
+  });
+  const releaseDuck = e => { if (e.pointerId === duckPointer) { duckPointer = null; duckHeld = false; } };
+  window.addEventListener('pointerup', releaseDuck);
+  window.addEventListener('pointercancel', releaseDuck);
+  window.addEventListener('keydown', e => {
+    if (overlayOpen()) {
+      if (e.code === 'Escape') { if (nameOverlay.classList.contains('open')) skipName(); else closeBoard(); }
+      return;
+    }
+    if (['Space', 'ArrowUp', 'KeyW', 'Enter'].includes(e.code)) {
+      e.preventDefault();
+      if (!e.repeat) press();
+    } else if (e.code === 'ArrowDown' || e.code === 'KeyS') {
+      e.preventDefault(); duckHeld = true;
+    } else if (e.code === 'KeyM') {
+      toggleMute();
+    }
+  });
+  window.addEventListener('keyup', e => { if (e.code === 'ArrowDown' || e.code === 'KeyS') duckHeld = false; });
+  window.addEventListener('blur', () => { duckHeld = false; });
+  document.addEventListener('visibilitychange', () => {
+    if (document.hidden && state === 'play') paused = true;
+    lastTs = 0;
+  });
+
+  const muteBtn = document.getElementById('mute');
+  function toggleMute() {
+    muted = !muted; store.set('muted', muted);
+    muteBtn.textContent = muted ? 'SOUND: OFF' : 'SOUND: ON';
+  }
+  muteBtn.textContent = muted ? 'SOUND: OFF' : 'SOUND: ON';
+  muteBtn.addEventListener('click', toggleMute);
+
+  // ---------- Player name ----------
+  const nameOverlay = document.getElementById('nameOverlay');
+  const boardOverlay = document.getElementById('boardOverlay');
+  const nameInput = document.getElementById('nameInput');
+  const nameErr = document.getElementById('nameErr');
+  const playerBtn = document.getElementById('player');
+  const overlayOpen = () => nameOverlay.classList.contains('open') || boardOverlay.classList.contains('open');
+
+  const BLOCKED = ['FUCK', 'SHIT', 'BITCH', 'CUNT', 'DICK', 'COCK', 'PUSSY', 'ASSHOLE', 'NIGG', 'FAG', 'SLUT', 'WHORE', 'RAPE', 'PENIS', 'VAGINA', 'BOOB', 'TITS', 'SEX', 'PORN', 'HITLER', 'NAZI'];
+  function cleanName(raw) {
+    return String(raw || '').toUpperCase().replace(/[^A-Z0-9 .'-]/g, '').replace(/\s+/g, ' ').trim().slice(0, 12);
+  }
+  function nameProblem(n) {
+    if (n.length < 2) return 'Use at least 2 letters.';
+    const squashed = n.replace(/[^A-Z]/g, '');
+    if (BLOCKED.some(w => squashed.includes(w))) return "Let's pick a different name.";
+    return '';
+  }
+  function showPlayer() { playerBtn.textContent = 'PLAYER: ' + (playerName || 'GUEST'); }
+  function openName() {
+    nameInput.value = playerName; nameErr.textContent = '';
+    nameOverlay.classList.add('open');
+    setTimeout(() => nameInput.focus(), 50);
+  }
+  function closeName() { nameOverlay.classList.remove('open'); store.set('asked', true); }
+  function skipName() { playerName = ''; store.set('name', ''); showPlayer(); closeName(); }
+  document.getElementById('nameForm').addEventListener('submit', e => {
+    e.preventDefault();
+    const n = cleanName(nameInput.value);
+    const problem = nameProblem(n);
+    if (problem) { nameErr.textContent = problem; return; }
+    playerName = n; store.set('name', n); showPlayer(); closeName();
+  });
+  document.getElementById('skipName').addEventListener('click', skipName);
+  playerBtn.addEventListener('click', openName);
+  showPlayer();
+  if (!store.get('asked', false)) openName();
+
+  // ---------- Leaderboard ----------
+  // Shared mode posts to a Google Apps Script web app (see leaderboard-apps-script.gs, kept outside the site repo).
+  // text/plain keeps the request "simple" so the browser skips the CORS preflight Apps Script can't answer.
+  const localBoard = () => store.get('testBoard', []);
+  async function fetchBoard() {
+    if (!LEADERBOARD_URL) return localBoard();
+    const res = await fetch(LEADERBOARD_URL);
+    const data = await res.json();
+    if (!data.ok) throw new Error(data.error || 'bad response');
+    return data.winners;
+  }
+  async function postWin(entry) {
+    if (!LEADERBOARD_URL) { store.set('testBoard', [...localBoard(), entry]); return; }
+    const res = await fetch(LEADERBOARD_URL, {
+      method: 'POST', headers: { 'Content-Type': 'text/plain;charset=utf-8' }, body: JSON.stringify(entry),
+    });
+    const data = await res.json();
+    if (!data.ok) throw new Error(data.error || 'not saved');
+  }
+  function recordWin(seconds) {
+    if (!playerName) { saveStatus = 'GUEST: NOT RECORDED'; return; }
+    saveStatus = 'SAVING YOUR NAME...';
+    postWin({ name: playerName, runs: winRuns, seconds, date: new Date().toISOString() })
+      .then(() => { saveStatus = 'ON THE LEADERBOARD!'; })
+      .catch(() => { saveStatus = 'COULD NOT SAVE'; });
+  }
+
+  const boardBody = document.getElementById('boardBody');
+  function esc(s) { return String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])); }
+  function renderBoard(list) {
+    const cutoff = Date.now() - BOARD_DAYS * 864e5;
+    const rows = list
+      .filter(w => new Date(w.date).getTime() >= cutoff)
+      .sort((a, b) => a.runs - b.runs || new Date(a.date) - new Date(b.date))
+      .slice(0, 50);
+    if (!rows.length) {
+      boardBody.innerHTML = '<p>No glass yet this month. Be the first.</p>';
+      return;
+    }
+    const fmt = d => new Date(d).toLocaleDateString(undefined, { month: 'short', day: 'numeric' }).toUpperCase();
+    boardBody.innerHTML = `<table class="board"><thead><tr><th class="num">#</th><th class="name">NAME</th><th class="num">RUNS</th><th class="num">DATE</th></tr></thead><tbody>${
+      rows.map((w, i) => `<tr><td class="num">${i + 1}</td><td class="name">${esc(w.name)}</td><td class="num">${esc(w.runs)}</td><td class="num">${fmt(w.date)}</td></tr>`).join('')
+    }</tbody></table>`;
+  }
+  function openBoard() {
+    if (state === 'play') paused = true;
+    document.getElementById('boardNote').textContent = LEADERBOARD_URL
+      ? `Everyone who earned glass in the last ${BOARD_DAYS} days, fewest runs first.`
+      : 'For now this list only shows wins from this device.';
+    boardBody.innerHTML = '<p>LOADING...</p>';
+    boardOverlay.classList.add('open');
+    fetchBoard().then(renderBoard).catch(() => { boardBody.innerHTML = '<p class="err">Could not load the leaderboard.</p>'; });
+  }
+  function closeBoard() { boardOverlay.classList.remove('open'); }
+  document.getElementById('boardBtn').addEventListener('click', openBoard);
+  document.getElementById('closeBoard').addEventListener('click', closeBoard);
+
+  // ---------- Scaling ----------
+  function fit() {
+    const s = Math.min((window.innerWidth - 16) / W, (window.innerHeight - 60) / H);
+    const scale = s >= 2 ? Math.floor(s) : Math.max(0.5, s);
+    cv.style.width = W * scale + 'px';
+    cv.style.height = H * scale + 'px';
+  }
+  window.addEventListener('resize', fit);
+  fit();
+
+  // ---------- Loop (fixed 60Hz step so speed is the same on every screen) ----------
+  let acc = 0, lastTs = 0;
+  function frame(ts) {
+    if (!lastTs) lastTs = ts;
+    acc += Math.min(100, ts - lastTs);
+    lastTs = ts;
+    while (acc >= 1000 / 60) {
+      if (!paused) step();
+      acc -= 1000 / 60;
+    }
+    draw();
+    requestAnimationFrame(frame);
+  }
+  ctx.imageSmoothingEnabled = false;
+  (document.fonts ? document.fonts.load('8px "Press Start 2P"') : Promise.resolve())
+    .catch(() => {})
+    .then(() => requestAnimationFrame(frame));
+})();
+</script>
+</body>
+</html>
