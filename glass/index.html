@@ -45,7 +45,17 @@
       background: #0a0e1c; color: #ffffff; border: 3px solid #1a78c2; text-transform: uppercase;
       text-align: center; outline: none;
     }
-    .box input:focus { border-color: #f0e090; }
+    .box input:focus, .box select:focus { border-color: #f0e090; }
+    .box select {
+      font: inherit; font-size: 11px; width: 100%; box-sizing: border-box; padding: 10px; margin-top: 10px;
+      background: #0a0e1c; color: #ffffff; border: 3px solid #1a78c2; outline: none; cursor: pointer;
+    }
+    .tabs { display: flex; gap: 8px; margin: 0 0 10px; }
+    .tab {
+      flex: 1; font: inherit; font-size: 9px; padding: 9px 4px; cursor: pointer;
+      background: transparent; color: #93c7e6; border: 3px solid #2f3b56;
+    }
+    .tab[aria-selected="true"] { background: #1a78c2; color: #ffffff; border-color: #141414; }
     .err { color: #c86a7a !important; min-height: 1.8em; margin: 8px 0 !important; }
     .btns { display: flex; flex-direction: column; gap: 10px; margin-top: 6px; }
     .btn {
@@ -54,7 +64,7 @@
     }
     .btn:hover { background: #2f8cc2; }
     .btn.ghost { background: transparent; color: #93c7e6; border-color: #2f3b56; }
-    .board { width: 100%; border-collapse: collapse; font-size: 9px; margin: 6px 0 14px; }
+    .board { width: 100%; border-collapse: collapse; font-size: 8px; margin: 6px 0 14px; }
     .board th { color: #93c7e6; font-weight: normal; padding: 6px 4px; border-bottom: 2px solid #2f3b56; }
     .board td { padding: 7px 4px; color: #ffffff; }
     .board tr:nth-child(odd) td { background: rgba(255, 255, 255, 0.03); }
@@ -75,8 +85,9 @@
   <div class="overlay" id="nameOverlay" role="dialog" aria-modal="true" aria-labelledby="nameTitle">
     <form class="box" id="nameForm" autocomplete="off">
       <h2 id="nameTitle">WHO'S PLAYING?</h2>
-      <p>Earn glass and your name goes on the leaderboard for 30 days. Use your first name and last initial.</p>
+      <p>Earn glass and your name goes on the leaderboard for 30 days. Use your first name and last initial, and pick your state.</p>
       <input id="nameInput" maxlength="12" placeholder="ALEX K" aria-label="Your name" />
+      <select id="stateInput" aria-label="Your state"><option value="">YOUR STATE...</option></select>
       <p class="err" id="nameErr"></p>
       <div class="btns">
         <button class="btn" type="submit">SAVE NAME</button>
@@ -89,7 +100,11 @@
   <div class="overlay" id="boardOverlay" role="dialog" aria-modal="true" aria-labelledby="boardTitle">
     <div class="box">
       <h2 id="boardTitle">HALL OF GLASS</h2>
-      <p id="boardNote">Everyone who earned glass in the last 30 days, fewest runs first.</p>
+      <div class="tabs" role="tablist">
+        <button class="tab" type="button" role="tab" id="tabPlayers" aria-selected="true">PLAYERS</button>
+        <button class="tab" type="button" role="tab" id="tabStates" aria-selected="false">STATES</button>
+      </div>
+      <p id="boardNote"></p>
       <div id="boardBody"></div>
       <div class="btns"><button class="btn" type="button" id="closeBoard">CLOSE</button></div>
     </div>
@@ -134,6 +149,7 @@
   let glassCount = store.get('glass', 0);
   let muted = store.get('muted', false);
   let playerName = store.get('name', '');
+  let playerState = store.get('state', '');
   let runsSinceGlass = store.get('runsSinceGlass', 0);
   let runStartT = 0, winRuns = 0, saveStatus = [];
 
@@ -743,6 +759,24 @@
   const playerBtn = document.getElementById('player');
   const overlayOpen = () => nameOverlay.classList.contains('open') || boardOverlay.classList.contains('open');
 
+  // US states plus DECA's other chartered regions. The code is what gets saved to the sheet.
+  const STATES = [
+    ['AL', 'Alabama'], ['AK', 'Alaska'], ['AZ', 'Arizona'], ['AR', 'Arkansas'], ['CA', 'California'], ['CO', 'Colorado'],
+    ['CT', 'Connecticut'], ['DE', 'Delaware'], ['DC', 'District of Columbia'], ['FL', 'Florida'], ['GA', 'Georgia'],
+    ['HI', 'Hawaii'], ['ID', 'Idaho'], ['IL', 'Illinois'], ['IN', 'Indiana'], ['IA', 'Iowa'], ['KS', 'Kansas'],
+    ['KY', 'Kentucky'], ['LA', 'Louisiana'], ['ME', 'Maine'], ['MD', 'Maryland'], ['MA', 'Massachusetts'],
+    ['MI', 'Michigan'], ['MN', 'Minnesota'], ['MS', 'Mississippi'], ['MO', 'Missouri'], ['MT', 'Montana'],
+    ['NE', 'Nebraska'], ['NV', 'Nevada'], ['NH', 'New Hampshire'], ['NJ', 'New Jersey'], ['NM', 'New Mexico'],
+    ['NY', 'New York'], ['NC', 'North Carolina'], ['ND', 'North Dakota'], ['OH', 'Ohio'], ['OK', 'Oklahoma'],
+    ['OR', 'Oregon'], ['PA', 'Pennsylvania'], ['RI', 'Rhode Island'], ['SC', 'South Carolina'], ['SD', 'South Dakota'],
+    ['TN', 'Tennessee'], ['TX', 'Texas'], ['UT', 'Utah'], ['VT', 'Vermont'], ['VA', 'Virginia'], ['WA', 'Washington'],
+    ['WV', 'West Virginia'], ['WI', 'Wisconsin'], ['WY', 'Wyoming'],
+    ['PR', 'Puerto Rico'], ['GU', 'Guam'], ['CAN', 'Canada'], ['INT', 'Outside the US'],
+  ];
+  const STATE_NAMES = Object.fromEntries(STATES);
+  const stateInput = document.getElementById('stateInput');
+  STATES.forEach(([code, label]) => stateInput.add(new Option(label.toUpperCase(), code)));
+
   const BLOCKED = ['FUCK', 'SHIT', 'BITCH', 'CUNT', 'DICK', 'COCK', 'PUSSY', 'ASSHOLE', 'NIGG', 'FAG', 'SLUT', 'WHORE', 'RAPE', 'PENIS', 'VAGINA', 'BOOB', 'TITS', 'SEX', 'PORN', 'HITLER', 'NAZI'];
   function cleanName(raw) {
     return String(raw || '').toUpperCase().replace(/[^A-Z0-9 .'-]/g, '').replace(/\s+/g, ' ').trim().slice(0, 12);
@@ -753,36 +787,51 @@
     if (BLOCKED.some(w => squashed.includes(w))) return "Let's pick a different name.";
     return '';
   }
-  function showPlayer() { playerBtn.textContent = 'PLAYER: ' + (playerName || 'GUEST'); }
+  function showPlayer() { playerBtn.textContent = 'PLAYER: ' + (playerName ? playerName + (playerState ? ` (${playerState})` : '') : 'GUEST'); }
   function openName() {
-    nameInput.value = playerName; nameErr.textContent = '';
+    nameInput.value = playerName; stateInput.value = playerState; nameErr.textContent = '';
     nameOverlay.classList.add('open');
     setTimeout(() => nameInput.focus(), 50);
   }
   function closeName() { nameOverlay.classList.remove('open'); store.set('asked', true); }
-  function skipName() { playerName = ''; store.set('name', ''); showPlayer(); closeName(); }
+  function skipName() {
+    playerName = ''; playerState = '';
+    store.set('name', ''); store.set('state', '');
+    showPlayer(); closeName();
+  }
   document.getElementById('nameForm').addEventListener('submit', e => {
     e.preventDefault();
     const n = cleanName(nameInput.value);
     const problem = nameProblem(n);
     if (problem) { nameErr.textContent = problem; return; }
-    playerName = n; store.set('name', n); showPlayer(); closeName();
+    if (!STATE_NAMES[stateInput.value]) { nameErr.textContent = 'Pick your state.'; return; }
+    playerName = n; playerState = stateInput.value;
+    store.set('name', n); store.set('state', playerState);
+    showPlayer(); closeName();
   });
   document.getElementById('skipName').addEventListener('click', skipName);
   playerBtn.addEventListener('click', openName);
   showPlayer();
-  if (!store.get('asked', false)) openName();
+  // Ask first-time visitors, and named players from before the state question existed.
+  if (!store.get('asked', false) || (playerName && !playerState)) openName();
 
   // ---------- Leaderboard ----------
   // Shared mode posts to a Google Apps Script web app (see leaderboard-apps-script.gs, kept outside the site repo).
   // text/plain keeps the request "simple" so the browser skips the CORS preflight Apps Script can't answer.
   const localBoard = () => store.get('testBoard', []);
+  const recent = list => list.filter(w => new Date(w.date).getTime() >= Date.now() - BOARD_DAYS * 864e5);
+  function countStates(list) {
+    const counts = {};
+    recent(list).forEach(w => { if (w.state) counts[w.state] = (counts[w.state] || 0) + 1; });
+    return Object.entries(counts).map(([st, count]) => ({ state: st, count }));
+  }
   async function fetchBoard() {
-    if (!LEADERBOARD_URL) return localBoard();
+    if (!LEADERBOARD_URL) return { winners: localBoard(), states: countStates(localBoard()) };
     const res = await fetch(LEADERBOARD_URL);
     const data = await res.json();
     if (!data.ok) throw new Error(data.error || 'bad response');
-    return data.winners;
+    // Older versions of the sheet script don't send state totals; count from the winners instead.
+    return { winners: data.winners, states: data.states || countStates(data.winners) };
   }
   async function postWin(entry) {
     if (!LEADERBOARD_URL) { store.set('testBoard', [...localBoard(), entry]); return; }
@@ -795,36 +844,56 @@
   function recordWin(seconds) {
     if (!playerName) { saveStatus = ['GUEST:', 'NOT SAVED']; return; }
     saveStatus = ['SAVING...'];
-    postWin({ name: playerName, runs: winRuns, seconds, date: new Date().toISOString() })
+    postWin({ name: playerName, state: playerState, runs: winRuns, seconds, date: new Date().toISOString() })
       .then(() => { saveStatus = ['ON THE', 'LEADERBOARD!']; })
       .catch(() => { saveStatus = ['COULD NOT', 'SAVE']; });
   }
 
   const boardBody = document.getElementById('boardBody');
   function esc(s) { return String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])); }
-  function renderBoard(list) {
-    const cutoff = Date.now() - BOARD_DAYS * 864e5;
-    const rows = list
-      .filter(w => new Date(w.date).getTime() >= cutoff)
-      .sort((a, b) => a.runs - b.runs || new Date(a.date) - new Date(b.date))
-      .slice(0, 50);
-    if (!rows.length) {
-      boardBody.innerHTML = '<p>No glass yet this month. Be the first.</p>';
+  let boardData = null, boardTab = 'players';
+  const tabPlayers = document.getElementById('tabPlayers');
+  const tabStates = document.getElementById('tabStates');
+  const boardNote = document.getElementById('boardNote');
+  function renderBoard() {
+    tabPlayers.setAttribute('aria-selected', boardTab === 'players');
+    tabStates.setAttribute('aria-selected', boardTab === 'states');
+    const local = LEADERBOARD_URL ? '' : ' For now this only shows wins from this device.';
+    if (!boardData) return;
+
+    if (boardTab === 'states') {
+      boardNote.textContent = `States ranked by how many players earned glass in the last ${BOARD_DAYS} days.` + local;
+      const rows = [...boardData.states]
+        .sort((a, b) => b.count - a.count || (STATE_NAMES[a.state] || a.state).localeCompare(STATE_NAMES[b.state] || b.state));
+      if (!rows.length) { boardBody.innerHTML = '<p>No state has glass yet this month.</p>'; return; }
+      boardBody.innerHTML = `<table class="board"><thead><tr><th class="num">#</th><th class="name">STATE</th><th class="num">GLASS</th></tr></thead><tbody>${
+        rows.map((r, i) => `<tr><td class="num">${i + 1}</td><td class="name">${esc((STATE_NAMES[r.state] || r.state).toUpperCase())}</td><td class="num">${esc(r.count)}</td></tr>`).join('')
+      }</tbody></table>`;
       return;
     }
+
+    boardNote.textContent = `Everyone who earned glass in the last ${BOARD_DAYS} days, fewest runs first.` + local;
+    const rows = recent(boardData.winners)
+      .sort((a, b) => a.runs - b.runs || new Date(a.date) - new Date(b.date))
+      .slice(0, 50);
+    if (!rows.length) { boardBody.innerHTML = '<p>No glass yet this month. Be the first.</p>'; return; }
     const fmt = d => new Date(d).toLocaleDateString(undefined, { month: 'short', day: 'numeric' }).toUpperCase();
-    boardBody.innerHTML = `<table class="board"><thead><tr><th class="num">#</th><th class="name">NAME</th><th class="num">RUNS</th><th class="num">DATE</th></tr></thead><tbody>${
-      rows.map((w, i) => `<tr><td class="num">${i + 1}</td><td class="name">${esc(w.name)}</td><td class="num">${esc(w.runs)}</td><td class="num">${fmt(w.date)}</td></tr>`).join('')
+    boardBody.innerHTML = `<table class="board"><thead><tr><th class="num">#</th><th class="name">NAME</th><th>ST</th><th class="num">RUNS</th><th class="num">DATE</th></tr></thead><tbody>${
+      rows.map((w, i) => `<tr><td class="num">${i + 1}</td><td class="name">${esc(w.name)}</td><td>${esc(w.state || '-')}</td><td class="num">${esc(w.runs)}</td><td class="num">${fmt(w.date)}</td></tr>`).join('')
     }</tbody></table>`;
   }
+  function showTab(tab) { boardTab = tab; renderBoard(); }
+  tabPlayers.addEventListener('click', () => showTab('players'));
+  tabStates.addEventListener('click', () => showTab('states'));
   function openBoard() {
     if (state === 'play') paused = true;
-    document.getElementById('boardNote').textContent = LEADERBOARD_URL
-      ? `Everyone who earned glass in the last ${BOARD_DAYS} days, fewest runs first.`
-      : 'For now this list only shows wins from this device.';
+    boardData = null; boardNote.textContent = '';
     boardBody.innerHTML = '<p>LOADING...</p>';
     boardOverlay.classList.add('open');
-    fetchBoard().then(renderBoard).catch(() => { boardBody.innerHTML = '<p class="err">Could not load the leaderboard.</p>'; });
+    renderBoard();
+    fetchBoard()
+      .then(data => { boardData = data; renderBoard(); })
+      .catch(() => { boardBody.innerHTML = '<p class="err">Could not load the leaderboard.</p>'; });
   }
   function closeBoard() { boardOverlay.classList.remove('open'); }
   document.getElementById('boardBtn').addEventListener('click', openBoard);
