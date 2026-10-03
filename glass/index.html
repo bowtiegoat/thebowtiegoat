@@ -135,7 +135,7 @@
   let muted = store.get('muted', false);
   let playerName = store.get('name', '');
   let runsSinceGlass = store.get('runsSinceGlass', 0);
-  let runStartT = 0, winRuns = 0, saveStatus = '';
+  let runStartT = 0, winRuns = 0, saveStatus = [];
 
   // ---------- Sprites ----------
   const GOAT_TOP = [
@@ -239,28 +239,6 @@
     'KRRRKK..KKRRRK',
     'KKKK......KKKK',
   ];
-  const TROPHY = [
-    '.KKKKKKKKKKKKKK.',
-    'KwCCCCCCCCCCCccK',
-    'KwCCCCCCCCCCCccK',
-    'KwwCCCCCCCCCcccK',
-    '.KwCCCCCCCCCccK.',
-    '.KwCCCCCCCCCccK.',
-    '..KwCCCCCCCccK..',
-    '..KwCCCCCCCccK..',
-    '...KwCCCCCccK...',
-    '....KKCCCcKK....',
-    '......KCcK......',
-    '......KCcK......',
-    '......KCcK......',
-    '.....KCCccK.....',
-    '....KwCCCccK....',
-    '...KKKKKKKKKK...',
-    '...KDDDDDDDDK...',
-    '..KDDYYYYYYDDK..',
-    '..KDDDDDDDDDDK..',
-    '.KKKKKKKKKKKKKK.',
-  ];
   const PAL = {
     K: '#141414', W: '#ffffff', G: '#d6d6d6', H: '#b5896a', h: '#8a6448', P: '#c86a7a',
     B: '#1a78c2', b: '#0f4f86', E: '#141414',
@@ -268,7 +246,6 @@
     R: '#c06682', r: '#833f54',
     C: '#cdeffa', c: '#86cde3', w: '#ffffff',
   };
-  const TROPHY_PAL = { ...PAL, D: '#5f4526', Y: '#f0e090' };
 
   function mkSprite(rows, pal = PAL) {
     const w = Math.max(...rows.map(r => r.length)), h = rows.length;
@@ -290,7 +267,6 @@
   const fence = mkSprite(FENCE);
   const bowUp = mkSprite(BOW_UP);
   const bowDown = mkSprite(BOW_DOWN);
-  const trophy = mkSprite(TROPHY, TROPHY_PAL);
 
   const drawBow = (x, y, phase = 0) => ctx.drawImage(Math.floor((t + phase) / 10) % 2 ? bowUp : bowDown, x, y);
 
@@ -549,16 +525,65 @@
     ctx.drawImage(spr, GX, Math.round(goat.y));
   }
 
-  function drawTrophy(cx, y, scale) {
-    ctx.drawImage(trophy, Math.round(cx - (trophy.width * scale) / 2), y, trophy.width * scale, trophy.height * scale);
-    for (let i = 0; i < 4; i++) {
-      const a = t / 25 + i * 1.57;
-      if (Math.sin(t / 8 + i * 2) > 0.2) {
-        const sx = Math.round(cx + Math.cos(a) * 46), sy = Math.round(y + 34 + Math.sin(a) * 38);
+  // Etched text on the glass: a soft blue shadow instead of the usual black outline.
+  function etch(str, x, y, size, color) {
+    ctx.font = `${size}px "Press Start 2P"`;
+    ctx.textAlign = 'center'; ctx.textBaseline = 'top';
+    ctx.fillStyle = 'rgba(31,79,106,0.7)'; ctx.fillText(str, x + 1, y + 1);
+    ctx.fillStyle = color; ctx.fillText(str, x, y);
+  }
+
+  // The winner's award: a tall glass plaque on a wooden base, rising into view.
+  function drawPlaque() {
+    const rise = Math.max(0, 70 - stateT * 3);
+    const gx = 108, gy = 4 + rise, gw = 104, gh = 114;
+    const bx = 98, by = gy + gh, bw = 124, bh = 20;
+    const cx = gx + gw / 2;
+
+    // Wooden base
+    ctx.fillStyle = '#141414'; ctx.fillRect(bx - 1, by - 1, bw + 2, bh + 2);
+    ctx.fillStyle = '#7d5c33'; ctx.fillRect(bx, by, bw, bh);
+    ctx.fillStyle = '#9c7440'; ctx.fillRect(bx, by, bw, 3);
+    ctx.fillStyle = '#5f4526'; ctx.fillRect(bx, by + bh - 3, bw, 3);
+    ctx.fillStyle = '#6b4c2a';
+    [[6, 6, 22], [40, 8, 30], [86, 6, 18], [14, 12, 16], [70, 13, 26], [104, 10, 12]].forEach(([x, y, w]) => ctx.fillRect(bx + x, by + y, w, 1));
+    ctx.fillStyle = '#141414'; ctx.fillRect(cx - 21, by + 6, 42, 9);
+    ctx.fillStyle = '#f0e090'; ctx.fillRect(cx - 20, by + 7, 40, 7);
+    ctx.fillStyle = '#c9a24e'; ctx.fillRect(cx - 16, by + 9, 32, 1); ctx.fillRect(cx - 12, by + 11, 24, 1);
+
+    // Glass slab
+    ctx.fillStyle = '#1f4f6a'; ctx.fillRect(gx - 1, gy - 1, gw + 2, gh + 1);
+    ctx.fillStyle = 'rgba(205,239,250,0.30)'; ctx.fillRect(gx, gy, gw, gh);
+    ctx.fillStyle = 'rgba(255,255,255,0.85)'; ctx.fillRect(gx, gy, gw, 1); ctx.fillRect(gx, gy, 1, gh);
+    ctx.fillStyle = '#86cde3'; ctx.fillRect(gx + gw - 2, gy, 2, gh); ctx.fillRect(gx, gy + gh - 2, gw, 2);
+    ctx.save();
+    ctx.beginPath(); ctx.rect(gx, gy, gw, gh); ctx.clip();
+    ctx.fillStyle = 'rgba(255,255,255,0.12)';
+    for (let k = 0; k < 70; k++) ctx.fillRect(gx + 6 + k, gy + 90 - k, 4, 1);
+    const sweep = (t * 2) % 320 - 80; // glint that slides across the glass now and then
+    ctx.fillStyle = 'rgba(255,255,255,0.35)';
+    for (let k = 0; k < 130; k++) ctx.fillRect(gx + sweep + k * 0.6, gy + gh - k, 3, 1);
+    ctx.restore();
+
+    // Engraving
+    ctx.globalAlpha = 0.9;
+    ctx.drawImage(goatA, Math.round(cx - goatA.width / 2), gy + 10);
+    ctx.globalAlpha = 1;
+    ctx.fillStyle = 'rgba(255,255,255,0.6)'; ctx.fillRect(cx - 30, gy + 38, 60, 1);
+    etch(playerName || 'YOU', cx, gy + 48, 8, '#ffffff');
+    etch(playerName ? 'IS THE NEXT' : 'ARE THE NEXT', cx, gy + 66, 8, '#e4f6fc');
+    etch('DECA GOAT.', cx, gy + 78, 8, '#e4f6fc');
+    ctx.fillStyle = 'rgba(255,255,255,0.6)'; ctx.fillRect(cx - 30, gy + 94, 60, 1);
+    const when = new Date().toLocaleDateString('en-US', { month: 'short', year: 'numeric' }).toUpperCase();
+    etch(when, cx, gy + 100, 8, '#cdeffa');
+
+    // Sparkles at the corners
+    [[gx - 4, gy + 6], [gx + gw + 3, gy + 30], [gx + 8, gy + gh - 10], [gx + gw - 6, gy - 3]].forEach(([sx, sy], i) => {
+      if (Math.sin(t / 8 + i * 2) > 0.3) {
         ctx.fillStyle = '#ffffff';
         ctx.fillRect(sx - 2, sy, 5, 1); ctx.fillRect(sx, sy - 2, 1, 5);
       }
-    }
+    });
   }
 
   function draw() {
@@ -568,7 +593,7 @@
     const lv = title ? LEVELS[0] : L();
     drawBackground(lv, title ? 0 : lvl);
     for (const o of obs) OBSTACLES[o.type].draw(Math.round(o.x), o.y);
-    drawGround(lv, !title);
+    drawGround(lv, !title && state !== 'win');
     if (state !== 'win') drawGoat();
 
     if (title) {
@@ -613,13 +638,13 @@
     if (state === 'win') {
       ctx.fillStyle = 'rgba(10,14,28,0.6)'; ctx.fillRect(0, 0, W, H);
       for (const c of confetti) { ctx.fillStyle = c.c; ctx.fillRect(Math.round(c.x), Math.round(c.y), 2, 2); }
-      drawTrophy(78, 30, 4);
-      txt('YOU GOT', 210, 22, 8, '#ffffff');
-      txt('GLASS!', 210, 36, 24, '#cdeffa');
-      txt('TOP 0.6%', 210, 72, 8, '#f0e090');
-      txt(winRuns === 1 ? 'ON YOUR FIRST RUN' : `IN ${winRuns} RUNS`, 210, 86, 8, '#93c7e6');
-      txt(saveStatus, 210, 104, 8, '#ffffff');
-      if (stateT > 120 && blink()) txt('TAP TO PLAY AGAIN', 210, 122, 8, '#f0e090');
+      drawPlaque();
+      txt('YOU GOT', 53, 30, 8, '#ffffff');
+      txt('GLASS!', 53, 44, 16, '#cdeffa');
+      txt('TOP 0.6%', 53, 72, 8, '#f0e090');
+      txt(winRuns === 1 ? 'IN 1 RUN' : `IN ${winRuns} RUNS`, 53, 86, 8, '#93c7e6');
+      saveStatus.forEach((line, i) => txt(line, 267, 40 + i * 12, 8, '#ffffff'));
+      if (stateT > 120 && blink()) { txt('TAP TO', 267, 96, 8, '#f0e090'); txt('PLAY AGAIN', 267, 108, 8, '#f0e090'); }
     }
 
     if (paused) {
@@ -747,11 +772,11 @@
     if (!data.ok) throw new Error(data.error || 'not saved');
   }
   function recordWin(seconds) {
-    if (!playerName) { saveStatus = 'GUEST: NOT RECORDED'; return; }
-    saveStatus = 'SAVING YOUR NAME...';
+    if (!playerName) { saveStatus = ['GUEST:', 'NOT SAVED']; return; }
+    saveStatus = ['SAVING...'];
     postWin({ name: playerName, runs: winRuns, seconds, date: new Date().toISOString() })
-      .then(() => { saveStatus = 'ON THE LEADERBOARD!'; })
-      .catch(() => { saveStatus = 'COULD NOT SAVE'; });
+      .then(() => { saveStatus = ['ON THE', 'LEADERBOARD!']; })
+      .catch(() => { saveStatus = ['COULD NOT', 'SAVE']; });
   }
 
   const boardBody = document.getElementById('boardBody');
