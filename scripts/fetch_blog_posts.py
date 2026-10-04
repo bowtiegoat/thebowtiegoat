@@ -6,6 +6,7 @@ js/blog-posts.json, which the blog page renders as a scroll-loaded feed.
 Run manually with `python3 scripts/fetch_blog_posts.py`, or automatically
 on a schedule via .github/workflows/update-content.yml.
 """
+import html
 import json
 import re
 import sys
@@ -13,10 +14,16 @@ import time
 import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
+from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
+from urllib.parse import quote
 
 FEED_URL = "https://bowtiegoat.substack.com/feed"
+# Substack blocks GitHub's servers outright (403 even with browser headers),
+# so when the direct request fails, load the same feed through rss2json, a
+# free public relay that fetches it from its own servers and returns JSON.
+RELAY_URL = "https://api.rss2json.com/v1/api.json?rss_url=" + quote(FEED_URL, safe="")
 OUTPUT_PATH = Path(__file__).resolve().parent.parent / "js" / "blog-posts.json"
 CONTENT_NS = {"content": "http://purl.org/rss/1.0/modules/content/"}
 
@@ -40,8 +47,7 @@ SUBSCRIBE_BUTTON_RE = re.compile(
 )
 
 
-def format_date(pub_date: str) -> str:
-    dt = parsedate_to_datetime(pub_date)
+def format_date(dt: datetime) -> str:
     return f"{dt.strftime('%B')} {dt.day}, {dt.year}"
 
 
@@ -49,46 +55,96 @@ def clean_content(html: str) -> str:
     return SUBSCRIBE_BUTTON_RE.sub("", html).strip()
 
 
-def fetch_posts():
-    req = urllib.request.Request(FEED_URL, headers=REQUEST_HEADERS)
+def download(url: str) -> bytes:
+    req = urllib.request.Request(url, headers=REQUEST_HEADERS)
     for attempt in range(1, ATTEMPTS + 1):
         try:
             with urllib.request.urlopen(req, timeout=30) as response:
-                xml_bytes = response.read()
-            break
+                return response.read()
         except (urllib.error.HTTPError, urllib.error.URLError) as err:
             if attempt == ATTEMPTS:
                 raise
             print(f"Attempt {attempt} failed ({err}); retrying...")
             time.sleep(10 * attempt)
 
-    root = ET.fromstring(xml_bytes)
-    channel = root.find("channel")
-    posts = []
-    for index, item in enumerate(channel.findall("item")):
-        title = (item.findtext("title") or "").strip()
-        link = (item.findtext("link") or "").strip()
-        pub_date = item.findtext("pubDate")
-        excerpt = (item.findtext("description") or "").strip()
 
-        if not (title and link and pub_date):
+def items_from_feed():
+    """Reads the Substack RSS feed directly."""
+    channel = ET.fromstring(download(FEED_URL)).find("channel")
+    for item in channel.findall("item"):
+        pub_date = item.findtext("pubDate")
+        yield {
+            "title": item.findtext("title"),
+            "link": item.findtext("link"),
+            "date": parsedate_to_datetime(pub_date) if pub_date else None,
+            "description": item.findtext("description"),
+            "content": item.findtext("content:encoded", namespaces=CONTENT_NS),
+        }
+
+
+def items_from_relay():
+    """Reads the same feed through rss2json (dates there are UTC, and titles
+    and excerpts come back HTML-escaped, e.g. "&amp;")."""
+    data = json.loads(download(RELAY_URL))
+    if data.get("status") != "ok":
+        raise ValueError(f"rss2json said: {data.get('message') or data.get('status')}")
+    for item in data["items"]:
+        pub_date = item.get("pubDate")
+        yield {
+            "title": html.unescape(item.get("title") or ""),
+            "link": item.get("link"),
+            "date": (
+                datetime.strptime(pub_date, "%Y-%m-%d %H:%M:%S").replace(tzinfo=timezone.utc)
+                if pub_date else None
+            ),
+            "description": html.unescape(item.get("description") or ""),
+            "content": item.get("content"),
+        }
+
+
+def fetch_items():
+    """Returns (items, complete). complete is False for the relay, which only
+    returns the 10 newest posts while the direct feed returns 20."""
+    try:
+        return list(items_from_feed()), True
+    except (urllib.error.HTTPError, urllib.error.URLError, ET.ParseError) as err:
+        print(f"Direct Substack feed failed ({err}); trying the rss2json relay...")
+    return list(items_from_relay()), False
+
+
+def fetch_posts():
+    items, complete = fetch_items()
+    posts = []
+    for index, item in enumerate(items):
+        title = (item["title"] or "").strip()
+        link = (item["link"] or "").strip()
+        excerpt = (item["description"] or "").strip()
+
+        if not (title and link and item["date"]):
             continue
 
         post = {
             "title": title,
             "url": link,
-            "date": format_date(pub_date),
+            "date": format_date(item["date"]),
             "excerpt": excerpt,
         }
 
         # Only the most recent post needs full content -- it's the one
         # shown in full on the blog page; the rest stay excerpt-only.
-        if index == 0:
-            full_html = item.findtext("content:encoded", namespaces=CONTENT_NS)
-            if full_html:
-                post["content"] = clean_content(full_html)
+        if index == 0 and item["content"]:
+            post["content"] = clean_content(item["content"])
 
         posts.append(post)
+
+    # The relay's list is shorter, so keep the older posts already on the
+    # blog page rather than dropping them.
+    if not complete and posts and OUTPUT_PATH.exists():
+        seen = {post["url"] for post in posts}
+        for old in json.loads(OUTPUT_PATH.read_text(encoding="utf-8")):
+            if old["url"] not in seen:
+                old.pop("content", None)
+                posts.append(old)
 
     return posts
 
@@ -96,7 +152,7 @@ def fetch_posts():
 def main():
     try:
         posts = fetch_posts()
-    except (urllib.error.HTTPError, urllib.error.URLError) as err:
+    except (urllib.error.HTTPError, urllib.error.URLError, ValueError) as err:
         print(f"Could not load the Substack feed ({err}); leaving js/blog-posts.json untouched.")
         sys.exit(1)
     if not posts:
