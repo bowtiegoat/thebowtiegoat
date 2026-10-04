@@ -141,6 +141,7 @@
       <!-- Photo -->
       <div class="lg:order-2 flex justify-center lg:justify-end">
         <img
+          id="hero-photo"
           src="images/justin-headshot.jpg"
           alt="Justin Staub in a green bowtie at a DECA conference"
           class="w-[134px] sm:w-[168px] lg:w-[269px] aspect-[4/5] object-cover rounded-2xl border border-ink-700 shadow-2xl"
@@ -445,6 +446,13 @@
         }
       })
       .catch(() => {});
+  </script>
+
+  <script>
+    // Easter egg: the headshot quietly opens the Road to Glass game.
+    document.getElementById('hero-photo').addEventListener('click', () => {
+      window.location.href = 'glass/';
+    });
   </script>
 
   <script data-goatcounter="https://bowtiegoat.goatcounter.com/count"
