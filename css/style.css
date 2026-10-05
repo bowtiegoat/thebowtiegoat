@@ -57,3 +57,23 @@ h3.font-serif, p.font-serif.text-lg { font-weight: 700; }
 
 /* The BowtieGOAT name in the header and footer. */
 .wordmark { font-family: 'Archivo', ui-sans-serif, system-ui, sans-serif; font-weight: 800; letter-spacing: -0.01em; }
+
+/* Montserrat is about 16% wider than the old serif headings, so the larger
+   heading sizes are scaled to 88% (with slightly tighter letter spacing) to
+   keep headlines about as long as before. Balanced wrapping avoids a single
+   word alone on the last line. */
+:is(h1, h2, h3).font-serif { text-wrap: balance; }
+:is(h1, h2, h3).font-serif:is(.text-2xl, .text-3xl, .text-4xl, .text-5xl, .text-6xl) { letter-spacing: -0.015em; line-height: 1.2; }
+:is(h1, h2, h3).font-serif.text-2xl { font-size: 1.32rem; }
+:is(h1, h2, h3).font-serif.text-3xl { font-size: 1.65rem; }
+:is(h1, h2, h3).font-serif.text-4xl { font-size: 1.98rem; }
+:is(h1, h2, h3).font-serif.text-5xl { font-size: 2.64rem; }
+@media (min-width: 640px) {
+  :is(h1, h2, h3).font-serif.sm\:text-2xl { font-size: 1.32rem; }
+  :is(h1, h2, h3).font-serif.sm\:text-3xl { font-size: 1.65rem; }
+  :is(h1, h2, h3).font-serif.sm\:text-4xl { font-size: 1.98rem; }
+  :is(h1, h2, h3).font-serif.sm\:text-5xl { font-size: 2.64rem; }
+}
+@media (min-width: 1024px) {
+  :is(h1, h2, h3).font-serif.lg\:text-6xl { font-size: 3.3rem; }
+}
