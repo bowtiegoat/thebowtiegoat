@@ -1,16 +1,16 @@
-/* Fonts: Playfair Display for headings (editorial, trustworthy), Inter for body copy */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap');
+/* Fonts: Montserrat for headings, Open Sans for body copy, Archivo for the BowtieGOAT name */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Open+Sans:wght@400;500;600;700&family=Archivo:wght@800&display=swap');
 
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  font-family: 'Open Sans', ui-sans-serif, system-ui, sans-serif;
 }
 
 .font-serif-display {
-  font-family: 'Playfair Display', ui-serif, Georgia, serif;
+  font-family: 'Montserrat', ui-sans-serif, system-ui, sans-serif;
 }
 
 /* Dropdown + mobile menu: hidden by default, toggled via [data-open] on the panel */
@@ -50,3 +50,10 @@ body {
     transparent 12px
   );
 }
+
+/* Heading weights: page and section titles extra bold, card titles bold. */
+h1.font-serif, h2.font-serif { font-weight: 800; letter-spacing: -0.01em; }
+h3.font-serif, p.font-serif.text-lg { font-weight: 700; }
+
+/* The BowtieGOAT name in the header and footer. */
+.wordmark { font-family: 'Archivo', ui-sans-serif, system-ui, sans-serif; font-weight: 800; letter-spacing: -0.01em; }
