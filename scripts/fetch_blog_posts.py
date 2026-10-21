@@ -6,7 +6,6 @@ js/blog-posts.json, which the blog page renders as a scroll-loaded feed.
 Run manually with `python3 scripts/fetch_blog_posts.py`, or automatically
 on a schedule via .github/workflows/update-content.yml.
 """
-import html
 import json
 import re
 import sys
@@ -14,16 +13,20 @@ import time
 import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from datetime import datetime
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 from urllib.parse import quote
 
 FEED_URL = "https://bowtiegoat.substack.com/feed"
 # Substack blocks GitHub's servers outright (403 even with browser headers),
-# so when the direct request fails, load the same feed through rss2json, a
-# free public relay that fetches it from its own servers and returns JSON.
-RELAY_URL = "https://api.rss2json.com/v1/api.json?rss_url=" + quote(FEED_URL, safe="")
+# so when the direct request fails, read Substack's own post list (its JSON
+# API) through Jina Reader, a free public relay that fetches the page from
+# its own servers. (The earlier relay, rss2json, began blocking automated
+# requests in October 2026.)
+SITE_URL = "https://bowtiegoat.substack.com"
+RELAY_URL = "https://r.jina.ai/"
+RELAY_HEADERS = {"X-Return-Format": "text"}  # pass Substack's JSON through as-is
 OUTPUT_PATH = Path(__file__).resolve().parent.parent / "js" / "blog-posts.json"
 CONTENT_NS = {"content": "http://purl.org/rss/1.0/modules/content/"}
 
@@ -55,8 +58,8 @@ def clean_content(html: str) -> str:
     return SUBSCRIBE_BUTTON_RE.sub("", html).strip()
 
 
-def download(url: str) -> bytes:
-    req = urllib.request.Request(url, headers=REQUEST_HEADERS)
+def download(url: str, headers=None) -> bytes:
+    req = urllib.request.Request(url, headers={**REQUEST_HEADERS, **(headers or {})})
     for attempt in range(1, ATTEMPTS + 1):
         try:
             with urllib.request.urlopen(req, timeout=30) as response:
@@ -82,33 +85,37 @@ def items_from_feed():
         }
 
 
+def relay_json(path: str):
+    return json.loads(download(RELAY_URL + SITE_URL + path, RELAY_HEADERS))
+
+
 def items_from_relay():
-    """Reads the same feed through rss2json (dates there are UTC, and titles
-    and excerpts come back HTML-escaped, e.g. "&amp;")."""
-    data = json.loads(download(RELAY_URL))
-    if data.get("status") != "ok":
-        raise ValueError(f"rss2json said: {data.get('message') or data.get('status')}")
-    for item in data["items"]:
-        pub_date = item.get("pubDate")
+    """Reads Substack's post list through the relay. The list has no post
+    text, so the newest post's full text is loaded on its own."""
+    posts = relay_json("/api/v1/archive?sort=new&limit=20")
+    if not isinstance(posts, list):
+        raise ValueError("the relay did not return Substack's post list")
+    for index, post in enumerate(posts):
+        content = None
+        if index == 0 and post.get("slug"):
+            content = relay_json(f"/api/v1/posts/{post['slug']}").get("body_html")
+        pub_date = post.get("post_date")
         yield {
-            "title": html.unescape(item.get("title") or ""),
-            "link": item.get("link"),
-            "date": (
-                datetime.strptime(pub_date, "%Y-%m-%d %H:%M:%S").replace(tzinfo=timezone.utc)
-                if pub_date else None
-            ),
-            "description": html.unescape(item.get("description") or ""),
-            "content": item.get("content"),
+            "title": post.get("title"),
+            "link": post.get("canonical_url"),
+            "date": datetime.fromisoformat(pub_date.replace("Z", "+00:00")) if pub_date else None,
+            "description": post.get("description") or post.get("subtitle"),
+            "content": content,
         }
 
 
 def fetch_items():
-    """Returns (items, complete). complete is False for the relay, which only
-    returns the 10 newest posts while the direct feed returns 20."""
+    """Returns (items, complete). complete is False for the relay, whose list
+    may be shorter than the direct feed's."""
     try:
         return list(items_from_feed()), True
     except (urllib.error.HTTPError, urllib.error.URLError, ET.ParseError) as err:
-        print(f"Direct Substack feed failed ({err}); trying the rss2json relay...")
+        print(f"Direct Substack feed failed ({err}); trying the Jina relay...")
     return list(items_from_relay()), False
 
 
