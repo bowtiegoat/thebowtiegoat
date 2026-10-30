@@ -80,6 +80,48 @@
   ]
  },
  {
+  "file": "GOAT_PFL_2627_DISTRICT_EVENT3.pdf",
+  "code": "PFL",
+  "event": "Personal Financial Literacy",
+  "cluster": "pfl",
+  "ia": "Managing Risk",
+  "sentence": "You are to assume the role of an insurance agent at RIVERBEND INSURANCE.",
+  "situation": "You are to assume the role of an insurance agent at RIVERBEND INSURANCE. A renter (judge) who does not have renterʼs insurance has become worried after a neighbor had to pay for damage to another apartment. The renter (judge) lives in a second-floor apartment in an older building. Last month, a washing machine hose burst in a neighborʼs apartment. The water leaked through the floor and damaged the ceiling, furniture and electronics in the apartment below. The neighbor was held responsible for paying for the damage. The renter (judge) has never bought renterʼs insurance because they assumed the landlordʼs insurance covered everything in the building. The renter (judge) is also adopting a large dog next month. Before making a decision, the renter (judge) wants you to explain the following: ● In what situations could the renter (judge) be responsible for injuries or damage to other people or their property? ● What kinds of losses does renterʼs insurance cover? ● What factors will affect how much renterʼs insurance will cost? You will present the information to the renter (judge) in a role-play to take place in your office. The renter (judge) will begin the role-play by greeting you and asking about renterʼs insurance. After you have presented the information and have answered the renterʼs (judgeʼs) questions, the renter (judge) will conclude the meeting by thanking you for your work.",
+  "pis": [
+   "Describe situations where someone may be liable for injuries or damages to another person or their property.",
+   "Explain the primary types of losses covered by auto, homeownerʼs, and renterʼs insurance policies.",
+   "Identify factors that influence the cost of renterʼs insurance and homeownersʼ insurance."
+  ]
+ },
+ {
+  "file": "GOAT_PFL_2627_DISTRICT_EVENT2.pdf",
+  "code": "PFL",
+  "event": "Personal Financial Literacy",
+  "cluster": "pfl",
+  "ia": "Managing Risk",
+  "sentence": "You are to assume the role of an insurance agent at CROSSROADS INSURANCE AGENCY.",
+  "situation": "You are to assume the role of an insurance agent at CROSSROADS INSURANCE AGENCY. A recent college graduate (judge) is moving to a new city for a first full-time job and needs both auto insurance and renterʼs insurance. The graduate (judge) has signed a lease on a one-bedroom apartment. The landlord requires all tenants to have renterʼs insurance. The graduate (judge) estimates that their furniture, clothing, television, laptop and bicycle are worth about $9,000 in total. The graduate (judge) also just bought a used 2019 sedan with an auto loan and must insure it. You have given the graduate (judge) two auto insurance quotes with the same coverage: ● Option A: $500 deductible for $142 per month ● Option B: $1,000 deductible for $121 per month The graduate (judge) has $1,200 in savings after paying for the move. Before making a decision, the graduate (judge) wants you to explain the following: ● What kinds of losses do auto insurance and renterʼs insurance each cover? ● What factors will affect how much the renterʼs insurance will cost? ● Should the auto policy have the higher deductible or the lower deductible? You will present the information to the graduate (judge) in a role-play to take place in your office. The graduate (judge) will begin the role-play by greeting you and asking about insurance for the move. After you have presented the information and have answered the graduateʼs (judgeʼs) questions, the graduate (judge) will conclude the meeting by thanking you for your work.",
+  "pis": [
+   "Explain the primary types of losses covered by auto, homeownerʼs, and renterʼs insurance policies.",
+   "Identify factors that influence the cost of renterʼs insurance and homeownersʼ insurance.",
+   "Discuss the pros and cons of buying an auto insurance policy with a higher deductible."
+  ]
+ },
+ {
+  "file": "GOAT_PFL_2627_DISTRICT_EVENT1.pdf",
+  "code": "PFL",
+  "event": "Personal Financial Literacy",
+  "cluster": "pfl",
+  "ia": "Managing Risk",
+  "sentence": "You are to assume the role of an insurance agent at KEYSTONE MUTUAL INSURANCE.",
+  "situation": "You are to assume the role of an insurance agent at KEYSTONE MUTUAL INSURANCE. A first-time homebuyer (judge) has been told by a mortgage lender that a homeownerʼs insurance policy is required before the home purchase can be completed and wants your help understanding it. The homebuyer (judge) is buying a three-bedroom townhouse for $285,000 and will close on the home in 30 days. The homebuyer (judge) is taking out a mortgage to pay for the townhouse. The mortgage lender has said the homebuyer (judge) must show proof of a homeownerʼs insurance policy before closing. The homebuyer (judge) is frustrated, because this feels like one more expense on top of the down payment and closing costs. The townhouse was built in 1998, and its roof was replaced five years ago. It is located two miles from a fire station. The homebuyer (judge) owns a large dog and is thinking about installing a home security system after moving in. Before making a decision, the homebuyer (judge) wants you to explain the following: ● Why does the lender require homeownerʼs insurance? ● What kinds of losses does a homeownerʼs insurance policy cover? ● What factors will affect how much the homeownerʼs insurance will cost? You will present the information to the homebuyer (judge) in a role-play to take place in your office. The homebuyer (judge) will begin the role-play by greeting you and asking about homeownerʼs insurance. After you have presented the information and have answered the homebuyerʼs (judgeʼs) questions, the homebuyer (judge) will conclude the meeting by thanking you for your work.",
+  "pis": [
+   "Explain why homeownersʼ insurance is required by a lender when a homeowner takes out a mortgage.",
+   "Explain the primary types of losses covered by auto, homeownerʼs, and renterʼs insurance policies.",
+   "Identify factors that influence the cost of renterʼs insurance and homeownersʼ insurance."
+  ]
+ },
+ {
   "file": "GOAT_PEN_2627_EXTRA10.pdf",
   "code": "PEN",
   "event": "Principles of Entrepreneurship",
