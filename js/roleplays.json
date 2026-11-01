@@ -16,6 +16,54 @@
   ]
  },
  {
+  "file": "GOAT_BFS_2627_EXTRA3.pdf",
+  "code": "BFS",
+  "event": "Business Finance Series",
+  "cluster": "finance",
+  "ia": "Risk Management",
+  "sentence": "You are to assume the role of the finance manager at BOWTIE BAKERY & COFFEE, a regional coffee shop and bakery with a coffee shop and distribution to 400 stores.",
+  "situation": "You are to assume the role of the finance manager at BOWTIE BAKERY & COFFEE, a regional coffee shop and bakery with a coffee shop and distribution to 400 stores. Two years ago, Bowtie Bakery & Coffee took a $4 million bank loan to expand its operations. The loan agreement includes the following requirements: ● Current ratio must stay at or above 1.50 ● Debt-to-equity ratio must stay at or below 2.00 ● Quarterly financial statements must be sent to the bank within 45 days of the end of each quarter ● No sale of company assets worth more than $250,000 without the bankʼs written approval The companyʼs latest numbers: current assets of $1,944,000; current liabilities of $1,200,000; total liabilities of $5,100,000; and ownerʼs equity of $2,600,000. Last quarterʼs financial statements reached the bank 52 days after the quarter ended. The owner (judge) has two plans for next month: sell the old operations line for $300,000 and borrow another $150,000 on the companyʼs long-term equipment loan to buy a new one. The owner (judge) started the company as a coffee roaster, not a finance person, and wants a clear explanation of whether these plans could cause problems with the bank and how the company should keep track of its loan requirements going forward. You will meet with the owner (judge) in the bakery office. The owner (judge) will begin the role-play by greeting you and asking to hear your thoughts. After you have presented your information and answered the ownerʼs (judgeʼs) questions, the owner (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Identify financial risk factors associated with business contracts (e.g., ratio requirements, restricted transactions, financial report filing requirements).",
+   "Monitor for breach of contract of non-performance related terms and conditions.",
+   "Maintain contract compliance documentation.",
+   "Develop monitoring programs for restrictive contract requirements.",
+   "Employ communication styles appropriate to target audience."
+  ]
+ },
+ {
+  "file": "GOAT_BFS_2627_EXTRA2.pdf",
+  "code": "BFS",
+  "event": "Business Finance Series",
+  "cluster": "finance",
+  "ia": "Risk Management",
+  "sentence": "You are to assume the role of a risk management analyst at NOVA LANE LOGISTICS, a regional trucking company with 220 trucks that delivers goods for retailers and manufacturers.",
+  "situation": "You are to assume the role of a risk management analyst at NOVA LANE LOGISTICS, a regional trucking company with 220 trucks that delivers goods for retailers and manufacturers. Nova Lane has always handled risks one department at a time. After a difficult year, the chief executive officer (judge) wants to start a company-wide risk management program and present it to the board of directors next month. The department heads scored the companyʼs top risks on a scale of 1 (low) to 5 (high) for likelihood and impact: Risk Likelihood Impact Cyberattack that shuts down dispatch and billing systems 4 5 Spike in diesel fuel prices 4 3 Loss of largest customer (28% of revenue) 2 5 Shortage of qualified drivers 3 3 Fine for failing a federal safety inspection 2 3 In March, a phishing email exposed the shipping records of 1,200 customers. The IT team contained the problem within a day. The vice president of operations has suggested leaving the incident out of the board report because “nothing bad really happened.” The CEO (judge) wants your recommendations on how the new program should work, how to rank and track these risks, how technology can help, and what to do about the March incident. You will present your recommendations to the CEO (judge) in the CEOʼs office. The CEO (judge) will begin the role-play by greeting you and asking to hear your recommendations. After you have presented your information and answered the CEOʼs (judgeʼs) questions, the CEO (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Discuss the nature of enterprise risk management (ERM).",
+   "Discuss the nature of risk measurement.",
+   "Describe the use of technology in risk management.",
+   "Explain the role of ethics in risk management.",
+   "Make oral presentations."
+  ]
+ },
+ {
+  "file": "GOAT_BFS_2627_EXTRA1.pdf",
+  "code": "BFS",
+  "event": "Business Finance Series",
+  "cluster": "finance",
+  "ia": "Risk Management",
+  "sentence": "You are to assume the role of a risk analyst at HARBORLINE FURNITURE CO., a mid-size manufacturer of solid-wood dining and bedroom furniture sold through regional furniture stores.",
+  "situation": "You are to assume the role of a risk analyst at HARBORLINE FURNITURE CO., a mid-size manufacturer of solid-wood dining and bedroom furniture sold through regional furniture stores. The chief financial officer (judge) has asked you to explain the risks that come from the companyʼs outside suppliers and to recommend a plan for keeping watch on those relationships. Harborline buys 60% of its hardwood from one supplier overseas. That supplier has delivered late on 3 of its last 8 shipments, and a credit reporting service recently lowered the supplierʼs credit rating. The supplier has also asked to be paid in its local currency instead of U.S. dollars starting next year. In addition, Harborline uses a single trucking company for all deliveries to stores, and that companyʼs contract ends in six months. Lumber prices rose 18% over the last year. The CFO (judge) wants to know: ● What types of financial risk these supplier relationships create for Harborline ● Which risks come from doing business across national borders ● How Harborline should monitor its suppliers and vendors going forward ● How managing these risks supports the companyʼs finances You will present your information to the CFO (judge) in a meeting in the CFOʼs office. The CFO (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your information and answered the CFOʼs (judgeʼs) questions, the CFO (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Monitor third-party relationships for potential risk.",
+   "Discuss the nature of global risk.",
+   "Describe types of financial risks (e.g., interest rate risk, equity risk, commodity risk, etc.).",
+   "Explain the role of finance in business.",
+   "Organize information."
+  ]
+ },
+ {
   "file": "GOAT_ENT_2627_EXTRA.pdf",
   "code": "ENT",
   "event": "Entrepreneurship Series",
