@@ -16,6 +16,54 @@
   ]
  },
  {
+  "file": "GOAT_BFS_2627_EXTRA3.pdf",
+  "code": "BFS",
+  "event": "Business Finance Series",
+  "cluster": "finance",
+  "ia": "Risk Management",
+  "sentence": "You are to assume the role of the finance manager at BOWTIE BAKERY & COFFEE, a regional coffee shop and bakery with a coffee shop and distribution to 400 stores.",
+  "situation": "You are to assume the role of the finance manager at BOWTIE BAKERY & COFFEE, a regional coffee shop and bakery with a coffee shop and distribution to 400 stores. Two years ago, Bowtie Bakery & Coffee took a $4 million bank loan to expand its operations. The loan agreement includes the following requirements: ● Current ratio must stay at or above 1.50 ● Debt-to-equity ratio must stay at or below 2.00 ● Quarterly financial statements must be sent to the bank within 45 days of the end of each quarter ● No sale of company assets worth more than $250,000 without the bankʼs written approval The companyʼs latest numbers: current assets of $1,944,000; current liabilities of $1,200,000; total liabilities of $5,100,000; and ownerʼs equity of $2,600,000. Last quarterʼs financial statements reached the bank 52 days after the quarter ended. The owner (judge) has two plans for next month: sell the old operations line for $300,000 and borrow another $150,000 on the companyʼs long-term equipment loan to buy a new one. The owner (judge) started the company as a coffee roaster, not a finance person, and wants a clear explanation of whether these plans could cause problems with the bank and how the company should keep track of its loan requirements going forward. You will meet with the owner (judge) in the bakery office. The owner (judge) will begin the role-play by greeting you and asking to hear your thoughts. After you have presented your information and answered the ownerʼs (judgeʼs) questions, the owner (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Identify financial risk factors associated with business contracts (e.g., ratio requirements, restricted transactions, financial report filing requirements).",
+   "Monitor for breach of contract of non-performance related terms and conditions.",
+   "Maintain contract compliance documentation.",
+   "Develop monitoring programs for restrictive contract requirements.",
+   "Employ communication styles appropriate to target audience."
+  ]
+ },
+ {
+  "file": "GOAT_BFS_2627_EXTRA2.pdf",
+  "code": "BFS",
+  "event": "Business Finance Series",
+  "cluster": "finance",
+  "ia": "Risk Management",
+  "sentence": "You are to assume the role of a risk management analyst at NOVA LANE LOGISTICS, a regional trucking company with 220 trucks that delivers goods for retailers and manufacturers.",
+  "situation": "You are to assume the role of a risk management analyst at NOVA LANE LOGISTICS, a regional trucking company with 220 trucks that delivers goods for retailers and manufacturers. Nova Lane has always handled risks one department at a time. After a difficult year, the chief executive officer (judge) wants to start a company-wide risk management program and present it to the board of directors next month. The department heads scored the companyʼs top risks on a scale of 1 (low) to 5 (high) for likelihood and impact: Risk Likelihood Impact Cyberattack that shuts down dispatch and billing systems 4 5 Spike in diesel fuel prices 4 3 Loss of largest customer (28% of revenue) 2 5 Shortage of qualified drivers 3 3 Fine for failing a federal safety inspection 2 3 In March, a phishing email exposed the shipping records of 1,200 customers. The IT team contained the problem within a day. The vice president of operations has suggested leaving the incident out of the board report because “nothing bad really happened.” The CEO (judge) wants your recommendations on how the new program should work, how to rank and track these risks, how technology can help, and what to do about the March incident. You will present your recommendations to the CEO (judge) in the CEOʼs office. The CEO (judge) will begin the role-play by greeting you and asking to hear your recommendations. After you have presented your information and answered the CEOʼs (judgeʼs) questions, the CEO (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Discuss the nature of enterprise risk management (ERM).",
+   "Discuss the nature of risk measurement.",
+   "Describe the use of technology in risk management.",
+   "Explain the role of ethics in risk management.",
+   "Make oral presentations."
+  ]
+ },
+ {
+  "file": "GOAT_BFS_2627_EXTRA1.pdf",
+  "code": "BFS",
+  "event": "Business Finance Series",
+  "cluster": "finance",
+  "ia": "Risk Management",
+  "sentence": "You are to assume the role of a risk analyst at HARBORLINE FURNITURE CO., a mid-size manufacturer of solid-wood dining and bedroom furniture sold through regional furniture stores.",
+  "situation": "You are to assume the role of a risk analyst at HARBORLINE FURNITURE CO., a mid-size manufacturer of solid-wood dining and bedroom furniture sold through regional furniture stores. The chief financial officer (judge) has asked you to explain the risks that come from the companyʼs outside suppliers and to recommend a plan for keeping watch on those relationships. Harborline buys 60% of its hardwood from one supplier overseas. That supplier has delivered late on 3 of its last 8 shipments, and a credit reporting service recently lowered the supplierʼs credit rating. The supplier has also asked to be paid in its local currency instead of U.S. dollars starting next year. In addition, Harborline uses a single trucking company for all deliveries to stores, and that companyʼs contract ends in six months. Lumber prices rose 18% over the last year. The CFO (judge) wants to know: ● What types of financial risk these supplier relationships create for Harborline ● Which risks come from doing business across national borders ● How Harborline should monitor its suppliers and vendors going forward ● How managing these risks supports the companyʼs finances You will present your information to the CFO (judge) in a meeting in the CFOʼs office. The CFO (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your information and answered the CFOʼs (judgeʼs) questions, the CFO (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Monitor third-party relationships for potential risk.",
+   "Discuss the nature of global risk.",
+   "Describe types of financial risks (e.g., interest rate risk, equity risk, commodity risk, etc.).",
+   "Explain the role of finance in business.",
+   "Organize information."
+  ]
+ },
+ {
   "file": "GOAT_ENT_2627_EXTRA.pdf",
   "code": "ENT",
   "event": "Entrepreneurship Series",
@@ -77,6 +125,48 @@
    "Explain the types of promotion.",
    "Explain types of advertising media.",
    "Explain the use of social media for digital marketing."
+  ]
+ },
+ {
+  "file": "GOAT_PFL_2627_DISTRICT_EVENT3.pdf",
+  "code": "PFL",
+  "event": "Personal Financial Literacy",
+  "cluster": "pfl",
+  "ia": "Managing Risk",
+  "sentence": "You are to assume the role of an insurance agent at RIVERBEND INSURANCE.",
+  "situation": "You are to assume the role of an insurance agent at RIVERBEND INSURANCE. A renter (judge) who does not have renterʼs insurance has become worried after a neighbor had to pay for damage to another apartment. The renter (judge) lives in a second-floor apartment in an older building. Last month, a washing machine hose burst in a neighborʼs apartment. The water leaked through the floor and damaged the ceiling, furniture and electronics in the apartment below. The neighbor was held responsible for paying for the damage. The renter (judge) has never bought renterʼs insurance because they assumed the landlordʼs insurance covered everything in the building. The renter (judge) is also adopting a large dog next month. Before making a decision, the renter (judge) wants you to explain the following: ● In what situations could the renter (judge) be responsible for injuries or damage to other people or their property? ● What kinds of losses does renterʼs insurance cover? ● What factors will affect how much renterʼs insurance will cost? You will present the information to the renter (judge) in a role-play to take place in your office. The renter (judge) will begin the role-play by greeting you and asking about renterʼs insurance. After you have presented the information and have answered the renterʼs (judgeʼs) questions, the renter (judge) will conclude the meeting by thanking you for your work.",
+  "pis": [
+   "Describe situations where someone may be liable for injuries or damages to another person or their property.",
+   "Explain the primary types of losses covered by auto, homeownerʼs, and renterʼs insurance policies.",
+   "Identify factors that influence the cost of renterʼs insurance and homeownersʼ insurance."
+  ]
+ },
+ {
+  "file": "GOAT_PFL_2627_DISTRICT_EVENT2.pdf",
+  "code": "PFL",
+  "event": "Personal Financial Literacy",
+  "cluster": "pfl",
+  "ia": "Managing Risk",
+  "sentence": "You are to assume the role of an insurance agent at CROSSROADS INSURANCE AGENCY.",
+  "situation": "You are to assume the role of an insurance agent at CROSSROADS INSURANCE AGENCY. A recent college graduate (judge) is moving to a new city for a first full-time job and needs both auto insurance and renterʼs insurance. The graduate (judge) has signed a lease on a one-bedroom apartment. The landlord requires all tenants to have renterʼs insurance. The graduate (judge) estimates that their furniture, clothing, television, laptop and bicycle are worth about $9,000 in total. The graduate (judge) also just bought a used 2019 sedan with an auto loan and must insure it. You have given the graduate (judge) two auto insurance quotes with the same coverage: ● Option A: $500 deductible for $142 per month ● Option B: $1,000 deductible for $121 per month The graduate (judge) has $1,200 in savings after paying for the move. Before making a decision, the graduate (judge) wants you to explain the following: ● What kinds of losses do auto insurance and renterʼs insurance each cover? ● What factors will affect how much the renterʼs insurance will cost? ● Should the auto policy have the higher deductible or the lower deductible? You will present the information to the graduate (judge) in a role-play to take place in your office. The graduate (judge) will begin the role-play by greeting you and asking about insurance for the move. After you have presented the information and have answered the graduateʼs (judgeʼs) questions, the graduate (judge) will conclude the meeting by thanking you for your work.",
+  "pis": [
+   "Explain the primary types of losses covered by auto, homeownerʼs, and renterʼs insurance policies.",
+   "Identify factors that influence the cost of renterʼs insurance and homeownersʼ insurance.",
+   "Discuss the pros and cons of buying an auto insurance policy with a higher deductible."
+  ]
+ },
+ {
+  "file": "GOAT_PFL_2627_DISTRICT_EVENT1.pdf",
+  "code": "PFL",
+  "event": "Personal Financial Literacy",
+  "cluster": "pfl",
+  "ia": "Managing Risk",
+  "sentence": "You are to assume the role of an insurance agent at KEYSTONE MUTUAL INSURANCE.",
+  "situation": "You are to assume the role of an insurance agent at KEYSTONE MUTUAL INSURANCE. A first-time homebuyer (judge) has been told by a mortgage lender that a homeownerʼs insurance policy is required before the home purchase can be completed and wants your help understanding it. The homebuyer (judge) is buying a three-bedroom townhouse for $285,000 and will close on the home in 30 days. The homebuyer (judge) is taking out a mortgage to pay for the townhouse. The mortgage lender has said the homebuyer (judge) must show proof of a homeownerʼs insurance policy before closing. The homebuyer (judge) is frustrated, because this feels like one more expense on top of the down payment and closing costs. The townhouse was built in 1998, and its roof was replaced five years ago. It is located two miles from a fire station. The homebuyer (judge) owns a large dog and is thinking about installing a home security system after moving in. Before making a decision, the homebuyer (judge) wants you to explain the following: ● Why does the lender require homeownerʼs insurance? ● What kinds of losses does a homeownerʼs insurance policy cover? ● What factors will affect how much the homeownerʼs insurance will cost? You will present the information to the homebuyer (judge) in a role-play to take place in your office. The homebuyer (judge) will begin the role-play by greeting you and asking about homeownerʼs insurance. After you have presented the information and have answered the homebuyerʼs (judgeʼs) questions, the homebuyer (judge) will conclude the meeting by thanking you for your work.",
+  "pis": [
+   "Explain why homeownersʼ insurance is required by a lender when a homeowner takes out a mortgage.",
+   "Explain the primary types of losses covered by auto, homeownerʼs, and renterʼs insurance policies.",
+   "Identify factors that influence the cost of renterʼs insurance and homeownersʼ insurance."
   ]
  },
  {
