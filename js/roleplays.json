@@ -703,6 +703,22 @@
   ]
  },
  {
+  "file": "GOAT_BLTDM_2425_DISTRICT_EVENT1.pdf",
+  "code": "BLTDM",
+  "event": "Business Law and Ethics Team Decision Making",
+  "cluster": "business",
+  "ia": "Economics",
+  "sentence": "You are to assume the roles of legal counsel and the marketing manager for NATURAL BITE, a company specializing in organic snacks.",
+  "situation": "You are to assume the roles of legal counsel and the marketing manager for NATURAL BITE, a company specializing in organic snacks. The CEO (judge) wants you to evaluate the legal implications of a new product launch while addressing key business metrics. NATURAL BITE is a mid-sized company that specializes in organic snacks, founded with the mission of providing healthy, delicious, and sustainably sourced food options. The company prides itself on using high-quality ingredients, supporting local farmers, and minimizing its environmental impact. Its product line includes granola bars, trail mixes, and dried fruits, all of which are marketed as organic and health-conscious. The new product line, PurePower Bars, are designed to be a convenient, on-the-go snack for health-conscious consumers, athletes, and busy professionals. Each bar is packed with protein (20 grams per bar), made from organic ingredients such as nuts, seeds, and natural sweeteners like honey or maple syrup. The bars are also gluten-free and contain no artificial additives or preservatives. Key features of the PurePower Bars include its organic certification, gluten-free claims, flavor variety, and its nutritional benefits. Given the emphasis on organic and gluten-free claims, the company must ensure strict compliance with USDA and FDA regulations to avoid legal issues and maintain consumer trust. This requires accurate labeling, certification, and transparency in sourcing practices. During the meeting with the CEO (judge), you must consider: ● The legal risks associated with product claims. ● How ensuring compliance can support the brand promise and profitability. ● The potential impact of market adaptation and competitive strategies. You will present your analysis and recommendation to the CEO of NATURAL BITE (judge) in a meeting to take place in the CEO’s (judge’s) office. The CEO (judge) will begin the meeting by greeting you and asking to hear your analysis. After you have presented your analysis and recommendation and have answered the CEO’s (judge’s) questions, the CEO (judge) will conclude the meeting by thanking you for your work.",
+  "pis": [
+   "Determine factors affecting business risk.",
+   "Identify factors affecting a business's profit.",
+   "Demonstrate connections between company actions and results.",
+   "Identify the company's brand promise.",
+   "Explain how organizations adapt to today's markets."
+  ]
+ },
+ {
   "file": "GOAT_BSM_2425_DISTRICT_EVENT2.pdf",
   "code": "BSM",
   "event": "Business Services Marketing Series",
@@ -732,6 +748,22 @@
    "Explain the role of situation analysis in the marketing planning process.",
    "Explain factors that influence customer/client/business buying behavior.",
    "Identify communications channels used in sales promotion."
+  ]
+ },
+ {
+  "file": "GOAT_BTDM_2425_DISTRICT_EVENT1.pdf",
+  "code": "BTDM",
+  "event": "Buying and Merchandising Team Decision Making",
+  "cluster": "marketing",
+  "ia": "Product/Service Management",
+  "sentence": "You are to assume the roles of the product development manager and the marketing communications manager for ARTISAN CRAFTS, a company that specializes in handmade home décor and personalized gifts.",
+  "situation": "You are to assume the roles of the product development manager and the marketing communications manager for ARTISAN CRAFTS, a company that specializes in handmade home décor and personalized gifts. The CEO (judge) has tasked your team with exploring the potential for a subscription box service featuring curated artisan products. ARTISAN CRAFTS has built a strong brand around its unique, handcrafted items, which include home décor, candles, and custom-made gifts. Recently, the subscription box trend has gained traction, and the CEO believes that offering a monthly subscription box could tap into a new customer base while providing an ongoing revenue stream. Your team needs to evaluate the following: ● How would introducing a subscription box service fit into ARTISAN CRAFTS' existing product line? ● What types of products should be included in the subscription box to appeal to the target audience? ● What marketing strategies can be employed to launch the subscription box successfully and attract subscribers? ● What potential challenges might arise from managing a subscription service, and how can these challenges be addressed? You will present your analysis and recommendations to the CEO (judge) in a meeting to take place in the CEO’s (judge’s) office. The CEO (judge) will begin the meeting by greeting you and asking to hear your ideas. After you have presented your ideas and answered the CEO’s (judge’s) questions, the CEO (judge) will conclude the meeting by thanking you for your work.",
+  "pis": [
+   "Explain the nature and scope of the product/service management function.",
+   "Explain the concept of product mix.",
+   "Explain the nature of product/service branding.",
+   "Describe factors used by marketers to position products/services.",
+   "Generate product ideas."
   ]
  },
  {
@@ -767,6 +799,38 @@
   ]
  },
  {
+  "file": "GOAT_ETDM_2425_DISTRICT_EVENT1.pdf",
+  "code": "ETDM",
+  "event": "Entrepreneurship Team Decision Making",
+  "cluster": "entrepreneurship",
+  "ia": "Promotion",
+  "sentence": "You are part of the marketing team for PETS & PLANET, a new company dedicated to offering eco-friendly pet products, including toys, treats, and accessories made from sustainable materials.",
+  "situation": "You are part of the marketing team for PETS & PLANET, a new company dedicated to offering eco-friendly pet products, including toys, treats, and accessories made from sustainable materials. The company is based in a city that has a growing community of environmentally conscious pet owners. PETS & PLANET offers a range of sustainable pet products designed to reduce waste and promote healthier lifestyles for pets and their owners. The company specializes in all-natural, biodegradable toys made from hemp and organic cotton, ensuring that pets have safe and durable options for play. Their organic, locally sourced treats are crafted from human-grade ingredients, free from artificial preservatives and additives, with packaging that emphasizes compostable materials. PETS & PLANET also provides a line of eco-friendly accessories, including collars, leashes, and beds, all made from recycled materials and designed for both comfort and style. Additionally, the company hosts workshops and events focused on pet wellness and sustainable care practices, where pet owners can engage in DIY projects like creating homemade toys and treats. The CEO (judge) of PETS & PLANET has asked your team to develop a promotional campaign aimed at raising awareness of the brand and attracting customers who prioritize sustainability in their purchasing decisions. Your task is to create a comprehensive promotional plan that includes: ● Target Audience ● Marketing Strategies ● Promotional Activities ● Impact Measurement You will present your promotional plan to the CEO (judge) in a meeting that takes place in the CEO’s (judge's) office. The CEO (judge) will begin the meeting by greeting you and asking to hear your ideas. After you have presented your ideas and answered the CEO’s (judge’s) questions, the CEO (judge) will conclude the meeting by thanking you for your work.",
+  "pis": [
+   "Explain the role of promotion as a marketing function.",
+   "Explain the types of promotion.",
+   "Identify the elements of the promotional mix.",
+   "Identify communications channels used in sales promotion.",
+   "Determine factors affecting business risk."
+  ]
+ },
+ {
+  "file": "GOAT_FTDM_2425_DISTRICT_EVENT1.pdf",
+  "code": "FTDM",
+  "event": "Financial Services Team Decision Making",
+  "cluster": "finance",
+  "ia": "Financial Analysis",
+  "sentence": "You are to assume the role of financial advisors at START SMART FINANCIAL, a company that helps young entrepreneurs manage their money.",
+  "situation": "You are to assume the role of financial advisors at START SMART FINANCIAL, a company that helps young entrepreneurs manage their money. A client (judge), who is a high school senior, has saved $6,000 and wants to start a small online business selling custom phone cases. The client needs advice on how to allocate this money to cover startup costs and maintain some savings as a cushion for future expenses. The client has estimated that they will need $4,000 to cover the initial startup costs, including buying inventory, setting up a website, and marketing. They want to keep the remaining $2,000 in a safe place where it can grow modestly but still be available in case the business needs more funding within the first year. Your task is to: ● Explain basic savings options, such as high-yield savings accounts or short-term certificates of deposit (CDs), and their benefits and drawbacks. ● Recommend a plan to help the client invest their $2,000 in a way that balances modest growth with easy access in case of an emergency. ● Calculate how much interest the client will earn after 1 year if they put the $2,000 in a high-yield savings account with a 1.5% annual interest rate (compounded monthly). The simple interest formula is A = P(1+r/n)^nt, where: ○ A = the amount of money accumulated after 1 year, including interest. ○ P = principal amount ○ r = annual interest rate ○ n = number of compounding periods ○ t = time in years You will present your financial plan to the client (judge) in a meeting that takes place in your office. The client (judge) will begin the meeting by greeting you and asking to hear your ideas. After you have presented your ideas and answered the client (judge’s) questions, the client (judge) will conclude the meeting by thanking you for your work.",
+  "pis": [
+   "Explain types of investments.",
+   "Set financial goals.",
+   "Explain the need to save and invest.",
+   "Make responsible financial decisions.",
+   "Describe the nature of budgets."
+  ]
+ },
+ {
   "file": "GOAT_FMS_2425_DISTRICT_EVENT2.pdf",
   "code": "FMS",
   "event": "Food Marketing Series",
@@ -796,6 +860,22 @@
    "Describe factors used by marketers to position products/services.",
    "Identify the company's brand promise.",
    "Determine factors affecting business risk."
+  ]
+ },
+ {
+  "file": "GOAT_HTDM_2425_DISTRICT_EVENT1.pdf",
+  "code": "HTDM",
+  "event": "Hospitality Services Team Decision Making",
+  "cluster": "hospitality",
+  "ia": "Product/Service Management",
+  "sentence": "You are to assume the roles of the brand manager and the guest experience coordinator for ECO RETREAT, an eco-friendly resort chain that focuses on sustainable tourism and immersive nature experiences.",
+  "situation": "You are to assume the roles of the brand manager and the guest experience coordinator for ECO RETREAT, an eco-friendly resort chain that focuses on sustainable tourism and immersive nature experiences. The resort has gained popularity over the past five years, particularly among environmentally conscious travelers seeking unique vacations. However, the CEO (judge) is concerned about the brand's positioning as more eco-resorts enter the market. The CEO has tasked your team with developing a new suite of packages aimed at families and groups, promoting eco-friendly activities while ensuring an unforgettable experience. These packages should include accommodations in eco-friendly lodges, guided nature tours, and hands-on experiences like organic farming workshops or wildlife conservation activities. In addition to package development, the CEO wants your recommendations on how to market these new offerings. Consider how to emphasize the sustainable aspects of the resort and its activities while also highlighting the unique experiences families can enjoy together. The CEO is particularly interested in strategies to engage potential guests through social media, partnerships with travel influencers, and community outreach programs. You will present your ideas to the CEO (judge) in an engaging meeting setting, which includes visuals of the resort, examples of potential activities, and sample itineraries for the new packages. The CEO (judge) will begin the meeting by welcoming you and expressing excitement about your proposals. After you have presented your concepts and answered the CEO’s questions, the CEO (judge) will conclude the meeting by thanking you for your innovative ideas.",
+  "pis": [
+   "Explain the nature and scope of the product/service management function.",
+   "Explain the concept of product mix.",
+   "Explain the nature of product/service branding.",
+   "Describe factors used by marketers to position products/services.",
+   "Identify the company's brand promise."
   ]
  },
  {
@@ -892,6 +972,22 @@
    "Explain the use of social media for digital marketing.",
    "Explain the use of video/images for digital marketing.",
    "Describe word-of-mouth channels used to communicate with targeted audiences."
+  ]
+ },
+ {
+  "file": "GOAT_MTDM_2425_DISTRICT_EVENT1.pdf",
+  "code": "MTDM",
+  "event": "Marketing Management Team Decision Making",
+  "cluster": "marketing",
+  "ia": "Promotion",
+  "sentence": "You are to assume the roles of the marketing specialist and the community outreach coordinator for WAVE AQUARIUM, an educational aquarium that focuses on marine conservation and education.",
+  "situation": "You are to assume the roles of the marketing specialist and the community outreach coordinator for WAVE AQUARIUM, an educational aquarium that focuses on marine conservation and education. The executive director (judge) wants you to develop a promotional campaign aimed at increasing attendance during the summer months. WAVE AQUARIUM is located in a coastal city and offers a variety of exhibits, educational programs, and hands-on activities for visitors of all ages. The aquarium has a loyal following, but attendance tends to drop during the summer when families are on vacation. WAVE AQUARIUM is not just a destination for marine enthusiasts; it’s a hub for education and conservation. Home to over 100 species of marine life, including vibrant coral reefs, playful otters, and majestic sea turtles, the aquarium offers immersive experiences that engage visitors in the wonders of ocean ecosystems. Alongside its exhibits, WAVE AQUARIUM hosts interactive educational programs, such as behind-the-scenes tours, hands-on animal encounters, and workshops focused on marine conservation. The aquarium also features a well-stocked gift shop offering eco-friendly products, educational toys, and souvenirs, along with a café serving sustainable seafood and local produce. To enhance summer attendance, the aquarium seeks to market these offerings effectively, highlighting special family packages, summer camp partnerships, and unique events like “Dive Into Science” weekends that provide engaging activities for children and adults alike. The executive director (judge) has asked you to create a campaign that targets: Families with children, Local schools and summer camps, and Tourists visiting the area Your campaign should include: ● Promotional events ● Advertising strategies ● Incentives You will present your campaign ideas to the executive director (judge) in a meeting to take place in the director’s (judge’s) office. The executive director (judge) will begin the meeting by greeting you and asking to hear your ideas. After you have presented your campaign and answered the executive director’s (judge’s) questions, the director (judge) will conclude the meeting by thanking you for your work.",
+  "pis": [
+   "Explain the role of promotion as a marketing function.",
+   "Explain the types of promotion.",
+   "Identify the elements of the promotional mix.",
+   "Identify communications channels used in sales promotion.",
+   "Determine factors affecting business risk."
   ]
  },
  {
@@ -1109,6 +1205,38 @@
    "Identify the elements of the promotional mix.",
    "Discuss the relationship between promotion and marketing.",
    "Explain types of advertising media."
+  ]
+ },
+ {
+  "file": "GOAT_STDM_2425_DISTRICT_EVENT1.pdf",
+  "code": "STDM",
+  "event": "Sports and Entertainment Marketing Team Decision Making",
+  "cluster": "marketing",
+  "ia": "Economics",
+  "sentence": "You are to assume the roles of the marketing manager and the customer relations manager for VICTORY SPORTS, a local sports apparel and equipment store.",
+  "situation": "You are to assume the roles of the marketing manager and the customer relations manager for VICTORY SPORTS, a local sports apparel and equipment store. VICTORY SPORTS has been a staple in the community for over 15 years, specializing in high-quality gear for various sports, including soccer, basketball, football, and track and field. The store is well-known for its knowledgeable staff, who are often local athletes themselves, and its commitment to supporting local high school teams. Located in a suburban area with a high school population of around 2,000 students, VICTORY SPORTS has a loyal customer base that appreciates its community involvement, including sponsoring local teams and hosting charity events. However, in recent years, the store has experienced a decline in foot traffic due to increased competition from online retailers and larger chain stores offering similar products at lower prices. As the busy school sports season approaches, the store's owner (judge) has tasked you with designing a comprehensive promotional campaign aimed at attracting local high school athletes and their families. The campaign should focus on reinforcing VICTORY SPORTS as the go-to destination for quality sports gear. Your proposal should include: ● Promotional Offers ● Community Events ● Social Media Strategy ● Feedback Mechanism You will present your promotional campaign proposal to the store owner (judge) in a meeting taking place in their office. The owner (judge) will begin the meeting by greeting you and asking to hear your ideas. After you have presented your campaign and answered any questions, the owner (judge) will conclude the meeting by thanking you for your work.",
+  "pis": [
+   "Explain the concept of competition.",
+   "Determine factors affecting business risk.",
+   "Identify factors affecting a business's profit.",
+   "Describe factors that affect the business environment.",
+   "Explain the role of promotion as a marketing function."
+  ]
+ },
+ {
+  "file": "GOAT_TTDM_2425_DISTRICT_EVENT1.pdf",
+  "code": "TTDM",
+  "event": "Travel and Tourism Team Decision Making",
+  "cluster": "hospitality",
+  "ia": "Promotion",
+  "sentence": "You are to assume the roles of the marketing coordinator and social media manager for THE COZY NEST BED AND BREAKFAST, a charming establishment located near a picturesque national park known for its hiking trails and stunning views.",
+  "situation": "You are to assume the roles of the marketing coordinator and social media manager for THE COZY NEST BED AND BREAKFAST, a charming establishment located near a picturesque national park known for its hiking trails and stunning views. The owner of THE COZY NEST (judge) has requested your team to develop a promotional strategy to attract couples and families looking for a relaxing getaway. THE COZY NEST specializes in providing a personalized experience with comfortable accommodations, homemade breakfasts, and unique local activities. Recently, the bed and breakfast was featured in a popular travel magazine as one of the top romantic getaways in the region, highlighting its warm ambiance and exceptional hospitality. The national park nearby draws a diverse crowd, including couples, families, and outdoor enthusiasts. The owner (judge) wants your team to create a promotional plan that capitalizes on the recent magazine feature and emphasizes the cozy, welcoming environment of THE COZY NEST. The plan should target couples and families looking for memorable getaways, emphasizing personalized service, homemade breakfasts, and proximity to the national park. It should incorporate a mix of digital and traditional marketing methods, including social media campaigns featuring guest testimonials and attractive visuals of the property. Collaborations with local businesses for cross-promotional opportunities can enhance the guest experience. The owner is particularly interested in promotional methods such as limited-time offers, seasonal packages, and themed weekends to attract different customer segments. Additionally, the plan should leverage email marketing and targeted online ads to effectively reach potential guests. Overall, the goal is to drive bookings while fostering long-term relationships that encourage repeat visits and positive word-of-mouth. You will present your ideas to the owner (judge) in a meeting to take place in the owner's office. The owner (judge) will start the meeting by welcoming you and asking for your insights. After your presentation, you will respond to the owner’s questions, and the owner will conclude the meeting by thanking you for your contributions.",
+  "pis": [
+   "Explain the role of promotion as a marketing function.",
+   "Explain promotional methods used by the hospitality and tourism industry.",
+   "Identify the elements of the promotional mix.",
+   "Explain the relationship between promotion and brand.",
+   "Describe the concept of promotion in the hospitality and tourism industry."
   ]
  }
 ]
