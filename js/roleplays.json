@@ -323,6 +323,51 @@
   ]
  },
  {
+  "file": "GOAT_PEN_2627_DISTRICT_EVENT1A.pdf",
+  "code": "PEN",
+  "event": "Principles of Entrepreneurship",
+  "cluster": "entrepreneurship",
+  "ia": "Financial Analysis",
+  "sentence": "You are to assume the role of the owner of PEDAL & GRIND, a bicycle repair shop with a small coffee bar inside.",
+  "situation": "You are to assume the role of the owner of PEDAL & GRIND, a bicycle repair shop with a small coffee bar inside. Your new business partner (judge) wants you to explain why the business made less profit this quarter even though sales were the highest they have ever been. PEDAL & GRIND opened three years ago. Last spring, you added the coffee bar to bring in customers while they wait for repairs. You also signed a lease on the larger storefront next door. This quarter, sales went up 30% from last quarter, but net profit went down. Your new business partner (judge) put money into the business last month. The partner (judge) has a background in bike mechanics, not business, and doesnʼt understand how higher sales can come with lower profit. The partner (judge) also wants to know why you spend so much time “doing the books” when you could be fixing bikes. You will walk the business partner (judge) through the income statement and recommend how the business can improve profit next quarter. The role-play takes place at the shop. The business partner (judge) will begin the role-play by asking about the quarterly numbers. After you have explained and have answered the business partnerʼs (judgeʼs) questions, the business partner (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Explain the role of finance in business.",
+   "Describe the need for financial information.",
+   "Describe the nature of income statements.",
+   "Explain the nature of overhead/operating costs."
+  ]
+ },
+ {
+  "file": "GOAT_PEN_2627_DISTRICT_EVENT1B.pdf",
+  "code": "PEN",
+  "event": "Principles of Entrepreneurship",
+  "cluster": "entrepreneurship",
+  "ia": "Financial Analysis",
+  "sentence": "You are to assume the role of the owner of FRESH CUTS MOBILE, a mobile dog grooming business that operates out of one custom van.",
+  "situation": "You are to assume the role of the owner of FRESH CUTS MOBILE, a mobile dog grooming business that operates out of one custom van. Your business partner (judge) wants you to explain whether the business should buy a second van with a business loan or with cash from savings. FRESH CUTS MOBILE is booked six weeks out, and you have turned away more than 40 new customers this year. A second fully equipped grooming van costs $68,000. The business has $75,000 in savings. Customers pay at the time of service, but large expenses like insurance, van maintenance and supplies come at uneven times of the year. Your business partner (judge) wants to pay cash for the van so the business “doesnʼt owe anybody anything.” You are not sure thatʼs the best move. You will explain your recommendation for financing the second van to the business partner (judge), using cost/benefit analysis, cash flow and budgeting. The role-play takes place at a coffee shop. The business partner (judge) will begin the role-play by asking about the van. After you have explained and have answered the business partnerʼs (judgeʼs) questions, the business partner (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Explain the purposes and importance of obtaining business credit.",
+   "Describe the nature of cost/benefit analysis.",
+   "Describe the nature of cash flow statements.",
+   "Describe the nature of budgets."
+  ]
+ },
+ {
+  "file": "GOAT_PEN_2627_DISTRICT_EVENT1C.pdf",
+  "code": "PEN",
+  "event": "Principles of Entrepreneurship",
+  "cluster": "entrepreneurship",
+  "ia": "Financial Analysis",
+  "sentence": "You are to assume the role of the owner of STITCH & SCRIPT, a custom embroidery shop that makes team uniforms, school spirit wear and corporate apparel.",
+  "situation": "You are to assume the role of the owner of STITCH & SCRIPT, a custom embroidery shop that makes team uniforms, school spirit wear and corporate apparel. Your part-time bookkeeper (judge) has suggested changes to the financial statements before you meet with a potential investor next week. The investor is interested in putting $40,000 into STITCH & SCRIPT so you can buy a second embroidery machine. The investor has asked to see your most recent financial statements. To make the business “look stronger,” the bookkeeper (judge) suggests two changes: ● Count a $12,000 deposit from a school district as revenue this month, even though the order wonʼt be made or delivered until spring. ● Leave the $9,000 remaining balance on your current embroidery machine loan off the balance sheet, because “itʼll be paid off in a year anyway.” The bookkeeper (judge) means well and doesnʼt see the harm. You will explain to the bookkeeper (judge) why you wonʼt make these changes and how youʼll present the business honestly and still make a strong case to the investor. The role-play takes place in the shopʼs office. The bookkeeper (judge) will begin the role-play by asking about the financial statements. After you have explained and have answered the bookkeeperʼs (judgeʼs) questions, the bookkeeper (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Explain the concept of accounting.",
+   "Discuss the role of ethics in finance.",
+   "Explain legal considerations for finance.",
+   "Describe the nature of balance sheets."
+  ]
+ },
+ {
   "file": "GOAT_PFN_2627_EXTRA1.pdf",
   "code": "PFN",
   "event": "Principles of Finance",
