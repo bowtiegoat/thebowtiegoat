@@ -80,6 +80,54 @@
   ]
  },
  {
+  "file": "GOAT_ETDM_2627_EXTRA3.pdf",
+  "code": "ETDM",
+  "event": "Entrepreneurship Team Decision Making",
+  "cluster": "entrepreneurship",
+  "ia": "Marketing",
+  "sentence": "You are to assume the roles of co-owners of SERENITY YOGA STUDIO, a boutique yoga studio located in a growing suburban area.",
+  "situation": "You are to assume the roles of co-owners of SERENITY YOGA STUDIO, a boutique yoga studio located in a growing suburban area. Your business partner (judge) has asked you to analyze the potential of expanding the studio’s offerings to attract more members and increase revenue. SERENITY YOGA STUDIO has built a loyal following of customers who enjoy small-group yoga classes in a peaceful, community-focused environment. The studio currently offers traditional yoga classes (Hatha, Vinyasa, and Restorative), a monthly membership program, and occasional wellness workshops focused on meditation and mindfulness. Recently, you have noticed a growing demand for hot yoga and hybrid fitness classes, such as yoga sculpt (yoga with light weights) and aerial yoga. Competitors in nearby cities have added these offerings and have seen an increase in memberships. However, adding these new classes would require investments in infrared heating panels for hot yoga, specialized equipment for aerial yoga, and potentially training current instructors or hiring new ones. Your venture capital partner (judge) believes that expanding the class offerings could help SERENITY YOGA STUDIO remain competitive and attract a younger audience. However, there are concerns about upfront costs, space limitations, and maintaining the studio’s brand identity. Your business partner (judge) has asked you to analyze the opportunity and provide a recommendation on whether the studio should move forward with adding new yoga styles. Your analysis should include: ● Benefits of expanding the class offerings, including attracting new members and increasing retention ● Challenges and risks, such as investment costs and the need for instructor training ● Recommendations on specific class types (hot yoga, yoga sculpt, aerial yoga) and their feasibility ● Marketing strategies to promote the new classes and differentiate SERENITY YOGA STUDIO from competitors You will present your ideas to your business partner (judge) in a meeting. The business partner (judge) will begin the meeting by greeting you and asking to hear your ideas. After you have presented your recommendations and answered the business partner’s (judge’s) questions, the business partner (judge) will conclude the meeting by thanking you for your work.",
+  "pis": [
+   "Explain the concept of product mix.",
+   "Explain the role of customer service in positioning/image.",
+   "Determine service to provide customers.",
+   "Identify company’s unique selling proposition.",
+   "Explain the concept of market and market identification."
+  ]
+ },
+ {
+  "file": "GOAT_ETDM_2627_EXTRA2.pdf",
+  "code": "ETDM",
+  "event": "Entrepreneurship Team Decision Making",
+  "cluster": "entrepreneurship",
+  "ia": "Marketing",
+  "sentence": "You are to assume the role of business partners who own SOCIAL SCOOPS, a trendy, social-media-driven ice cream shop in a city with a population of 250,000.",
+  "situation": "You are to assume the role of business partners who own SOCIAL SCOOPS, a trendy, social-media-driven ice cream shop in a city with a population of 250,000. SOCIAL SCOOPS specializes in unique, highly photogenic ice cream creations, including colorful rolled ice cream, waffle cones with edible glitter, and specialty flavors inspired by viral food trends. The shop encourages customers to share their purchases on social media by offering aesthetically designed serving dishes, trendy décor, and a dedicated “selfie station” with fun backdrops and props. The business has grown rapidly over the past two years due to word-of-mouth marketing and strong engagement on Instagram and TikTok. However, as competition increases, SOCIAL SCOOPS is looking for new ways to sustain its growth and increase sales without significantly increasing advertising costs. You have scheduled a meeting with a marketing consultant (judge) to explore two potential marketing expansion strategies: ● A mobile ice cream truck that can travel to festivals, corporate events, and local hot spots. ● A nationwide shipping option that allows customers to order pre-packaged ice cream kits, including signature toppings and custom serving ware, to recreate the Social Scoop experience at home. The consultant (judge) wants you to present a detailed marketing plan for each option, including: ● How each strategy will align with SOCIAL SCOOPS’ brand and existing social media-driven marketing approach. ● How you will promote the expansion to existing and new customers. ● The costs and benefits of each strategy. ● Potential partnerships or collaborations that could enhance the success of the expansion. You will present your ideas to the consultant (judge) in a meeting to take place in their office. The consultant (judge) will begin the meeting by greeting you and asking to hear your ideas. After you have presented your ideas and answered the consultant’s (judge’s) questions, they will conclude the meeting by thanking you for your work.",
+  "pis": [
+   "Describe marketing functions and related activities.",
+   "Explain factors that influence customer/client/business buying behavior.",
+   "Demonstrate connections between company actions and results.",
+   "Explain the concept of market and market identification.",
+   "Use creative problem-solving in business activities/decisions."
+  ]
+ },
+ {
+  "file": "GOAT_ETDM_2627_EXTRA1.pdf",
+  "code": "ETDM",
+  "event": "Entrepreneurship Team Decision Making",
+  "cluster": "entrepreneurship",
+  "ia": "Entrepreneurship",
+  "sentence": "You are to assume the roles of entrepreneurs starting a new business, PRECISION MOWER REPAIR, a lawn mower repair and maintenance service specializing in fast, reliable, and affordable repairs for residential and commercial lawn mowers.",
+  "situation": "You are to assume the roles of entrepreneurs starting a new business, PRECISION MOWER REPAIR, a lawn mower repair and maintenance service specializing in fast, reliable, and affordable repairs for residential and commercial lawn mowers. A small business investor (judge) has expressed interest in your idea but requires more details before deciding to invest. Lawn care is an essential part of home and business maintenance, and many people rely on their lawn mowers regularly. However, when mowers break down, customers often struggle to find quick and affordable repair services, leading to costly replacements. PRECISION MOWER REPAIR provides expert repair and routine maintenance services to help homeowners, landscapers, and businesses keep their equipment running smoothly. The small business investor (judge) wants to understand the financial potential of your business before deciding whether to invest. You must present a clear business plan and demonstrate that PRECISION MOWER REPAIR can succeed in the market. Your presentation must include: ● The need for your entrepreneurial idea ● Investment proposal ● Operational plan ● Marketing strategy ● Projected success ● Potential risks and challenges You will present your business proposal to the investor (judge), who will listen to your ideas and ask follow-up questions. The investor (judge) will conclude the meeting by thanking you for your work and considering whether to invest in your venture.",
+  "pis": [
+   "Discuss entrepreneurial planning considerations.",
+   "Assess start-up requirements.",
+   "Assess risks associated with venture.",
+   "Identify capital resources needed for the venture.",
+   "Explain considerations in making the decision to hire staff."
+  ]
+ },
+ {
   "file": "GOAT_HRM_2627_EXTRA2.pdf",
   "code": "HRM",
   "event": "Human Resources Management Series",
