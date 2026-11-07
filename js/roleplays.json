@@ -628,6 +628,38 @@
   ]
  },
  {
+  "file": "GOAT_STDM_2627_DISTRICT_EVENT1A.pdf",
+  "code": "STDM",
+  "event": "Sports and Entertainment Marketing Team Decision Making",
+  "cluster": "marketing",
+  "ia": "Market Planning",
+  "sentence": "You are to assume the roles of the marketing manager and the ticket sales manager for the RIVER CITY ROCKHOUNDS, a minor league baseball team.",
+  "situation": "You are to assume the roles of the marketing manager and the ticket sales manager for the RIVER CITY ROCKHOUNDS, a minor league baseball team. The general manager (judge) wants your team to identify new markets for the team and plan how to reach them. The ROCKHOUNDS play 70 home games a season in a 6,500-seat ballpark in downtown River City. Last season the team averaged 3,100 fans per game, which is less than half of capacity. Most of the teamʼs loyal fans are older: 62% of season ticket holders are over age 50. Group sales to local businesses and youth leagues dropped 18% last season. A fan survey and a survey of River City residents found that: ● Residents ages 22 to 34 said ticket prices were reasonable but described games as “something my parents do.” They said theyʼd come for a social night out with friends. ● Families with young children said weeknight games end too late but that weekend afternoon games fit their schedules. ● Over 40% of residents said they had never been to a ROCKHOUNDS game. The general manager (judge) wants your team to: ● Explain the teamʼs current market and identify new markets the ROCKHOUNDS could attract. ● Explain how to segment the market and target the right messages to each segment. ● Recommend ticket bundles that would appeal to the new target markets. ● Identify the communications channels the team should use to promote the bundles. You will present your ideas to the general manager (judge) in a meeting in the general managerʼs office. The general manager (judge) will begin the meeting by greeting you and asking to hear your ideas. After you have presented your ideas and answered the general managerʼs (judgeʼs) questions, the general manager (judge) will conclude the meeting by thanking you for your work.",
+  "pis": [
+   "Explain the concept of market and market identification.",
+   "Identify ways to segment markets for marketing communications.",
+   "Describe the nature of target marketing in marketing communications.",
+   "Describe the nature of product bundling.",
+   "Identify communications channels used in sales promotion."
+  ]
+ },
+ {
+  "file": "GOAT_STDM_2627_DISTRICT_EVENT1B.pdf",
+  "code": "STDM",
+  "event": "Sports and Entertainment Marketing Team Decision Making",
+  "cluster": "marketing",
+  "ia": "Market Planning",
+  "sentence": "You are to assume the roles of the director of marketing and the marketing coordinator at THE MERIDIAN, a restored 1,400-seat theater from the 1920s that hosts concerts, comedy shows and touring performances.",
+  "situation": "You are to assume the roles of the director of marketing and the marketing coordinator at THE MERIDIAN, a restored 1,400-seat theater from the 1920s that hosts concerts, comedy shows and touring performances. The executive director (judge) wants your team to explain how to plan for next season now that a major competitor is coming to town. Last season, THE MERIDIAN hosted 96 shows and filled an average of 68% of its seats. A new 15,000-seat arena will open across town next fall. The arena has already announced several major concert tours. The executive director (judge) is worried that fans and performers will choose the arena instead of THE MERIDIAN. The executive director (judge) also wants to know which marketing efforts are actually selling tickets. Here is how buyers said they heard about last seasonʼs shows: ● Email newsletter: 41% ● Social media: 22% ● Walk-up or word of mouth: 15% ● Unknown: 22% The board of directors wants a marketing plan for next season. The executive director (judge) wants your team to: ● Explain how a situation analysis would help THE MERIDIAN understand where it stands, including the impact of the new arena. ● Explain what a sales forecast is and how THE MERIDIAN could use one for next season. ● Explain what a marketing plan is and what it should include. ● Identify THE MERIDIANʼs competitive advantage over the new arena. ● Recommend ways to track which marketing activities are selling tickets. You will present your ideas to the executive director (judge) in a meeting at the theater. The executive director (judge) will begin the meeting by greeting you and asking to hear your ideas. After you have presented your ideas and answered the executive directorʼs (judgeʼs) questions, the executive director (judge) will conclude the meeting by thanking you for your work.",
+  "pis": [
+   "Explain the role of situation analysis in the marketing planning process.",
+   "Explain the nature of sales forecasts.",
+   "Explain the nature of marketing plans.",
+   "Identify productʼs/serviceʼs competitive advantage.",
+   "Identify ways to track marketing-communications activities."
+  ]
+ },
+ {
   "file": "GOAT_AAM_2526_DISTRICT_EVENT2.pdf",
   "code": "AAM",
   "event": "Apparel and Accessories Marketing Series",
