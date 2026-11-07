@@ -238,6 +238,20 @@
   ]
  },
  {
+  "file": "GOAT_PFL_2627_SCDC_EVENT3.pdf",
+  "code": "PFL",
+  "event": "Personal Financial Literacy",
+  "cluster": "pfl",
+  "ia": "Managing Credit",
+  "sentence": "You are to assume the role of a credit counselor at CLEARPATH CREDIT COUNSELING, a nonprofit organization.",
+  "situation": "You are to assume the role of a credit counselor at CLEARPATH CREDIT COUNSELING, a nonprofit organization. A client (judge) has had several setbacks related to credit and has asked for your help. The client (judge) is 22 and graduated from college in May. In the past month, the client (judge): ● Was turned down for an apartment after the landlord ran a credit check ● Was told that a job offer from a regional bank depends on a background and credit review ● Received a car insurance renewal notice with a higher premium Eighteen months ago, the client (judge) opened a store credit card with a 0% introductory APR for 15 months and used it to buy a laptop and furniture. During a busy move last spring, the client (judge) missed two payments in a row. The card company then replaced the 0% rate with a 29.99% penalty APR. Here is the clientʼs (judgeʼs) current credit profile: Credit score 588 Length of credit history 18 months Store credit card balance / limit $2,100 / $2,500 Other debt Two “buy now, pay later” plans, both current Payment history Two missed payments on the store card New credit applications Three credit card applications in the last two months, all denied After the apartment denial, the client (judge) applied for three new credit cards to “build credit faster.” The client (judge) wants you to explain why landlords, employers and insurers care about credit, what goes into a credit score and what happened to the 0% introductory rate. You will present the information to the client (judge) in a meeting at the CLEARPATH office. The client (judge) will begin the meeting by greeting you and asking about credit. After you have presented the information and answered the clientʼs (judgeʼs) questions, the client (judge) will conclude the meeting by thanking you for your work.",
+  "pis": [
+   "Explain how landlords, potential employers, and insurance companies use credit reports and credit scores in decision-making.",
+   "Identify the main factors that are included in credit score calculations.",
+   "Investigate what happens to a low introductory interest rate when the borrower misses a payment or makes a late payment."
+  ]
+ },
+ {
   "file": "GOAT_PFL_2627_DISTRICT_EVENT2.pdf",
   "code": "PFL",
   "event": "Personal Financial Literacy",
@@ -252,6 +266,20 @@
   ]
  },
  {
+  "file": "GOAT_PFL_2627_SCDC_EVENT2.pdf",
+  "code": "PFL",
+  "event": "Personal Financial Literacy",
+  "cluster": "pfl",
+  "ia": "Earning Income",
+  "sentence": "You are to assume the role of a career and financial coach at TRI-COUNTY CAREER CENTER, a workforce development office.",
+  "situation": "You are to assume the role of a career and financial coach at TRI-COUNTY CAREER CENTER, a workforce development office. A client (judge) recently lost their job and wants help choosing between two offers. The client (judge) worked for five years as a customer support specialist for a software company. Two months ago, the company replaced most of its support team with an AI chatbot and laid off the client (judge) and 40 coworkers. The client (judge) now has two offers: Option A: Customer Success Associate, PINEWOOD HEALTH SYSTEM (full-time employee) ● $46,000 annual salary ● Health insurance, with the employer paying 80% of the premium ● 401(k) retirement plan with a 4% employer match ● 15 paid days off per year ● Up to $2,000 per year in tuition and training reimbursement ● Taxes withheld from each paycheck Option B: Freelance AI Chat Trainer, through an online work platform (independent contractor) ● $32 per hour, with an estimated 35 hours per week (about $58,000 per year if work stays steady) ● No health insurance, retirement plan or paid time off ● No taxes withheld; the client (judge) would have to pay self-employment tax and make quarterly estimated tax payments ● Weekly hours depend on how much work the platform has, and the platform can end the arrangement at any time The client (judge) is leaning toward Option B because “the number is bigger.” The client (judge) wants you to explain how economic and labor market changes like AI are affecting jobs and income, why benefits matter as much as pay, and how taxes would affect take-home pay under each option. You will present the information to the client (judge) in a meeting at the career center. The client (judge) will begin the meeting by greeting you and asking about the offers. After you have presented the information and answered the clientʼs (judgeʼs) questions, the client (judge) will conclude the meeting by thanking you for your work.",
+  "pis": [
+   "Discuss how economic and labor market conditions can affect income, career opportunities, and employment status.",
+   "Explain why people should evaluate employee benefits in addition to wages and salaries when choosing between job and career opportunities.",
+   "Explain how taxes impact take-home pay."
+  ]
+ },
+ {
   "file": "GOAT_PFL_2627_DISTRICT_EVENT1.pdf",
   "code": "PFL",
   "event": "Personal Financial Literacy",
@@ -263,6 +291,20 @@
    "Explain why homeownersʼ insurance is required by a lender when a homeowner takes out a mortgage.",
    "Explain the primary types of losses covered by auto, homeownerʼs, and renterʼs insurance policies.",
    "Identify factors that influence the cost of renterʼs insurance and homeownersʼ insurance."
+  ]
+ },
+ {
+  "file": "GOAT_PFL_2627_SCDC_EVENT1.pdf",
+  "code": "PFL",
+  "event": "Personal Financial Literacy",
+  "cluster": "pfl",
+  "ia": "Managing Risk",
+  "sentence": "You are to assume the role of a fraud prevention specialist at LAKESHORE FEDERAL CREDIT UNION.",
+  "situation": "You are to assume the role of a fraud prevention specialist at LAKESHORE FEDERAL CREDIT UNION. A member (judge) believes they have become a victim of identity theft and has asked for your help. Three days ago, the member (judge) received a text message saying they had an unpaid highway toll balance of $4.15 and would be charged a $50 late fee unless they paid right away. The message had a link to a website that looked official. The member (judge) entered their debit card number. The next screen asked for their date of birth and Social Security number “to verify identity,” and the member (judge) entered those too. Since then, the member (judge) has noticed the following: ● $612 in charges at an online electronics store on their debit card ● An email welcoming them as a new cardholder for a credit card they never applied for ● A notice from their wireless carrier that a new phone line was added to their account The member (judge) also mentioned a few habits. They use the same password for their email and the credit unionʼs mobile app. They often check their account on the free Wi-Fi at their gym. They turned off the appʼs fingerprint login because it was “annoying.” Yesterday, someone called claiming to be from LAKESHOREʼs fraud department and asked the member (judge) to read back a code that had just been texted to them. The member (judge) hung up but isnʼt sure whether the call was real. The member (judge) wants you to explain how identity thieves get personal information, what steps to take right now to limit losses, and how to manage money safely on a phone going forward. You will present the information to the member (judge) in a meeting at the credit union. The member (judge) will begin the meeting by greeting you and asking for help. After you have presented the information and answered the memberʼs (judgeʼs) questions, the member (judge) will conclude the meeting by thanking you for your work.",
+  "pis": [
+   "Explain methods used by identity thieves to obtain personal information to commit a crime.",
+   "Explain the steps an identity theft victim should take to limit losses and restore personal security.",
+   "Describe steps people can take to safely manage their finances using mobile technology."
   ]
  },
  {
