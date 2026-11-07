@@ -596,6 +596,38 @@
   ]
  },
  {
+  "file": "GOAT_SEM_2627_DISTRICT_EVENT1A.pdf",
+  "code": "SEM",
+  "event": "Sports and Entertainment Marketing Series",
+  "cluster": "marketing",
+  "ia": "Market Planning",
+  "sentence": "You are to assume the role of a marketing specialist for the GRANITE BAY SURGE, a new professional womenʼs volleyball team.",
+  "situation": "You are to assume the role of a marketing specialist for the GRANITE BAY SURGE, a new professional womenʼs volleyball team. The team president (judge) wants you to explain how the team should plan its marketing before its first season. The SURGE will play 12 home matches in a 4,800-seat arena, starting in eight months. The team has no history, no fans and no famous players yet. So far, 1,200 people have put down $50 deposits for season tickets. The team has 9,000 social media followers, most of whom followed after the team name and logo were announced. Volleyball is popular in the area. About 3,400 kids play on youth club volleyball teams, and the local university womenʼs volleyball team averages 2,100 fans per home match. The team president (judge) wants you to: ● Explain what marketing planning is and why the SURGE needs to start it now. ● Identify market segments the team should target. ● Explain how the team could forecast ticket sales for its first season. ● Recommend ways to grow the teamʼs social media following. ● Explain how to turn early fans into loyal fans who spread the word. You will present your ideas to the team president (judge) in a meeting at the team office. The team president (judge) will begin the meeting by greeting you and asking to hear your ideas. After you have presented your ideas and answered the team presidentʼs (judgeʼs) questions, the team president (judge) will conclude the meeting by thanking you for your work.",
+  "pis": [
+   "Explain the nature of marketing planning.",
+   "Identify ways to segment markets for marketing communications.",
+   "Explain the nature of sales forecasts.",
+   "Implement strategies to grow social-media following.",
+   "Describe considerations in developing customer evangelists."
+  ]
+ },
+ {
+  "file": "GOAT_SEM_2627_DISTRICT_EVENT1B.pdf",
+  "code": "SEM",
+  "event": "Sports and Entertainment Marketing Series",
+  "cluster": "marketing",
+  "ia": "Market Planning",
+  "sentence": "You are to assume the role of a marketing coordinator for SUNDOWN SOUNDS, a three-day outdoor music festival held each summer.",
+  "situation": "You are to assume the role of a marketing coordinator for SUNDOWN SOUNDS, a three-day outdoor music festival held each summer. The festival director (judge) wants you to explain why attendance is falling and recommend a marketing strategy for next year. SUNDOWN SOUNDS is entering its sixth year. Attendance peaked at 22,000 two years ago but fell to 17,500 last summer. A three-day pass costs $139. About 55% of attendees are ages 18 to 29. A survey of people who attended in the past but skipped last year found: ● 38% said the ticket price was too high. ● 27% said the lineup wasnʼt exciting. ● 19% went to a competing festival held the same weekend two hours away. ● 16% gave other reasons. The festival director (judge) has been approached by a regional credit union and a popular local energy drink brand about becoming festival partners. Several music creators with large local followings have also offered to promote the festival in exchange for free passes. The festival director (judge) wants you to: ● Explain what a marketing strategy is and recommend one for next year. ● Explain how to target marketing messages to the festivalʼs key audiences. ● Explain how influencers could help spread the word about the festival. ● Explain how partnerships with brands like the credit union and energy drink company could benefit the festival. You will present your ideas to the festival director (judge) in a meeting at the festival office. The festival director (judge) will begin the meeting by greeting you and asking to hear your ideas. After you have presented your ideas and answered the festival directorʼs (judgeʼs) questions, the festival director (judge) will conclude the meeting by thanking you for your work.",
+  "pis": [
+   "Explain the concept of marketing strategies.",
+   "Explain the role of situation analysis in the marketing planning process.",
+   "Describe the nature of target marketing in marketing communications.",
+   "Explain the use of celebrities/influencers as a WOM strategy.",
+   "Explain the nature of affinity partner relationships."
+  ]
+ },
+ {
   "file": "GOAT_AAM_2526_DISTRICT_EVENT2.pdf",
   "code": "AAM",
   "event": "Apparel and Accessories Marketing Series",
