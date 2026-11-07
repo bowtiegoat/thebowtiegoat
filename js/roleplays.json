@@ -413,21 +413,6 @@
   ]
  },
  {
-  "file": "GOAT_PEN_2627_DISTRICT_EVENT1A.pdf",
-  "code": "PEN",
-  "event": "Principles of Entrepreneurship",
-  "cluster": "entrepreneurship",
-  "ia": "Financial Analysis",
-  "sentence": "You are to assume the role of the owner of PEDAL & GRIND, a bicycle repair shop with a small coffee bar inside.",
-  "situation": "You are to assume the role of the owner of PEDAL & GRIND, a bicycle repair shop with a small coffee bar inside. Your new business partner (judge) wants you to explain why the business made less profit this quarter even though sales were the highest they have ever been. PEDAL & GRIND opened three years ago. Last spring, you added the coffee bar to bring in customers while they wait for repairs. You also signed a lease on the larger storefront next door. This quarter, sales went up 30% from last quarter, but net profit went down. Your new business partner (judge) put money into the business last month. The partner (judge) has a background in bike mechanics, not business, and doesnʼt understand how higher sales can come with lower profit. The partner (judge) also wants to know why you spend so much time “doing the books” when you could be fixing bikes. You will walk the business partner (judge) through the income statement and recommend how the business can improve profit next quarter. The role-play takes place at the shop. The business partner (judge) will begin the role-play by asking about the quarterly numbers. After you have explained and have answered the business partnerʼs (judgeʼs) questions, the business partner (judge) will conclude the role-play by thanking you for your work.",
-  "pis": [
-   "Explain the role of finance in business.",
-   "Describe the need for financial information.",
-   "Describe the nature of income statements.",
-   "Explain the nature of overhead/operating costs."
-  ]
- },
- {
   "file": "GOAT_PEN_2627_DISTRICT_EVENT1B.pdf",
   "code": "PEN",
   "event": "Principles of Entrepreneurship",
