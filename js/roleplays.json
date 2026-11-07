@@ -308,6 +308,81 @@
   ]
  },
  {
+  "file": "GOAT_PBM_2627_DISTRICT_EVENT1A.pdf",
+  "code": "PBM",
+  "event": "Principles of Business Management and Administration",
+  "cluster": "business",
+  "ia": "Professional Development",
+  "sentence": "You are to assume the role of an operations assistant at BRIDGEPORT FREIGHT, a regional trucking and warehouse company with 300 employees.",
+  "situation": "You are to assume the role of an operations assistant at BRIDGEPORT FREIGHT, a regional trucking and warehouse company with 300 employees. A new warehouse associate (judge) wants your advice on building a career with the company. The warehouse associate (judge) is 19 and was hired three months ago to load and unload trucks. The associate (judge) likes the company but thinks warehouse work is a dead end. During a break, the associate (judge) mentioned that the dispatchers, office staff and managers “all seem to have better jobs” but has no idea how anyone got there. Several of BRIDGEPORTʼs current managers started out in the warehouse. The associate (judge) has asked you to explain the kinds of jobs that exist at a company like BRIDGEPORT, how people typically move up, what skills would help the associate (judge) advance and how to set goals to get there. You will present the information to the warehouse associate (judge) in the break room. The associate (judge) will begin the conversation by greeting you and asking for advice. After you have presented the information and answered the associateʼs (judgeʼs) questions, the associate (judge) will conclude the conversation by thanking you for your help.",
+  "pis": [
+   "Explain employment opportunities in business.",
+   "Explain possible career advancement patterns for jobs.",
+   "Identify skills needed to enhance career progression.",
+   "Develop an achievement orientation."
+  ]
+ },
+ {
+  "file": "GOAT_PBM_2627_DISTRICT_EVENT1B.pdf",
+  "code": "PBM",
+  "event": "Principles of Business Management and Administration",
+  "cluster": "business",
+  "ia": "Professional Development",
+  "sentence": "You are to assume the role of an administrative assistant at SUMMIT PROPERTY GROUP, a company that manages apartment buildings.",
+  "situation": "You are to assume the role of an administrative assistant at SUMMIT PROPERTY GROUP, a company that manages apartment buildings. A coworker (judge) who was recently hired as an office coordinator is struggling and has asked you for advice. The office coordinator (judge) schedules maintenance requests, answers tenant calls and processes lease paperwork. The coordinator (judge) also takes two evening college classes and picks up a younger sibling from school three days a week. In the first month, the coordinator (judge) has arrived late four times, missed a deadline for lease renewals and left voicemails unanswered for two days. The office manager has noticed and plans to meet with the coordinator (judge) next week. The coordinator (judge) feels overwhelmed and wants you to explain how to manage time better, how to balance work with school and family, what employers expect from employees and how to show the manager that the coordinator (judge) is responsible. You will present the information to the coordinator (judge) in the office after hours. The coordinator (judge) will begin the conversation by greeting you and asking for help. After you have presented the information and answered the coordinatorʼs (judgeʼs) questions, the coordinator (judge) will conclude the conversation by thanking you for your help.",
+  "pis": [
+   "Use time-management skills.",
+   "Balance personal and professional responsibilities.",
+   "Analyze employer expectations in the business environment.",
+   "Demonstrate responsible behavior."
+  ]
+ },
+ {
+  "file": "GOAT_PBM_2627_DISTRICT_EVENT1C.pdf",
+  "code": "PBM",
+  "event": "Principles of Business Management and Administration",
+  "cluster": "business",
+  "ia": "Professional Development",
+  "sentence": "You are to assume the role of a recruiting assistant at LINKWAY STAFFING, an agency that places workers in office and business jobs.",
+  "situation": "You are to assume the role of a recruiting assistant at LINKWAY STAFFING, an agency that places workers in office and business jobs. A high school senior (judge) wants to work in business administration and has asked you for advice. The senior (judge) has applied for six entry-level office jobs and summer internships and hasnʼt heard back from any of them. The senior (judge) has good grades and is treasurer of a school club, but has never had a paid job. The senior (judge) doesnʼt know any adults who work in business. The senior (judge) has a public social media account with mostly personal photos and videos, and doesnʼt have a professional profile. The senior (judge) wants you to explain ways to gain work experience, how to network to find job openings, where to find reliable career information and how to use social media professionally. You will present the information to the senior (judge) in a meeting at the LINKWAY office. The senior (judge) will begin the meeting by greeting you and asking for advice. After you have presented the information and answered the seniorʼs (judgeʼs) questions, the senior (judge) will conclude the meeting by thanking you for your help.",
+  "pis": [
+   "Describe techniques for obtaining work experience.",
+   "Use networking techniques to identify employment opportunities.",
+   "Identify sources of career information.",
+   "Distinguish between using social media for business and personal use."
+  ]
+ },
+ {
+  "file": "GOAT_PBM_2627_DISTRICT_EVENT1D.pdf",
+  "code": "PBM",
+  "event": "Principles of Business Management and Administration",
+  "cluster": "business",
+  "ia": "Professional Development",
+  "sentence": "You are to assume the role of an office assistant at HARMON & REYES INSURANCE AGENCY, a local insurance agency with 25 employees.",
+  "situation": "You are to assume the role of an office assistant at HARMON & REYES INSURANCE AGENCY, a local insurance agency with 25 employees. A longtime employee (judge) is worried about upcoming changes and has asked to talk with you. The agency is switching to new software next month. The software uses artificial intelligence (AI) to schedule appointments, draft emails to clients and organize policy documents. The longtime employee (judge) has worked at the agency for 22 years and is very good with clients but is nervous about technology. The employee (judge) has heard rumors that the software will “replace people” and is thinking about retiring early instead of learning a new system. The agency will pay for online training courses and has offered a lunch-and-learn session each Friday. The employee (judge) wants you to explain why workers need to keep learning, what resources are available, why innovation skills matter and how technology is changing businesses like the agency. You will present the information to the employee (judge) in the employeeʼs (judgeʼs) office. The employee (judge) will begin the conversation by greeting you and sharing their concerns. After you have presented the information and answered the employeeʼs (judgeʼs) questions, the employee (judge) will conclude the conversation by thanking you for your help.",
+  "pis": [
+   "Explain the need for ongoing education as a worker.",
+   "Utilize resources that can contribute to professional development.",
+   "Explain the need for innovation skills.",
+   "Identify ways that technology impacts business."
+  ]
+ },
+ {
+  "file": "GOAT_PBM_2627_DISTRICT_EVENT1E.pdf",
+  "code": "PBM",
+  "event": "Principles of Business Management and Administration",
+  "cluster": "business",
+  "ia": "Professional Development",
+  "sentence": "You are to assume the role of a member services associate at THE COMMONS, a coworking space where small businesses and freelancers rent desks, offices and meeting rooms.",
+  "situation": "You are to assume the role of a member services associate at THE COMMONS, a coworking space where small businesses and freelancers rent desks, offices and meeting rooms. The general manager (judge) wants your ideas for fixing a growing problem. Members book meeting rooms through an online calendar, at the front desk or by email to staff. In the past month, members have been double-booked for meeting rooms 11 times. Twice, members arrived with clients and had no room to meet. Three members have posted negative online reviews, and one has threatened to cancel their membership. Staff members say they are too busy to check the calendar every time someone emails a request. The general manager (judge) wants you to identify the cause of the problem, decide on the best solution, suggest creative ideas to prevent double-booking and explain how to win back frustrated members. You will present your ideas to the general manager (judge) in the managerʼs office. The general manager (judge) will begin the meeting by greeting you and asking to hear your ideas. After you have presented your ideas and answered the general managerʼs (judgeʼs) questions, the general manager (judge) will conclude the meeting by thanking you for your work.",
+  "pis": [
+   "Demonstrate problem-solving skills.",
+   "Make decisions.",
+   "Demonstrate appropriate creativity.",
+   "Demonstrate a customer service mindset."
+  ]
+ },
+ {
   "file": "GOAT_PEN_2627_EXTRA10.pdf",
   "code": "PEN",
   "event": "Principles of Entrepreneurship",
