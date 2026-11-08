@@ -112,6 +112,54 @@
   ]
  },
  {
+  "file": "GOAT_BFS_2627_DISTRICT_EVENT2A.pdf",
+  "code": "BFS",
+  "event": "Business Finance Series",
+  "cluster": "finance",
+  "ia": "Professional Development",
+  "sentence": "You are to assume the role of the controller at BRIGHTLOOP, a fast-growing software company.",
+  "situation": "You are to assume the role of the controller at BRIGHTLOOP, a fast-growing software company. The CEO (judge) wants your recommendation on how to build the companyʼs finance team. BRIGHTLOOPʼs sales grew from $6 million to $14 million in two years. The company plans to raise $20 million from investors next year. Right now, you are the most senior finance employee. The CEO (judge) is a software engineer with no finance background and is considering two options: ● Option A: Hire a full-time chief financial officer (CFO). Salary: $225,000, plus 25% for benefits and payroll taxes. ● Option B: Hire a part-time “fractional” CFO for $12,000 per month, and hire a full-time financial analyst. Analyst salary: $85,000, plus 25% for benefits and payroll taxes. The CEO (judge) wants you to: ● Explain the roles and responsibilities of a CFO, controller, treasurer and financial analyst. ● Calculate the total yearly cost of each option. ● Explain which professional designations to look for when hiring, and why they matter. ● Explain how each finance role helps BRIGHTLOOP reach its goal of raising $20 million. ● Present your recommendation in a way a non-finance CEO will understand. You will present your recommendation to the CEO (judge) in a meeting in the CEOʼs office. The CEO (judge) will begin the meeting by greeting you and asking to hear your ideas. After you have presented your ideas and answered the CEOʼs (judgeʼs) questions, the CEO (judge) will conclude the meeting by thanking you for your work.",
+  "pis": [
+   "Explain the role and responsibilities of financial management personnel.",
+   "Explain professional designations in the field of business finance (e.g., CF, CFA, CCM, CTP, CFM, etc.).",
+   "Discuss employment opportunities in the finance industry.",
+   "Ascertain employeeʼs role in meeting organizational goals.",
+   "Employ communication styles appropriate to target audience."
+  ]
+ },
+ {
+  "file": "GOAT_BFS_2627_DISTRICT_EVENT2B.pdf",
+  "code": "BFS",
+  "event": "Business Finance Series",
+  "cluster": "finance",
+  "ia": "Professional Development",
+  "sentence": "You are to assume the role of a Certified Financial Planner (CFP) in the wealth management office of NORTHGATE BANK.",
+  "situation": "You are to assume the role of a Certified Financial Planner (CFP) in the wealth management office of NORTHGATE BANK. A bank teller (judge) wants your advice on becoming a financial planner. The teller (judge) has worked at NORTHGATE for two years and earns $39,000 a year. The teller (judge) enjoys helping customers with their money questions and wants to become a financial planner. The teller (judge) has gathered the following information: Associate financial planner salary at NORTHGATE $58,000 CFP education program cost $6,000 CFP exam fee $1,000 NORTHGATE tuition reimbursement 75% of education program costs (does not cover exam fee) Work experience required for CFP 6,000 hours The teller (judge) doesnʼt fully understand what financial planners do with clients each day. The teller (judge) wants you to: ● Explain the steps of the financial planning process. ● Explain employment opportunities for financial planners and related careers in finance. ● Calculate the tellerʼs (judgeʼs) out-of-pocket cost to become a CFP and the first-year pay increase from becoming an associate planner. ● Explain why ongoing education is needed in financial planning. ● Recommend resources and skills that would help the teller (judge) reach this goal. You will present the information to the teller (judge) in a meeting at the bank. The teller (judge) will begin the meeting by greeting you and asking for advice. After you have presented the information and answered the tellerʼs (judgeʼs) questions, the teller (judge) will conclude the meeting by thanking you for your help.",
+  "pis": [
+   "Discuss the financial planning process.",
+   "Discuss employment opportunities in the finance industry.",
+   "Explain the need for ongoing education as a worker.",
+   "Utilize resources that can contribute to professional development.",
+   "Identify skills needed to enhance career progression."
+  ]
+ },
+ {
+  "file": "GOAT_BFS_2627_DISTRICT_EVENT2C.pdf",
+  "code": "BFS",
+  "event": "Business Finance Series",
+  "cluster": "finance",
+  "ia": "Professional Development",
+  "sentence": "You are to assume the role of a commercial lending associate at MAPLE RIDGE COMMUNITY BANK.",
+  "situation": "You are to assume the role of a commercial lending associate at MAPLE RIDGE COMMUNITY BANK. You were hired three months ago. The vice president of commercial lending (judge) wants you to explain how you will help the department meet its growth goal. MAPLE RIDGE has $48 million in small-business loans. The bankʼs goal is to grow that amount by 15% next year. The goal is split evenly among four lending team members, including you. Past results show: ● The average small-business loan is $150,000. ● About 1 in 4 qualified referrals becomes a closed loan. Most of MAPLE RIDGEʼs business loans come from referrals by accountants, attorneys, real estate agents and the local chamber of commerce. You donʼt yet know anyone in the local business community. The bank will pay for a chamber of commerce membership and one industry training program for you this year. The vice president (judge) wants you to: ● Calculate your share of the growth goal, how many loans you need to close and how many referrals you need each month. ● Explain how you will build professional relationships to generate referrals. ● Explain how to change your communication style for business owners and for referral partners. ● Identify skills you need to develop and resources that can help. You will present your plan to the vice president (judge) in a meeting in the vice presidentʼs office. The vice president (judge) will begin the meeting by greeting you and asking to hear your plan. After you have presented your plan and answered the vice presidentʼs (judgeʼs) questions, the vice president (judge) will conclude the meeting by thanking you for your work.",
+  "pis": [
+   "Discuss opportunities for building professional relationships in finance.",
+   "Ascertain employeeʼs role in meeting organizational goals.",
+   "Identify skills needed to enhance career progression.",
+   "Utilize resources that can contribute to professional development.",
+   "Employ communication styles appropriate to target audience."
+  ]
+ },
+ {
   "file": "GOAT_ENT_2627_EXTRA.pdf",
   "code": "ENT",
   "event": "Entrepreneurship Series",
