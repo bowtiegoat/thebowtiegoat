@@ -128,6 +128,38 @@
   ]
  },
  {
+  "file": "GOAT_ETDM_2627_DISTRICT_EVENT1A.pdf",
+  "code": "ETDM",
+  "event": "Entrepreneurship Team Decision Making",
+  "cluster": "entrepreneurship",
+  "ia": "Market Planning",
+  "sentence": "You are to assume the roles of small business consultants.",
+  "situation": "You are to assume the roles of small business consultants. The owner (judge) of MOBILE PAWS, a mobile pet grooming business, wants your teamʼs advice on expanding to a new market. The owner (judge) started MOBILE PAWS two years ago with one van that drives to customersʼ homes to bathe, trim and groom dogs and cats. Business has been strong: ● The van is booked six days a week, and new customers wait about three weeks for an appointment. ● 85% of customers live in one neighborhood of single-family homes. ● A typical grooming costs $85, compared with $60 at the two grooming salons in town. ● Most new customers heard about MOBILE PAWS from a neighbor or a neighborhood social media group. The owner (judge) plans to buy a second van and is deciding which new market to serve. One option is a nearby suburb with many retirees who have trouble driving their pets to a salon. The other option is downtown, where new apartment buildings are full of busy young professionals with small dogs. The owner (judge) recently heard that a national pet store chain is testing its own mobile grooming service in the region. The owner (judge) wants your team to: ● Explain MOBILE PAWSʼ current market and the two possible new markets. ● Recommend which target market the second van should serve and why. ● Conduct a SWOT analysis of MOBILE PAWS. ● Explain how competition from salons and the national chain could affect the business. ● Recommend word-of-mouth channels to reach the new target market. You will present your ideas to the owner (judge) in a meeting at a local coffee shop. The owner (judge) will begin the meeting by greeting you and asking to hear your ideas. After you have presented your ideas and answered the ownerʼs (judgeʼs) questions, the owner (judge) will conclude the meeting by thanking you for your work.",
+  "pis": [
+   "Explain the concept of market and market identification.",
+   "Select target market.",
+   "Conduct SWOT analysis for use in the marketing planning process.",
+   "Explain the concept of competition.",
+   "Describe word-of-mouth channels used to communicate with targeted audiences."
+  ]
+ },
+ {
+  "file": "GOAT_ETDM_2627_DISTRICT_EVENT1B.pdf",
+  "code": "ETDM",
+  "event": "Entrepreneurship Team Decision Making",
+  "cluster": "entrepreneurship",
+  "ia": "Market Planning",
+  "sentence": "You are to assume the roles of co-founders of EMBER & OAK, a small business that makes hot sauce in small batches.",
+  "situation": "You are to assume the roles of co-founders of EMBER & OAK, a small business that makes hot sauce in small batches. Your business partner (judge) wants your team to create a marketing plan for a big new opportunity. EMBER & OAK started three years ago and sells hot sauce at four local farmers markets for $9 a bottle. Last year the company sold 1,800 bottles. Customers love tasting samples at the booth and talking with the founders about how the sauce is made. A regional grocery chain with 22 stores has offered EMBER & OAK shelf space for a six-month trial. To stay on the shelves, the sauce must sell at least 30 bottles per store each month. In the grocery store, the sauce will sit on a crowded shelf next to well-known national brands that cost $4 to $6. The founders wonʼt be there to tell the story behind the product. Your business partner (judge) is excited but nervous that EMBER & OAK will get lost on the shelf. Your business partner (judge) wants your team to: ● Explain what a marketing strategy is and recommend one for the grocery launch. ● Set marketing goals and objectives for the six-month trial. ● Outline the main parts of a marketing plan for the launch. ● Explain how to build the EMBER & OAK brand when shoppers canʼt meet the founders. ● Identify communications channels to promote the sauce in and around the grocery stores. You will present your ideas to your business partner (judge) in a meeting at your kitchen workspace. Your business partner (judge) will begin the meeting by greeting you and asking to hear your ideas. After you have presented your ideas and answered your business partnerʼs (judgeʼs) questions, your business partner (judge) will conclude the meeting by thanking you for your work.",
+  "pis": [
+   "Explain the concept of marketing strategies.",
+   "Set marketing goals and objectives.",
+   "Develop marketing plan.",
+   "Build product/service brand.",
+   "Identify communications channels used in sales promotion."
+  ]
+ },
+ {
   "file": "GOAT_FTDM_2627_DISTRICT_EVENT1A.pdf",
   "code": "FTDM",
   "event": "Financial Services Team Decision Making",
@@ -593,6 +625,38 @@
    "Describe the impact of mobile technology on the hospitality and tourism industry.",
    "Explain promotional methods used by the hospitality and tourism industry.",
    "Describe factors used by marketers to position products/services."
+  ]
+ },
+ {
+  "file": "GOAT_RMS_2627_DISTRICT_EVENT1A.pdf",
+  "code": "RMS",
+  "event": "Retail Merchandising Series",
+  "cluster": "marketing",
+  "ia": "Market Planning",
+  "sentence": "You are to assume the role of the assistant manager at HOLLOWAY HARDWARE, a family-owned hardware store that has been in business for 48 years.",
+  "situation": "You are to assume the role of the assistant manager at HOLLOWAY HARDWARE, a family-owned hardware store that has been in business for 48 years. The owner (judge) wants your ideas on how the store should respond to new competition. A national home improvement chain will open a store three miles away next spring. HOLLOWAYʼs sales dropped 9% last year as more customers ordered tools and supplies online. About 70% of HOLLOWAYʼs regular customers are over age 55. There is also an opportunity. A new neighborhood with 640 homes is being built one mile from the store. Most buyers are young families and first-time homeowners. Many of them have never done home repairs and donʼt know where to start. The owner (judge) wants you to: ● Explain who HOLLOWAYʼs current market is and identify new markets the store could reach. ● Explain how a situation analysis would help the store prepare for the new competitor. ● Explain what a marketing strategy is and recommend one for HOLLOWAY. ● Identify HOLLOWAYʼs competitive advantage over the big-box store and online sellers. ● Plan a special event that would bring new customers into the store. You will present your ideas to the owner (judge) in a meeting at the store. The owner (judge) will begin the meeting by greeting you and asking to hear your ideas. After you have presented your ideas and answered the ownerʼs (judgeʼs) questions, the owner (judge) will conclude the meeting by thanking you for your work.",
+  "pis": [
+   "Explain the concept of market and market identification.",
+   "Explain the role of situation analysis in the marketing planning process.",
+   "Explain the concept of marketing strategies.",
+   "Identify productʼs/serviceʼs competitive advantage.",
+   "Plan special events."
+  ]
+ },
+ {
+  "file": "GOAT_RMS_2627_DISTRICT_EVENT1B.pdf",
+  "code": "RMS",
+  "event": "Retail Merchandising Series",
+  "cluster": "marketing",
+  "ia": "Market Planning",
+  "sentence": "You are to assume the role of a store manager for THREADLINE, a clothing retailer with two stores that sells trendy apparel to teens and young adults.",
+  "situation": "You are to assume the role of a store manager for THREADLINE, a clothing retailer with two stores that sells trendy apparel to teens and young adults. The owner (judge) wants your advice on whether to add a resale section to both stores. For six weeks, THREADLINE tested a small section of gently used, brand-name clothing at one of its stores. Customers sold or traded in their used items, and THREADLINE resold them. Here are the results: ● 400 resale items sold in six weeks ● 61% of resale buyers were new THREADLINE customers ● The average resale item sold for $18, compared with $42 for new items ● THREADLINE earned a higher profit percentage on resale items than on new items The owner (judge) is excited but worried. Some loyal customers have asked if THREADLINE is “becoming a thrift store.” The owner (judge) also doesnʼt know how many resale items to stock if the section expands to both stores. The owner (judge) wants you to: ● Explain what marketing planning is and why itʼs needed before expanding the resale section. ● Identify the customer segments that would be interested in resale clothing and how to reach each one. ● Explain how THREADLINE could forecast resale sales for both stores. ● Explain how adding resale clothing would change THREADLINEʼs product mix. ● Describe word-of-mouth channels THREADLINE could use to spread the news about the resale section. You will present your ideas to the owner (judge) in a meeting at the store. The owner (judge) will begin the meeting by greeting you and asking to hear your ideas. After you have presented your ideas and answered the ownerʼs (judgeʼs) questions, the owner (judge) will conclude the meeting by thanking you for your work.",
+  "pis": [
+   "Explain the nature of marketing planning.",
+   "Identify ways to segment markets for marketing communications.",
+   "Explain the nature of sales forecasts.",
+   "Explain the concept of product mix.",
+   "Describe word-of-mouth channels used to communicate with targeted audiences."
   ]
  },
  {
