@@ -595,6 +595,36 @@
   ]
  },
  {
+  "file": "GOAT_PFN_2627_DISTRICT_EVENT1B.pdf",
+  "code": "PFN",
+  "event": "Principles of Finance",
+  "cluster": "finance",
+  "ia": "Professional Development",
+  "sentence": "You are to assume the role of a staff accountant at BRENNAN & COLE, a mid-sized accounting firm.",
+  "situation": "You are to assume the role of a staff accountant at BRENNAN & COLE, a mid-sized accounting firm. A bookkeeper (judge) at the firm wants your advice on getting promoted. The bookkeeper (judge) has worked at BRENNAN & COLE for three years and wants to become a staff accountant like you. Here is what the bookkeeper (judge) knows: ● Bookkeepers at the firm earn about $44,000 a year. Staff accountants earn about $62,000. ● Staff accountants need a bachelorʼs degree in accounting. The bookkeeper (judge) has an associate degree. ● The firm will pay up to $5,250 a year in tuition for employees taking college courses. ● The firm offers free online training and a mentoring program for new employees. The bookkeeper (judge) is a single parent of two young children and works long hours during tax season, January through April. The bookkeeper (judge) is unsure how to fit school into an already busy life. The bookkeeper (judge) wants you to explain how careers typically advance in accounting, why continuing education matters, what resources could help and how to balance work, school and family. You will present the information to the bookkeeper (judge) in a meeting at the office. The bookkeeper (judge) will begin the meeting by greeting you and asking for advice. After you have presented the information and answered the bookkeeperʼs (judgeʼs) questions, the bookkeeper (judge) will conclude the meeting by thanking you for your help.",
+  "pis": [
+   "Explain possible career advancement patterns for jobs.",
+   "Explain the need for ongoing education as a worker.",
+   "Utilize resources that can contribute to professional development.",
+   "Balance personal and professional responsibilities."
+  ]
+ },
+ {
+  "file": "GOAT_PFN_2627_DISTRICT_EVENT1C.pdf",
+  "code": "PFN",
+  "event": "Principles of Finance",
+  "cluster": "finance",
+  "ia": "Professional Development",
+  "sentence": "You are to assume the role of a loan processing assistant at FIRST HARBOR BANK.",
+  "situation": "You are to assume the role of a loan processing assistant at FIRST HARBOR BANK. The branch manager (judge) wants your help solving a problem with loan applications. Customers apply for car loans and personal loans at the branch. Last quarter, 14% of loan applications were sent back from the main office because of missing documents or mistakes. Each returned application delayed the customerʼs loan by an average of four days. Three customers filed complaints, and one customer took out a car loan at another bank instead. The branch hired two new loan officers six months ago. Experienced employees say the new hires “donʼt follow the checklist,” while the new hires say no one ever trained them on it. Some customers also say the bankʼs list of required documents is confusing. The branch manager (judge) wants you to identify the cause of the problem, recommend a solution and explain how to build a culture where the branch gets things right the first time. The branch manager (judge) also wants to know how to share the plan with both the loan officers and the customers. You will present your ideas to the branch manager (judge) in a meeting in the managerʼs office. The branch manager (judge) will begin the meeting by greeting you and asking to hear your ideas. After you have presented your ideas and answered the branch managerʼs (judgeʼs) questions, the branch manager (judge) will conclude the meeting by thanking you for your work.",
+  "pis": [
+   "Describe crucial elements of a quality culture.",
+   "Demonstrate problem-solving skills.",
+   "Make decisions.",
+   "Employ communication styles appropriate to target audience."
+  ]
+ },
+ {
   "file": "GOAT_RFSM_2627_EXTRA2.pdf",
   "code": "RFSM",
   "event": "Restaurant and Food Service Management Series",
