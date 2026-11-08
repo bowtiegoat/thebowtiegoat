@@ -580,6 +580,21 @@
   ]
  },
  {
+  "file": "GOAT_PFN_2627_DISTRICT_EVENT1A.pdf",
+  "code": "PFN",
+  "event": "Principles of Finance",
+  "cluster": "finance",
+  "ia": "Professional Development",
+  "sentence": "You are to assume the role of a member service representative at CEDAR VALLEY CREDIT UNION.",
+  "situation": "You are to assume the role of a member service representative at CEDAR VALLEY CREDIT UNION. A part-time teller (judge) who is a high school senior wants your advice on careers in finance. The teller (judge) has worked at the credit union for six months and enjoys it but doesnʼt know what other finance careers exist. The teller (judge) told you: ● “Iʼm good at math and I like helping people with their money problems.” ● “I donʼt want to sit at a desk staring at spreadsheets all day.” ● “My parents think I should be an accountant, but I donʼt really know what accountants do.” The teller (judge) will start college next fall and needs to choose a major soon. The credit union offers summer internships in lending, member services and marketing. The teller (judge) wants you to explain how to match personal interests and skills to a career, what kinds of jobs exist in finance, where to find reliable career information and how to gain more work experience before college. You will present the information to the teller (judge) in the break room at the credit union. The teller (judge) will begin the conversation by greeting you and asking for advice. After you have presented the information and answered the tellerʼs (judgeʼs) questions, the teller (judge) will conclude the conversation by thanking you for your help.",
+  "pis": [
+   "Assess personal interests and skills needed for success in business.",
+   "Explain employment opportunities in business.",
+   "Identify sources of career information.",
+   "Describe techniques for obtaining work experience."
+  ]
+ },
+ {
   "file": "GOAT_RFSM_2627_EXTRA2.pdf",
   "code": "RFSM",
   "event": "Restaurant and Food Service Management Series",
