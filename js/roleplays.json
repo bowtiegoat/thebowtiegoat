@@ -1,5 +1,53 @@
 [
  {
+  "file": "GOAT_ACT_2627_DISTRICT_EVENT1A.pdf",
+  "code": "ACT",
+  "event": "Accounting Applications Series",
+  "cluster": "finance",
+  "ia": "Professional Development",
+  "sentence": "You are to assume the role of a senior accountant at HALVERSON MANUFACTURING, a company that makes kitchen appliances.",
+  "situation": "You are to assume the role of a senior accountant at HALVERSON MANUFACTURING, a company that makes kitchen appliances. A staff accountant (judge) wants your advice on earning a professional designation. The staff accountant (judge) has worked at HALVERSON for two years, earns $62,000 a year, and is deciding between the Certified Public Accountant (CPA) and the Certified Management Accountant (CMA) designation. HALVERSON reimburses 50% of exam and review course costs for either designation after the employee passes. The staff accountant (judge) has gathered the following information: CPA CMA Exam and application fees $1,600 $1,700 Review course $2,200 $1,300 HALVERSON salary increase after earning $5,400 per year $4,800 per year Continuing education required 40 hours per 30 hours per year year The staff accountant (judge) enjoys analyzing costs and budgets for the companyʼs product lines but has also wondered about working at a public accounting firm someday. The staff accountant (judge) wants you to: ● Explain the differences between the CPA and CMA designations. ● Calculate the out-of-pocket cost of each designation after reimbursement and how many months of the salary increase it would take to earn that cost back. ● Explain the career opportunities and responsibilities that come with each designation. ● Explain why ongoing education matters after earning a designation. ● Identify skills that would help the staff accountant (judge) advance. You will present the information to the staff accountant (judge) in a meeting at the office. The staff accountant (judge) will begin the meeting by greeting you and asking for advice. After you have presented the information and answered the staff accountantʼs (judgeʼs) questions, the staff accountant (judge) will conclude the meeting by thanking you for your work.",
+  "pis": [
+   "Discuss professional designations for accountants (e.g., CPA, CMA, CIA, CFE, etc.).",
+   "Identify career opportunities in accounting.",
+   "Explain the roles and responsibilities of accounting professionals.",
+   "Explain the need for ongoing education as a worker.",
+   "Identify skills needed to enhance career progression."
+  ]
+ },
+ {
+  "file": "GOAT_ACT_2627_DISTRICT_EVENT1B.pdf",
+  "code": "ACT",
+  "event": "Accounting Applications Series",
+  "cluster": "finance",
+  "ia": "Professional Development",
+  "sentence": "You are to assume the role of the staff accountant at GREENLINE LANDSCAPING, a company with $4.2 million in annual sales.",
+  "situation": "You are to assume the role of the staff accountant at GREENLINE LANDSCAPING, a company with $4.2 million in annual sales. The owner (judge) needs your help understanding a bankʼs requirements for a new loan. GREENLINE wants to borrow $750,000 to buy new trucks and equipment. The bank has offered two options: ● Option A: The company provides compiled financial statements. Loan interest rate: 8.25%. ● Option B: The company provides reviewed financial statements. Loan interest rate: 7.50%. An outside CPA firm has quoted these fees: ● Compilation: $3,500 per year ● Review: $9,000 per year ● Audit (not required by the bank): $24,000 per year The owner (judge) is frustrated and asks, “You already keep our books. Why canʼt you just prepare the statements yourself and save us the money?” The owner (judge) has no accounting background and has never heard of GAAP or FASB. The owner (judge) wants you to: ● Explain the difference between a compilation, a review and an audit. ● Explain what accounting standards are and who sets them. ● Explain why the bank requires an outside CPA rather than the companyʼs own accountant. ● Calculate whether Option B saves the company money in the first year compared with Option A. ● Explain all of this in terms the owner (judge) can understand. You will present the information to the owner (judge) in a meeting in the ownerʼs office. The owner (judge) will begin the meeting by greeting you and asking about the loan. After you have presented the information and answered the ownerʼs (judgeʼs) questions, the owner (judge) will conclude the meeting by thanking you for your work.",
+  "pis": [
+   "Discuss the levels and types of external financial reporting.",
+   "Explain the nature of accounting standards.",
+   "Discuss the roles and responsibilities of accounting-standards-setting bodies (i.e., SEC, FASB, IASB, GASB).",
+   "Discuss professional designations for accountants (e.g., CPA, CMA, CIA, CFE, etc.).",
+   "Employ communication styles appropriate to target audience."
+  ]
+ },
+ {
+  "file": "GOAT_ACT_2627_DISTRICT_EVENT1C.pdf",
+  "code": "ACT",
+  "event": "Accounting Applications Series",
+  "cluster": "finance",
+  "ia": "Professional Development",
+  "sentence": "You are to assume the role of the accounting manager at SAGE & SALT RESTAURANT GROUP, a company that owns 18 restaurants.",
+  "situation": "You are to assume the role of the accounting manager at SAGE & SALT RESTAURANT GROUP, a company that owns 18 restaurants. A newly hired staff accountant (judge) wants to understand how the job connects to the companyʼs goals. The chief financial officer (CFO) has set a goal to cut the monthly closing of the books from 12 business days to 7 by the end of next year. Right now, the staff accountant (judge) reconciles the bank accounts for all 18 restaurants by hand, which takes 20 hours each month. The company is buying reconciliation software that will cut that work to 6 hours each month. Staff accountants are paid an average of $35 per hour. The company also gives each accountant a $1,200 yearly professional development budget that can be used for training, conferences or memberships in professional organizations, such as the state society of CPAs or the Institute of Management Accountants (IMA). The staff accountant (judge) wants you to: ● Explain how the staff accountantʼs (judgeʼs) work affects the CFOʼs goal. ● Calculate the hours and labor dollars the software will save each year. ● Recommend how to use the $1,200 professional development budget. ● Explain what professional organizations in accounting offer their members. ● Explain how to build professional relationships and which skills will help the staff accountant (judge) advance. You will present the information to the staff accountant (judge) in a meeting at the corporate office. The staff accountant (judge) will begin the meeting by greeting you and asking about the role. After you have presented the information and answered the staff accountantʼs (judgeʼs) questions, the staff accountant (judge) will conclude the meeting by thanking you for your work.",
+  "pis": [
+   "Ascertain employeeʼs role in meeting organizational goals.",
+   "Utilize resources that can contribute to professional development.",
+   "Describe the services of professional organizations in accounting.",
+   "Discuss opportunities for building professional relationships in finance.",
+   "Identify skills needed to enhance career progression."
+  ]
+ },
+ {
   "file": "GOAT_AAM_2627_EXTRA.pdf",
   "code": "AAM",
   "event": "Apparel and Accessories Marketing Series",
