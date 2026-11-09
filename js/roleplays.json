@@ -766,6 +766,51 @@
   ]
  },
  {
+  "file": "GOAT_PMK_2627_DISTRICT_EVENT1A.pdf",
+  "code": "PMK",
+  "event": "Principles of Marketing",
+  "cluster": "marketing",
+  "ia": "Customer Relations",
+  "sentence": "You are to assume the role of a sales associate at TRAILHEAD OUTFITTERS, a store that sells hiking and camping gear.",
+  "situation": "You are to assume the role of a sales associate at TRAILHEAD OUTFITTERS, a store that sells hiking and camping gear. A customer (judge) is upset because the store will not accept the return of a pair of hiking boots. TRAILHEAD OUTFITTERS allows customers to return new, unused items within 30 days with a receipt for a full refund. Items that have been used outdoors cannot be returned, but they can be exchanged if the product has a defect. The customer (judge) bought the hiking boots 45 days ago and has worn them on several hikes. The customer (judge) says the boots hurt his/her feet and wants a full refund. The customer (judge) is a regular shopper at the store and is frustrated. You must explain the return policy to the customer (judge), respond to the complaint and find a solution that keeps the customer (judge) happy. You will speak with the customer (judge) in a role-play to take place at the storeʼs customer service counter. The customer (judge) will begin the role-play by explaining the problem. After you have handled the situation and have answered the customerʼs (judgeʼs) questions, the customer (judge) will conclude the role-play by thanking you for your help.",
+  "pis": [
+   "Demonstrate a customer service mindset.",
+   "Handle customer/client complaints.",
+   "Interpret business policies to customers/clients.",
+   "Respond to customer inquiries."
+  ]
+ },
+ {
+  "file": "GOAT_PMK_2627_DISTRICT_EVENT1B.pdf",
+  "code": "PMK",
+  "event": "Principles of Marketing",
+  "cluster": "marketing",
+  "ia": "Customer Relations",
+  "sentence": "You are to assume the role of a shift lead at BEAN THERE COFFEE, a locally owned coffee shop.",
+  "situation": "You are to assume the role of a shift lead at BEAN THERE COFFEE, a locally owned coffee shop. The owner (judge) has asked you to share ideas for how employees can improve customer relations. For 10 years, BEAN THERE COFFEE has been known for its friendly staff who greet regular customers by name. Last month, a large coffee chain opened across the street with lower prices and a drive-thru. Since then, BEAN THERE COFFEE has lost some of its regular customers. Recent online reviews also say that employees seem rushed and less friendly than they used to be. The owner (judge) believes that customer service is what makes BEAN THERE COFFEE different from the chain. The owner (judge) wants you to explain why positive customer relations matter, how employees can build relationships with customers, and how the owner can encourage employees to provide great service every day. You will present your ideas to the owner (judge) in a role-play to take place at the coffee shop. The owner (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and have answered the ownerʼs (judgeʼs) questions, the owner (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Explain the nature of positive customer relations.",
+   "Reinforce service orientation through communication.",
+   "Develop rapport with customers.",
+   "Determine ways of reinforcing the companyʼs image through employee performance."
+  ]
+ },
+ {
+  "file": "GOAT_PMK_2627_DISTRICT_EVENT1C.pdf",
+  "code": "PMK",
+  "event": "Principles of Marketing",
+  "cluster": "marketing",
+  "ia": "Customer Relations",
+  "sentence": "You are to assume the role of a marketing assistant at PAWS & CLAWS, a pet supply store with three locations.",
+  "situation": "You are to assume the role of a marketing assistant at PAWS & CLAWS, a pet supply store with three locations. The store manager (judge) has asked you to explain how a new loyalty app can help the store build stronger relationships with customers. PAWS & CLAWS recently launched a free loyalty app. When customers sign up, they enter their petʼs name, type of pet and birthday. The app tracks what customers buy and gives them points they can use for discounts. So far, 2,000 customers have signed up, but the store has not yet decided how to use the customer information it is collecting. The store manager (judge) wants you to explain what customer relationship management is, how the store can use the app and other technology to build relationships with customers, and how employees in the store can support those relationships. You will present your ideas to the store manager (judge) in a role-play to take place in the managerʼs office. The store manager (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and have answered the store managerʼs (judgeʼs) questions, the store manager (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Discuss the nature of customer relationship management.",
+   "Describe the use of technology in customer relationship management.",
+   "Build and maintain relationships with customers.",
+   "Demonstrate a customer service mindset."
+  ]
+ },
+ {
   "file": "GOAT_RFSM_2627_EXTRA2.pdf",
   "code": "RFSM",
   "event": "Restaurant and Food Service Management Series",
