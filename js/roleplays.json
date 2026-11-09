@@ -721,6 +721,51 @@
   ]
  },
  {
+  "file": "GOAT_PHT_2627_DISTRICT_EVENT1A.pdf",
+  "code": "PHT",
+  "event": "Principles of Hospitality and Tourism",
+  "cluster": "hospitality",
+  "ia": "Communication Skills",
+  "sentence": "You are to assume the role of a guest services associate at SUMMIT RIDGE RESORT, a ski resort in the Rocky Mountains.",
+  "situation": "You are to assume the role of a guest services associate at SUMMIT RIDGE RESORT, a ski resort in the Rocky Mountains. The guest services manager (judge) has asked you to decide how to best inform guests that the resortʼs main chairlift is closed. The Ridgeline Express is the resortʼs most popular chairlift. A mechanical problem was found last week, and the lift will be closed for 10 days for repairs during the resortʼs busiest week of the year. Guests can still reach the top of the mountain by taking a free shuttle bus or by riding two slower chairlifts. Right now, the only notice of the closure is a small sign at the bottom of the lift. Guests are frustrated, and employees have been giving guests different answers about when the lift will reopen. The guest services manager (judge) wants you to decide which methods to use to tell guests about the closure, what the message should say, and how employees should respond when guests ask about it. You will present your ideas to the guest services manager (judge) in a role-play to take place in the managerʼs office. The guest services manager (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and have answered the guest services managerʼs (judgeʼs) questions, the guest services manager (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Explain the nature of effective written communications.",
+   "Explain the nature of effective verbal communications.",
+   "Choose and use appropriate channel for workplace communication.",
+   "Write informational messages."
+  ]
+ },
+ {
+  "file": "GOAT_PHT_2627_DISTRICT_EVENT1B.pdf",
+  "code": "PHT",
+  "event": "Principles of Hospitality and Tourism",
+  "cluster": "hospitality",
+  "ia": "Communication Skills",
+  "sentence": "You are to assume the role of a team lead at SPLASH CANYON WATER PARK, an outdoor water park open during the summer.",
+  "situation": "You are to assume the role of a team lead at SPLASH CANYON WATER PARK, an outdoor water park open during the summer. The park operations manager (judge) has asked you to improve how information is shared with employees. SPLASH CANYON WATER PARK hires 300 seasonal employees each summer. Most are high school students who work part-time. Right now, information is shared through a bulletin board in the break room, emails and group text chats. Last weekend, several employees did not know about a new weather policy and gave guests incorrect information. The parkʼs busiest weekend, the Fourth of July, is two weeks away, and the park will stay open later than usual. The park operations manager (judge) wants you to explain how the park should organize and share information with employees, how supervisors should communicate with employees at the start of each shift, and what the message to employees about the holiday weekend should include. You will present your ideas to the park operations manager (judge) in a role-play to take place in the managerʼs office. The park operations manager (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and have answered the park operations managerʼs (judgeʼs) questions, the park operations manager (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Explain the nature of staff communication.",
+   "Organize information.",
+   "Explain the nature of effective verbal communications.",
+   "Write informational messages."
+  ]
+ },
+ {
+  "file": "GOAT_PHT_2627_DISTRICT_EVENT1C.pdf",
+  "code": "PHT",
+  "event": "Principles of Hospitality and Tourism",
+  "cluster": "hospitality",
+  "ia": "Communication Skills",
+  "sentence": "You are to assume the role of a tourism coordinator at VISIT LAKE HARMON, the tourism office for a small lakeside town.",
+  "situation": "You are to assume the role of a tourism coordinator at VISIT LAKE HARMON, the tourism office for a small lakeside town. The executive director (judge) has asked you to plan how to communicate with different groups about an upcoming youth soccer tournament. This June, Lake Harmon will host a three-day youth soccer tournament that will bring about 10,000 visitors to town. Visiting families need information about hotels, restaurants and parking. Local business owners need to know how busy the weekend will be. Residents need to know that the townʼs main street will be closed to cars for parts of the weekend. Last year, many residents did not learn about a road closure for a smaller event until the day it happened, and they were upset. The executive director (judge) wants you to explain how the message and the way it is written should change for each group, and which methods should be used to reach each group. You will present your ideas to the executive director (judge) in a role-play to take place at the VISIT LAKE HARMON office. The executive director (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and have answered the executive directorʼs (judgeʼs) questions, the executive director (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Employ communication styles appropriate to target audience.",
+   "Adapt written correspondence to targeted audiences.",
+   "Choose and use appropriate channel for workplace communication.",
+   "Explain the nature of effective written communications."
+  ]
+ },
+ {
   "file": "GOAT_RFSM_2627_EXTRA2.pdf",
   "code": "RFSM",
   "event": "Restaurant and Food Service Management Series",
