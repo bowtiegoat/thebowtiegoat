@@ -48,6 +48,38 @@
   ]
  },
  {
+  "file": "GOAT_AAM_2627_DISTRICT_EVENT2A.pdf",
+  "code": "AAM",
+  "event": "Apparel and Accessories Marketing Series",
+  "cluster": "marketing",
+  "ia": "Customer Relations",
+  "sentence": "You are to assume the role of the assistant store manager at HARLOW, a mid-priced apparel chain.",
+  "situation": "You are to assume the role of the assistant store manager at HARLOW, a mid-priced apparel chain. A customer (judge) is upset about the store credit offered through HARLOWʼs new clothing trade-in program. Six months ago, HARLOW launched HARLOW AGAIN, a program that lets customers bring gently used HARLOW clothing to any store for store credit. Each item is graded by condition and earns $3 to $15 in credit. Items with stains, holes or pilling are not accepted, and neither are clothes from other brands. Accepted items are cleaned and resold in the HARLOW AGAIN section of the store. HARLOW promotes the program as part of its commitment to keeping clothing out of landfills. The customer (judge) saw a social media video that said HARLOW pays “up to $15 per item” and brought in 12 items, expecting about $100 in credit. Four items were from other brands and three had stains or pilling, so they were not accepted. The other five items earned $31 in store credit. The customer (judge) is angry, says the program is “a scam” and is threatening to post a video about the experience. You will speak with the customer (judge) in a role-play to take place at the storeʼs customer service counter. The customer (judge) will begin the role-play by explaining the problem. After you have handled the situation and have answered the customerʼs (judgeʼs) questions, the customer (judge) will conclude the role-play by thanking you for your help.",
+  "pis": [
+   "Handle customer/client complaints.",
+   "Handle difficult customers.",
+   "Interpret business policies to customers/clients.",
+   "Develop rapport with customers.",
+   "Communicate core values of product/service."
+  ]
+ },
+ {
+  "file": "GOAT_AAM_2627_DISTRICT_EVENT2B.pdf",
+  "code": "AAM",
+  "event": "Apparel and Accessories Marketing Series",
+  "cluster": "marketing",
+  "ia": "Customer Relations",
+  "sentence": "You are to assume the role of the customer experience manager for VELA, an apparel brand that sells mostly online and has 60 retail stores.",
+  "situation": "You are to assume the role of the customer experience manager for VELA, an apparel brand that sells mostly online and has 60 retail stores. The director of customer experience (judge) wants your recommendations for improving VELAʼs new AI chat assistant. Four months ago, VELA launched Ask Vela, an AI assistant on its website and app. Ask Vela uses each customerʼs purchase history and saved measurements to answer questions, recommend sizes and suggest outfits. It now handles 70% of all customer service chats, and the average response time has dropped from 9 hours to 30 seconds. However, customer satisfaction scores for chat have fallen from 4.5 to 3.6 out of 5. Customers say Ask Vela struggles with damaged orders, sizing problems and returns, and that they get stuck in a loop with no way to reach a person. Several online reviews say “VELA doesnʼt care about its customers anymore.” The director (judge) wants you to explain how VELA can use Ask Vela to build stronger customer relationships and what changes should be made. You will present your ideas to the director of customer experience (judge) in a role-play to take place in the directorʼs office. The director (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and have answered the directorʼs (judgeʼs) questions, the director (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Discuss the nature of customer relationship management.",
+   "Describe the use of technology in customer relationship management.",
+   "Explain the nature of positive customer relations.",
+   "Reinforce service orientation through communication.",
+   "Explain the role of customer service as a component of selling relationships."
+  ]
+ },
+ {
   "file": "GOAT_AAM_2627_EXTRA.pdf",
   "code": "AAM",
   "event": "Apparel and Accessories Marketing Series",
@@ -61,6 +93,38 @@
    "Explain company selling policies.",
    "Explain the relationship between customer service and distribution.",
    "Discuss actions employees can take to achieve the company’s desired results."
+  ]
+ },
+ {
+  "file": "GOAT_ASM_2627_DISTRICT_EVENT2A.pdf",
+  "code": "ASM",
+  "event": "Automotive Services Marketing Series",
+  "cluster": "marketing",
+  "ia": "Customer Relations",
+  "sentence": "You are to assume the role of a service advisor at KESTREL MOTORS, a dealership that sells and services Kestrel vehicles.",
+  "situation": "You are to assume the role of a service advisor at KESTREL MOTORS, a dealership that sells and services Kestrel vehicles. A customer (judge) is upset about the cost of the first service visit for an electric vehicle. One year ago, the customer (judge) bought a new Kestrel Volt, the brandʼs first all-electric vehicle. During the sale, the salesperson said that electric vehicles “need almost no maintenance.” The car now has 18,000 miles, and the customer (judge) brought it in for its first scheduled service. The service includes a tire rotation, cabin air filter, brake fluid check and software update, for a total of $189. The technician also found that the front tires are worn and recommends replacing them for $420. Electric vehicles are heavier than gas vehicles, so their tires often wear out faster. The Kestrel Volt warranty covers the battery and electric motor for 8 years, but it does not cover tires or normal maintenance. The customer (judge) bought an electric vehicle to save money and feels misled. The customer (judge) is thinking about taking the car to a discount tire shop and never returning to KESTREL MOTORS. KESTREL MOTORS is the only business within 50 miles with technicians certified to work on the Voltʼs high-voltage system. You will speak with the customer (judge) in a role-play to take place at the service desk. The customer (judge) will begin the role-play by explaining the problem. After you have handled the situation and have answered the customerʼs (judgeʼs) questions, the customer (judge) will conclude the role-play by thanking you for your help.",
+  "pis": [
+   "Demonstrate a customer service mindset.",
+   "Handle customer/client complaints.",
+   "Interpret business policies to customers/clients.",
+   "Build and maintain relationships with customers.",
+   "Identify productʼs/serviceʼs competitive advantage."
+  ]
+ },
+ {
+  "file": "GOAT_ASM_2627_DISTRICT_EVENT2B.pdf",
+  "code": "ASM",
+  "event": "Automotive Services Marketing Series",
+  "cluster": "marketing",
+  "ia": "Customer Relations",
+  "sentence": "You are to assume the role of the customer experience manager at BRIGHTWAVE CAR WASH, an express car wash with five locations.",
+  "situation": "You are to assume the role of the customer experience manager at BRIGHTWAVE CAR WASH, an express car wash with five locations. The owner (judge) wants your plan to improve the experience of members in the BrightWave Unlimited Club. BrightWave Unlimited Club members pay $29.99 a month to wash their car as often as they like. A camera reads each memberʼs license plate so the gate opens automatically. The club has 6,200 members and brings in 70% of BRIGHTWAVEʼs revenue. Attendants earn a $2 bonus for every new member they sign up, and the first month costs only $5. BRIGHTWAVEʼs slogan is “Shine Bright. Drive Happy.” BRIGHTWAVEʼs online rating has dropped from 4.6 to 3.2 stars. Reviews say attendants are pushy about sign-ups and that members can only cancel in person or by phone during business hours. Some members say they were charged for months after selling their car. Lawmakers in several states are also passing rules that require businesses to make canceling a subscription as easy as signing up. The owner (judge) wants you to explain how BRIGHTWAVE can rebuild trust with members, live up to its brand and get employees to support the change. You will present your plan to the owner (judge) in a role-play to take place in the ownerʼs office. The owner (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and have answered the ownerʼs (judgeʼs) questions, the owner (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Identify companyʼs brand promise.",
+   "Determine ways of reinforcing the companyʼs image through employee performance.",
+   "Explain the role of ethics in customer relationship management.",
+   "Explain the nature of positive customer relations.",
+   "Discuss actions employees can take to achieve the companyʼs desired results."
   ]
  },
  {
