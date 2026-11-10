@@ -528,6 +528,54 @@
   ]
  },
  {
+  "file": "GOAT_MTDM_2627_DISTRICT_EVENT1A.pdf",
+  "code": "MTDM",
+  "event": "Marketing Management Team Decision Making",
+  "cluster": "marketing",
+  "ia": "Marketing",
+  "sentence": "You are to assume the roles of the marketing director and the marketing analyst for LUMEN FITNESS, a chain of 30 boutique fitness studios offering cycling, strength and yoga classes.",
+  "situation": "You are to assume the roles of the marketing director and the marketing analyst for LUMEN FITNESS, a chain of 30 boutique fitness studios offering cycling, strength and yoga classes. The chief executive officer (judge) is planning to cut the marketing budget and wants your team to explain what marketing actually does for the business before a final decision is made. LUMEN FITNESS charges $159 a month for unlimited classes. Membership grew quickly for five years but has been flat at about 18,000 members for the past 12 months. New low-cost gyms charging $25 a month have opened near 11 LUMEN studios, and many people now work out at home with fitness apps. About 4% of members cancel each month, mostly in their first 90 days. LUMEN spends $2.4 million a year on marketing. The chief executive officer (judge) sees most of that as social media ads and believes it isn't working. The CEO plans to cut the budget by 40% and use the savings to lower membership prices. The marketing team knows its work goes well beyond ads. It sets class prices and packages, researches what members want, chooses studio locations and handles the referral program, which brings in 30% of new members. But the team has never shown the CEO clear results for any of that work. The chief executive officer (judge) will make a decision on the budget at the end of the month. Specifically, the chief executive officer (judge) wants your team to: ● Describe the marketing functions LUMEN FITNESS performs and how each one affects the business ● Explain why people choose, stay with or leave a fitness studio ● Recommend a marketing strategy to grow membership and reduce cancellations ● Explain how LUMEN can track its marketing activities to prove they lead to results You will present your recommendations to the chief executive officer (judge) in a meeting to take place in the chief executive officer's (judge's) office. The chief executive officer (judge) will begin the meeting by greeting you and asking to hear your ideas. After you have presented your recommendations and have answered the chief executive officer's (judge's) questions, the chief executive officer (judge) will conclude the meeting by thanking you for your work.",
+  "pis": [
+   "Describe marketing functions and related activities.",
+   "Describe connections between company actions and results (e.g., influencing consumer buying behavior, gaining market share, etc.).",
+   "Explain factors that influence customer/client/business buying behavior.",
+   "Explain the concept of marketing strategies.",
+   "Identify ways to track marketing-communications activities."
+  ]
+ },
+ {
+  "file": "GOAT_MTDM_2627_DISTRICT_EVENT1B.pdf",
+  "code": "MTDM",
+  "event": "Marketing Management Team Decision Making",
+  "cluster": "marketing",
+  "ia": "Marketing",
+  "sentence": "You are to assume the roles of the international brand manager and the market research manager for CRUNCHWELL SNACKS, a U.S. company that makes roasted chickpea snacks.",
+  "situation": "You are to assume the roles of the international brand manager and the market research manager for CRUNCHWELL SNACKS, a U.S. company that makes roasted chickpea snacks. The vice president of global marketing (judge) wants your team to recommend how CRUNCHWELL should introduce its snacks in Mexico, the company's first market outside the United States. CRUNCHWELL's snacks come in six flavors, including Sea Salt, Ranch and Honey BBQ. A 5-ounce bag sells for $3.99 in U.S. grocery stores. The brand promise printed on every bag is \"Real crunch. Real protein. Nothing fake.\" In the United States, CRUNCHWELL is positioned as a healthier swap for potato chips and appeals mostly to health-conscious adults ages 25–40. U.S. sales have grown 20% a year, but competition from larger snack companies is increasing. Mexico is one of the largest snack markets in the world. Mexican shoppers buy many snacks from small neighborhood stores rather than large supermarkets, and spicy, lime and chili flavors are by far the most popular. Large snack brands already dominate those neighborhood stores. In 2020, Mexico began requiring black warning labels on the front of packaged foods that are high in calories, sugar, sodium or fat. Four of CRUNCHWELL's six flavors would need no warning labels, but Ranch and Honey BBQ would each need one for sodium. The vice president of global marketing (judge) will present the expansion plan to the executive team next quarter. Specifically, the vice president (judge) wants your team to: ● Explain why expanding globally matters to CRUNCHWELL's future ● Describe how buying behavior in Mexico differs from the U.S. and what that means for CRUNCHWELL's products ● Recommend how CRUNCHWELL should position the brand in Mexico, and whether its brand promise should change ● Describe the marketing activities CRUNCHWELL must plan for the launch (product, price, distribution and promotion) You will present your recommendations to the vice president of global marketing (judge) in a meeting to take place in the vice president's (judge's) office. The vice president (judge) will begin the meeting by greeting you and asking to hear your ideas. After you have presented your recommendations and have answered the vice president's (judge's) questions, the vice president (judge) will conclude the meeting by thanking you for your work.",
+  "pis": [
+   "Explain marketing and its importance in a global economy.",
+   "Explain factors that influence customer/client/business buying behavior.",
+   "Describe marketing functions and related activities.",
+   "Describe factors used by marketers to position products/services.",
+   "Identify company's brand promise."
+  ]
+ },
+ {
+  "file": "GOAT_MTDM_2627_DISTRICT_EVENT1C.pdf",
+  "code": "MTDM",
+  "event": "Marketing Management Team Decision Making",
+  "cluster": "marketing",
+  "ia": "Marketing",
+  "sentence": "You are to assume the roles of the marketing manager and the customer experience manager for FIELDSTONE MARKET, a regional grocery chain with 26 stores.",
+  "situation": "You are to assume the roles of the marketing manager and the customer experience manager for FIELDSTONE MARKET, a regional grocery chain with 26 stores. The president (judge) wants your team to develop a plan that gets employees to deliver on FIELDSTONE's brand promise and win back shoppers. FIELDSTONE built its name on the promise \"Your neighborhood market, where we know your name.\" Its prices run about 8% higher than discount grocers, but shoppers have paid more for friendly service, local products and spotless stores. For 20 years, FIELDSTONE held the top market share in its region. That is changing. Over the past year, FIELDSTONE's market share has dropped from 31% to 26%. Online reviews mention long checkout lines, empty shelves and employees who \"look the other way\" when asked for help. FIELDSTONE added self-checkout to cut costs and replaced many experienced employees with part-time workers, half of whom are high school and college students. Employee turnover is 60% a year. In employee surveys, workers say they don't know the brand promise and rarely hear when they do something well. Meanwhile, a discount grocer has opened near six FIELDSTONE stores, and grocery delivery apps are growing quickly. The president (judge) wants a plan to roll out in all stores next quarter. Specifically, the president (judge) wants your team to: ● Explain how FIELDSTONE's recent decisions are connected to its drop in market share ● Explain why shoppers choose one grocery store over another ● Describe specific actions employees can take to deliver the brand promise and improve sales ● Recommend how FIELDSTONE should recognize and reward employees who deliver great service You will present your plan to the president (judge) in a meeting to take place in the president's (judge's) office. The president (judge) will begin the meeting by greeting you and asking to hear your ideas. After you have presented your plan and have answered the president's (judge's) questions, the president (judge) will conclude the meeting by thanking you for your work.",
+  "pis": [
+   "Discuss actions employees can take to achieve the company's desired results.",
+   "Describe connections between company actions and results (e.g., influencing consumer buying behavior, gaining market share, etc.).",
+   "Explain factors that influence customer/client/business buying behavior.",
+   "Explain the role of customer service as a component of selling relationships.",
+   "Recognize/Reward others for their efforts and contributions."
+  ]
+ },
+ {
   "file": "GOAT_PFL_2627_DISTRICT_EVENT3.pdf",
   "code": "PFL",
   "event": "Personal Financial Literacy",
