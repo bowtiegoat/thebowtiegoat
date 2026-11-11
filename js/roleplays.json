@@ -1115,6 +1115,54 @@
   ]
  },
  {
+  "file": "GOAT_RMS_2627_DISTRICT_EVENT2A.pdf",
+  "code": "RMS",
+  "event": "Retail Merchandising Series",
+  "cluster": "marketing",
+  "ia": "Marketing",
+  "sentence": "You are to assume the role of the assistant manager at SIDELINE SPORTS, an independent sporting goods store in a mid-sized suburb.",
+  "situation": "You are to assume the role of the assistant manager at SIDELINE SPORTS, an independent sporting goods store in a mid-sized suburb. The store owner (judge) wants you to plan a new pickleball section that will bring new customers into the store. SIDELINE SPORTS sells equipment and apparel for baseball, soccer, basketball and running. Pickleball is now one of the fastest-growing sports in the country, and the town just opened eight new public courts two miles from the store. Local players currently buy paddles, balls and shoes online or at a big-box store 25 minutes away. Many of the players are adults over 50, but more teens and young families are picking up the sport each month. The store owner (judge) has cleared a 400-square-foot area near the front entrance for the new section. The store owner (judge) wants you to: ● Recommend the products the pickleball section should carry ● Explain how to merchandise the section so it encourages sales ● Explain how to spread the word to local pickleball players You will present your ideas to the store owner (judge) in a role-play to take place in the store owner's (judge's) office. The store owner (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and have answered the store owner's (judge's) questions, the store owner (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Explain the importance of merchandising to retailers.",
+   "Explain factors that influence customer/client/business buying behavior.",
+   "Describe marketing functions and related activities.",
+   "Explain the concept of product mix.",
+   "Describe word-of-mouth channels used to communicate with targeted audiences."
+  ]
+ },
+ {
+  "file": "GOAT_RMS_2627_DISTRICT_EVENT2B.pdf",
+  "code": "RMS",
+  "event": "Retail Merchandising Series",
+  "cluster": "marketing",
+  "ia": "Marketing",
+  "sentence": "You are to assume the role of the store manager at SOLE STATION, an independent sneaker boutique in a busy downtown shopping district.",
+  "situation": "You are to assume the role of the store manager at SOLE STATION, an independent sneaker boutique in a busy downtown shopping district. The owner (judge) wants you to recommend how SOLE STATION can win back sneaker shoppers who now buy directly from the big brands. For 10 years, SOLE STATION was the place to get limited-release sneakers, and lines often wrapped around the block on release days. Over the past two years, the major sneaker brands have moved most limited releases to their own apps and websites. SOLE STATION's sales are down 22%, and release-day lines have disappeared. The store has an email list of 9,000 customers but doesn't use it to learn what those customers buy or want. SOLE STATION still has strengths the brands' apps don't: a staff that knows sneaker culture, a wall display customers love to photograph, a cleaning and customizing service and strong ties with local high school and college athletes. The owner (judge) wants you to: ● Explain why sneaker shoppers have changed where they buy ● Recommend how SOLE STATION should position itself against the brands' own apps ● Explain how SOLE STATION can use technology and its customer list to build relationships ● Describe how merchandising in the store can bring shoppers back in person You will present your ideas to the owner (judge) in a role-play to take place in the owner's (judge's) office. The owner (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and have answered the owner's (judge's) questions, the owner (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Describe connections between company actions and results (e.g., influencing consumer buying behavior, gaining market share, etc.).",
+   "Explain factors that influence customer/client/business buying behavior.",
+   "Explain the importance of merchandising to retailers.",
+   "Describe the use of technology in customer relationship management.",
+   "Describe factors used by marketers to position products/services."
+  ]
+ },
+ {
+  "file": "GOAT_RMS_2627_DISTRICT_EVENT2C.pdf",
+  "code": "RMS",
+  "event": "Retail Merchandising Series",
+  "cluster": "marketing",
+  "ia": "Marketing",
+  "sentence": "You are to assume the role of the sales floor supervisor at GREEN THUMB GARDEN CENTER, a family-owned garden center that sells plants, flowers, soil, tools and outdoor decor.",
+  "situation": "You are to assume the role of the sales floor supervisor at GREEN THUMB GARDEN CENTER, a family-owned garden center that sells plants, flowers, soil, tools and outdoor decor. The general manager (judge) wants you to plan how to train the store's seasonal employees so spring sales grow and more customers come back. GREEN THUMB makes 45% of its yearly sales between April and June. Every spring, it hires about 25 seasonal employees, mostly high school students, and gives them a one-hour orientation. Last spring, the average customer spent $38, and most bought only plants. Customers who skip the right soil and fertilizer often see their plants die, blame the store and never return. GREEN THUMB's online reviews praise its plant selection but say employees \"don't know much about gardening.\" A home improvement store opened five miles away last year with lower prices on many of the same plants. The general manager (judge) wants you to: ● Explain how seasonal employees can help GREEN THUMB reach its spring sales goals ● Recommend what seasonal employees should be trained to do on the sales floor, including suggesting additional items ● Explain how better customer service can keep customers coming back to GREEN THUMB instead of the home improvement store You will present your ideas to the general manager (judge) in a role-play to take place in the general manager's (judge's) office. The general manager (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and have answered the general manager's (judge's) questions, the general manager (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Discuss actions employees can take to achieve the company's desired results.",
+   "Describe marketing functions and related activities.",
+   "Describe connections between company actions and results (e.g., influencing consumer buying behavior, gaining market share, etc.).",
+   "Explain the role of customer service as a component of selling relationships.",
+   "Demonstrate suggestion selling."
+  ]
+ },
+ {
   "file": "GOAT_SEM_2627_DISTRICT_EVENT1A.pdf",
   "code": "SEM",
   "event": "Sports and Entertainment Marketing Series",
