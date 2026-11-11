@@ -384,22 +384,6 @@
   ]
  },
  {
-  "file": "GOAT_FTDM_2627_DISTRICT_EVENT1B.pdf",
-  "code": "FTDM",
-  "event": "Financial Services Team Decision Making",
-  "cluster": "finance",
-  "ia": "Economics",
-  "sentence": "You are to assume the roles of the vice president of underwriting and the vice president of policyholder services at CORNERSTONE MUTUAL INSURANCE, a regional company that sells auto and homeowners insurance in four states through independent agents.",
-  "situation": "You are to assume the roles of the vice president of underwriting and the vice president of policyholder services at CORNERSTONE MUTUAL INSURANCE, a regional company that sells auto and homeowners insurance in four states through independent agents. The president (judge) wants your team to explain why premiums must rise and to plan how to communicate the increase to policyholders and agents. Over the past two years, the cost of paying claims has climbed sharply. The average auto repair claim is up 22%, driven by pricier imported parts, new vehicles packed with costly sensors and cameras, and a shortage of qualified repair technicians. Homeowners claims are up too: new tariffs on imported lumber, steel and other building materials have pushed rebuilding costs up about 15%. Severe storms have also been more frequent in two of the four states. To stay financially healthy, CORNERSTONE plans to raise average premiums by 16% at renewal. Policyholders are already frustrated. Many have never filed a claim and donʼt see why they should pay more, and policy cancellations are up 9% this year. A major competitor raised its rates by only 10% but stopped writing new homeowners policies in coastal counties. The president (judge) will meet with the Agent Advisory Council next week and wants your team to: ● Explain how inflation and tariffs have raised CORNERSTONEʼs costs. ● Use supply and demand to explain why repair and rebuilding costs have climbed. ● Explain the role premiums (prices) play in the insurance market. ● Identify the risks CORNERSTONE faces if it raises premiums too little, or too much. ● Recommend a customer-focused plan for communicating the increase and helping policyholders manage their costs. You will present your ideas to the president (judge) in a meeting at the corporate office. The president (judge) will begin the meeting by greeting you and asking to hear your ideas. After you have presented and answered the presidentʼs (judgeʼs) questions, the president (judge) will conclude the meeting by thanking you for your work.",
-  "pis": [
-   "Discuss the economic impact of inflation on business.",
-   "Explain the principles of supply and demand.",
-   "Describe the functions of prices in markets.",
-   "Determine factors affecting business risk.",
-   "Demonstrate a customer-service mindset."
-  ]
- },
- {
   "file": "GOAT_FTDM_2627_DISTRICT_EVENT1C.pdf",
   "code": "FTDM",
   "event": "Financial Services Team Decision Making",
