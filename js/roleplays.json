@@ -384,22 +384,6 @@
   ]
  },
  {
-  "file": "GOAT_FTDM_2627_DISTRICT_EVENT1D.pdf",
-  "code": "FTDM",
-  "event": "Financial Services Team Decision Making",
-  "cluster": "finance",
-  "ia": "Economics",
-  "sentence": "You are to assume the roles of the small-business lending manager and the credit risk analyst for RIVERBEND COMMUNITY BANK, a community bank with 14 branches and $1.8 billion in assets.",
-  "situation": "You are to assume the roles of the small-business lending manager and the credit risk analyst for RIVERBEND COMMUNITY BANK, a community bank with 14 branches and $1.8 billion in assets. The chief lending officer (judge) wants your team to recommend which loan RIVERBEND should offer one of its longtime business customers as the economy slows. TRI-COUNTY HEATING & AIR is a family-owned contractor with 38 employees and 16 years of on-time payments to RIVERBEND. The owner wants to borrow $300,000 to buy four service vans and hire six technicians. RIVERBEND can offer two loan options: ● Option A: 5-year loan at 8.25% interest, monthly payment of $6,118.88 ● Option B: 3-year loan at 7.75% interest, monthly payment of $9,366.35 The economy is showing signs of a slowdown. The national unemployment rate has risen from 3.9% to 4.6% over the past year, and two large local employers have announced layoffs. New home construction in the county is down 12%, which has cut into TRI-COUNTY's installation work. RIVERBEND's late payments on small-business loans have climbed from 1.2% to 2.1%. At the same time, two large national banks have tightened their lending rules, and more local business owners are coming to RIVERBEND for loans they can no longer get elsewhere. The chief lending officer (judge) wants your team's recommendation before meeting with TRI-COUNTY's owner next week. Specifically, the chief lending officer (judge) wants your team to: ● Calculate the total amount repaid and the total cost of credit (interest) for each loan option ● Explain where the economy appears to be in the business cycle and how rising unemployment could affect TRI-COUNTY ● Identify the risks to RIVERBEND and to TRI-COUNTY of each loan option ● Recommend which loan RIVERBEND should offer, and whether this is the right time to make it You will present your recommendations to the chief lending officer (judge) in a meeting to take place in the chief lending officer's (judge's) office. The chief lending officer (judge) will begin the meeting by greeting you and asking to hear your ideas. After you have presented your recommendations and have answered the chief lending officer's (judge's) questions, the chief lending officer (judge) will conclude the meeting by thanking you for your work.",
-  "pis": [
-   "Calculate the cost of credit.",
-   "Determine the impact of business cycles on business activities.",
-   "Discuss the impact of a nation's unemployment rates.",
-   "Determine factors affecting business risk.",
-   "Identify the impact of small business/entrepreneurship on market economies."
-  ]
- },
- {
   "file": "GOAT_HTDM_2627_DISTRICT_EVENT1A.pdf",
   "code": "HTDM",
   "event": "Hospitality Services Team Decision Making",
