@@ -384,22 +384,6 @@
   ]
  },
  {
-  "file": "GOAT_FTDM_2627_DISTRICT_EVENT1C.pdf",
-  "code": "FTDM",
-  "event": "Financial Services Team Decision Making",
-  "cluster": "finance",
-  "ia": "Economics",
-  "sentence": "You are to assume the roles of the chief operating officer and the chief people officer at HARBORVIEW BANK, a community bank with 38 branches and 620 employees in and around the city of Port Calloway.",
-  "situation": "You are to assume the roles of the chief operating officer and the chief people officer at HARBORVIEW BANK, a community bank with 38 branches and 620 employees in and around the city of Port Calloway. The chair of the board of directors (judge) wants your team to recommend whether HARBORVIEW should adopt an artificial intelligence (AI) platform and, if so, how. A financial technology vendor has proposed an AI platform that would review consumer loan applications, answer about 70% of customer service calls and chats, and flag possible fraud in real time. The vendor estimates that loan decisions would drop from three business days to under 20 minutes and that the bank could operate with about 90 fewer positions (roughly 15% of its workforce) within 18 months. Larger regional banks and online lenders already use similar tools and have been winning HARBORVIEWʼs younger customers with faster service. The timing is sensitive. Port Callowayʼs largest employer, a regional distribution center, recently automated its warehouse and laid off 400 workers. The county unemployment rate has risen from 3.9% to 5.6% in one year, well above the national average. HARBORVIEW is the cityʼs second-largest employer, and several local leaders have publicly urged businesses to “keep jobs in Port Calloway.” HARBORVIEW is also starting to see more late payments on consumer loans. The board will vote on the proposal next month. The chair (judge) wants your team to: ● Explain how the AI platform would affect productivity and the way work is divided at the bank. ● Discuss how rising local unemployment affects the community, the local economy and HARBORVIEW itself. ● Identify the benefits and costs of the project, financial and non-financial. ● Explain HARBORVIEWʼs role and responsibilities as a business in the community. ● Make a recommendation, including a plan for employees whose jobs would be affected. You will present your recommendation to the chair of the board (judge) in a meeting in the boardroom. The chair (judge) will begin the meeting by greeting you and asking to hear your recommendation. After you have presented and answered the chairʼs (judgeʼs) questions, the chair (judge) will conclude the meeting by thanking you for your work.",
-  "pis": [
-   "Explain the concept of productivity.",
-   "Analyze impact of specialization/division of labor on productivity.",
-   "Discuss the impact of a nationʼs unemployment rates.",
-   "Explain the role of business in society.",
-   "Identify project benefits and costs."
-  ]
- },
- {
   "file": "GOAT_FTDM_2627_DISTRICT_EVENT1D.pdf",
   "code": "FTDM",
   "event": "Financial Services Team Decision Making",
