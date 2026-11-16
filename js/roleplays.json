@@ -368,6 +368,54 @@
   ]
  },
  {
+  "file": "GOAT_ENT_2627_DISTRICT_EVENT2A.pdf",
+  "code": "ENT",
+  "event": "Entrepreneurship Series",
+  "cluster": "entrepreneurship",
+  "ia": "Promotion",
+  "sentence": "You are to assume the role of the owner of SUMMIT BLOCK, a new indoor bouldering gym.",
+  "situation": "You are to assume the role of the owner of SUMMIT BLOCK, a new indoor bouldering gym. Bouldering is rock climbing on short walls without ropes, with thick padded floors below. Your business partner (judge) wants you to explain what must be in place before SUMMIT BLOCK opens its doors. SUMMIT BLOCK will open in three months in a former warehouse. The space will have climbing walls for all skill levels, a kidsʼ climbing area, a small fitness room, and a front desk that rents climbing shoes. You plan to sell day passes and monthly memberships and to host birthday parties for children ages 6 to 12, which you expect to be a major source of income. Your business partner (judge) has heard that climbing gyms face serious injury risks and high insurance costs. Your business partner (judge) is also worried because none of the employees you plan to hire have worked at a climbing gym before. Your business partner (judge) wants you to explain the start-up requirements and safety issues SUMMIT BLOCK must address before opening. Your business partner (judge) also wants you to explain the service standards employees will follow with guests and with each other. You will present your ideas to your business partner (judge) in a role-play to take place in your business partnerʼs (judgeʼs) office. The business partner (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the business partnerʼs (judgeʼs) questions, the business partner (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Identify potential safety issues.",
+   "Assess start-up requirements.",
+   "Describe entrepreneurial planning considerations.",
+   "Assess risks associated with venture.",
+   "Identify internal and external service standards."
+  ]
+ },
+ {
+  "file": "GOAT_ENT_2627_DISTRICT_EVENT2B.pdf",
+  "code": "ENT",
+  "event": "Entrepreneurship Series",
+  "cluster": "entrepreneurship",
+  "ia": "Promotion",
+  "sentence": "You are to assume the role of the co-owner of CRUMB & CO., a small bakery business.",
+  "situation": "You are to assume the role of the co-owner of CRUMB & CO., a small bakery business. Your business partner (judge) wants you to recommend how CRUMB & CO. should expand production to fill its first large wholesale order. For two years, CRUMB & CO. has baked everything in your business partnerʼs (judgeʼs) home kitchen and sold it at two weekend farmers markets. The business is profitable, but small. Last week, a local chain of six coffee shops offered CRUMB & CO. a one-year contract to supply 600 pastries every morning, starting in two months. The contract would triple CRUMB & CO.ʼs sales. The home kitchen cannot produce anywhere near 600 pastries a day. You have found two options: ● Option A: Rent time in a shared commercial kitchen for $35 per hour. The kitchen is available overnight, but other businesses use the space and equipment during the day. ● Option B: Lease a small storefront with its own kitchen for $4,200 per month on a three-year lease, plus about $60,000 for ovens, mixers, and refrigeration. The storefront could also serve walk-in customers. CRUMB & CO. has $25,000 in savings. Your business partner (judge) wants you to compare the costs, benefits, and risks of both options and recommend what CRUMB & CO. should do. You will present your ideas to your business partner (judge) in a role-play to take place in your business partnerʼs (judgeʼs) office. The business partner (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the business partnerʼs (judgeʼs) questions, the business partner (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Explain the nature of overhead/operating costs.",
+   "Identify capital resources needed for the venture.",
+   "Assess the costs/benefits associated with resources.",
+   "Adapt to changes in business environment.",
+   "Determine factors affecting business risk."
+  ]
+ },
+ {
+  "file": "GOAT_ENT_2627_DISTRICT_EVENT2C.pdf",
+  "code": "ENT",
+  "event": "Entrepreneurship Series",
+  "cluster": "entrepreneurship",
+  "ia": "Promotion",
+  "sentence": "You are to assume the role of the owner of PAWS ON WHEELS, a mobile pet grooming business that grooms dogs and cats inside a specially equipped van parked in the customerʼs driveway.",
+  "situation": "You are to assume the role of the owner of PAWS ON WHEELS, a mobile pet grooming business that grooms dogs and cats inside a specially equipped van parked in the customerʼs driveway. Your business partner (judge) wants you to recommend whether PAWS ON WHEELS should add a second van and hire a groomer. You started PAWS ON WHEELS three years ago and do all of the grooming yourself. You also answer every call, schedule appointments, order supplies, and maintain the van. Customers love that you know every pet by name, and the business has a five-star rating online. You are now booked six weeks in advance, and you turn away about 15 new customers each week. A second van would cost about $85,000 fully equipped. An experienced groomer would earn about $45,000 per year, plus the costs of fuel, insurance, and van maintenance. You are working 60 hours a week and are close to burning out. Your business partner (judge) is also worried that a new groomer may not give customers the same personal service that built PAWS ON WHEELSʼs reputation. Your business partner (judge) wants you to explain whether PAWS ON WHEELS should expand now, and how to grow the business without losing what makes it special. You will present your ideas to your business partner (judge) in a role-play to take place in your business partnerʼs (judgeʼs) office. The business partner (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the business partnerʼs (judgeʼs) questions, the business partner (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Explain considerations in making the decision to hire staff.",
+   "Explain the role requirements of entrepreneurs and owners.",
+   "Explain the nature of overhead/operating costs.",
+   "Develop and/or provide product/service.",
+   "Explain the role of customer service in positioning/image."
+  ]
+ },
+ {
   "file": "GOAT_ENT_2627_EXTRA.pdf",
   "code": "ENT",
   "event": "Entrepreneurship Series",
