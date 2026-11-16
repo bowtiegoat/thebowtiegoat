@@ -272,6 +272,54 @@
   ]
  },
  {
+  "file": "GOAT_BSM_2627_DISTRICT_EVENT2A.pdf",
+  "code": "BSM",
+  "event": "Business Services Marketing Series",
+  "cluster": "marketing",
+  "ia": "Operations",
+  "sentence": "You are to assume the role of the operations manager for SPOTLESS PRO COMMERCIAL CLEANING, a company that provides nightly cleaning services for offices and schools.",
+  "situation": "You are to assume the role of the operations manager for SPOTLESS PRO COMMERCIAL CLEANING, a company that provides nightly cleaning services for offices and schools. The owner (judge) wants you to develop a plan for launching the companyʼs largest contract ever. SPOTLESS PRO currently cleans 25 office buildings with a staff of 60 employees. Last week, it won a one-year contract to clean all 8 locations of LAKEVIEW HEALTH, a network of medical offices. Medical offices have stricter cleaning standards than regular offices, including the safe disposal of medical waste and the use of hospital-grade disinfectants. The contract starts in six weeks. To meet it, SPOTLESS PRO will need about 20 new employees, new equipment and supplies, and special training for its staff. The sales, human resources, and purchasing departments will all play a role in the launch. LAKEVIEW HEALTH has made it clear that if the first 90 days do not go well, it can end the contract. The owner (judge) wants you to explain how you would plan, staff, and track the launch so that SPOTLESS PRO is ready on day one. You will present your plan to the owner (judge) in a role-play to take place in the ownerʼs (judgeʼs) office. The owner (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the ownerʼs (judgeʼs) questions, the owner (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Develop project plan.",
+   "Identify resources needed for project.",
+   "Apply project-management tools to monitor and communicate project progress.",
+   "Coordinate activities with those of other departments.",
+   "Determine factors affecting business risk."
+  ]
+ },
+ {
+  "file": "GOAT_BSM_2627_DISTRICT_EVENT2B.pdf",
+  "code": "BSM",
+  "event": "Business Services Marketing Series",
+  "cluster": "marketing",
+  "ia": "Operations",
+  "sentence": "You are to assume the role of the general manager for PRESSED & READY, a dry cleaning and alterations business with four locations.",
+  "situation": "You are to assume the role of the general manager for PRESSED & READY, a dry cleaning and alterations business with four locations. The owner (judge) wants you to recommend how to keep PRESSED & READYʼs free pickup and delivery service without losing money on it. Three years ago, PRESSED & READY started offering free pickup and delivery to customersʼ homes and offices. It became the companyʼs biggest competitive advantage, and delivery orders now make up 45% of total sales. However, the costs of running the service have grown quickly. Fuel prices, van insurance, and driver wages have all gone up. Drivers also make many trips for orders as small as a single shirt. Last month, the cost of running pickup and delivery was higher than the revenue from delivery orders. The owner (judge) is considering adding a delivery fee of $4.99 for orders under $30. The owner (judge) is worried that customers who are used to free delivery will be upset and take their business to a competitor. The owner (judge) wants you to explain what is driving up costs, how employees can help control them, and how PRESSED & READY should introduce any policy change to customers. You will present your recommendations to the owner (judge) in a role-play to take place in the ownerʼs (judgeʼs) office. The owner (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the ownerʼs (judgeʼs) questions, the owner (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Explain the nature of overhead/operating costs.",
+   "Explain employeeʼs role in expense control.",
+   "Explain the relationship between customer service and distribution.",
+   "Explain distribution issues and trends.",
+   "Interpret business policies to customers/clients."
+  ]
+ },
+ {
+  "file": "GOAT_BSM_2627_DISTRICT_EVENT2C.pdf",
+  "code": "BSM",
+  "event": "Business Services Marketing Series",
+  "cluster": "marketing",
+  "ia": "Operations",
+  "sentence": "You are to assume the role of the warehouse manager for GOLDEN HOUR EVENT RENTALS, a company that rents tents, tables, chairs, linens, and lighting for weddings and corporate events.",
+  "situation": "You are to assume the role of the warehouse manager for GOLDEN HOUR EVENT RENTALS, a company that rents tents, tables, chairs, linens, and lighting for weddings and corporate events. The owner (judge) wants you to recommend how to fix problems in the warehouse before the busy spring wedding season. GOLDEN HOUR keeps all of its rental items in one warehouse. Orders are written on paper, and employees pull items from the shelves by memory. When items come back after an event, they are often put back on the shelves without being counted or checked for damage. Last season, these problems cost GOLDEN HOUR money and customers. Twice, the company booked the same tent for two weddings on the same day. Several customers received stained linens or broken chairs that had never been checked. Other customers were charged damage fees for items that were already damaged before they rented them. Each of those customers posted a negative online review. The owner (judge) wants you to explain how GOLDEN HOUR should store, track, and check in its rental items, and how it should handle returned items and damage charges fairly. You will present your recommendations to the owner (judge) in a role-play to take place in the ownerʼs (judgeʼs) office. The owner (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the ownerʼs (judgeʼs) questions, the owner (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Explain the nature of warehousing.",
+   "Explain storing considerations.",
+   "Explain the receiving process.",
+   "Use an information system for order fulfillment.",
+   "Process returns/exchanges."
+  ]
+ },
+ {
   "file": "GOAT_BTDM_2627_DISTRICT_EVENT1A.pdf",
   "code": "BTDM",
   "event": "Buying and Merchandising Team Decision Making",
