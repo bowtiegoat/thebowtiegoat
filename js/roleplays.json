@@ -560,6 +560,54 @@
   ]
  },
  {
+  "file": "GOAT_FMS_2627_DISTRICT_EVENT2A.pdf",
+  "code": "FMS",
+  "event": "Food Marketing Series",
+  "cluster": "marketing",
+  "ia": "Promotion",
+  "sentence": "You are to assume the role of the marketing manager for HARVEST LANE MARKET, an independent grocery store known for fresh produce and local products.",
+  "situation": "You are to assume the role of the marketing manager for HARVEST LANE MARKET, an independent grocery store known for fresh produce and local products. The store manager (judge) wants you to plan an in-store fall event that will increase sales and bring in new shoppers. HARVEST LANE competes with two large chain supermarkets nearby. It cannot beat them on price, so it focuses on quality, local farms, and a friendly shopping experience. Fall is usually a strong season for the store, but sales of baking ingredients, apples, and squash were flat last year. The store manager (judge) wants to hold a one-day “Fall Harvest Weekend” event in October. Ideas include tastings from local farms, a pie-baking demonstration, and fall-themed displays throughout the store. The event will take place during normal store hours, so regular shopping must continue. The store manager (judge) wants you to explain how to plan the event, prepare the store for it, and use displays and cross-merchandising to boost sales. You will present your ideas to the store manager (judge) in a role-play to take place in the store managerʼs (judgeʼs) office. The store manager (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the store managerʼs (judgeʼs) questions, the store manager (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Plan special events.",
+   "Prepare store/department for special event.",
+   "Use cross-merchandising techniques.",
+   "Explain types of display arrangements.",
+   "Explain the importance of merchandising to retailers."
+  ]
+ },
+ {
+  "file": "GOAT_FMS_2627_DISTRICT_EVENT2B.pdf",
+  "code": "FMS",
+  "event": "Food Marketing Series",
+  "cluster": "marketing",
+  "ia": "Promotion",
+  "sentence": "You are to assume the role of the brand manager for CRUNCHCRAFT SNACKS, a company that makes chips from vegetables and chickpeas.",
+  "situation": "You are to assume the role of the brand manager for CRUNCHCRAFT SNACKS, a company that makes chips from vegetables and chickpeas. The vice president of marketing (judge) wants you to plan a buzz-marketing launch for a new flavor using social media influencers. CRUNCHCRAFT is sold in grocery stores nationwide and is positioned as a “better-for-you” snack with simple ingredients. Its customers are mostly health-conscious adults ages 25 to 40. The new flavor, Spicy Mango Chili, launches in three months. The vice president (judge) wants to send free product to 50 food and fitness influencers and pay five larger influencers to post videos. Some team members have suggested asking influencers not to mention that they were paid or received free product, so the posts will “feel more real.” The vice president (judge) wants you to explain how CRUNCHCRAFT should use influencers and video to create buzz for the new flavor in a way that is effective and ethical. You will present your ideas to the vice president (judge) in a role-play to take place in the vice presidentʼs (judgeʼs) office. The vice president (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the vice presidentʼs (judgeʼs) questions, the vice president (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Explain the use of celebrities/influencers as a WOM strategy.",
+   "Explain the nature of buzz-marketing.",
+   "Describe the use of business ethics in promotion.",
+   "Explain the use of video/images for digital marketing.",
+   "Describe factors used by marketers to position products/services."
+  ]
+ },
+ {
+  "file": "GOAT_FMS_2627_DISTRICT_EVENT2C.pdf",
+  "code": "FMS",
+  "event": "Food Marketing Series",
+  "cluster": "marketing",
+  "ia": "Promotion",
+  "sentence": "You are to assume the role of the public relations manager for SUNNY ACRES DAIRY, a family-owned company that makes yogurt and milk sold in grocery stores across five states.",
+  "situation": "You are to assume the role of the public relations manager for SUNNY ACRES DAIRY, a family-owned company that makes yogurt and milk sold in grocery stores across five states. The CEO (judge) wants you to develop a public relations response to a product recall. Yesterday, SUNNY ACRES learned that one batch of its strawberry yogurt may contain small pieces of plastic from a broken machine part. No injuries have been reported. The company has voluntarily recalled 40,000 cups and is working with grocery stores to remove them from shelves. News of the recall is already spreading on social media, and local TV stations have called for comment. Employees at the dairy plant are worried about their jobs, and grocery store partners want to know what to tell shoppers. The CEO (judge) wants you to explain how SUNNY ACRES should manage this crisis, what it should say, and who it needs to communicate with. You will present your ideas to the CEO (judge) in a role-play to take place in the CEOʼs (judgeʼs) office. The CEO (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the CEOʼs (judgeʼs) questions, the CEO (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Describe the use of crisis management in public relations.",
+   "Create a press kit.",
+   "Discuss internal and external audiences for public-relations activities.",
+   "Explain the impact of digital techniques on public relations practices.",
+   "Write informational messages."
+  ]
+ },
+ {
   "file": "GOAT_HTDM_2627_DISTRICT_EVENT1A.pdf",
   "code": "HTDM",
   "event": "Hospitality Services Team Decision Making",
