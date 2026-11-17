@@ -1467,6 +1467,54 @@
   ]
  },
  {
+  "file": "GOAT_SEM_2627_DISTRICT_EVENT2A.pdf",
+  "code": "SEM",
+  "event": "Sports and Entertainment Marketing Series",
+  "cluster": "marketing",
+  "ia": "Promotion",
+  "sentence": "You are to assume the role of the promotions director for the RIVER CITY RIVETS, a minor league baseball team.",
+  "situation": "You are to assume the role of the promotions director for the RIVER CITY RIVETS, a minor league baseball team. The general manager (judge) wants you to develop a promotional plan to increase attendance at weekday games. The RIVETS play 70 home games each season in a 7,000-seat stadium. Weekend games often sell out, but Monday through Thursday games average only 2,100 fans. Tickets cost $12, and the stadium has a kidsʼ play area, a picnic deck, and a party patio for groups. The team currently promotes games with a few billboards, its website, and fireworks on Saturday nights. Most weekday fans are season ticket holders, and few families or local businesses attend during the week. The general manager (judge) wants you to develop a promotional plan for weekday games that uses at least three elements of the promotional mix and includes weekday sales promotions. You will present your ideas to the general manager (judge) in a role-play to take place in the general managerʼs (judgeʼs) office. The general manager (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the general managerʼs (judgeʼs) questions, the general manager (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Explain the nature of a promotional plan.",
+   "Coordinate activities in the promotional mix.",
+   "Identify communications channels used in sales promotion.",
+   "Identify the elements of the promotional mix.",
+   "Explain the concept of marketing strategies."
+  ]
+ },
+ {
+  "file": "GOAT_SEM_2627_DISTRICT_EVENT2B.pdf",
+  "code": "SEM",
+  "event": "Sports and Entertainment Marketing Series",
+  "cluster": "marketing",
+  "ia": "Promotion",
+  "sentence": "You are to assume the role of the marketing manager for SOUNDWAVE, a three-day outdoor music festival entering its fifth year.",
+  "situation": "You are to assume the role of the marketing manager for SOUNDWAVE, a three-day outdoor music festival entering its fifth year. The festival director (judge) wants you to plan a digital marketing campaign for the upcoming ticket sale. SOUNDWAVE draws 30,000 fans each summer. Many attendees return every year and post photos and videos throughout the weekend. However, ticket sales slowed last year, and the festival is competing with two newer festivals in the same region. The festival director (judge) has been approached by a credit card company that wants to offer its cardholders early access to tickets before the general sale. The lineup will be announced in six weeks, and tickets go on sale one week later. The festival director (judge) wants you to plan a digital marketing campaign for the lineup announcement and ticket sale. The plan should turn past attendees into promoters and explain whether to accept the credit card partnership. You will present your ideas to the festival director (judge) in a role-play to take place in the festival directorʼs (judgeʼs) office. The festival director (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the festival directorʼs (judgeʼs) questions, the festival director (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Describe considerations in developing customer evangelists.",
+   "Describe word-of-mouth channels used to communicate with targeted audiences.",
+   "Discuss the nature of digital marketing.",
+   "Implement digital marketing campaign.",
+   "Explain the nature of affinity partner relationships."
+  ]
+ },
+ {
+  "file": "GOAT_SEM_2627_DISTRICT_EVENT2C.pdf",
+  "code": "SEM",
+  "event": "Sports and Entertainment Marketing Series",
+  "cluster": "marketing",
+  "ia": "Promotion",
+  "sentence": "You are to assume the role of the director of marketing for the CAROLINA CURRENT, a new professional womenʼs soccer team that will play its first season next spring.",
+  "situation": "You are to assume the role of the director of marketing for the CAROLINA CURRENT, a new professional womenʼs soccer team that will play its first season next spring. The team president (judge) wants you to develop a plan to build awareness of the team before its first home game. Interest in womenʼs professional soccer has grown quickly, but most people in the city do not know the CAROLINA CURRENT exists. The team has a new name and logo, a 10,000-seat stadium, and several players from the national team. Season ticket sales are at 40% of the teamʼs goal. A local TV station has offered to feature CURRENT jerseys and gear in a popular weekly show filmed in the city. Several players also have large social media followings. The team president (judge) wants you to explain how the CURRENT should position its brand and use public relations, product placement, technology, and social media to build awareness and sell tickets. You will present your ideas to the team president (judge) in a role-play to take place in the team presidentʼs (judgeʼs) office. The team president (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the team presidentʼs (judgeʼs) questions, the team president (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Identify types of public-relations activities.",
+   "Explain the use of product placement.",
+   "Describe the use of technology in the promotion function.",
+   "Explain the use of social media for digital marketing.",
+   "Describe factors used by businesses to position corporate brands."
+  ]
+ },
+ {
   "file": "GOAT_STDM_2627_DISTRICT_EVENT1A.pdf",
   "code": "STDM",
   "event": "Sports and Entertainment Marketing Team Decision Making",
