@@ -48,6 +48,54 @@
   ]
  },
  {
+  "file": "GOAT_ACT_2627_DISTRICT_EVENT2A.pdf",
+  "code": "ACT",
+  "event": "Accounting Applications Series",
+  "cluster": "finance",
+  "ia": "Financial Analysis",
+  "sentence": "You are to assume the role of the accountant for DROP IN SKATE SUPPLY, a skateboard shop.",
+  "situation": "You are to assume the role of the accountant for DROP IN SKATE SUPPLY, a skateboard shop. The owner (judge) wants you to explain how the choice of inventory method affects the shopʼs reported profit. DROP INʼs best-selling item is its house-brand complete skateboard. The supplier raised prices twice this year. The owner (judge) has never chosen an inventory method and wants to understand the options before the shopʼs accountant files this yearʼs tax return. Inventory activity for the house-brand skateboard this year: Date Activity Units Cost per Unit January 1 Beginning 20 $40 inventory March 15 Purchase 30 $45 June 10 Purchase 50 $50 During the year, DROP IN sold 70 skateboards at $90 each. The owner (judge) wants you to: ● Explain the FIFO, LIFO, and weighted-average inventory methods ● Calculate cost of goods sold and ending inventory under each method ● Calculate gross profit under each method ● Explain how each method would affect DROP INʼs income statement and recommend a method You will present the information to the owner (judge) in a role-play to take place in the ownerʼs (judgeʼs) office. The owner (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented the information and answered the ownerʼs (judgeʼs) questions, the owner (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Explain methods used to value inventory (e.g., FIFO, LIFO, average cost, etc.).",
+   "Determine the cost/value of inventory.",
+   "Calculate the cost of goods sold.",
+   "Describe the nature of income statements.",
+   "Draw conclusions based on information analysis."
+  ]
+ },
+ {
+  "file": "GOAT_ACT_2627_DISTRICT_EVENT2B.pdf",
+  "code": "ACT",
+  "event": "Accounting Applications Series",
+  "cluster": "finance",
+  "ia": "Financial Analysis",
+  "sentence": "You are to assume the role of the accountant for STREET SMOKE BBQ, a company that runs barbecue food trucks.",
+  "situation": "You are to assume the role of the accountant for STREET SMOKE BBQ, a company that runs barbecue food trucks. The owner (judge) wants you to explain how the companyʼs newest food truck is being depreciated, and what would happen if the company sold it. Three years ago, STREET SMOKE purchased a fully equipped food truck. Information about the truck: Item Amount Purchase cost $90,000 Estimated useful life 5 years Estimated salvage value $10,000 Depreciation method used Straight-line A catering company has offered to buy the truck today, at the end of year 3, for $35,000. The owner (judge) has also heard that some businesses use the double-declining balance method and wants to know how the numbers would have looked under that method instead. The owner (judge) wants you to: ● Explain what long-term assets are and why they are depreciated ● Calculate annual depreciation, accumulated depreciation, and book value at the end of year 3 using the straight-line method ● Calculate book value at the end of year 3 using the double-declining balance method ● Determine the gain or loss on the sale under each method, prepare the journal entry to record the sale using the straight-line method, and recommend whether to sell You will present the information to the owner (judge) in a role-play to take place in the ownerʼs (judgeʼs) office. The owner (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented the information and answered the ownerʼs (judgeʼs) questions, the owner (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Discuss the nature of long-term assets.",
+   "Describe the methods used to value long-term assets.",
+   "Account for long-term assets (e.g., record acquisition, record depreciation, record disposal).",
+   "Analyze transactions and accounts.",
+   "Explain the nature of balance sheets."
+  ]
+ },
+ {
+  "file": "GOAT_ACT_2627_DISTRICT_EVENT2C.pdf",
+  "code": "ACT",
+  "event": "Accounting Applications Series",
+  "cluster": "finance",
+  "ia": "Financial Analysis",
+  "sentence": "You are to assume the role of the financial analyst for BLEND BAR SMOOTHIES, a company with three smoothie shops.",
+  "situation": "You are to assume the role of the financial analyst for BLEND BAR SMOOTHIES, a company with three smoothie shops. The owner (judge) wants you to determine whether a proposed fourth location can be profitable. The new location would be in a busy shopping center near a large gym. It would be open 30 days a month. The owner (judge) has gathered the following monthly cost estimates: Fixed Costs (Monthly) Amount Rent $7,500 Salaries $8,000 Utilities $1,200 Insurance and other $1,300 expenses Per Smoothie Amount Selling price $8.00 Ingredients $2.60 Cup, lid, and straw $0.35 Credit card processing fee $0.25 Based on BLEND BARʼs other locations, the owner (judge) expects the new shop to sell about 4,200 smoothies per month. The owner (judge) will only open the location if it can earn at least $6,000 profit per month. The owner (judge) wants you to: ● Explain the difference between fixed and variable costs, and the purpose of a budget ● Calculate the contribution margin per smoothie and the break-even point in smoothies and in sales dollars ● Calculate the expected monthly profit at 4,200 smoothies, and the number of smoothies needed to earn $6,000 per month ● Identify the risks of opening the location and recommend whether BLEND BAR should open it You will present the information to the owner (judge) in a role-play to take place in the ownerʼs (judgeʼs) office. The owner (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented the information and answered the ownerʼs (judgeʼs) questions, the owner (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Discuss the use of cost-volume-profit analysis.",
+   "Explain the nature of overhead/operating costs.",
+   "Describe the nature of budgets.",
+   "Demonstrate budgeting applications.",
+   "Determine factors affecting business risk."
+  ]
+ },
+ {
   "file": "GOAT_AAM_2627_DISTRICT_EVENT2A.pdf",
   "code": "AAM",
   "event": "Apparel and Accessories Marketing Series",
