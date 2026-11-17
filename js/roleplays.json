@@ -688,6 +688,54 @@
   ]
  },
  {
+  "file": "GOAT_MCS_2627_DISTRICT_EVENT1A.pdf",
+  "code": "MCS",
+  "event": "Marketing Communications Series",
+  "cluster": "marketing",
+  "ia": "Promotion",
+  "sentence": "You are to assume the role of the advertising coordinator for NORTHSHORE CREDIT UNION, a member-owned financial institution with 12 branches.",
+  "situation": "You are to assume the role of the advertising coordinator for NORTHSHORE CREDIT UNION, a member-owned financial institution with 12 branches. The marketing director (judge) wants you to develop an advertisement to attract young adults ages 18 to 24. Most of NORTHSHOREʼs members are over 45. Young adults tend to choose large national banks or app-only banks, and many do not know what a credit union is. NORTHSHORE offers free checking, lower loan rates than most banks, and a new mobile app. NORTHSHOREʼs current ads run in the local newspaper and on a classic rock radio station, and they feature photos of families and retirees. The marketing director (judge) wants you to explain the components of an effective ad, write a headline and short body copy for a new ad aimed at young adults, describe its layout, and recommend the best media to run it. You will present your ideas to the marketing director (judge) in a role-play to take place in the marketing directorʼs (judgeʼs) office. The marketing director (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the marketing directorʼs (judgeʼs) questions, the marketing director (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Write copy for advertisements.",
+   "Explain the components of advertisements.",
+   "Describe effective advertising layouts.",
+   "Explain types of advertising media.",
+   "Describe the nature of target marketing in marketing communications."
+  ]
+ },
+ {
+  "file": "GOAT_MCS_2627_DISTRICT_EVENT1B.pdf",
+  "code": "MCS",
+  "event": "Marketing Communications Series",
+  "cluster": "marketing",
+  "ia": "Promotion",
+  "sentence": "You are to assume the role of the digital marketing specialist for BRIGHTWAY HOME SERVICES, a heating, air conditioning, and plumbing company.",
+  "situation": "You are to assume the role of the digital marketing specialist for BRIGHTWAY HOME SERVICES, a heating, air conditioning, and plumbing company. The owner (judge) wants you to recommend how to improve BRIGHTWAYʼs website so it brings in more service calls. BRIGHTWAY has served the area for 30 years and has a strong reputation. However, its website has not been updated in eight years. It does not work well on phones, it has no online booking, and the homepage is mostly a long paragraph about the companyʼs history. When homeowners search online for “emergency plumber” or “AC repair near me,” BRIGHTWAY rarely appears on the first page of results. Two newer competitors appear first and take most of those calls. The owner (judge) wants you to explain the role the website should play, write new homepage content, and explain how to attract more homeowners to the site and track the results. You will present your ideas to the owner (judge) in a role-play to take place in the ownerʼs (judgeʼs) office. The owner (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the ownerʼs (judgeʼs) questions, the owner (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Explain the role of business websites in digital marketing.",
+   "Write content for use on the website.",
+   "Identify strategies for attracting targeted audience to website.",
+   "Describe the nature of effective Internet ad copy.",
+   "Track performance of promotional activities."
+  ]
+ },
+ {
+  "file": "GOAT_MCS_2627_DISTRICT_EVENT1C.pdf",
+  "code": "MCS",
+  "event": "Marketing Communications Series",
+  "cluster": "marketing",
+  "ia": "Promotion",
+  "sentence": "You are to assume the role of the community relations manager for GREENLEAF INSURANCE, a regional insurance agency.",
+  "situation": "You are to assume the role of the community relations manager for GREENLEAF INSURANCE, a regional insurance agency. The president (judge) wants you to develop a community outreach campaign and a public-service announcement (PSA) to support a local food bank. GREENLEAF has 15 offices across the region. This year, the company announced a partnership with the regional food bank, which serves 50,000 people each month. The food bankʼs shelves are running low before the winter holidays. The president (judge) wants GREENLEAF to do more than write a check. Employees have asked for ways to volunteer, and the president (judge) believes community involvement builds trust with customers. A local radio station has offered free airtime for a 30-second PSA. The president (judge) wants you to explain why community involvement matters, plan outreach activities, write the PSA, and recommend channels to share the campaign. You will present your ideas to the president (judge) in a role-play to take place in the presidentʼs (judgeʼs) office. The president (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the presidentʼs (judgeʼs) questions, the president (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Create a public-service announcement.",
+   "Explain the importance of company involvement in community activities.",
+   "Participate in community outreach activities.",
+   "Explain communications channels used in public-relations activities.",
+   "Write persuasive messages."
+  ]
+ },
+ {
   "file": "GOAT_MCS_2627_EXTRA.pdf",
   "code": "MCS",
   "event": "Marketing Communications Series",
