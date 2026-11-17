@@ -416,6 +416,54 @@
   ]
  },
  {
+  "file": "GOAT_ENT_2627_DISTRICT_EVENT1A.pdf",
+  "code": "ENT",
+  "event": "Entrepreneurship Series",
+  "cluster": "entrepreneurship",
+  "ia": "Entrepreneurship",
+  "sentence": "You are to assume the role of the co-owner of LITTLE SPROUTS RESALE, a store that buys and sells gently used childrenʼs clothing, toys, and baby gear.",
+  "situation": "You are to assume the role of the co-owner of LITTLE SPROUTS RESALE, a store that buys and sells gently used childrenʼs clothing, toys, and baby gear. Your business partner (judge) wants you to suggest and evaluate ideas for a second business. LITTLE SPROUTS opened four years ago and is now profitable. Most customers are parents ages 25 to 40 who want to save money and buy fewer new products. More than 8,000 local families are on the storeʼs email list, and many parents tell staff they wish there were more affordable services for young families in town. Your business partner (judge) believes LITTLE SPROUTS has built a loyal customer base and wants to use it to start a second venture. Your business partner (judge) does not want to repeat the mistake of starting a business on a “good feeling” and wants a clear plan before investing any money. Your business partner (judge) wants you to suggest at least two ideas for a new venture, recommend the best one, and explain the planning tools you would use to test whether the idea can succeed. You will present your ideas to your business partner (judge) in a role-play to take place in your business partnerʼs (judgeʼs) office. The business partner (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the business partnerʼs (judgeʼs) questions, the business partner (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Generate venture ideas.",
+   "Explain tools used by entrepreneurs for venture planning.",
+   "Describe the nature of entrepreneurship.",
+   "Assess risks associated with venture.",
+   "Explain factors that influence customer/client/business buying behavior."
+  ]
+ },
+ {
+  "file": "GOAT_ENT_2627_DISTRICT_EVENT1B.pdf",
+  "code": "ENT",
+  "event": "Entrepreneurship Series",
+  "cluster": "entrepreneurship",
+  "ia": "Entrepreneurship",
+  "sentence": "You are to assume the role of the co-owner of WICK & WILLOW CANDLE CO., a small business that makes hand-poured soy candles with scents inspired by national parks.",
+  "situation": "You are to assume the role of the co-owner of WICK & WILLOW CANDLE CO., a small business that makes hand-poured soy candles with scents inspired by national parks. Your business partner (judge) wants you to recommend new ways to sell WICK & WILLOW candles. For three years, almost all of WICK & WILLOWʼs sales have come from one large online marketplace for handmade goods. The marketplace brought in thousands of customers, but it recently raised its fees, and WICK & WILLOW now pays about 20% of every sale to the platform. The marketplace also controls how the shop looks, and customers often donʼt remember the WICK & WILLOW name. You and your business partner (judge) have several options. You could build your own website, sell wholesale to gift shops and national park visitor centers, sell at craft fairs and pop-up markets, or offer a monthly candle subscription. You have limited time and $8,000 to invest. Your business partner (judge) wants you to recommend a channel strategy that reduces WICK & WILLOWʼs dependence on the marketplace and builds its brand. You will present your ideas to your business partner (judge) in a role-play to take place in your business partnerʼs (judgeʼs) office. The business partner (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the business partnerʼs (judgeʼs) questions, the business partner (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Use creative problem-solving in business activities/decisions.",
+   "Explain the nature of channel strategies.",
+   "Explain the nature of channels of distribution.",
+   "Assess the costs/benefits associated with resources.",
+   "Build product/service brand."
+  ]
+ },
+ {
+  "file": "GOAT_ENT_2627_DISTRICT_EVENT1C.pdf",
+  "code": "ENT",
+  "event": "Entrepreneurship Series",
+  "cluster": "entrepreneurship",
+  "ia": "Entrepreneurship",
+  "sentence": "You are to assume the role of the owner of FERN & FOLIAGE, a houseplant shop in a busy downtown area.",
+  "situation": "You are to assume the role of the owner of FERN & FOLIAGE, a houseplant shop in a busy downtown area. Your business partner (judge) wants you to recommend changes to the shopʼs products and services to bring sales back up. FERN & FOLIAGE opened four years ago, when houseplants were extremely popular. For two years, the shop could barely keep plants in stock. Since then, interest has cooled. Big-box stores and grocery stores now sell cheap houseplants, and FERN & FOLIAGEʼs sales are down 20% from their peak. Right now, FERN & FOLIAGE sells only plants, pots, and soil. Customers often come in asking for help with sick or dying plants, and many say they are “bad with plants.” The shop has an unused back room that could hold 20 people. Your business partner (judge) wants you to plan a new product mix for FERN & FOLIAGE. Your plan should include at least one new service, explain how you would develop it, and identify the resources needed to launch it. You will present your ideas to your business partner (judge) in a role-play to take place in your business partnerʼs (judgeʼs) office. The business partner (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the business partnerʼs (judgeʼs) questions, the business partner (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Plan product mix.",
+   "Explain the concept of product mix.",
+   "Develop and/or provide product/service.",
+   "Adapt to changes in business environment.",
+   "Identify capital resources needed for the venture."
+  ]
+ },
+ {
   "file": "GOAT_ENT_2627_DISTRICT_EVENT2A.pdf",
   "code": "ENT",
   "event": "Entrepreneurship Series",
