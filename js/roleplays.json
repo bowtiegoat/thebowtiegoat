@@ -672,6 +672,102 @@
   ]
  },
  {
+  "file": "GOAT_HRM_2627_DISTRICT_EVENT1A.pdf",
+  "code": "HRM",
+  "event": "Human Resources Management Series",
+  "cluster": "business",
+  "ia": "Human Resources Management",
+  "sentence": "You are to assume the role of the human resources manager for MERIDIAN ARCHITECTS, a design firm with 85 employees.",
+  "situation": "You are to assume the role of the human resources manager for MERIDIAN ARCHITECTS, a design firm with 85 employees. The managing partner (judge) wants you to recommend a flexible work policy for the firm. All MERIDIAN employees currently work in the office five days a week. Most of the firmʼs senior partners, who are in their 50s and 60s, believe architects do their best work side by side. However, many younger architects and designers want to work from home part of the week, as their friends at other firms do. In the past year, MERIDIAN has lost four talented employees to competitors that offer hybrid schedules, and two top job candidates turned down offers for the same reason. At the same time, some managers worry that flexible schedules will hurt teamwork and make it harder to meet with clients. The managing partner (judge) wants you to recommend whether MERIDIAN should offer flexible work arrangements and, if so, what rules employees should follow. You will present your ideas to the managing partner (judge) in a role-play to take place in the managing partnerʼs (judgeʼs) office. The managing partner (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the managing partnerʼs (judgeʼs) questions, the managing partner (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Manage flexible work arrangements.",
+   "Assist with establishment of work rules.",
+   "Discuss factors that impact human resources management.",
+   "Discuss issues associated with workplace diversity.",
+   "Explain trends in human resources management."
+  ]
+ },
+ {
+  "file": "GOAT_HRM_2627_DISTRICT_EVENT1B.pdf",
+  "code": "HRM",
+  "event": "Human Resources Management Series",
+  "cluster": "business",
+  "ia": "Human Resources Management",
+  "sentence": "You are to assume the role of the training and development manager for FRESHFIELD GROCERS, a regional chain of 20 grocery stores.",
+  "situation": "You are to assume the role of the training and development manager for FRESHFIELD GROCERS, a regional chain of 20 grocery stores. The director of human resources (judge) wants you to design an orientation and training plan for employees at three new stores. FRESHFIELD is opening three new stores in eight weeks and must hire about 150 employees. Most will be cashiers, stock associates, and deli and bakery workers. Many are in high school or college, and about one third have never had a job before. At FRESHFIELDʼs last store opening, new employees received only a two-hour orientation video and a store tour. In the first month, checkout lines were long, food safety mistakes were common, and 30% of new hires quit. The director of human resources (judge) wants you to identify what new employees need to learn, set learning objectives, and recommend how to orient and train them so the new stores run smoothly from day one. You will present your ideas to the director of human resources (judge) in a role-play to take place in the directorʼs (judgeʼs) office. The director of human resources (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the directorʼs (judgeʼs) questions, the director of human resources (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Orient new employees.",
+   "Assess companyʼs learning needs.",
+   "Determine learning objectives.",
+   "Choose learning methods.",
+   "Explain the concept of productivity."
+  ]
+ },
+ {
+  "file": "GOAT_HRM_2627_DISTRICT_EVENT1C.pdf",
+  "code": "HRM",
+  "event": "Human Resources Management Series",
+  "cluster": "business",
+  "ia": "Human Resources Management",
+  "sentence": "You are to assume the role of the human resources manager for SUMMIT LOGISTICS, a company that runs a large distribution warehouse with 300 employees.",
+  "situation": "You are to assume the role of the human resources manager for SUMMIT LOGISTICS, a company that runs a large distribution warehouse with 300 employees. The general manager (judge) wants you to recommend how to handle growing problems on the warehouseʼs night shift. Over the past two months, HR has received five complaints about the night shift supervisor. Employees say the supervisor yells at workers in front of others, pressures them to skip breaks to meet shipping targets, and threatens to cut hours for anyone who complains. Last week, a worker who was rushing nearly hit a coworker with a forklift. The night shift has the warehouseʼs best productivity numbers, and the general manager (judge) has praised the supervisor in the past. Several night shift workers have also started talking about forming a union, and two of the employees who complained asked that their names be kept private. The general manager (judge) wants you to explain how HR should document and investigate the complaints, protect workersʼ safety and privacy, and recommend next steps. You will present your ideas to the general manager (judge) in a role-play to take place in the general managerʼs (judgeʼs) office. The general manager (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the general managerʼs (judgeʼs) questions, the general manager (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Document employee issues and recommend solutions.",
+   "Maintain a safe work environment.",
+   "Maintain confidentiality in dealing with personnel.",
+   "Explain labor-relations issues.",
+   "Treat others with dignity and respect."
+  ]
+ },
+ {
+  "file": "GOAT_HRM_2627_DISTRICT_EVENT2A.pdf",
+  "code": "HRM",
+  "event": "Human Resources Management Series",
+  "cluster": "business",
+  "ia": "Emotional Intelligence",
+  "sentence": "You are to assume the role of the human resources director for BRIGHTPATH SOFTWARE, a company that makes scheduling software for medical offices.",
+  "situation": "You are to assume the role of the human resources director for BRIGHTPATH SOFTWARE, a company that makes scheduling software for medical offices. The CEO (judge) wants you to recommend how to support employees after a recent layoff. Last month, BRIGHTPATH laid off 15% of its workforce, or 45 employees, after losing two major clients. The layoffs were announced in a short company-wide email on a Friday afternoon. Many remaining employees learned that close coworkers had been let go only when their accounts were shut off. The 250 remaining employees are now covering extra work. Sick days have doubled, and an anonymous employee survey shows that only 38% of staff trust leadership. Several top engineers have quietly started looking for new jobs. The CEO (judge) wants you to explain how BRIGHTPATH can reduce employee stress, rebuild trust, and keep its best people. You will present your ideas to the CEO (judge) in a role-play to take place in the CEOʼs (judgeʼs) office. The CEO (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the CEOʼs (judgeʼs) questions, the CEO (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Explain the nature of stress management.",
+   "Build trust in relationships.",
+   "Assess long-term value and impact of actions on others.",
+   "Explain the nature of fitness/wellness programs offered by businesses.",
+   "Explain the nature of effective communications."
+  ]
+ },
+ {
+  "file": "GOAT_HRM_2627_DISTRICT_EVENT2B.pdf",
+  "code": "HRM",
+  "event": "Human Resources Management Series",
+  "cluster": "business",
+  "ia": "Emotional Intelligence",
+  "sentence": "You are to assume the role of the human resources manager for LAKESIDE FAMILY MEDICINE, a medical practice with four offices and 120 employees.",
+  "situation": "You are to assume the role of the human resources manager for LAKESIDE FAMILY MEDICINE, a medical practice with four offices and 120 employees. The practice administrator (judge) wants your advice on two privacy issues that came up this week. In the first issue, a receptionist told several coworkers that another employee was on medical leave for cancer treatment. The employee on leave had told only HR and her supervisor. She is now upset and has asked what LAKESIDE will do about it. In the second issue, a patient complained that a nurse posted a video on her personal social media account making fun of “annoying patients.” No patients were named, but LAKESIDEʼs logo was visible on her scrubs. After this, the practice administrator (judge) suggested that HR start checking all employeesʼ personal social media accounts. The practice administrator (judge) wants you to explain how LAKESIDE should handle both situations ethically and fairly while protecting the privacy of employees and patients. You will present your ideas to the practice administrator (judge) in a role-play to take place in the practice administratorʼs (judgeʼs) office. The practice administrator (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the practice administratorʼs (judgeʼs) questions, the practice administrator (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Respect the privacy of others.",
+   "Maintain the confidentiality of others.",
+   "Recognize and respond to ethical dilemmas.",
+   "Describe the impact of a personʼs social media brand on the achievement of organizational objectives.",
+   "Explain the role of ethics in human resources management"
+  ]
+ },
+ {
+  "file": "GOAT_HRM_2627_DISTRICT_EVENT2C.pdf",
+  "code": "HRM",
+  "event": "Human Resources Management Series",
+  "cluster": "business",
+  "ia": "Emotional Intelligence",
+  "sentence": "You are to assume the role of the human resources manager for OAKRIDGE HOME FURNISHINGS, a furniture retailer with 18 stores and a growing online business.",
+  "situation": "You are to assume the role of the human resources manager for OAKRIDGE HOME FURNISHINGS, a furniture retailer with 18 stores and a growing online business. The vice president of sales (judge) wants you to recommend how to end a conflict between the store sales team and the online sales team. OAKRIDGE store salespeople earn commission on every sale they make in person. Two years ago, OAKRIDGE launched its website, and online sales now make up 30% of revenue. Many customers visit a store, get help from a salesperson, and then buy the same item online later. The store salesperson earns no commission on these sales. Store employees now feel cheated, and some have started telling customers not to buy online. The online teamʼs director, who is close friends with the CEO, has said that store employees “need to get with the times.” Store managers believe the online team is getting special treatment, and the two teams have stopped sharing information. The vice president of sales (judge) wants you to explain how to rebuild a positive working relationship between the two teams and recommend a fair solution. You will present your ideas to the vice president of sales (judge) in a role-play to take place in the vice presidentʼs (judgeʼs) office. The vice president of sales (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the vice presidentʼs (judgeʼs) questions, the vice president of sales (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Explain the impact of political relationships within an organization.",
+   "Maintain collaborative partnerships with colleagues.",
+   "Demonstrate fairness.",
+   "Foster positive working relationships.",
+   "Determine issues impacting human-resources development (e.g., organizational culture and policies, societal norms, etc.)."
+  ]
+ },
+ {
   "file": "GOAT_HRM_2627_EXTRA.pdf",
   "code": "HRM",
   "event": "Human Resources Management Series",
