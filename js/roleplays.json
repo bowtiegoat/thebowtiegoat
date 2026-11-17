@@ -608,6 +608,54 @@
   ]
  },
  {
+  "file": "GOAT_FMS_2627_DISTRICT_EVENT1A.pdf",
+  "code": "FMS",
+  "event": "Food Marketing Series",
+  "cluster": "marketing",
+  "ia": "Economics",
+  "sentence": "You are to assume the role of the brand manager for SWEET RIDGE CHOCOLATE, a company that makes chocolate bars sold in grocery stores nationwide.",
+  "situation": "You are to assume the role of the brand manager for SWEET RIDGE CHOCOLATE, a company that makes chocolate bars sold in grocery stores nationwide. The vice president of marketing (judge) wants you to recommend how SWEET RIDGE should respond to the rising cost of cocoa. Poor harvests in major cocoa-growing countries have reduced the worldʼs cocoa supply, and cocoa prices have more than doubled in two years. SWEET RIDGEʼs best-selling 3.5-ounce bar sells for $3.99, and the companyʼs profit on each bar has dropped by more than half. The vice president (judge) is considering two options. The first is to raise the price to $4.79. The second is to keep the $3.99 price but shrink the bar to 3 ounces in a package that looks almost the same. Several competitors have already shrunk their bars, and some shoppers are posting comparison photos online and calling it “shrinkflation.” The vice president (judge) wants you to explain the economic causes of the problem and recommend what SWEET RIDGE should do with its price, product, and packaging. You will present your ideas to the vice president (judge) in a role-play to take place in the vice presidentʼs (judgeʼs) office. The vice president (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the vice presidentʼs (judgeʼs) questions, the vice president (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Explain the principles of supply and demand.",
+   "Explain the nature of business ethics.",
+   "Identify factors affecting a businessʼs profit.",
+   "Assess product-packaging requirements.",
+   "Explain the nature of product/service branding."
+  ]
+ },
+ {
+  "file": "GOAT_FMS_2627_DISTRICT_EVENT1B.pdf",
+  "code": "FMS",
+  "event": "Food Marketing Series",
+  "cluster": "marketing",
+  "ia": "Economics",
+  "sentence": "You are to assume the role of the marketing manager for HOMETOWN MARKET, a regional chain of 12 mid-sized grocery stores.",
+  "situation": "You are to assume the role of the marketing manager for HOMETOWN MARKET, a regional chain of 12 mid-sized grocery stores. The president (judge) wants you to recommend how HOMETOWN MARKET can keep shoppers as they cut back on grocery spending. Recent economic reports show that consumers are spending less, and food prices are still higher than they were a few years ago. HOMETOWN shoppers are buying fewer premium and name-brand items, switching to cheaper store brands, and making fewer trips per week. A discount grocery chain with very low prices and a limited selection recently opened two stores in HOMETOWNʼs area. HOMETOWNʼs sales are down 6% this year. The president (judge) does not want to win a price war against the discount chain but wants to give shoppers strong reasons to keep choosing HOMETOWN. The president (judge) wants you to explain how economic conditions are changing shoppersʼ behavior and recommend how HOMETOWN can adapt, including at least one idea for bundling products. You will present your ideas to the president (judge) in a role-play to take place in the presidentʼs (judgeʼs) office. The president (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the presidentʼs (judgeʼs) questions, the president (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Discuss the measure of consumer spending as an economic indicator.",
+   "Explain the concept of competition.",
+   "Explain how organizations adapt to todayʼs markets.",
+   "Describe the nature of product bundling.",
+   "Explain factors that influence customer/client/business buying behavior."
+  ]
+ },
+ {
+  "file": "GOAT_FMS_2627_DISTRICT_EVENT1C.pdf",
+  "code": "FMS",
+  "event": "Food Marketing Series",
+  "cluster": "marketing",
+  "ia": "Economics",
+  "sentence": "You are to assume the role of the director of sales for BLUE RIVER COFFEE ROASTERS, a company that roasts coffee and sells packaged beans to grocery stores in six states.",
+  "situation": "You are to assume the role of the director of sales for BLUE RIVER COFFEE ROASTERS, a company that roasts coffee and sells packaged beans to grocery stores in six states. The owner (judge) wants you to recommend how BLUE RIVER can reduce its risk and grow sales. All of BLUE RIVERʼs coffee beans are imported from Central and South America. New tariffs, weather problems, and rising shipping costs have pushed BLUE RIVERʼs bean costs up 40% in one year. At the same time, grocery stores are giving BLUE RIVER less shelf space and pressuring it to keep prices low. Right now, 90% of BLUE RIVERʼs sales come through grocery stores. The owner (judge) is considering adding new ways to sell, such as an online coffee subscription service, sales to offices and restaurants, or a small café at the roastery that offers tastings and classes. The owner (judge) wants you to explain how global trade and the business environment are affecting BLUE RIVER and recommend new goods, services, or channels that would reduce its risk. You will present your ideas to the owner (judge) in a role-play to take place in the ownerʼs (judgeʼs) office. The owner (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the ownerʼs (judgeʼs) questions, the owner (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Identify the effects of global trade on retailing.",
+   "Distinguish between economic goods and services.",
+   "Determine factors affecting business risk.",
+   "Describe factors that affect the business environment.",
+   "Explain the nature of channels of distribution."
+  ]
+ },
+ {
   "file": "GOAT_FMS_2627_DISTRICT_EVENT2A.pdf",
   "code": "FMS",
   "event": "Food Marketing Series",
