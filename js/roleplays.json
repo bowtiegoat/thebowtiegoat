@@ -736,6 +736,54 @@
   ]
  },
  {
+  "file": "GOAT_MCS_2627_DISTRICT_EVENT2A.pdf",
+  "code": "MCS",
+  "event": "Marketing Communications Series",
+  "cluster": "marketing",
+  "ia": "Promotion",
+  "sentence": "You are to assume the role of the marketing manager for FUELUP, a chain of 60 gas station convenience stores.",
+  "situation": "You are to assume the role of the marketing manager for FUELUP, a chain of 60 gas station convenience stores. The vice president of marketing (judge) wants you to develop a plan to increase use of the new FUELUP Rewards app. FUELUP launched its app six months ago. Members earn points on fuel, snacks, and drinks, and can order food ahead for pickup. So far, only 8% of regular customers have downloaded the app, and many who downloaded it stopped using it after the first week. FUELUP has email addresses for 200,000 customers who joined its old paper punch-card program. Most customers stop at FUELUP because it is convenient, not because they are loyal to the brand. The vice president (judge) wants you to explain how FUELUP can use mobile and email marketing to get more customers to download the app and keep using it. You will present your ideas to the vice president (judge) in a role-play to take place in the vice presidentʼs (judgeʼs) office. The vice president (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the vice presidentʼs (judgeʼs) questions, the vice president (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Explain mobile marketing applications.",
+   "Describe mobile marketing tactics.",
+   "Explain the nature of email marketing tactics.",
+   "Explain the nature of direct marketing channels.",
+   "Build and maintain relationships with customers."
+  ]
+ },
+ {
+  "file": "GOAT_MCS_2627_DISTRICT_EVENT2B.pdf",
+  "code": "MCS",
+  "event": "Marketing Communications Series",
+  "cluster": "marketing",
+  "ia": "Promotion",
+  "sentence": "You are to assume the role of the social media manager for VELVET & VINE, a womenʼs clothing boutique with two stores and an online shop.",
+  "situation": "You are to assume the role of the social media manager for VELVET & VINE, a womenʼs clothing boutique with two stores and an online shop. The owner (judge) wants you to develop a plan to grow VELVET & VINEʼs social media following and engagement. VELVET & VINE has 3,200 followers, and most posts get fewer than 20 likes. The posts are mostly product photos with prices. A competing boutique across town has 25,000 followers and posts styling videos, customer try-on clips, and behind-the-scenes content. VELVET & VINE customers often tag the store in photos of their outfits, but the boutique rarely reshares or responds to them. Last month, a customerʼs video review of a dress got 40,000 views, and the boutique did not notice until the dress sold out. The owner (judge) wants you to explain how to grow VELVET & VINEʼs following, create better content, and use customer posts to spread the word. You will present your ideas to the owner (judge) in a role-play to take place in the ownerʼs (judgeʼs) office. The owner (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the ownerʼs (judgeʼs) questions, the owner (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Implement strategies to grow social-media following.",
+   "Write content for use in social media.",
+   "Leverage social networks for customer engagement.",
+   "Monitor user-generated content (UGC).",
+   "Discuss the role of customer voice in word-of-mouth strategies."
+  ]
+ },
+ {
+  "file": "GOAT_MCS_2627_DISTRICT_EVENT2C.pdf",
+  "code": "MCS",
+  "event": "Marketing Communications Series",
+  "cluster": "marketing",
+  "ia": "Promotion",
+  "sentence": "You are to assume the role of the marketing communications manager for KINDRED HOME HEALTH, a company that provides in-home nursing and care for seniors.",
+  "situation": "You are to assume the role of the marketing communications manager for KINDRED HOME HEALTH, a company that provides in-home nursing and care for seniors. The CEO (judge) wants you to plan the promotional launch of the companyʼs new name and brand. KINDRED HOME HEALTH was formed this year when two smaller companies merged: CAREFIRST and HOMEWELL. Each had loyal clients and a different logo, colors, and slogan. Many clients and their families are confused about who their care provider is now. The new KINDRED name and logo will officially launch in 90 days. The CEO (judge) wants every ad, brochure, website page, and uniform to look and sound the same. The company also wants to promote a new 24-hour nurse hotline service. The CEO (judge) wants you to suggest a tagline for KINDRED, explain how to keep all advertising consistent, and create a promotional calendar for the 90 days before and after the launch. You will present your ideas to the CEO (judge) in a role-play to take place in the CEOʼs (judgeʼs) office. The CEO (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the CEOʼs (judgeʼs) questions, the CEO (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Collaborate in the design of slogans/taglines.",
+   "Explain the importance of coordinating elements in advertisements.",
+   "Develop promotional calendar.",
+   "Explain the types of promotion (i.e., institutional, product).",
+   "Explain the nature of corporate branding."
+  ]
+ },
+ {
   "file": "GOAT_MCS_2627_EXTRA.pdf",
   "code": "MCS",
   "event": "Marketing Communications Series",
