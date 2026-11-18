@@ -1771,6 +1771,54 @@
   ]
  },
  {
+  "file": "GOAT_RFSM_2627_DISTRICT_EVENT2A.pdf",
+  "code": "RFSM",
+  "event": "Restaurant and Food Service Management Series",
+  "cluster": "hospitality",
+  "ia": "Product/Service Management",
+  "sentence": "You are to assume the role of the general manager for ROOT & VINE, a farm-to-table restaurant that serves dinner Tuesday through Sunday.",
+  "situation": "You are to assume the role of the general manager for ROOT & VINE, a farm-to-table restaurant that serves dinner Tuesday through Sunday. The owner (judge) wants you to recommend how to manage rising food costs without giving up the restaurantʼs values. ROOT & VINE buys 80% of its ingredients from six local farms, and its menu changes with the seasons. Servers tell guests the story behind each dish, including which farm grew the ingredients. Guests love this, and the restaurant has a loyal following. This year, two of ROOT & VINEʼs main farms raised their prices by 18% after a dry summer. The restaurantʼs food costs have grown from 30% to 37% of sales. At the same time, the farms have more of certain crops, such as squash, root vegetables, and herbs, than they can sell. The owner (judge) wants you to explain how ROOT & VINE can use its menu, its supplier relationships, and its servers to control costs and find new opportunities while staying true to its farm-to-table values. You will present your ideas to the owner (judge) in a role-play to take place in the ownerʼs (judgeʼs) office. The owner (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the ownerʼs (judgeʼs) questions, the owner (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Discuss the nature of the menu as a management tool.",
+   "Communicate core values of product/service.",
+   "Explain the role of customer service as a component of selling relationships.",
+   "Negotiate terms with hospitality and tourism suppliers.",
+   "Identify product opportunities."
+  ]
+ },
+ {
+  "file": "GOAT_RFSM_2627_DISTRICT_EVENT2B.pdf",
+  "code": "RFSM",
+  "event": "Restaurant and Food Service Management Series",
+  "cluster": "hospitality",
+  "ia": "Product/Service Management",
+  "sentence": "You are to assume the role of the dining room manager for THE IRON TABLE, an upscale steakhouse known for celebrations and business dinners.",
+  "situation": "You are to assume the role of the dining room manager for THE IRON TABLE, an upscale steakhouse known for celebrations and business dinners. The owner (judge) wants you to recommend how to repair the restaurantʼs reputation after a drop in online reviews. For years, THE IRON TABLE averaged 4.7 stars on review sites. Over the past six months, the rating has fallen to 3.9. Most guests still praise the food, but recent reviews mention long waits for a table even with a reservation, servers who forgot birthday or anniversary requests, and slow responses when something went wrong. During the same period, THE IRON TABLE replaced half of its serving staff. The owner (judge) has been running ads that focus on the restaurantʼs award-winning steaks, but reservations for next month are down 15%. The owner (judge) wants you to explain how THE IRON TABLE can improve the guest experience, respond to online reviews, and change how the restaurant promotes itself. You will present your ideas to the owner (judge) in a role-play to take place in the ownerʼs (judgeʼs) office. The owner (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the ownerʼs (judgeʼs) questions, the owner (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Demonstrate a customer service mindset.",
+   "Differentiate between service marketing and product marketing.",
+   "Explain promotional methods used by the hospitality and tourism industry.",
+   "Describe the role of customer voice in hospitality and tourism branding.",
+   "Deliver positive moments of truth."
+  ]
+ },
+ {
+  "file": "GOAT_RFSM_2627_DISTRICT_EVENT2C.pdf",
+  "code": "RFSM",
+  "event": "Restaurant and Food Service Management Series",
+  "cluster": "hospitality",
+  "ia": "Product/Service Management",
+  "sentence": "You are to assume the role of the director of marketing for LUCCAʼS TRATTORIA, a family-owned group of four Italian restaurants.",
+  "situation": "You are to assume the role of the director of marketing for LUCCAʼS TRATTORIA, a family-owned group of four Italian restaurants. The owners (judge) want you to recommend how LUCCAʼS should reposition its brand and update its dining policies. For 25 years, LUCCAʼS has been a casual family restaurant known for large portions, low prices, and a kids-eat-free night. Recently, the owners (judge) remodeled all four restaurants with new lighting, an open kitchen, and a wine bar. They have also hired a new chef who makes fresh pasta in-house. They want LUCCAʼS to become a popular spot for date nights and special occasions. To support the change, the owners (judge) are considering new policies: a $10 per person deposit for weekend reservations, a 90-minute time limit for tables on Friday and Saturday nights, and an automatic 20% gratuity for parties of six or more. Some longtime family customers have already complained that LUCCAʼS is “getting fancy” and pricing them out. The owners (judge) want you to recommend how LUCCAʼS should position its brand, adjust its menu prices, and introduce its new policies without losing its loyal customers. You will present your ideas to the owners (judge) in a role-play to take place in the ownersʼ (judgeʼs) office. The owners (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the ownersʼ (judgeʼs) questions, the owners (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Explain factors that motivate people to choose a hospitality and tourism site.",
+   "Explain the nature of corporate branding.",
+   "Explain considerations in meal pricing.",
+   "Describe factors used by marketers to position products/services.",
+   "Explain company selling policies."
+  ]
+ },
+ {
   "file": "GOAT_RFSM_2627_EXTRA.pdf",
   "code": "RFSM",
   "event": "Restaurant and Food Service Management Series",
