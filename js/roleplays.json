@@ -944,6 +944,54 @@
   ]
  },
  {
+  "file": "GOAT_HLM_2627_DISTRICT_EVENT1A.pdf",
+  "code": "HLM",
+  "event": "Hotel and Lodging Management Series",
+  "cluster": "hospitality",
+  "ia": "Customer Relations",
+  "sentence": "You are to assume the role of the front office manager for THE ASHFORD HOTEL, a 250-room hotel two blocks from the cityʼs football stadium.",
+  "situation": "You are to assume the role of the front office manager for THE ASHFORD HOTEL, a 250-room hotel two blocks from the cityʼs football stadium. The general manager (judge) wants you to plan how the hotel will handle its busiest weekend of the year. In January, the city will host the college football national championship game. THE ASHFORD has been sold out for months at three times its usual room rate. Most guests will arrive on Friday afternoon and leave Monday morning. Last year, a smaller championship event created major problems. The check-in line was more than an hour long, guests arriving early were angry that rooms werenʼt ready, the restaurant ran out of food, and the hotelʼs policy of a $100 per night deposit for incidentals led to arguments at the front desk. Online reviews from that weekend still mention “chaos.” The general manager (judge) wants you to explain how THE ASHFORD can keep service standards high, communicate its policies clearly, and give guests a positive experience during the championship weekend. You will present your ideas to the general manager (judge) in a role-play to take place in the general managerʼs (judgeʼs) office. The general manager (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the general managerʼs (judgeʼs) questions, the general manager (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Identify strategies to manage customer experience during peaks in demand.",
+   "Maintain service standards during peaks in demand.",
+   "Interpret business policies to customers/clients.",
+   "Reinforce service orientation through communication.",
+   "Identify factors associated with positive customer experiences."
+  ]
+ },
+ {
+  "file": "GOAT_HLM_2627_DISTRICT_EVENT1B.pdf",
+  "code": "HLM",
+  "event": "Hotel and Lodging Management Series",
+  "cluster": "hospitality",
+  "ia": "Customer Relations",
+  "sentence": "You are to assume the role of the guest services manager for PINE HOLLOW LODGE, a 90-room mountain lodge known for hiking, family vacations, and weddings.",
+  "situation": "You are to assume the role of the guest services manager for PINE HOLLOW LODGE, a 90-room mountain lodge known for hiking, family vacations, and weddings. The general manager (judge) wants your recommendations after a difficult weekend. Last Saturday, the lodge hosted a 120-guest wedding while also full with families on vacation. The wedding reception ran late, and guests in nearby rooms complained about noise until 1:00 a.m. One family had requested a quiet room for their child with autism, but they were placed next to the wedding partyʼs suite. Another guest who uses a wheelchair was given a room with a bathtub instead of the roll-in shower she had requested. Several guests left negative reviews, and the family with the child with autism wrote a letter to the general manager (judge) saying they felt “forgotten.” The lodge has two more weddings booked during busy weekends next month. The general manager (judge) wants you to explain how PINE HOLLOW should respond to the guests who complained, and how to better handle special requests and guest conflicts in the future. You will present your ideas to the general manager (judge) in a role-play to take place in the general managerʼs (judgeʼs) office. The general manager (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the general managerʼs (judgeʼs) questions, the general manager (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Anticipate unspoken customer needs.",
+   "Accommodate special needs/specific requests of customers.",
+   "Resolve hospitality and tourism related conflicts for customers.",
+   "Handle customer/client complaints.",
+   "Explain the importance of meeting and exceeding customer/guest expectations."
+  ]
+ },
+ {
+  "file": "GOAT_HLM_2627_DISTRICT_EVENT1C.pdf",
+  "code": "HLM",
+  "event": "Hotel and Lodging Management Series",
+  "cluster": "hospitality",
+  "ia": "Customer Relations",
+  "sentence": "You are to assume the role of the director of guest services for THE HALSTEAD, a 180-room upscale hotel in a busy downtown area.",
+  "situation": "You are to assume the role of the director of guest services for THE HALSTEAD, a 180-room upscale hotel in a busy downtown area. The general manager (judge) wants you to recommend how to improve security while keeping THE HALSTEADʼs warm, welcoming service. THE HALSTEAD is known for treating guests like family. Front desk staff greet returning guests by name, and many business travelers have stayed there for years. Last month, a stranger walked up to the front desk, claimed to be a guest who had lost his key, and was given a key to another guestʼs room. The guest returned to find her laptop missing. She shared her story online, and it was picked up by a local news station. The general manager (judge) wants to require photo ID for all key requests, add security staff in the lobby at night, and limit elevator access to registered guests. Some longtime guests have already said these changes make the hotel feel “less friendly.” The general manager (judge) wants you to explain how THE HALSTEAD can make guests safer, communicate new security procedures in a positive way, and rebuild trust with its guests. You will present your ideas to the general manager (judge) in a role-play to take place in the general managerʼs (judgeʼs) office. The general manager (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the general managerʼs (judgeʼs) questions, the general manager (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Explain hotel security considerations.",
+   "Explain the role of guest services.",
+   "Demonstrate a customer service mindset.",
+   "Explain the nature of positive customer relations.",
+   "Build and maintain relationships with customers."
+  ]
+ },
+ {
   "file": "GOAT_HLM_2627_DISTRICT_EVENT2A.pdf",
   "code": "HLM",
   "event": "Hotel and Lodging Management Series",
