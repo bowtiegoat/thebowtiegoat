@@ -96,6 +96,54 @@
   ]
  },
  {
+  "file": "GOAT_AAM_2627_DISTRICT_EVENT1A.pdf",
+  "code": "AAM",
+  "event": "Apparel and Accessories Marketing Series",
+  "cluster": "marketing",
+  "ia": "Product/Service Management",
+  "sentence": "You are to assume the role of the product development manager for HARBORLINE APPAREL, a mid-priced clothing brand sold in its own 60 stores and online.",
+  "situation": "You are to assume the role of the product development manager for HARBORLINE APPAREL, a mid-priced clothing brand sold in its own 60 stores and online. The vice president of product (judge) wants you to recommend a new product line in adaptive clothing. Adaptive clothing is designed for people with disabilities, injuries, or limited mobility. Features can include magnetic closures instead of buttons, side openings for easy dressing, seated-fit pants for wheelchair users, and tagless, sensory-friendly fabrics. Several major brands have launched adaptive lines in recent years, and shoppers have asked HARBORLINE on social media when it will offer one. HARBORLINE is known for comfortable, classic everyday basics such as jeans, chinos, button-down shirts, and sweaters. The vice president (judge) wants the new line to look like regular HARBORLINE clothing, not like medical apparel. The vice president (judge) wants you to explain the trend, suggest specific products for an adaptive line, explain how HARBORLINE should develop and test them, and recommend how to position the line. You will present your ideas to the vice president of product (judge) in a role-play to take place in the vice presidentʼs (judgeʼs) office. The vice president (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the vice presidentʼs (judgeʼs) questions, the vice president (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Explain new product-development processes.",
+   "Identify emerging trends.",
+   "Generate product ideas.",
+   "Develop positioning concept for a new product idea.",
+   "Explain factors that influence customer/client/business buying behavior."
+  ]
+ },
+ {
+  "file": "GOAT_AAM_2627_DISTRICT_EVENT1B.pdf",
+  "code": "AAM",
+  "event": "Apparel and Accessories Marketing Series",
+  "cluster": "marketing",
+  "ia": "Product/Service Management",
+  "sentence": "You are to assume the role of the buyer for MAPLE & MERCER, a womenʼs clothing and accessories boutique with three locations.",
+  "situation": "You are to assume the role of the buyer for MAPLE & MERCER, a womenʼs clothing and accessories boutique with three locations. The owner (judge) wants you to plan the buying strategy for next spring after a costly fall season. Last fall, MAPLE & MERCER overbought heavy sweaters and wool coats, expecting a cold season. The weather stayed warm, and the boutique had to mark down more than 40% of its fall inventory. At the same time, lightweight layering pieces and handbags sold out quickly and were not reordered in time. MAPLE & MERCER buys from 18 different vendors. Some offer low prices but require large minimum orders and take eight weeks to deliver. Others cost more but allow small orders and can restock within two weeks. The owner (judge) has $120,000 to spend on spring inventory. The owner (judge) wants you to explain how MAPLE & MERCER should decide what to buy, how much to buy, which vendors to use, and how to adjust orders during the season. You will present your ideas to the owner (judge) in a role-play to take place in the ownerʼs (judgeʼs) office. The owner (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the ownerʼs (judgeʼs) questions, the owner (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Plan stock.",
+   "Determine what to buy/reorder.",
+   "Explain the concept of product mix.",
+   "Select vendors.",
+   "Describe the role of merchandisers in retailing."
+  ]
+ },
+ {
+  "file": "GOAT_AAM_2627_DISTRICT_EVENT1C.pdf",
+  "code": "AAM",
+  "event": "Apparel and Accessories Marketing Series",
+  "cluster": "marketing",
+  "ia": "Product/Service Management",
+  "sentence": "You are to assume the role of the brand manager for LUMA JEWELRY, an online jewelry brand that sells everyday necklaces, rings, and earrings priced from $35 to $150.",
+  "situation": "You are to assume the role of the brand manager for LUMA JEWELRY, an online jewelry brand that sells everyday necklaces, rings, and earrings priced from $35 to $150. The founder (judge) wants you to recommend how to respond to customer complaints and strengthen the LUMA brand. LUMAʼs website and packaging describe its jewelry as “100% recycled, made to last forever.” LUMAʼs packaging is a small white box with gold lettering, and its customers are mostly women ages 18 to 34 who care about sustainability. Recently, several customers posted videos showing LUMA rings that tarnished within a few weeks. Commenters also questioned the “100% recycled” claim. The founder (judge) admits that only the silver is recycled. The clasps and other metal parts are not, and the packaging includes a plastic insert that cannot be recycled. The founder (judge) wants you to explain how LUMA should respond to customers, whether its product claims and packaging should change, and what should set LUMA apart from other jewelry brands. You will present your ideas to the founder (judge) in a role-play to take place in the founderʼs (judgeʼs) office. The founder (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the founderʼs (judgeʼs) questions, the founder (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Explain business ethics in product/service management.",
+   "Describe the role of customer voice in branding.",
+   "Explain the nature of product/service branding.",
+   "Evaluate graphic design on packages.",
+   "Identify companyʼs unique selling proposition."
+  ]
+ },
+ {
   "file": "GOAT_AAM_2627_DISTRICT_EVENT2A.pdf",
   "code": "AAM",
   "event": "Apparel and Accessories Marketing Series",
