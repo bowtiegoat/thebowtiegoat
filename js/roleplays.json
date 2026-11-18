@@ -368,6 +368,54 @@
   ]
  },
  {
+  "file": "GOAT_BSM_2627_DISTRICT_EVENT1A.pdf",
+  "code": "BSM",
+  "event": "Business Services Marketing Series",
+  "cluster": "marketing",
+  "ia": "Marketing-Information Management",
+  "sentence": "You are to assume the role of the marketing manager for GREENLINE LAWN & LANDSCAPE, a company that provides weekly lawn mowing, fertilizing, and seasonal yard cleanup for homeowners.",
+  "situation": "You are to assume the role of the marketing manager for GREENLINE LAWN & LANDSCAPE, a company that provides weekly lawn mowing, fertilizing, and seasonal yard cleanup for homeowners. The owner (judge) wants you to plan a research study to find out why customers are leaving. GREENLINE serves about 1,800 homes. Each spring, it signs up hundreds of new customers through door hangers and online ads. However, about 30% of new customers cancel before the end of their first season, and many do not return the next year. Customers who stay longer than two years usually remain for many years. GREENLINE has never formally asked customers about their experience. The owner (judge) has several guesses about why customers leave, including price, missed appointments, and poor communication, but no data to support any of them. The owner (judge) wants you to explain how GREENLINE should research why customers cancel, including who to collect information from, how many people to include, and how to collect it. You will present your ideas to the owner (judge) in a role-play to take place in the ownerʼs (judgeʼs) office. The owner (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the ownerʼs (judgeʼs) questions, the owner (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Explain the nature of marketing research.",
+   "Describe options businesses use to obtain marketing research data (i.e., primary and secondary research).",
+   "Discuss the nature of sampling plans (i.e., who, how many, how chosen).",
+   "Describe data-collection methods (e.g., observations, mail, diaries, phone, internet, discussion groups, interviews, scanners, tracking tools).",
+   "Solicit feedback."
+  ]
+ },
+ {
+  "file": "GOAT_BSM_2627_DISTRICT_EVENT1B.pdf",
+  "code": "BSM",
+  "event": "Business Services Marketing Series",
+  "cluster": "marketing",
+  "ia": "Marketing-Information Management",
+  "sentence": "You are to assume the role of the marketing director for CLEANSWEEP EXPRESS, a chain of eight express car washes.",
+  "situation": "You are to assume the role of the marketing director for CLEANSWEEP EXPRESS, a chain of eight express car washes. The CEO (judge) wants you to recommend how CLEANSWEEP can make better use of its customer data. CLEANSWEEP sells unlimited monthly wash memberships for $24.99 to $39.99, as well as single washes. Each location uses license plate cameras to recognize members, and every visit, purchase, and membership change is recorded. CLEANSWEEP also runs social media ads, sends emails, and mails coupons, but it does not know which of these bring in customers. CLEANSWEEP has thousands of records but rarely looks at them. Last quarter, membership cancellations rose 12%, and the company only noticed when monthly revenue dropped. The CEO (judge) wants you to explain how CLEANSWEEP should organize and use its marketing information. This includes what data to monitor, how to track its promotions, and how to use the data to better understand what members need. You will present your ideas to the CEO (judge) in a role-play to take place in the CEOʼs (judgeʼs) office. The CEO (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the CEOʼs (judgeʼs) questions, the CEO (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Explain the nature and scope of the marketing-information management function.",
+   "Describe the need for marketing data.",
+   "Identify data monitored for marketing decision making.",
+   "Identify ways to track marketing-communications activities.",
+   "Determine customer/client needs."
+  ]
+ },
+ {
+  "file": "GOAT_BSM_2627_DISTRICT_EVENT1C.pdf",
+  "code": "BSM",
+  "event": "Business Services Marketing Series",
+  "cluster": "marketing",
+  "ia": "Marketing-Information Management",
+  "sentence": "You are to assume the role of the marketing manager for COMMON DESK, a locally owned coworking space that rents desks, private offices, and meeting rooms to freelancers, remote workers, and small businesses.",
+  "situation": "You are to assume the role of the marketing manager for COMMON DESK, a locally owned coworking space that rents desks, private offices, and meeting rooms to freelancers, remote workers, and small businesses. The owner (judge) wants you to recommend how COMMON DESK should prepare for a new competitor. COMMON DESK has 140 members and is known for its friendly community, monthly networking events, and free coffee from a local roaster. Memberships range from $150 per month for a shared desk to $650 per month for a private office. A large national coworking chain will open a location three blocks away in four months. Its website advertises modern furniture, 24-hour access, a fitness room, and an introductory price of $99 per month. Several COMMON DESK members have already asked whether prices will change. The owner (judge) wants you to explain how COMMON DESK should gather information about the competitor and its own members, and how to use that information to keep members from leaving. You will present your ideas to the owner (judge) in a role-play to take place in the ownerʼs (judgeʼs) office. The owner (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the ownerʼs (judgeʼs) questions, the owner (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Analyze competitorsʼ offerings.",
+   "Describe options businesses use to obtain marketing research data (i.e., primary and secondary research).",
+   "Describe the need for marketing data.",
+   "Determine customer/client needs.",
+   "Solicit feedback."
+  ]
+ },
+ {
   "file": "GOAT_BSM_2627_DISTRICT_EVENT2A.pdf",
   "code": "BSM",
   "event": "Business Services Marketing Series",
