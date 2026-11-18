@@ -1691,6 +1691,54 @@
   ]
  },
  {
+  "file": "GOAT_QSRM_2627_DISTRICT_EVENT2A.pdf",
+  "code": "QSRM",
+  "event": "Quick Serve Restaurant Management Series",
+  "cluster": "hospitality",
+  "ia": "Product/Service Management",
+  "sentence": "You are to assume the role of the menu development manager for STACKED BURGER CO., a quick-serve chain of 85 burger restaurants.",
+  "situation": "You are to assume the role of the menu development manager for STACKED BURGER CO., a quick-serve chain of 85 burger restaurants. The vice president of operations (judge) wants you to develop a breakfast menu for STACKEDʼs first move into the morning business. STACKED is known for thick, smashed burgers, hand-cut fries, and milkshakes. Restaurants currently open at 10:30 a.m. Most STACKED locations are near highways and office parks, where morning traffic is heavy. Every major competitor already sells breakfast, and many customers say they would visit STACKED in the morning if it offered something different. The vice president (judge) does not want STACKED to copy the breakfast sandwiches every other chain sells. Kitchens have limited space, so any new items must be made mostly with the same grills and equipment the restaurants already use. The vice president (judge) wants you to suggest breakfast menu items, explain how they fit STACKEDʼs current menu, and describe how STACKED should position its breakfast against competitors. You will present your ideas to the vice president of operations (judge) in a role-play to take place in the vice presidentʼs (judgeʼs) office. The vice president (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the vice presidentʼs (judgeʼs) questions, the vice president (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Explain the concept of product mix.",
+   "Identify productʼs/serviceʼs competitive advantage.",
+   "Explain factors that influence customer selection of food places and menu items.",
+   "Generate product ideas.",
+   "Develop positioning concept for a new product idea."
+  ]
+ },
+ {
+  "file": "GOAT_QSRM_2627_DISTRICT_EVENT2B.pdf",
+  "code": "QSRM",
+  "event": "Quick Serve Restaurant Management Series",
+  "cluster": "hospitality",
+  "ia": "Product/Service Management",
+  "sentence": "You are to assume the role of the director of guest experience for FLASH FRY CHICKEN, a quick-serve fried chicken chain with 120 restaurants.",
+  "situation": "You are to assume the role of the director of guest experience for FLASH FRY CHICKEN, a quick-serve fried chicken chain with 120 restaurants. The CEO (judge) wants you to recommend changes to a guarantee and a set of meal deals that are causing problems. Two years ago, FLASH FRY introduced the “Five-Minute Promise”: if a mobile app order is not ready within five minutes of the customerʼs arrival, the meal is free. The promise helped app orders grow by 60%. However, crowded kitchens now struggle to keep up during lunch and dinner rushes. Restaurants gave away more than $900,000 in free meals last year, and some employees rush orders, which leads to mistakes. FLASH FRY also sells 14 different combo meals. Customers say the menu board is confusing. Some combos cost more than buying the items separately, and app reviews often mention “hidden” prices. The CEO (judge) wants you to recommend how FLASH FRY should change its guarantee, its combo meals, and its use of technology to improve the customer experience while protecting profits. You will present your ideas to the CEO (judge) in a role-play to take place in the CEOʼs (judgeʼs) office. The CEO (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the CEOʼs (judgeʼs) questions, the CEO (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Describe the nature of product bundling.",
+   "Explain considerations in meal pricing.",
+   "Identify factors associated with positive customer experiences.",
+   "Describe the use of technology in the product/service management function.",
+   "Explain guarantees in hospitality and tourism."
+  ]
+ },
+ {
+  "file": "GOAT_QSRM_2627_DISTRICT_EVENT2C.pdf",
+  "code": "QSRM",
+  "event": "Quick Serve Restaurant Management Series",
+  "cluster": "hospitality",
+  "ia": "Product/Service Management",
+  "sentence": "You are to assume the role of the brand manager for BOBA BLISS, a quick-serve bubble tea chain with 25 locations.",
+  "situation": "You are to assume the role of the brand manager for BOBA BLISS, a quick-serve bubble tea chain with 25 locations. The founder (judge) wants you to recommend how BOBA BLISS can keep growing as the bubble tea market changes. BOBA BLISS opened its first shop eight years ago, when bubble tea was new to most of its customers. For years, sales grew quickly and lines stretched out the door. Today, bubble tea is sold almost everywhere, including at coffee chains, grocery stores, and dozens of new competitors. BOBA BLISSʼs sales per store have been flat for two years. The founder (judge) has received several offers. A grocery chain wants to sell BOBA BLISS bottled teas. A frozen dessert company wants to create BOBA BLISS ice cream bars. Some managers suggest adding snacks and food to the stores instead. The founder (judge) wants you to explain where BOBA BLISSʼs product is in its life cycle and recommend how the brand should extend its products and marketing to stay successful. You will present your ideas to the founder (judge) in a role-play to take place in the founderʼs (judgeʼs) office. The founder (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the founderʼs (judgeʼs) questions, the founder (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Explain the nature and scope of the product/service management function.",
+   "Explain the nature of product/service branding.",
+   "Explain the use of marketing strategies in hospitality and tourism.",
+   "Identify the impact of product life cycles on marketing decisions.",
+   "Explain the nature of product extensions in the hospitality and tourism industry."
+  ]
+ },
+ {
   "file": "GOAT_RFSM_2627_EXTRA2.pdf",
   "code": "RFSM",
   "event": "Restaurant and Food Service Management Series",
