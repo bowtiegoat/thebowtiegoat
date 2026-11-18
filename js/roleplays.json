@@ -944,6 +944,54 @@
   ]
  },
  {
+  "file": "GOAT_HLM_2627_DISTRICT_EVENT2A.pdf",
+  "code": "HLM",
+  "event": "Hotel and Lodging Management Series",
+  "cluster": "hospitality",
+  "ia": "Selling",
+  "sentence": "You are to assume the role of the director of group sales for LAKESHORE GRAND RESORT, a 220-room lakefront resort with a golf course, spa, and 15,000 square feet of meeting space.",
+  "situation": "You are to assume the role of the director of group sales for LAKESHORE GRAND RESORT, a 220-room lakefront resort with a golf course, spa, and 15,000 square feet of meeting space. The general manager (judge) wants you to recommend how to respond to a large group request. A national software company wants to hold its annual leadership retreat at LAKESHORE GRAND next July. The company is asking for 80 rooms for three nights, all meals, two meeting rooms, and a private dinner on the beach. It wants a 30% discount off LAKESHORE GRANDʼs regular room rate of $289 per night. July is LAKESHORE GRANDʼs busiest month, and the resort usually sells out on summer weekends without discounts. However, the software company holds four other events each year, mostly in spring and fall, when the resort often has empty rooms. The company is also considering two competing resorts. The general manager (judge) wants you to explain what the software company is looking for in a resort and recommend how LAKESHORE GRAND should negotiate the deal. You will present your ideas to the general manager (judge) in a role-play to take place in the general managerʼs (judgeʼs) office. The general manager (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the general managerʼs (judgeʼs) questions, the general manager (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Explain factors that motivate people to choose a hospitality and tourism site.",
+   "Identify factors influencing customer selection of lodging property for groups/events.",
+   "Explain factors considered when determining group/event negotiation strategies.",
+   "Explain the concept of price in the hospitality and tourism industry.",
+   "Explain key factors in building a clientele."
+  ]
+ },
+ {
+  "file": "GOAT_HLM_2627_DISTRICT_EVENT2B.pdf",
+  "code": "HLM",
+  "event": "Hotel and Lodging Management Series",
+  "cluster": "hospitality",
+  "ia": "Selling",
+  "sentence": "You are to assume the role of the front office manager for THE MERIDIAN DOWNTOWN, a 300-room hotel in the center of a major city.",
+  "situation": "You are to assume the role of the front office manager for THE MERIDIAN DOWNTOWN, a 300-room hotel in the center of a major city. The general manager (judge) wants you to develop a plan to help front desk employees increase sales while improving the guest experience. THE MERIDIAN offers many services guests rarely hear about: room upgrades with city views, late checkout, a rooftop restaurant, valet parking, a spa, and theater ticket packages. Most front desk employees focus on checking guests in as quickly as possible and almost never mention these services. The general manager (judge) recently visited a competing hotel where the front desk agent offered an upgrade, suggested a restaurant, and arranged a late checkout, all in a friendly and natural way. The general manager (judge) wants THE MERIDIANʼs front desk team to do the same, but is worried that employees will sound pushy or that guests will feel pressured. The general manager (judge) wants you to explain how front desk employees can offer services and up-sell in a way that improves each guestʼs stay, and to suggest packages THE MERIDIAN could create. You will present your ideas to the general manager (judge) in a role-play to take place in the general managerʼs (judgeʼs) office. The general manager (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the general managerʼs (judgeʼs) questions, the general manager (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Identify factors associated with positive customer experiences.",
+   "Explain the role of customer service as a component of selling relationships.",
+   "Offer services to guests.",
+   "Up-sell to enhance customer experience.",
+   "Describe the nature of product bundling."
+  ]
+ },
+ {
+  "file": "GOAT_HLM_2627_DISTRICT_EVENT2C.pdf",
+  "code": "HLM",
+  "event": "Hotel and Lodging Management Series",
+  "cluster": "hospitality",
+  "ia": "Selling",
+  "sentence": "You are to assume the role of the director of sales for HOTEL JUNIPER, a group of five boutique hotels in different cities.",
+  "situation": "You are to assume the role of the director of sales for HOTEL JUNIPER, a group of five boutique hotels in different cities. The vice president (judge) wants you to recommend how HOTEL JUNIPERʼs sales team can win more business travel accounts. Each HOTEL JUNIPER property has a unique design inspired by its city, a locally sourced restaurant, and personal service. The brandʼs core values are “local, personal, and memorable.” Business travelers who stay at HOTEL JUNIPER love it, but most companies book their employees at large chain hotels because of corporate discounts and loyalty programs. HOTEL JUNIPER has a sales team of eight people who contact companies to sign them up for corporate rate agreements. The team tracks clients on spreadsheets, rarely follows up after the first meeting, and has no way to show the hotels to clients who cannot visit in person. The vice president (judge) wants you to explain how the sales team should approach companies, how technology could improve the selling process, and how to communicate what makes HOTEL JUNIPER different from chain hotels. You will present your ideas to the vice president (judge) in a role-play to take place in the vice presidentʼs (judgeʼs) office. The vice president (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the vice presidentʼs (judgeʼs) questions, the vice president (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Explain the selling process.",
+   "Describe the use of technology in the selling function.",
+   "Explain the use of marketing strategies in hospitality and tourism.",
+   "Explain the nature of corporate branding.",
+   "Communicate core values of product/service."
+  ]
+ },
+ {
   "file": "GOAT_HRM_2627_EXTRA2.pdf",
   "code": "HRM",
   "event": "Human Resources Management Series",
