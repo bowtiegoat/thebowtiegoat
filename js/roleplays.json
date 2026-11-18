@@ -1867,6 +1867,54 @@
   ]
  },
  {
+  "file": "GOAT_RFSM_2627_DISTRICT_EVENT1A.pdf",
+  "code": "RFSM",
+  "event": "Restaurant and Food Service Management Series",
+  "cluster": "hospitality",
+  "ia": "Communication Skills",
+  "sentence": "You are to assume the role of the general manager for HARVEST TABLE KITCHEN, a full-service restaurant with 45 employees.",
+  "situation": "You are to assume the role of the general manager for HARVEST TABLE KITCHEN, a full-service restaurant with 45 employees. The owner (judge) wants you to plan how to communicate a major change in how tips are shared. Right now, servers keep all of their own tips. Cooks and dishwashers earn an hourly wage only, and many feel they work just as hard as servers for far less money. Two experienced cooks quit last month. To keep kitchen staff, the owner (judge) has decided to start a tip pool, where a portion of all tips will be shared with the kitchen team, starting in six weeks. Word of the change has already leaked. Servers are sharing rumors in a group text that they will “lose half their pay,” and several have asked managers questions that no one has answered. Tension between servers and cooks is growing during shifts. The owner (judge) supports the tip pool but is nervous about losing servers. The owner (judge) wants you to explain how to communicate the change to all staff, which communication channels to use, how to answer employeesʼ questions, and how to keep the team working well together. You will present your ideas to the owner (judge) in a role-play to take place in the ownerʼs (judgeʼs) office. The owner (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the ownerʼs (judgeʼs) questions, the owner (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Explain the nature of staff communication.",
+   "Choose and use appropriate channel for workplace communication.",
+   "Provide legitimate responses to inquiries.",
+   "Defend ideas objectively.",
+   "Foster positive working relationships."
+  ]
+ },
+ {
+  "file": "GOAT_RFSM_2627_DISTRICT_EVENT1B.pdf",
+  "code": "RFSM",
+  "event": "Restaurant and Food Service Management Series",
+  "cluster": "hospitality",
+  "ia": "Communication Skills",
+  "sentence": "You are to assume the role of the restaurant manager for SALT & SMOKE BBQ HOUSE, a popular full-service barbecue restaurant.",
+  "situation": "You are to assume the role of the restaurant manager for SALT & SMOKE BBQ HOUSE, a popular full-service barbecue restaurant. The owner (judge) wants you to recommend how the restaurant should handle employeesʼ social media activity. Last month, one of SALT & SMOKEʼs pitmasters posted a personal video of himself slicing brisket and explaining the restaurantʼs 14-hour smoking process. The video got more than 1 million views, and weekend reservations jumped 25%. Many guests now ask to meet him. This week, a different employee posted a video from the dining room making fun of a guest who sent back a meal. The guestʼs face was visible, and the video was shared widely with the restaurantʼs name in the comments. The guest has asked for an apology. SALT & SMOKE has no social media policy. The owner (judge) wants you to explain how employeesʼ personal social media can help or hurt the restaurant. The owner (judge) also wants you to recommend guidelines that protect guests and the business while still letting employees share their passion for the restaurant. You will present your ideas to the owner (judge) in a role-play to take place in the ownerʼs (judgeʼs) office. The owner (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the ownerʼs (judgeʼs) questions, the owner (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Distinguish between using social media for business and personal use.",
+   "Describe the impact of a personʼs social media brand on the achievement of organizational objectives.",
+   "Explain the nature of staff communication.",
+   "Communicate core values of product/service.",
+   "Demonstrate a customer service mindset."
+  ]
+ },
+ {
+  "file": "GOAT_RFSM_2627_DISTRICT_EVENT1C.pdf",
+  "code": "RFSM",
+  "event": "Restaurant and Food Service Management Series",
+  "cluster": "hospitality",
+  "ia": "Communication Skills",
+  "sentence": "You are to assume the role of the operations manager for RIVERSTONE BISTRO, a full-service restaurant with a busy private dining and catering business.",
+  "situation": "You are to assume the role of the operations manager for RIVERSTONE BISTRO, a full-service restaurant with a busy private dining and catering business. The owner (judge) wants your recommendation after a recent scare involving email. RIVERSTONE takes most catering and private dining orders through email and text messages. Guests often email their credit card numbers to the catering coordinator. Last week, the catering coordinator received an email that appeared to come from the owner (judge), asking her to buy $2,000 in gift cards for a “vendor.” She almost did it before calling the owner (judge) and learning the email was fake. You believe RIVERSTONE should move all catering orders and payments to a secure online ordering system and train staff to recognize scam emails. The owner (judge) is not convinced. The owner (judge) worries that longtime clients enjoy emailing the catering coordinator directly and will find an online system cold and impersonal. The owner (judge) wants you to explain the risks of RIVERSTONEʼs current communication methods, recommend which channels should be used for different types of communication, and show how changes can protect the business without hurting the guest experience. You will present your ideas to the owner (judge) in a role-play to take place in the ownerʼs (judgeʼs) office. The owner (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the ownerʼs (judgeʼs) questions, the owner (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Explain how digital communications exposes business to risk.",
+   "Choose and use appropriate channel for workplace communication.",
+   "Defend ideas objectively.",
+   "Identify factors associated with positive customer experiences.",
+   "Demonstrate a customer service mindset."
+  ]
+ },
+ {
   "file": "GOAT_RFSM_2627_DISTRICT_EVENT2A.pdf",
   "code": "RFSM",
   "event": "Restaurant and Food Service Management Series",
