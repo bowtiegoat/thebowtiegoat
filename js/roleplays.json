@@ -1739,6 +1739,54 @@
   ]
  },
  {
+  "file": "GOAT_QSRM_2627_DISTRICT_EVENT1A.pdf",
+  "code": "QSRM",
+  "event": "Quick Serve Restaurant Management Series",
+  "cluster": "hospitality",
+  "ia": "Product/Service Management",
+  "sentence": "You are to assume the role of the marketing manager for SLICE SOCIETY, a quick-serve pizza chain with 30 restaurants.",
+  "situation": "You are to assume the role of the marketing manager for SLICE SOCIETY, a quick-serve pizza chain with 30 restaurants. The owner (judge) wants you to develop a plan to increase gift card sales during the holiday season. SLICE SOCIETY has sold gift cards for years, but they are kept in a drawer behind the counter, and employees rarely mention them. Last holiday season, the chain sold only $18,000 in gift cards. A competing burger chain sold more than $200,000 by offering a free $10 bonus card with every $50 gift card purchased. The owner (judge) knows that many gift cards are used by people who have never visited SLICE SOCIETY before. Customers who receive a gift card also often spend more than the value of the card. The owner (judge) wants you to explain why people buy gift cards, how SLICE SOCIETY should promote and sell them this holiday season, and how to turn gift card users into regular customers. You will present your ideas to the owner (judge) in a role-play to take place in the ownerʼs (judgeʼs) office. The owner (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the ownerʼs (judgeʼs) questions, the owner (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Sell gift certificates in hospitality and tourism.",
+   "Discuss motivational theories that impact buying behavior.",
+   "Explain the role of promotion as a marketing function.",
+   "Explain promotional methods used by the hospitality and tourism industry.",
+   "Explain key factors in building a clientele."
+  ]
+ },
+ {
+  "file": "GOAT_QSRM_2627_DISTRICT_EVENT1B.pdf",
+  "code": "QSRM",
+  "event": "Quick Serve Restaurant Management Series",
+  "cluster": "hospitality",
+  "ia": "Product/Service Management",
+  "sentence": "You are to assume the role of the catering sales manager for GREEN BOWL, a quick-serve restaurant chain with 22 locations that sells salads and grain bowls.",
+  "situation": "You are to assume the role of the catering sales manager for GREEN BOWL, a quick-serve restaurant chain with 22 locations that sells salads and grain bowls. The director of operations (judge) wants you to develop a plan to grow GREEN BOWLʼs new catering business. Six months ago, GREEN BOWL started offering catering for office lunches, meetings, and events. Catering orders can be placed online or by phone, but sales have been slow. Most orders come from customers who already eat at GREEN BOWL, and many offices do not know catering is available. Offices often order lunch for meetings of 10 to 50 people, and they need to meet a mix of dietary needs, such as vegetarian, gluten-free, and dairy-free. The person placing the order is usually an office manager or assistant with a set budget and little time. The director of operations (judge) wants you to explain how GREEN BOWL should sell catering to businesses, what catering packages it should offer, and how to keep business customers ordering again. You will present your ideas to the director of operations (judge) in a role-play to take place in the directorʼs (judgeʼs) office. The director of operations (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the directorʼs (judgeʼs) questions, the director of operations (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Explain the nature and scope of the selling function.",
+   "Explain factors that influence customer selection of food places and menu items.",
+   "Recommend hospitality and tourism services.",
+   "Describe the nature of product bundling.",
+   "Explain the role of customer service as a component of selling relationships."
+  ]
+ },
+ {
+  "file": "GOAT_QSRM_2627_DISTRICT_EVENT1C.pdf",
+  "code": "QSRM",
+  "event": "Quick Serve Restaurant Management Series",
+  "cluster": "hospitality",
+  "ia": "Product/Service Management",
+  "sentence": "You are to assume the role of the training manager for TACO RÁPIDO, a quick-serve Mexican restaurant chain with 150 locations.",
+  "situation": "You are to assume the role of the training manager for TACO RÁPIDO, a quick-serve Mexican restaurant chain with 150 locations. The vice president of marketing (judge) wants you to recommend how to improve sales of TACO RÁPIDOʼs new premium menu. Three months ago, TACO RÁPIDO launched “Cantina Craft,” a line of premium tacos and burritos made with slow-braised meats, fresh salsas, and handmade tortillas. Cantina Craft items cost $10.99 to $12.99, compared to $4.99 to $7.99 for regular menu items. Sales are only half of what the company expected. Customer surveys show that many guests donʼt understand why Cantina Craft costs more. When guests ask, crew members often say, “Itʼs just bigger,” because they received only a short email about the new menu. Guests who try Cantina Craft, however, rate it highly. The vice president (judge) wants you to explain what information crew members and guests need, identify the features and benefits of Cantina Craft, and recommend how TACO RÁPIDO can help guests see the value in the higher price. You will present your ideas to the vice president of marketing (judge) in a role-play to take place in the vice presidentʼs (judgeʼs) office. The vice president (judge) will begin the role-play by greeting you and asking to hear your ideas. After you have presented your ideas and answered the vice presidentʼs (judgeʼs) questions, the vice president (judge) will conclude the role-play by thanking you for your work.",
+  "pis": [
+   "Assess information needs.",
+   "Analyze product information to identify product features and benefits.",
+   "Explain the concept of price in the hospitality and tourism industry.",
+   "Identify factors associated with positive customer experiences.",
+   "Explain the use of marketing strategies in hospitality and tourism."
+  ]
+ },
+ {
   "file": "GOAT_QSRM_2627_DISTRICT_EVENT2A.pdf",
   "code": "QSRM",
   "event": "Quick Serve Restaurant Management Series",
